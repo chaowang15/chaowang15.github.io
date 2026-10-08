@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 34,
-    "new_llm_enriched": 16,
-    "scrape_time_display": "01:14, October 08, 2026 (PDT)",
+    "count_written": 60,
+    "reused_same_day": 40,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 10,
+    "scrape_time_display": "06:11, October 08, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/08",
     "content_date": "2026-10-08",
-    "run_time_local": "01:14, October 08, 2026 (PDT)",
-    "run_time_utc": "2026-10-08 08:14:17 UTC",
+    "run_time_local": "06:11, October 08, 2026 (PDT)",
+    "run_time_utc": "2026-10-08 13:11:00 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-08 08:15:47 UTC"
+    "hot_score_time_utc": "2026-10-08 13:13:08 UTC"
   },
   "items": [
     {
@@ -31,16 +31,16 @@
         "id": 49998895,
         "type": "story",
         "by": "muglug",
-        "score": 1380,
-        "descendants": 153,
+        "score": 1769,
+        "descendants": 187,
         "time": 1791407778,
         "comments_url": "https://news.ycombinator.com/item?id=49998895"
       },
       "tags": [
-        "Programming",
+        "Science",
         "Space"
       ],
-      "hot_score": 13.65
+      "hot_score": 9.78
     },
     {
       "title_en": "“Math 2.0” will need to value mathematical progress more holistically",
@@ -54,15 +54,148 @@
         "id": 50002008,
         "type": "story",
         "by": "ent101",
-        "score": 242,
-        "descendants": 169,
+        "score": 404,
+        "descendants": 394,
         "time": 1791436454,
         "comments_url": "https://news.ycombinator.com/item?id=50002008"
       },
-      "hot_score": 13.18,
       "tags": [
         "Education"
+      ],
+      "hot_score": 6.41
+    },
+    {
+      "title_en": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "title_zh": "给 Opus 5.5 一个提示，花六小时可视化《隐形城市》",
+      "created_display": "Created: Oct 08, 2026 / 05:00 PT",
+      "image_url": "https://quesma.com/_astro/thumbnail.CbJSiyQh.jpg",
+      "summary_en": "A single prompt and hours-long iteration to coax Opus 5.5 to visualize Italo Calvino's 'Invisible Cities' reveals how modern AI handles abstract literature. The experiment highlights both the model's creative potential and its limits in mapping poetic descriptions to visuals, with time and prompt design driving the result.",
+      "summary_zh": "用一个提示、持续数小时的迭代，试图让 Opus 5.5 将意大利作家卡维诺的《隐形城市》变为可视画面。结果揭示了当前多模态模型在将抽象文学转化为视觉表现方面的潜力与局限性，提示设计与时间投入对输出影响显著。",
+      "hn": {
+        "id": 50004790,
+        "type": "story",
+        "by": "stared",
+        "score": 42,
+        "descendants": 12,
+        "time": 1791460820,
+        "comments_url": "https://news.ycombinator.com/item?id=50004790"
+      },
+      "hot_score": 5.01,
+      "tags": [
+        "AI"
       ]
+    },
+    {
+      "title_en": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title_zh": "Claude Haiku 5.5",
+      "created_display": "Created: Oct 07, 2026 / 11:01 PT",
+      "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+      "summary_en": "Anthropic released Claude Haiku 5.5, delivering improvements in reliability, safety, and efficiency for conversational AI. The update tightens safety guardrails, enhances instruction-following, and aims to deliver smoother multi-turn interactions.",
+      "summary_zh": "Anthropic 发布 Claude Haiku 5.5，提升了对话式 AI 的可靠性、安全性与效率。更新强化了安全约束、改进了指令执行，并力求在多轮对话中提供更顺畅的体验。",
+      "hn": {
+        "id": 49996437,
+        "type": "story",
+        "by": "sfkgtbor",
+        "score": 940,
+        "descendants": 442,
+        "time": 1791396092,
+        "comments_url": "https://news.ycombinator.com/item?id=49996437"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.85
+    },
+    {
+      "title_en": "Anne Carson wins Nobel Prize in literature 2026",
+      "url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
+      "title_zh": "安妮·卡森获2026年诺贝尔文学奖",
+      "created_display": "Created: Oct 08, 2026 / 04:58 PT",
+      "image_url": "https://i.guim.co.uk/img/media/6a654be294fa052899fd8b061483418b9cc7f121/0_17_1024_819/master/1024.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d5cb509911442afd56e6a381d66c4684",
+      "summary_en": "Anne Carson wins the Nobel Prize in Literature 2026, honoring her genre-spanning work that blends poetry, classical scholarship, and translation. The decision highlights cross-genre literary achievement and could raise broader attention to experimental forms and Canadian authors.",
+      "summary_zh": "安妮·卡森获2026年诺贝尔文学奖，表彰她在诗歌、古典研究与翻译等领域的跨界贡献。此殊荣凸显跨体裁成就的重要性，或提升对实验性写作及加拿大作家的关注。",
+      "hn": {
+        "id": 50004777,
+        "type": "story",
+        "by": "sonabinu",
+        "score": 29,
+        "descendants": 2,
+        "time": 1791460730,
+        "comments_url": "https://news.ycombinator.com/item?id=50004777"
+      },
+      "hot_score": 3.38,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "OpenAI Withdraws 3 Math Papers",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "title_zh": "OpenAI 撤回三篇数学论文",
+      "created_display": "Created: Oct 08, 2026 / 01:08 PT",
+      "image_url": "https://opengraph.githubassets.com/681051cd9e0caccfeecbc24642a0166a3ba9e1c88f524d6364c0038d00eedd6e/openai/math",
+      "summary_en": "OpenAI has withdrawn three math papers from its official archive, citing the need for corrections or updates. The withdrawals highlight ongoing scrutiny of rigor and reproducibility in AI-aligned mathematical research, and point to the importance of versioning and clear disclosures.",
+      "summary_zh": "OpenAI 已从其数学论文存档撤下三篇论文，原因在于需要纠正或更新。此举凸显了围绕 AI 相关数学研究的严格性与可复现性持续受关注，强调版本控制和明确披露的重要性。",
+      "hn": {
+        "id": 50003107,
+        "type": "story",
+        "by": "theemathas",
+        "score": 106,
+        "descendants": 85,
+        "time": 1791446917,
+        "comments_url": "https://news.ycombinator.com/item?id=50003107"
+      },
+      "hot_score": 3.1,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "title_zh": "GPT‑6 与人人可用的智能界面",
+      "created_display": "Created: Oct 07, 2026 / 11:00 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill",
+      "summary_en": "OpenAI previews GPT-6 and a universal intelligent UI designed to make advanced AI capabilities accessible to non-experts. The post emphasizes a more integrated UX, safety controls, and multimodal synergy across devices.",
+      "summary_zh": "OpenAI 展示 GPT-6 与面向所有人的智能 UI，旨在让非专业用户也能轻松使用 AI 能力。文中强调更紧密的用户体验、可控的安全设置，以及跨设备的多模态协同。",
+      "hn": {
+        "id": 49996425,
+        "type": "story",
+        "by": "joshuawright11",
+        "score": 681,
+        "descendants": 399,
+        "time": 1791396058,
+        "comments_url": "https://news.ycombinator.com/item?id=49996425"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 2.79
+    },
+    {
+      "title_en": "Classic PC demoscene productions running natively in the browser",
+      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "title_zh": "经典 PC demoscene 作品在浏览器原生运行",
+      "created_display": "Created: Oct 07, 2026 / 23:29 PT",
+      "image_url": null,
+      "summary_en": "Classic PC demoscene productions are being ported to run natively in the browser, preserving visuals and audio with modern tech. The project showcases how WebAssembly and related tools bridge retro demos and contemporary web platforms.",
+      "summary_zh": "经典 PC demoscene 作品正原生在浏览器中运行的项目，努力保留原始画面与音效，借助现代技术实现。该工作展示了 WebAssembly 等工具如何让怀旧作品与现代网页平台相连。",
+      "hn": {
+        "id": 50002426,
+        "type": "story",
+        "by": "adunk",
+        "score": 110,
+        "descendants": 94,
+        "time": 1791440965,
+        "comments_url": "https://news.ycombinator.com/item?id=50002426"
+      },
+      "tags": [
+        "Web",
+        "Programming"
+      ],
+      "hot_score": 2.21
     },
     {
       "title_en": "The people holding up the internet",
@@ -81,102 +214,11 @@
         "time": 1791441695,
         "comments_url": "https://news.ycombinator.com/item?id=50002494"
       },
-      "hot_score": 9.51,
+      "hot_score": 1.99,
       "tags": [
         "Data",
         "DevOps"
       ]
-    },
-    {
-      "title_en": "Claude Haiku 5.5",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "title_zh": "Claude Haiku 5.5",
-      "created_display": "Created: Oct 07, 2026 / 11:01 PT",
-      "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
-      "summary_en": "Anthropic released Claude Haiku 5.5, delivering improvements in reliability, safety, and efficiency for conversational AI. The update tightens safety guardrails, enhances instruction-following, and aims to deliver smoother multi-turn interactions.",
-      "summary_zh": "Anthropic 发布 Claude Haiku 5.5，提升了对话式 AI 的可靠性、安全性与效率。更新强化了安全约束、改进了指令执行，并力求在多轮对话中提供更顺畅的体验。",
-      "hn": {
-        "id": 49996437,
-        "type": "story",
-        "by": "sfkgtbor",
-        "score": 845,
-        "descendants": 413,
-        "time": 1791396092,
-        "comments_url": "https://news.ycombinator.com/item?id=49996437"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 5.59
-    },
-    {
-      "title_en": "GPT‑6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
-      "title_zh": "GPT‑6 与人人可用的智能界面",
-      "created_display": "Created: Oct 07, 2026 / 11:00 PT",
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill",
-      "summary_en": "OpenAI previews GPT-6 and a universal intelligent UI designed to make advanced AI capabilities accessible to non-experts. The post emphasizes a more integrated UX, safety controls, and multimodal synergy across devices.",
-      "summary_zh": "OpenAI 展示 GPT-6 与面向所有人的智能 UI，旨在让非专业用户也能轻松使用 AI 能力。文中强调更紧密的用户体验、可控的安全设置，以及跨设备的多模态协同。",
-      "hn": {
-        "id": 49996425,
-        "type": "story",
-        "by": "joshuawright11",
-        "score": 606,
-        "descendants": 326,
-        "time": 1791396058,
-        "comments_url": "https://news.ycombinator.com/item?id=49996425"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 4.0
-    },
-    {
-      "title_en": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "title_zh": "我用 Claude Code 找到了一个没人知道的行星",
-      "created_display": "Created: Oct 08, 2026 / 00:07 PT",
-      "image_url": null,
-      "summary_en": "Using Claude Code, the author claims to have found a planet nobody knew existed, illustrating how AI-assisted coding can aid scientific discovery.",
-      "summary_zh": "用 Claude Code 找到了一颗此前无人知晓的行星，展示了 AI 辅助编程在科学发现中的潜力。",
-      "hn": {
-        "id": 50002665,
-        "type": "story",
-        "by": "pyduan",
-        "score": 24,
-        "descendants": 9,
-        "time": 1791443254,
-        "comments_url": "https://news.ycombinator.com/item?id=50002665"
-      },
-      "hot_score": 2.94,
-      "tags": [
-        "AI",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
-      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-      "title_zh": "Visa、Mastercard 与主要银行面临就“反竞争”手续费的新诉讼",
-      "created_display": "Created: Oct 07, 2026 / 08:09 PT",
-      "image_url": "https://www.classaction.org/media/twitter-newswire-default.png",
-      "summary_en": "New litigation accuses Visa, Mastercard, and major banks of anticompetitive merchant fees that raise costs for merchants and consumers. The case adds to regulatory scrutiny of card networks and could push fee structures toward reform.",
-      "summary_zh": "新诉讼指控 Visa、Mastercard 与多家银行联手设定反竞争的商户手续费，抬高商家和消费者成本。此案加剧监管对支付网络的关注，未来可能推动费率结构改革或和解结果。",
-      "hn": {
-        "id": 49993914,
-        "type": "story",
-        "by": "DeepLogin",
-        "score": 541,
-        "descendants": 389,
-        "time": 1791385799,
-        "comments_url": "https://news.ycombinator.com/item?id=49993914"
-      },
-      "tags": [
-        "Business",
-        "Legal",
-        "Politics"
-      ],
-      "hot_score": 2.67
     },
     {
       "title_en": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
@@ -190,8 +232,8 @@
         "id": 49994443,
         "type": "story",
         "by": "SpeakingOfBrad",
-        "score": 475,
-        "descendants": 135,
+        "score": 563,
+        "descendants": 143,
         "time": 1791387861,
         "comments_url": "https://news.ycombinator.com/item?id=49994443"
       },
@@ -199,7 +241,98 @@
         "Show HN",
         "Web"
       ],
-      "hot_score": 2.48
+      "hot_score": 1.92
+    },
+    {
+      "title_en": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
+      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
+      "title_zh": "Visa、Mastercard 与主要银行面临就“反竞争”手续费的新诉讼",
+      "created_display": "Created: Oct 07, 2026 / 08:09 PT",
+      "image_url": "https://www.classaction.org/media/twitter-newswire-default.png",
+      "summary_en": "New litigation accuses Visa, Mastercard, and major banks of anticompetitive merchant fees that raise costs for merchants and consumers. The case adds to regulatory scrutiny of card networks and could push fee structures toward reform.",
+      "summary_zh": "新诉讼指控 Visa、Mastercard 与多家银行联手设定反竞争的商户手续费，抬高商家和消费者成本。此案加剧监管对支付网络的关注，未来可能推动费率结构改革或和解结果。",
+      "hn": {
+        "id": 49993914,
+        "type": "story",
+        "by": "DeepLogin",
+        "score": 559,
+        "descendants": 413,
+        "time": 1791385799,
+        "comments_url": "https://news.ycombinator.com/item?id=49993914"
+      },
+      "tags": [
+        "Business",
+        "Legal",
+        "Politics"
+      ],
+      "hot_score": 1.82
+    },
+    {
+      "title_en": "Telnet BBS Guide",
+      "url": "https://www.telnetbbsguide.com/",
+      "title_zh": "Telnet BBS 指南",
+      "created_display": "Created: Oct 08, 2026 / 05:28 PT",
+      "image_url": null,
+      "summary_en": "A comprehensive guide to Telnet-based BBS ecosystems, detailing access methods, classic protocols, and notable systems. It offers historical context for retro computing enthusiasts and practical tips for connecting today.",
+      "summary_zh": "这是一份关于通过 Telnet 访问的 BBS 系统的全面指南，涵盖接入方式、经典协议以及知名系统。为复古计算爱好者提供历史背景与实际连接建议。",
+      "hn": {
+        "id": 50005017,
+        "type": "story",
+        "by": "kmstout",
+        "score": 12,
+        "descendants": 3,
+        "time": 1791462515,
+        "comments_url": "https://news.ycombinator.com/item?id=50005017"
+      },
+      "hot_score": 1.79,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "title_zh": "Mistral Large 4 模型发布",
+      "created_display": "Created: Oct 06, 2026 / 06:15 PT",
+      "image_url": null,
+      "summary_en": "Mistral AI unveils Mistral Large 4, a new open-weight language model intended to deliver strong performance with broad accessibility. The release underscores the momentum behind community-driven models as alternatives to big incumbents.",
+      "summary_zh": "Mistral AI 发布了 Mistral Large 4，面向开源生态的语言模型，强调可获取性与性能平衡。此举反映了开源模型在市场上的持续崛起，成为对抗大型垄断模型的有力选项。",
+      "hn": {
+        "id": 49977979,
+        "type": "story",
+        "by": "Philpax",
+        "score": 2018,
+        "descendants": 1202,
+        "time": 1791292549,
+        "comments_url": "https://news.ycombinator.com/item?id=49977979"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 1.77
+    },
+    {
+      "title_en": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "title_zh": "在数学领域分享人工智能进展",
+      "created_display": "Created: Oct 06, 2026 / 15:17 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+      "summary_en": "OpenAI highlights progress in AI-assisted mathematics, including automated reasoning and conjecture generation. The piece underscores collaboration with mathematicians and ongoing work to evaluate the reliability and safety of AI-assisted proofs.",
+      "summary_zh": "OpenAI 展示了 AI 在数学中的进展，包括自动推理与猜想生成。文章强调与数学界的协作，以及在评估 AI 辅助证明的可靠性与安全性方面的持续努力。",
+      "hn": {
+        "id": 49984923,
+        "type": "story",
+        "by": "OfficialTurkey",
+        "score": 1289,
+        "descendants": 1463,
+        "time": 1791325041,
+        "comments_url": "https://news.ycombinator.com/item?id=49984923"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.62
     },
     {
       "title_en": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
@@ -219,11 +352,146 @@
         "comments_url": "https://news.ycombinator.com/item?id=49997161"
       },
       "tags": [
-        "AI",
+        "Security",
         "Privacy",
-        "Security"
+        "AI"
       ],
-      "hot_score": 2.45
+      "hot_score": 1.48
+    },
+    {
+      "title_en": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "title_zh": "Chrome 将原生支持 JPEG XL",
+      "created_display": "Created: Oct 07, 2026 / 04:25 PT",
+      "image_url": "https://developer.chrome.com/static/blog/jpeg-xl-in-chrome/images/cover.png",
+      "summary_en": "Chrome now ships native JPEG XL support, bringing next-gen image compression to the web. JPEG XL offers higher quality at smaller file sizes and supports features like animation and HDR, which could reduce bandwidth and streamline asset pipelines for publishers and developers.",
+      "summary_zh": "Chrome 已原生支持 JPEG XL，推动网页图像压缩进入新阶段。JPEG XL 在更小尺寸下提供更高画质，并支持动画与 HDR，有望降低带宽、简化资产工作流。",
+      "hn": {
+        "id": 49991227,
+        "type": "story",
+        "by": "AshleysBrain",
+        "score": 555,
+        "descendants": 372,
+        "time": 1791372302,
+        "comments_url": "https://news.ycombinator.com/item?id=49991227"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 1.39
+    },
+    {
+      "title_en": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "title_zh": "数学灾变",
+      "created_display": "Created: Oct 07, 2026 / 12:33 PT",
+      "image_url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
+      "summary_en": "Scott Aaronson argues that AI and automated reasoning are transforming mathematical practice, challenging old assumptions about proofs and discovery. The piece reframes what counts as a mathematical result and why human intuition matters.",
+      "summary_zh": "Scott Aaronson 认为人工智能和自动推理正在改变数学研究的实践，挑战关于证明与发现的传统观念，重新定义何为有意义的数学成果，并强调人类直觉的重要性。",
+      "hn": {
+        "id": 49997718,
+        "type": "story",
+        "by": "6bitquant",
+        "score": 289,
+        "descendants": 305,
+        "time": 1791401620,
+        "comments_url": "https://news.ycombinator.com/item?id=49997718"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.35
+    },
+    {
+      "title_en": "Animated ASCII Art for Web Pages",
+      "url": "https://ascii.rest/",
+      "title_zh": "网页的动画式 ASCII 艺术",
+      "created_display": "Created: Oct 07, 2026 / 08:05 PT",
+      "image_url": "https://ascii.rest/og.png",
+      "summary_en": "A project showcases animated ASCII art for websites, enabling lightweight, retro-styled visuals without images. The approach offers playful UI elements and can help reduce payloads for simple sites.",
+      "summary_zh": "该项目展示可在网页嵌入的动画 ASCII 艺术，提供轻量级、复古风格的可视效果与趣味 UI。对于追求极简前端或低带宽场景的实现者尤其友好。",
+      "hn": {
+        "id": 49993857,
+        "type": "story",
+        "by": "turrini",
+        "score": 393,
+        "descendants": 69,
+        "time": 1791385537,
+        "comments_url": "https://news.ycombinator.com/item?id=49993857"
+      },
+      "tags": [
+        "Web",
+        "Design"
+      ],
+      "hot_score": 1.27
+    },
+    {
+      "title_en": "Navier–Stokes Lost in Translation",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "title_zh": "纳维-斯托克斯方程的翻译困境",
+      "created_display": "Created: Oct 07, 2026 / 08:24 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "A new paper examines how Navier–Stokes equations are translated into discrete algorithms and points out potential pitfalls that can lead to inaccurate or unstable simulations.",
+      "summary_zh": "一篇论文探讨将 Navier–Stokes 方程转化为数值算法时可能出现的问题，揭示数值建模中的潜在误差与稳定性挑战。",
+      "hn": {
+        "id": 49994145,
+        "type": "story",
+        "by": "nill0",
+        "score": 324,
+        "descendants": 196,
+        "time": 1791386678,
+        "comments_url": "https://news.ycombinator.com/item?id=49994145"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.07
+    },
+    {
+      "title_en": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "title_zh": "Docker 代理",
+      "created_display": "Created: Oct 07, 2026 / 10:48 PT",
+      "image_url": "https://opengraph.githubassets.com/e5cb6fddbc2208b94a9a4eb5070c9942420b7b50edfe5ba5f1bc08b4a47e7320/docker/docker-agent",
+      "summary_en": "Docker Agent introduces a framework to run autonomous agents inside containers, enabling programmable automation and orchestration at the edge or in CI pipelines. It exemplifies a rising trend of runtime agents embedded in dev tooling.",
+      "summary_zh": "Docker Agent 提供在容器内运行自治代理的框架，支持在边缘、CI 流水线等场景中的自动化编排。展示了把运行时代理集成到开发工具链的日益兴起的趋势。",
+      "hn": {
+        "id": 49996259,
+        "type": "story",
+        "by": "saikatsg",
+        "score": 264,
+        "descendants": 121,
+        "time": 1791395318,
+        "comments_url": "https://news.ycombinator.com/item?id=49996259"
+      },
+      "tags": [
+        "Programming",
+        "DevOps",
+        "Open Source"
+      ],
+      "hot_score": 1.06
+    },
+    {
+      "title_en": "'Jonathan' is the oldest land animal on Earth",
+      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
+      "title_zh": "乔纳森：地球上最年长的陆地动物",
+      "created_display": "Created: Oct 07, 2026 / 13:01 PT",
+      "image_url": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/jonathan.png",
+      "summary_en": "Jonathan the tortoise is recognized as the oldest living land animal, with estimates placing him in the high 180s to 190s range. His longevity offers a rare data point for aging biology and a cultural symbol of resilience.",
+      "summary_zh": "乔纳森龟被公认为现存最年长的陆地动物，年龄约在190岁左右。它的长寿为衰老生物学提供珍贵数据点，同时成为关于生命长久与韧性的文化象征。",
+      "hn": {
+        "id": 49998066,
+        "type": "story",
+        "by": "gumby",
+        "score": 188,
+        "descendants": 105,
+        "time": 1791403297,
+        "comments_url": "https://news.ycombinator.com/item?id=49998066"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.92
     },
     {
       "title_en": "A 100x faster* alternative to homebrew",
@@ -242,212 +510,11 @@
         "time": 1791429788,
         "comments_url": "https://news.ycombinator.com/item?id=50001580"
       },
-      "hot_score": 2.3,
+      "hot_score": 0.87,
       "tags": [
         "Programming",
         "Open Source"
       ]
-    },
-    {
-      "title_en": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "title_zh": "Mistral Large 4 模型发布",
-      "created_display": "Created: Oct 06, 2026 / 06:15 PT",
-      "image_url": null,
-      "summary_en": "Mistral AI unveils Mistral Large 4, a new open-weight language model intended to deliver strong performance with broad accessibility. The release underscores the momentum behind community-driven models as alternatives to big incumbents.",
-      "summary_zh": "Mistral AI 发布了 Mistral Large 4，面向开源生态的语言模型，强调可获取性与性能平衡。此举反映了开源模型在市场上的持续崛起，成为对抗大型垄断模型的有力选项。",
-      "hn": {
-        "id": 49977979,
-        "type": "story",
-        "by": "Philpax",
-        "score": 2011,
-        "descendants": 1195,
-        "time": 1791292549,
-        "comments_url": "https://news.ycombinator.com/item?id=49977979"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 2.13
-    },
-    {
-      "title_en": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "title_zh": "在数学领域分享人工智能进展",
-      "created_display": "Created: Oct 06, 2026 / 15:17 PT",
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
-      "summary_en": "OpenAI highlights progress in AI-assisted mathematics, including automated reasoning and conjecture generation. The piece underscores collaboration with mathematicians and ongoing work to evaluate the reliability and safety of AI-assisted proofs.",
-      "summary_zh": "OpenAI 展示了 AI 在数学中的进展，包括自动推理与猜想生成。文章强调与数学界的协作，以及在评估 AI 辅助证明的可靠性与安全性方面的持续努力。",
-      "hn": {
-        "id": 49984923,
-        "type": "story",
-        "by": "OfficialTurkey",
-        "score": 1275,
-        "descendants": 1449,
-        "time": 1791325041,
-        "comments_url": "https://news.ycombinator.com/item?id=49984923"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 2.02
-    },
-    {
-      "title_en": "Shipping JPEG XL in Chrome",
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "title_zh": "Chrome 将原生支持 JPEG XL",
-      "created_display": "Created: Oct 07, 2026 / 04:25 PT",
-      "image_url": "https://developer.chrome.com/static/blog/jpeg-xl-in-chrome/images/cover.png",
-      "summary_en": "Chrome now ships native JPEG XL support, bringing next-gen image compression to the web. JPEG XL offers higher quality at smaller file sizes and supports features like animation and HDR, which could reduce bandwidth and streamline asset pipelines for publishers and developers.",
-      "summary_zh": "Chrome 已原生支持 JPEG XL，推动网页图像压缩进入新阶段。JPEG XL 在更小尺寸下提供更高画质，并支持动画与 HDR，有望降低带宽、简化资产工作流。",
-      "hn": {
-        "id": 49991227,
-        "type": "story",
-        "by": "AshleysBrain",
-        "score": 541,
-        "descendants": 357,
-        "time": 1791372302,
-        "comments_url": "https://news.ycombinator.com/item?id=49991227"
-      },
-      "tags": [
-        "Web"
-      ],
-      "hot_score": 1.93
-    },
-    {
-      "title_en": "Animated ASCII Art for Web Pages",
-      "url": "https://ascii.rest/",
-      "title_zh": "网页的动画式 ASCII 艺术",
-      "created_display": "Created: Oct 07, 2026 / 08:05 PT",
-      "image_url": "https://ascii.rest/og.png",
-      "summary_en": "A project showcases animated ASCII art for websites, enabling lightweight, retro-styled visuals without images. The approach offers playful UI elements and can help reduce payloads for simple sites.",
-      "summary_zh": "该项目展示可在网页嵌入的动画 ASCII 艺术，提供轻量级、复古风格的可视效果与趣味 UI。对于追求极简前端或低带宽场景的实现者尤其友好。",
-      "hn": {
-        "id": 49993857,
-        "type": "story",
-        "by": "turrini",
-        "score": 345,
-        "descendants": 61,
-        "time": 1791385537,
-        "comments_url": "https://news.ycombinator.com/item?id=49993857"
-      },
-      "tags": [
-        "Web",
-        "Design"
-      ],
-      "hot_score": 1.69
-    },
-    {
-      "title_en": "The Mathocalypse",
-      "url": "https://scottaaronson.blog/?p=10169",
-      "title_zh": "数学灾变",
-      "created_display": "Created: Oct 07, 2026 / 12:33 PT",
-      "image_url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
-      "summary_en": "Scott Aaronson argues that AI and automated reasoning are transforming mathematical practice, challenging old assumptions about proofs and discovery. The piece reframes what counts as a mathematical result and why human intuition matters.",
-      "summary_zh": "Scott Aaronson 认为人工智能和自动推理正在改变数学研究的实践，挑战关于证明与发现的传统观念，重新定义何为有意义的数学成果，并强调人类直觉的重要性。",
-      "hn": {
-        "id": 49997718,
-        "type": "story",
-        "by": "6bitquant",
-        "score": 206,
-        "descendants": 244,
-        "time": 1791401620,
-        "comments_url": "https://news.ycombinator.com/item?id=49997718"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 1.62
-    },
-    {
-      "title_en": "Navier–Stokes Lost in Translation",
-      "url": "https://arxiv.org/abs/2610.08144",
-      "title_zh": "纳维-斯托克斯方程的翻译困境",
-      "created_display": "Created: Oct 07, 2026 / 08:24 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "A new paper examines how Navier–Stokes equations are translated into discrete algorithms and points out potential pitfalls that can lead to inaccurate or unstable simulations.",
-      "summary_zh": "一篇论文探讨将 Navier–Stokes 方程转化为数值算法时可能出现的问题，揭示数值建模中的潜在误差与稳定性挑战。",
-      "hn": {
-        "id": 49994145,
-        "type": "story",
-        "by": "nill0",
-        "score": 300,
-        "descendants": 182,
-        "time": 1791386678,
-        "comments_url": "https://news.ycombinator.com/item?id=49994145"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 1.51
-    },
-    {
-      "title_en": "Docker Agent",
-      "url": "https://github.com/docker/docker-agent",
-      "title_zh": "Docker 代理",
-      "created_display": "Created: Oct 07, 2026 / 10:48 PT",
-      "image_url": "https://opengraph.githubassets.com/e5cb6fddbc2208b94a9a4eb5070c9942420b7b50edfe5ba5f1bc08b4a47e7320/docker/docker-agent",
-      "summary_en": "Docker Agent introduces a framework to run autonomous agents inside containers, enabling programmable automation and orchestration at the edge or in CI pipelines. It exemplifies a rising trend of runtime agents embedded in dev tooling.",
-      "summary_zh": "Docker Agent 提供在容器内运行自治代理的框架，支持在边缘、CI 流水线等场景中的自动化编排。展示了把运行时代理集成到开发工具链的日益兴起的趋势。",
-      "hn": {
-        "id": 49996259,
-        "type": "story",
-        "by": "saikatsg",
-        "score": 225,
-        "descendants": 105,
-        "time": 1791395318,
-        "comments_url": "https://news.ycombinator.com/item?id=49996259"
-      },
-      "tags": [
-        "Programming",
-        "DevOps"
-      ],
-      "hot_score": 1.45
-    },
-    {
-      "title_en": "OpenAI withdraws three mathematical results",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "title_zh": "OpenAI 撤回了三项数学结果",
-      "created_display": "Created: Oct 08, 2026 / 00:05 PT",
-      "image_url": "https://pbs.twimg.com/card_img/2108065027521724416/U43cU3Cf?format=webp&name=medium",
-      "summary_en": "OpenAI withdraws three mathematical results, sparking discussion about reproducibility, peer verification, and the speed of AI research.",
-      "summary_zh": "OpenAI 撤回了三项数学结果，引发关于可重复性、同行验证与 AI 研究节奏的讨论。",
-      "hn": {
-        "id": 50002650,
-        "type": "story",
-        "by": "sashank_1509",
-        "score": 11,
-        "descendants": 2,
-        "time": 1791443140,
-        "comments_url": "https://news.ycombinator.com/item?id=50002650"
-      },
-      "hot_score": 1.25,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "'Jonathan' is the oldest land animal on Earth",
-      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
-      "title_zh": "乔纳森：地球上最年长的陆地动物",
-      "created_display": "Created: Oct 07, 2026 / 13:01 PT",
-      "image_url": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/jonathan.png",
-      "summary_en": "Jonathan the tortoise is recognized as the oldest living land animal, with estimates placing him in the high 180s to 190s range. His longevity offers a rare data point for aging biology and a cultural symbol of resilience.",
-      "summary_zh": "乔纳森龟被公认为现存最年长的陆地动物，年龄约在190岁左右。它的长寿为衰老生物学提供珍贵数据点，同时成为关于生命长久与韧性的文化象征。",
-      "hn": {
-        "id": 49998066,
-        "type": "story",
-        "by": "gumby",
-        "score": 138,
-        "descendants": 58,
-        "time": 1791403297,
-        "comments_url": "https://news.ycombinator.com/item?id=49998066"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 1.15
     },
     {
       "title_en": "Anti-patterns in software blogging",
@@ -461,15 +528,61 @@
         "id": 49992257,
         "type": "story",
         "by": "ilreb",
-        "score": 270,
-        "descendants": 136,
+        "score": 295,
+        "descendants": 144,
         "time": 1791378506,
         "comments_url": "https://news.ycombinator.com/item?id=49992257"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Culture"
       ],
-      "hot_score": 1.11
+      "hot_score": 0.83
+    },
+    {
+      "title_en": "The OLED Burn-In Test: 30-Month Update",
+      "url": "https://www.techspot.com/article/3178-oled-burn-in-test/",
+      "title_zh": "OLED烧屏测试：30个月更新",
+      "created_display": "Created: Oct 08, 2026 / 03:34 PT",
+      "image_url": "https://www.techspot.com/articles-info/3178/images/2026-10-07-image.jpg",
+      "summary_en": "A 30-month update on OLED burn-in tests shows ongoing image retention risks despite improvements in newer panels. The study underscores that static content and uniform brightness patterns still pose a risk, though real-world usage mitigates some effects. For developers and manufacturers, it emphasizes the need for software features like pixel shifting and content variety to extend panel life.",
+      "summary_zh": "对 OLED 烧屏的长期测试在30个月更新中显示，尽管新一代面板有所改进，但仍存在残留影像的风险。研究指出静态内容和均匀亮度模式易诱发烧屏，实际使用可以缓解部分问题。对于开发者与厂商，这强调了像素位移等软件特性和内容多样性以延长屏幕寿命的必要性。",
+      "hn": {
+        "id": 50004115,
+        "type": "story",
+        "by": "baal80spam",
+        "score": 13,
+        "descendants": 1,
+        "time": 1791455655,
+        "comments_url": "https://news.ycombinator.com/item?id=50004115"
+      },
+      "hot_score": 0.76,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+      "url": "https://www.ahmath.org/statements",
+      "title_zh": "AHM 就 OpenAI 的数学文献发布发表声明",
+      "created_display": "Created: Oct 08, 2026 / 02:29 PT",
+      "image_url": null,
+      "summary_en": "The Association for the History of Mathematics published a statement about OpenAI's release of mathematical documents, urging careful handling of proofs, licensing, and attribution. It calls for transparency, community involvement, and safeguards for reproducibility in AI-assisted math.",
+      "summary_zh": "历史数学协会对 OpenAI 发布数学文献发表声明，敦促在处理证明、许可与署名等方面保持透明，并强调应有社区参与与可复现实验性保护，以避免误用。",
+      "hn": {
+        "id": 50003677,
+        "type": "story",
+        "by": "kkoncevicius",
+        "score": 18,
+        "descendants": 6,
+        "time": 1791451788,
+        "comments_url": "https://news.ycombinator.com/item?id=50003677"
+      },
+      "hot_score": 0.74,
+      "tags": [
+        "Legal",
+        "AI"
+      ]
     },
     {
       "title_en": "Push ifs up and fors down: The idiom, its algebra, and its limits",
@@ -483,15 +596,15 @@
         "id": 49997073,
         "type": "story",
         "by": "speckx",
-        "score": 143,
-        "descendants": 65,
+        "score": 161,
+        "descendants": 73,
         "time": 1791398598,
         "comments_url": "https://news.ycombinator.com/item?id=49997073"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.02
+      "hot_score": 0.7
     },
     {
       "title_en": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
@@ -505,39 +618,16 @@
         "id": 50000676,
         "type": "story",
         "by": "jcbhmr",
-        "score": 49,
-        "descendants": 78,
+        "score": 84,
+        "descendants": 160,
         "time": 1791420360,
         "comments_url": "https://news.ycombinator.com/item?id=50000676"
       },
-      "hot_score": 0.83,
       "tags": [
         "Programming",
         "AI"
-      ]
-    },
-    {
-      "title_en": "House with 15m underground tunnels for sale for 300k",
-      "url": "https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/",
-      "title_zh": "价格约30万的房子配有15米地下隧道",
-      "created_display": "Created: Oct 07, 2026 / 05:57 PT",
-      "image_url": "https://www.readingchronicle.co.uk/resources/images/21545047.jpg?type=og-image",
-      "summary_en": "An unusual property listing in the UK features a house with 15 meters of underground tunnels and is priced at around 300k. The tunnels raise questions about safety, permits, and real estate demand for eccentric, security-conscious living.",
-      "summary_zh": "英国一处房产挂牌出售，房内设有长达15米的地下隧道，售价约30万。此类非同寻常的结构引发对安全性、许可合规以及市场需求的讨论。",
-      "hn": {
-        "id": 49992125,
-        "type": "story",
-        "by": "librasteve",
-        "score": 199,
-        "descendants": 187,
-        "time": 1791377830,
-        "comments_url": "https://news.ycombinator.com/item?id=49992125"
-      },
-      "tags": [
-        "Business",
-        "Security"
       ],
-      "hot_score": 0.8
+      "hot_score": 0.68
     },
     {
       "title_en": "Why were Victorian elites so effective?",
@@ -551,15 +641,61 @@
         "id": 49993908,
         "type": "story",
         "by": "karakoram",
-        "score": 144,
-        "descendants": 235,
+        "score": 188,
+        "descendants": 314,
         "time": 1791385773,
         "comments_url": "https://news.ycombinator.com/item?id=49993908"
       },
       "tags": [
-        "Culture"
+        "Politics"
       ],
-      "hot_score": 0.71
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "House with 15m underground tunnels for sale for 300k",
+      "url": "https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/",
+      "title_zh": "价格约30万的房子配有15米地下隧道",
+      "created_display": "Created: Oct 07, 2026 / 05:57 PT",
+      "image_url": "https://www.readingchronicle.co.uk/resources/images/21545047.jpg?type=og-image",
+      "summary_en": "An unusual property listing in the UK features a house with 15 meters of underground tunnels and is priced at around 300k. The tunnels raise questions about safety, permits, and real estate demand for eccentric, security-conscious living.",
+      "summary_zh": "英国一处房产挂牌出售，房内设有长达15米的地下隧道，售价约30万。此类非同寻常的结构引发对安全性、许可合规以及市场需求的讨论。",
+      "hn": {
+        "id": 49992125,
+        "type": "story",
+        "by": "librasteve",
+        "score": 216,
+        "descendants": 204,
+        "time": 1791377830,
+        "comments_url": "https://news.ycombinator.com/item?id=49992125"
+      },
+      "tags": [
+        "Business",
+        "Security"
+      ],
+      "hot_score": 0.6
+    },
+    {
+      "title_en": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "title_zh": "我用 Claude Code 找到了一个没人知道的行星",
+      "created_display": "Created: Oct 08, 2026 / 00:07 PT",
+      "image_url": null,
+      "summary_en": "Using Claude Code, the author claims to have found a planet nobody knew existed, illustrating how AI-assisted coding can aid scientific discovery.",
+      "summary_zh": "用 Claude Code 找到了一颗此前无人知晓的行星，展示了 AI 辅助编程在科学发现中的潜力。",
+      "hn": {
+        "id": 50002665,
+        "type": "story",
+        "by": "pyduan",
+        "score": 24,
+        "descendants": 9,
+        "time": 1791443254,
+        "comments_url": "https://news.ycombinator.com/item?id=50002665"
+      },
+      "hot_score": 0.53,
+      "tags": [
+        "AI",
+        "Science"
+      ]
     },
     {
       "title_en": "God of War on PSP, recompiled to WebAssembly and running in the browser",
@@ -573,15 +709,16 @@
         "id": 49991243,
         "type": "story",
         "by": "sn001",
-        "score": 194,
-        "descendants": 104,
+        "score": 206,
+        "descendants": 106,
         "time": 1791372447,
         "comments_url": "https://news.ycombinator.com/item?id=49991243"
       },
       "tags": [
-        "Web"
+        "Web",
+        "Gaming"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.52
     },
     {
       "title_en": "Dat-ecosystem: high level applications built on top of P2P protocols",
@@ -595,16 +732,15 @@
         "id": 50002505,
         "type": "story",
         "by": "janandonly",
-        "score": 7,
-        "descendants": 1,
+        "score": 25,
+        "descendants": 12,
         "time": 1791441793,
         "comments_url": "https://news.ycombinator.com/item?id=50002505"
       },
-      "hot_score": 0.62,
       "tags": [
-        "Web",
-        "Open Source"
-      ]
+        "Data"
+      ],
+      "hot_score": 0.51
     },
     {
       "title_en": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
@@ -618,8 +754,8 @@
         "id": 49996406,
         "type": "story",
         "by": "gumby",
-        "score": 92,
-        "descendants": 13,
+        "score": 122,
+        "descendants": 38,
         "time": 1791395974,
         "comments_url": "https://news.ycombinator.com/item?id=49996406"
       },
@@ -627,7 +763,7 @@
         "Science",
         "Energy"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.49
     },
     {
       "title_en": "Google Playground: Create and play custom games",
@@ -641,39 +777,16 @@
         "id": 49991823,
         "type": "story",
         "by": "acossta",
-        "score": 142,
-        "descendants": 218,
+        "score": 150,
+        "descendants": 227,
         "time": 1791376116,
         "comments_url": "https://news.ycombinator.com/item?id=49991823"
       },
       "tags": [
-        "Programming",
-        "AI"
-      ],
-      "hot_score": 0.55
-    },
-    {
-      "title_en": "AI-assisted proof of optimal packing for 11 squares",
-      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
-      "title_zh": "AI 助力的11个正方形最优铺放证明",
-      "created_display": "Created: Oct 07, 2026 / 07:10 PT",
-      "image_url": "https://opengraph.githubassets.com/29e754a6a8a4cfb11cb3cf38ef65962fedbebb9d4ebc3b0f0648f6af6bc04208/Queuingtheorydotcom/11SquaresFormalized",
-      "summary_en": "An AI-assisted formal proof establishes the optimal packing of 11 equal squares, showcasing how AI search and formal verification can tackle challenging geometry problems. The work demonstrates the potential of hybrid human-AI reasoning in mathematics.",
-      "summary_zh": "AI 辅助的严格证明确定了11个相等正方形的最优铺放方案，展示了 AI 搜索与形式化验证结合解决几何难题的潜力。",
-      "hn": {
-        "id": 49993121,
-        "type": "story",
-        "by": "bluepeter",
-        "score": 115,
-        "descendants": 53,
-        "time": 1791382255,
-        "comments_url": "https://news.ycombinator.com/item?id=49993121"
-      },
-      "tags": [
         "AI",
-        "Science"
+        "Gaming"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.4
     },
     {
       "title_en": "SynthID Detector",
@@ -687,8 +800,8 @@
         "id": 49993188,
         "type": "story",
         "by": "ilreb",
-        "score": 113,
-        "descendants": 91,
+        "score": 120,
+        "descendants": 95,
         "time": 1791382604,
         "comments_url": "https://news.ycombinator.com/item?id=49993188"
       },
@@ -696,30 +809,53 @@
         "AI",
         "Privacy"
       ],
-      "hot_score": 0.51
+      "hot_score": 0.36
     },
     {
-      "title_en": "The Mathocalypse",
-      "url": "https://scottaaronson.blog/",
-      "title_zh": "数学的末日",
-      "created_display": "Created: Oct 07, 2026 / 12:42 PT",
-      "image_url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
-      "summary_en": "The Mathocalypse argues that the coming era could reshape how mathematics is done, learned, and automated, driven by AI and new tooling. It provocatively explores existential questions about mathematical creativity and reliability.",
-      "summary_zh": "《数学的末日》探讨在人工智能与新工具推动下，未来的数学研究、教学与自动化可能经历的剧变，并对数学创造力与可靠性提出挑战性问题。",
+      "title_en": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+      "title_zh": "AI 助力的11个正方形最优铺放证明",
+      "created_display": "Created: Oct 07, 2026 / 07:10 PT",
+      "image_url": "https://opengraph.githubassets.com/29e754a6a8a4cfb11cb3cf38ef65962fedbebb9d4ebc3b0f0648f6af6bc04208/Queuingtheorydotcom/11SquaresFormalized",
+      "summary_en": "An AI-assisted formal proof establishes the optimal packing of 11 equal squares, showcasing how AI search and formal verification can tackle challenging geometry problems. The work demonstrates the potential of hybrid human-AI reasoning in mathematics.",
+      "summary_zh": "AI 辅助的严格证明确定了11个相等正方形的最优铺放方案，展示了 AI 搜索与形式化验证结合解决几何难题的潜力。",
       "hn": {
-        "id": 49997831,
+        "id": 49993121,
         "type": "story",
-        "by": "philipfweiss",
-        "score": 44,
-        "descendants": 1,
-        "time": 1791402134,
-        "comments_url": "https://news.ycombinator.com/item?id=49997831"
+        "by": "bluepeter",
+        "score": 116,
+        "descendants": 53,
+        "time": 1791382255,
+        "comments_url": "https://news.ycombinator.com/item?id=49993121"
       },
       "tags": [
         "AI",
         "Science"
       ],
       "hot_score": 0.35
+    },
+    {
+      "title_en": "Will AI kill us all",
+      "url": "https://virev.ai/blog/will-ai-kill-us-all",
+      "title_zh": "AI 会杀死我们吗",
+      "created_display": "Created: Oct 07, 2026 / 23:09 PT",
+      "image_url": "https://virev.ai/_blog/covers/will-ai-kill-us-all/cover.webp",
+      "summary_en": "A speculative piece on whether AI could pose existential threats, weighing risk scenarios against governance, alignment research, and practical safety measures.",
+      "summary_zh": "一篇关于人工智能是否可能带来存在性威胁的推测性文章，权衡风险情景、治理与对齐研究以及实际安全措施。",
+      "hn": {
+        "id": 50002301,
+        "type": "story",
+        "by": "krenerd",
+        "score": 14,
+        "descendants": 20,
+        "time": 1791439740,
+        "comments_url": "https://news.ycombinator.com/item?id=50002301"
+      },
+      "tags": [
+        "AI",
+        "Politics"
+      ],
+      "hot_score": 0.25
     },
     {
       "title_en": "Write Like It's 1866: LLMs Relearn Telegraphese",
@@ -741,7 +877,73 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.23
+    },
+    {
+      "title_en": "OpenAI withdraws three mathematical results",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "title_zh": "OpenAI 撤回了三项数学结果",
+      "created_display": "Created: Oct 08, 2026 / 00:05 PT",
+      "image_url": "https://pbs.twimg.com/card_img/2108065027521724416/U43cU3Cf?format=webp&name=medium",
+      "summary_en": "OpenAI withdraws three mathematical results, sparking discussion about reproducibility, peer verification, and the speed of AI research.",
+      "summary_zh": "OpenAI 撤回了三项数学结果，引发关于可重复性、同行验证与 AI 研究节奏的讨论。",
+      "hn": {
+        "id": 50002650,
+        "type": "story",
+        "by": "sashank_1509",
+        "score": 11,
+        "descendants": 2,
+        "time": 1791443140,
+        "comments_url": "https://news.ycombinator.com/item?id=50002650"
+      },
+      "hot_score": 0.23,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "The art of defusing a second world war bomb",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
+      "title_zh": "二战炸弹拆除的艺术",
+      "created_display": "Created: Oct 06, 2026 / 20:43 PT",
+      "image_url": "https://i.guim.co.uk/img/media/ba07cdb4b817ca8f125c92a90f16df0e1fe6bab9/50_0_4169_3335/master/4169.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d82c886c8e0579b84ae2e49323d4881",
+      "summary_en": "An immersive look at bomb disposal work, detailing how experts assess, plan, and execute the safe removal of WWII ordnance. It reveals the tension, risk mitigation, and precise handwork behind each clearance, offering lessons in safety engineering and human factors under pressure.",
+      "summary_zh": "这是一篇关于拆弹工作的沉浸式报道，介绍专家如何评估、制定计划并安全移除二战弹药。揭示每一次清除背后的紧张气氛、风险控制与精准操作，为安全工程和高压环境中的人因管理提供启示。",
+      "hn": {
+        "id": 49987858,
+        "type": "story",
+        "by": "sandebert",
+        "score": 135,
+        "descendants": 103,
+        "time": 1791344594,
+        "comments_url": "https://news.ycombinator.com/item?id=49987858"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "Cleo (Mathematician)",
+      "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)",
+      "title_zh": "Cleo（数学家）",
+      "created_display": "Created: Oct 06, 2026 / 11:49 PT",
+      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
+      "summary_en": "Cleo is a mathematician highlighted for notable contributions.",
+      "summary_zh": "Cleo 是一位在数学领域有重要贡献的学者。",
+      "hn": {
+        "id": 49982445,
+        "type": "story",
+        "by": "djoldman",
+        "score": 182,
+        "descendants": 37,
+        "time": 1791312585,
+        "comments_url": "https://news.ycombinator.com/item?id=49982445"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.2
     },
     {
       "title_en": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
@@ -764,73 +966,30 @@
         "Show HN",
         "AI"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.2
     },
     {
-      "title_en": "Will AI kill us all",
-      "url": "https://virev.ai/blog/will-ai-kill-us-all",
-      "title_zh": "AI 会杀死我们吗",
-      "created_display": "Created: Oct 07, 2026 / 23:09 PT",
-      "image_url": "https://virev.ai/_blog/covers/will-ai-kill-us-all/cover.webp",
-      "summary_en": "A speculative piece on whether AI could pose existential threats, weighing risk scenarios against governance, alignment research, and practical safety measures.",
-      "summary_zh": "一篇关于人工智能是否可能带来存在性威胁的推测性文章，权衡风险情景、治理与对齐研究以及实际安全措施。",
+      "title_en": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/",
+      "title_zh": "数学的末日",
+      "created_display": "Created: Oct 07, 2026 / 12:42 PT",
+      "image_url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
+      "summary_en": "The Mathocalypse argues that the coming era could reshape how mathematics is done, learned, and automated, driven by AI and new tooling. It provocatively explores existential questions about mathematical creativity and reliability.",
+      "summary_zh": "《数学的末日》探讨在人工智能与新工具推动下，未来的数学研究、教学与自动化可能经历的剧变，并对数学创造力与可靠性提出挑战性问题。",
       "hn": {
-        "id": 50002301,
+        "id": 49997831,
         "type": "story",
-        "by": "krenerd",
-        "score": 5,
+        "by": "philipfweiss",
+        "score": 44,
         "descendants": 1,
-        "time": 1791439740,
-        "comments_url": "https://news.ycombinator.com/item?id=50002301"
-      },
-      "hot_score": 0.31,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "The art of defusing a second world war bomb",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
-      "title_zh": "二战炸弹拆除的艺术",
-      "created_display": "Created: Oct 06, 2026 / 20:43 PT",
-      "image_url": "https://i.guim.co.uk/img/media/ba07cdb4b817ca8f125c92a90f16df0e1fe6bab9/50_0_4169_3335/master/4169.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d82c886c8e0579b84ae2e49323d4881",
-      "summary_en": "An immersive look at bomb disposal work, detailing how experts assess, plan, and execute the safe removal of WWII ordnance. It reveals the tension, risk mitigation, and precise handwork behind each clearance, offering lessons in safety engineering and human factors under pressure.",
-      "summary_zh": "这是一篇关于拆弹工作的沉浸式报道，介绍专家如何评估、制定计划并安全移除二战弹药。揭示每一次清除背后的紧张气氛、风险控制与精准操作，为安全工程和高压环境中的人因管理提供启示。",
-      "hn": {
-        "id": 49987858,
-        "type": "story",
-        "by": "sandebert",
-        "score": 126,
-        "descendants": 98,
-        "time": 1791344594,
-        "comments_url": "https://news.ycombinator.com/item?id=49987858"
+        "time": 1791402134,
+        "comments_url": "https://news.ycombinator.com/item?id=49997831"
       },
       "tags": [
+        "AI",
         "Science"
       ],
-      "hot_score": 0.27
-    },
-    {
-      "title_en": "Classic PC demoscene productions running natively in the browser",
-      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
-      "title_zh": "经典 PC demoscene 作品在浏览器原生运行",
-      "created_display": "Created: Oct 07, 2026 / 23:29 PT",
-      "image_url": null,
-      "summary_en": "Classic PC demoscene productions are being ported to run natively in the browser, preserving visuals and audio with modern tech. The project showcases how WebAssembly and related tools bridge retro demos and contemporary web platforms.",
-      "summary_zh": "经典 PC demoscene 作品正原生在浏览器中运行的项目，努力保留原始画面与音效，借助现代技术实现。该工作展示了 WebAssembly 等工具如何让怀旧作品与现代网页平台相连。",
-      "hn": {
-        "id": 50002426,
-        "type": "story",
-        "by": "adunk",
-        "score": 4,
-        "descendants": 0,
-        "time": 1791440965,
-        "comments_url": "https://news.ycombinator.com/item?id=50002426"
-      },
-      "hot_score": 0.27,
-      "tags": [
-        "Web"
-      ]
+      "hot_score": 0.2
     },
     {
       "title_en": "How machines learned precision",
@@ -844,36 +1003,60 @@
         "id": 49980626,
         "type": "story",
         "by": "glinscott",
-        "score": 154,
-        "descendants": 61,
+        "score": 194,
+        "descendants": 65,
         "time": 1791303282,
         "comments_url": "https://news.ycombinator.com/item?id=49980626"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.19
     },
     {
-      "title_en": "Cleo (Mathematician)",
-      "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)",
-      "title_zh": "Cleo（数学家）",
-      "created_display": "Created: Oct 06, 2026 / 11:49 PT",
-      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
-      "summary_en": "Cleo is a mathematician highlighted for notable contributions.",
-      "summary_zh": "Cleo 是一位在数学领域有重要贡献的学者。",
+      "title_en": "Living off-grid: Hundred Rabbits",
+      "url": "https://100r.ca/site/home.html",
+      "title_zh": "离网生活：Hundred Rabbits",
+      "created_display": "Created: Oct 05, 2026 / 14:08 PT",
+      "image_url": "https://100r.ca/media/interface/home.png",
+      "summary_en": "Hundred Rabbits showcases off-grid living through modular structures, solar power, and low-footprint design. The story demonstrates how resilient, DIY-friendly setups can enable remote work and creative lifestyles.",
+      "summary_zh": "Hundred Rabbits 展示了通过模块化房结构、太阳能等实现离网生活的设计理念。此举展示了韧性十足的自给自足方案如何支持远程工作与创意生活。",
       "hn": {
-        "id": 49982445,
+        "id": 49970767,
         "type": "story",
-        "by": "djoldman",
-        "score": 132,
-        "descendants": 25,
-        "time": 1791312585,
-        "comments_url": "https://news.ycombinator.com/item?id=49982445"
+        "by": "Muhammad523",
+        "score": 276,
+        "descendants": 93,
+        "time": 1791234513,
+        "comments_url": "https://news.ycombinator.com/item?id=49970767"
       },
-      "hot_score": 0.18,
       "tags": [
-        "Science"
+        "Energy",
+        "Design"
+      ],
+      "hot_score": 0.15
+    },
+    {
+      "title_en": "Let's Encrypt: 64-Day Certificate Lifetimes Coming Feb 2027",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+      "title_zh": "Let's Encrypt 将把证书有效期设为64天，2027年2月起生效",
+      "created_display": "Created: Oct 07, 2026 / 23:01 PT",
+      "image_url": "https://letsencrypt.org/images/LetsEncrypt-SocialShare.png",
+      "summary_en": "Let's Encrypt will set certificate lifetimes to 64 days starting February 2027 to reduce risk from compromised or misissued certificates. The move increases automation needs for operators and requires robust renewal tooling and monitoring.",
+      "summary_zh": "Let’s Encrypt 将把证书有效期设为64天，自2027年2月起生效，以缩短单一证书被滥用或泄露的风险。此举推动更强的自动化续期和证书管理，运维需相应调整流程与监控。",
+      "hn": {
+        "id": 50002249,
+        "type": "story",
+        "by": "allddd",
+        "score": 9,
+        "descendants": 0,
+        "time": 1791439281,
+        "comments_url": "https://news.ycombinator.com/item?id=50002249"
+      },
+      "hot_score": 0.15,
+      "tags": [
+        "Security",
+        "DevOps"
       ]
     },
     {
@@ -888,8 +1071,8 @@
         "id": 49974173,
         "type": "story",
         "by": "NaOH",
-        "score": 184,
-        "descendants": 28,
+        "score": 191,
+        "descendants": 29,
         "time": 1791260741,
         "comments_url": "https://news.ycombinator.com/item?id=49974173"
       },
@@ -897,30 +1080,7 @@
         "Gaming",
         "Web"
       ],
-      "hot_score": 0.14
-    },
-    {
-      "title_en": "Living off-grid: Hundred Rabbits",
-      "url": "https://100r.ca/site/home.html",
-      "title_zh": "离网生活：Hundred Rabbits",
-      "created_display": "Created: Oct 05, 2026 / 14:08 PT",
-      "image_url": "https://100r.ca/media/interface/home.png",
-      "summary_en": "Hundred Rabbits showcases off-grid living through modular structures, solar power, and low-footprint design. The story demonstrates how resilient, DIY-friendly setups can enable remote work and creative lifestyles.",
-      "summary_zh": "Hundred Rabbits 展示了通过模块化房结构、太阳能等实现离网生活的设计理念。此举展示了韧性十足的自给自足方案如何支持远程工作与创意生活。",
-      "hn": {
-        "id": 49970767,
-        "type": "story",
-        "by": "Muhammad523",
-        "score": 180,
-        "descendants": 44,
-        "time": 1791234513,
-        "comments_url": "https://news.ycombinator.com/item?id=49970767"
-      },
-      "hot_score": 0.11,
-      "tags": [
-        "Design",
-        "Energy"
-      ]
+      "hot_score": 0.12
     },
     {
       "title_en": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
@@ -934,15 +1094,15 @@
         "id": 49969073,
         "type": "story",
         "by": "pavel_lishin",
-        "score": 157,
-        "descendants": 59,
+        "score": 216,
+        "descendants": 80,
         "time": 1791227227,
         "comments_url": "https://news.ycombinator.com/item?id=49969073"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.11
     },
     {
       "title_en": "A minimal kernel in Swift, running in QEMU",
@@ -956,14 +1116,83 @@
         "id": 49977351,
         "type": "story",
         "by": "surprisetalk",
-        "score": 69,
-        "descendants": 12,
+        "score": 96,
+        "descendants": 21,
         "time": 1791289203,
         "comments_url": "https://news.ycombinator.com/item?id=49977351"
       },
-      "hot_score": 0.07,
       "tags": [
         "Programming"
+      ],
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "The 15-year search for a band that charted once and vanished",
+      "url": "https://shahidhussain.com/writing/search-for-salvage/",
+      "title_zh": "15 年追寻曾经登上乐坛却消失的乐队",
+      "created_display": "Created: Oct 04, 2026 / 17:06 PT",
+      "image_url": "https://shahidhussain.com/images/writing/search-for-salvage/front.jpg",
+      "summary_en": "A 15-year hunt to locate a band that once charted and vanished, blending archival digging with personal nostalgia. The piece uses the investigation to reflect on fame, memory, and the fragility of music history.",
+      "summary_zh": "耗时15年的寻找曾经上榜却消失的乐队，结合档案挖掘与个人怀旧。该故事借追索过程反思成名、记忆与音乐史的脆弱性。",
+      "hn": {
+        "id": 49959280,
+        "type": "story",
+        "by": "shahidhussain",
+        "score": 205,
+        "descendants": 74,
+        "time": 1791158803,
+        "comments_url": "https://news.ycombinator.com/item?id=49959280"
+      },
+      "tags": [
+        "Culture",
+        "Entertainment"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "If somebody tries to hot-patch an already-hot-patched function",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755/",
+      "title_zh": "对已热补丁的函数再次热补丁",
+      "created_display": "Created: Oct 06, 2026 / 06:39 PT",
+      "image_url": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
+      "summary_en": "It highlights practical lessons for live-update systems.",
+      "summary_zh": "文章探讨对已热补丁的函数再进行热补丁时的行为和潜在风险，强调幂等补丁与补丁顺序的重要性，以及对热更新系统的实用启示。",
+      "hn": {
+        "id": 49978315,
+        "type": "story",
+        "by": "ibobev",
+        "score": 64,
+        "descendants": 30,
+        "time": 1791293999,
+        "comments_url": "https://news.ycombinator.com/item?id=49978315"
+      },
+      "tags": [
+        "Programming",
+        "DevOps"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "The Slow Formation of Durable Software",
+      "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+      "title_zh": "耐用软件的缓慢形成",
+      "created_display": "Created: Oct 06, 2026 / 08:54 PT",
+      "image_url": "https://assets.buttondown.email/images/f57f48fc-aaca-4b67-b624-c13a1643b08a.jpg?w=960&fit=max",
+      "summary_en": "Durable software emerges from disciplined, long-horizon practices rather than quick hacks. The piece argues for slow refactoring, stable teams, and robust testing as core investments, plus architectural discipline that pays off over years. It reframes software longevity as an organizational and process problem, not just code quality.",
+      "summary_zh": "耐用软件不是一朝一夕的产物，而是来自对长期规划、稳定团队、持续重构和全面测试的坚持。文章将软件的可持续性视为组织与流程的问题，强调从架构到维护的持续投入。",
+      "hn": {
+        "id": 49980346,
+        "type": "story",
+        "by": "benbreen",
+        "score": 58,
+        "descendants": 14,
+        "time": 1791302064,
+        "comments_url": "https://news.ycombinator.com/item?id=49980346"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Programming",
+        "Culture"
       ]
     },
     {
@@ -978,7 +1207,7 @@
         "id": 49976818,
         "type": "story",
         "by": "signa11",
-        "score": 58,
+        "score": 59,
         "descendants": 8,
         "time": 1791285094,
         "comments_url": "https://news.ycombinator.com/item?id=49976818"
@@ -987,29 +1216,7 @@
         "Science",
         "Finance"
       ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "If somebody tries to hot-patch an already-hot-patched function",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755/",
-      "title_zh": "对已热补丁的函数再次热补丁",
-      "created_display": "Created: Oct 06, 2026 / 06:39 PT",
-      "image_url": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
-      "summary_en": "It highlights practical lessons for live-update systems.",
-      "summary_zh": "文章探讨对已热补丁的函数再进行热补丁时的行为和潜在风险，强调幂等补丁与补丁顺序的重要性，以及对热更新系统的实用启示。",
-      "hn": {
-        "id": 49978315,
-        "type": "story",
-        "by": "ibobev",
-        "score": 56,
-        "descendants": 26,
-        "time": 1791293999,
-        "comments_url": "https://news.ycombinator.com/item?id=49978315"
-      },
-      "tags": [
-        "DevOps"
-      ],
-      "hot_score": 0.06
+      "hot_score": 0.05
     },
     {
       "title_en": "3D-printing platform rapidly produces complex electric machines",
@@ -1046,8 +1253,8 @@
         "id": 49963568,
         "type": "story",
         "by": "alexpadula",
-        "score": 55,
-        "descendants": 24,
+        "score": 58,
+        "descendants": 31,
         "time": 1791200415,
         "comments_url": "https://news.ycombinator.com/item?id=49963568"
       },
@@ -1055,24 +1262,47 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.02
     },
     {
-      "title_en": "The 15-year search for a band that charted once and vanished",
-      "url": "https://shahidhussain.com/writing/search-for-salvage/",
-      "title_zh": "15 年追寻曾经登上乐坛却消失的乐队",
-      "created_display": "Created: Oct 04, 2026 / 17:06 PT",
-      "image_url": "https://shahidhussain.com/images/writing/search-for-salvage/front.jpg",
-      "summary_en": "A 15-year hunt to locate a band that once charted and vanished, blending archival digging with personal nostalgia. The piece uses the investigation to reflect on fame, memory, and the fragility of music history.",
-      "summary_zh": "耗时15年的寻找曾经上榜却消失的乐队，结合档案挖掘与个人怀旧。该故事借追索过程反思成名、记忆与音乐史的脆弱性。",
+      "title_en": "New repository settings for configuring pull request access",
+      "url": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/",
+      "title_zh": "新仓库设置：配置拉取请求访问权限",
+      "created_display": "Created: Oct 06, 2026 / 00:01 PT",
+      "image_url": "https://github.blog/wp-content/uploads/2026/02/548515957-56ddc14a-9f83-4ddc-b19f-b5177c1925f8.jpeg",
+      "summary_en": "GitHub adds granular repository settings to control who can access and review pull requests. This gives maintainers finer control over collaboration and can improve security for large teams.",
+      "summary_zh": "GitHub 新增更细粒度的仓库设置，用以控制谁可以访问和审阅拉取请求。此举为大团队的协作提供更精细的权限管理与安全性。",
       "hn": {
-        "id": 49959280,
+        "id": 49975158,
         "type": "story",
-        "by": "shahidhussain",
-        "score": 65,
-        "descendants": 23,
-        "time": 1791158803,
-        "comments_url": "https://news.ycombinator.com/item?id=49959280"
+        "by": "Bluestein",
+        "score": 29,
+        "descendants": 17,
+        "time": 1791270111,
+        "comments_url": "https://news.ycombinator.com/item?id=49975158"
+      },
+      "tags": [
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Bloody Cavemen",
+      "url": "https://www.lrb.co.uk/the-paper/v48/n18/edmund-gordon/bloody-cavemen",
+      "title_zh": "血腥的穴居人",
+      "created_display": "Created: Oct 06, 2026 / 13:39 PT",
+      "image_url": "https://www.lrb.co.uk/storage/social_image/images/8/2/6/4/31114628-1-eng-GB/c8e5fd8f9c04-william-golding.jpg",
+      "summary_en": "A provocative look at how we portray prehistoric humans and the myths around their violence.",
+      "summary_zh": "对我们如何描绘史前人类及其暴力神话进行挑衅式审视。",
+      "hn": {
+        "id": 49983765,
+        "type": "story",
+        "by": "Thevet",
+        "score": 18,
+        "descendants": 2,
+        "time": 1791319143,
+        "comments_url": "https://news.ycombinator.com/item?id=49983765"
       },
       "hot_score": 0.02,
       "tags": [
@@ -1091,18 +1321,18 @@
         "id": 49966866,
         "type": "story",
         "by": "adamnemecek",
-        "score": 16,
-        "descendants": 4,
+        "score": 30,
+        "descendants": 10,
         "time": 1791217151,
         "comments_url": "https://news.ycombinator.com/item?id=49966866"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Programming",
-        "Web",
+        "Science",
+        "Education",
         "Hardware",
-        "Education"
-      ]
+        "Web"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "ENIAC Programmers (2011)",
@@ -1127,27 +1357,26 @@
       ]
     },
     {
-      "title_en": "New repository settings for configuring pull request access",
-      "url": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/",
-      "title_zh": "新仓库设置：配置拉取请求访问权限",
-      "created_display": "Created: Oct 06, 2026 / 00:01 PT",
-      "image_url": "https://github.blog/wp-content/uploads/2026/02/548515957-56ddc14a-9f83-4ddc-b19f-b5177c1925f8.jpeg",
-      "summary_en": "GitHub adds granular repository settings to control who can access and review pull requests. This gives maintainers finer control over collaboration and can improve security for large teams.",
-      "summary_zh": "GitHub 新增更细粒度的仓库设置，用以控制谁可以访问和审阅拉取请求。此举为大团队的协作提供更精细的权限管理与安全性。",
+      "title_en": "Time Travel in Braid (2015)",
+      "url": "https://qntm.org/braid",
+      "title_zh": "《Braid》（2015）中的时间旅行",
+      "created_display": "Created: Oct 04, 2026 / 14:42 PT",
+      "image_url": "https://qntm.org/page/favicon.png",
+      "summary_en": "Looking back at Braid's time-manipulation mechanics, the game uses rewind and cause-and-effect to create puzzles that challenge players' assumptions about storytelling. The design shows how early indie titles integrated clever mechanics with emotional storytelling, becoming a touchstone for later games.",
+      "summary_zh": "回顾《Braid》（2015）中的时间操控机制，作品通过倒带与因果关系构建解谜，并影响叙事体验。该游戏将巧妙的玩法与情感叙事结合，成为后来独立游戏在设计上的重要参考。",
       "hn": {
-        "id": 49975158,
+        "id": 49958194,
         "type": "story",
-        "by": "Bluestein",
-        "score": 4,
-        "descendants": 2,
-        "time": 1791270111,
-        "comments_url": "https://news.ycombinator.com/item?id=49975158"
+        "by": "Ariarule",
+        "score": 8,
+        "descendants": 0,
+        "time": 1791150163,
+        "comments_url": "https://news.ycombinator.com/item?id=49958194"
       },
       "hot_score": 0.0,
       "tags": [
-        "DevOps",
-        "Security",
-        "Programming"
+        "Gaming",
+        "Design"
       ]
     }
   ]
