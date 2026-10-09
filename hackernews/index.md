@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='774' data-hn-time='1791472500'>
+<div class='hn-top-story-item' data-hn-score='824' data-hn-time='1791472500'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>特朗普政府暂停微软参与绿卡计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 774</span> <span class='hn-top-story-comments'>&#128172; 1349</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 824</span> <span class='hn-top-story-comments'>&#128172; 1411</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='420' data-hn-time='1791478779'>
+<div class='hn-top-story-item' data-hn-score='528' data-hn-time='1791478779'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://cactuscompute.com/blog/whistle' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Whistle：16.9 MB 的语音转文本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 420</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 528</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='643' data-hn-time='1791470387'>
+<div class='hn-top-story-item' data-hn-score='660' data-hn-time='1791470387'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,21 +50,21 @@ Sort:
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=50006366' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Tell HN：我已资助坦桑尼亚农村学生教育十年</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 643</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 660</span> <span class='hn-top-story-comments'>&#128172; 197</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='341' data-hn-time='1791477958'>
+<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1791502183'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50008187'>OpenAI annualised revenues $20B less than previously signalled</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50013902'>OpenAI, the Partition Principle, and Mathematics</a>
+ <a class='hn-top-story-link' href='https://karagila.org/2026/openai-pp/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 年化收入比此前预计低出200亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 341</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>OpenAI、分区原理与数学</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1791492136'>
+<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1791492136'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>ADHD 被视为昼夜节律障碍：证据与时序治疗的启示（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='186' data-hn-time='1791481909'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='351' data-hn-time='1791477958'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50008187'>OpenAI annualised revenues $20B less than previously signalled</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>OpenAI 年化收入比此前预计低出200亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 351</span> <span class='hn-top-story-comments'>&#128172; 246</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='267' data-hn-time='1791481909'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50009295'>Theranos.world</a>
  <a class='hn-top-story-link' href='https://www.theranos.world/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Theranos.world</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 267</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='1769' data-hn-time='1791407778'>
-<span class='hn-top-story-rank'>7</span>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49998895'>Margaret Hamilton has died</a>
  <a class='hn-top-story-link' href='https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>玛格丽特·汉密尔顿去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 1769</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 1769</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='208' data-hn-time='1791475413'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='222' data-hn-time='1791475413'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50007519'>4-hour battery storage is cheaper to install than gas turbines all across globe</a>
  <a class='hn-top-story-link' href='https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>四小时电池储能全球成本低于燃气涡轮</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 208</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='48' data-hn-time='1791492517'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50012043'>I think we might lose public key cryptography</a>
- <a class='hn-top-story-link' href='https://twitter.com/matthew_d_green/status/2108278850555674975' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我认为我们可能会失去公钥密码学</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='85' data-hn-time='1791486296'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='355' data-hn-time='1791460820'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50010470'>The value of not getting to the point (2015)</a>
- <a class='hn-top-story-link' href='https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50004790'>I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities</a>
+ <a class='hn-top-story-link' href='https://quesma.com/blog/invisible-cities-one-shot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>不急于点题的价值（2015）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>给 Opus 5.5 一个提示，花六小时可视化《隐形城市》</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 355</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Entertainment</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
