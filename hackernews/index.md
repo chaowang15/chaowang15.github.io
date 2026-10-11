@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>233</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34415</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>229</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>231</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>234</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34465</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>229</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>232</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-11</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='72' data-hn-time='1791672610'>
+<div class='hn-top-story-item' data-hn-score='242' data-hn-time='1791679608'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50037949'>Build your own decision model</a>
- <a class='hn-top-story-link' href='https://nishtahir.com/build-your-own-decision-model/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50038634'>Show HN: WallHop – 12ft.io is gone, so I built a replacement</a>
+ <a class='hn-top-story-link' href='https://wallhop.io/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>打造你自己的决策模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Show HN：WallHop——12ft.io 下线后的替代方案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='146' data-hn-time='1791664310'>
+<div class='hn-top-story-item' data-hn-score='260' data-hn-time='1791672610'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50036864'>A city-building game in which the city would prefer you didn't</a>
- <a class='hn-top-story-link' href='https://housing.over.pizza/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50037949'>Build your own decision model</a>
+ <a class='hn-top-story-link' href='https://nishtahir.com/build-your-own-decision-model/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一个城市似乎不想让你成功的城市建造游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>打造你自己的决策模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 260</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='338' data-hn-time='1791642770'>
+<div class='hn-top-story-item' data-hn-score='317' data-hn-time='1791664310'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50033407'>Bitwarden Dual License Model</a>
- <a class='hn-top-story-link' href='https://community.bitwarden.com/t/published-version-update-in-app-stores/102750' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50036864'>A city-building game in which the city would prefer you didn't</a>
+ <a class='hn-top-story-link' href='https://housing.over.pizza/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bitwarden 双许可证模式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 338</span> <span class='hn-top-story-comments'>&#128172; 244</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>一个城市似乎不想让你成功的城市建造游戏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 317</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='16' data-hn-time='1791677311'>
+<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1791688867'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50038383'>Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects</a>
- <a class='hn-top-story-link' href='https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50039536'>GameBoy on E-Paper ESP32 at 30FPS [video]</a>
+ <a class='hn-top-story-link' href='https://www.youtube.com/watch?v=XiZmM6hwwAU' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 禁止对 Claude 的残酷对待，但仍不透露保护对象</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 16</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>ESP32 + 电子纸：GameBoy 30FPS</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='129' data-hn-time='1791655729'>
+<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1791684158'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50035530'>Why DuckDB 2.0 is faster</a>
- <a class='hn-top-story-link' href='https://motherduck.com/blog/why-duckdb-20-is-faster/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50039092'>500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter</a>
+ <a class='hn-top-story-link' href='https://momo5502.com/posts/2026-10-09-game-decompilation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DuckDB 2.0 为什么更快</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>500B 代币后：AI 代理反编译 FPS</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1791658115'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='376' data-hn-time='1791642770'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50035886'>Nvidia in talks to acquire US 'open' model startup Reflection AI</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50033407'>Bitwarden Dual License Model</a>
+ <a class='hn-top-story-link' href='https://community.bitwarden.com/t/published-version-update-in-app-stores/102750' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英伟达洽谈收购美国开源模型初创公司 Reflection AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Bitwarden 双许可证模式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 270</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='94' data-hn-time='1791659575'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1378' data-hn-time='1791561065'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50036119'>Takeshi's Castle</a>
- <a class='hn-top-story-link' href='https://en.wikipedia.org/wiki/Takeshi%27s_Castle' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Takeshi's Castle</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='377' data-hn-time='1791625909'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50031269'>`123456' password used in Danish CPR data breach</a>
- <a class='hn-top-story-link' href='https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>丹麦 CPR 数据泄露中使用了 123456 密码</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 377</span> <span class='hn-top-story-comments'>&#128172; 193</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1358' data-hn-time='1791561065'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50022292'>Triple-A Minesweeper</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50022292'>Triple-A Minesweeper</a>
  <a class='hn-top-story-link' href='https://minesweeper.mikelacher.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AAA级扫雷</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 1358</span> <span class='hn-top-story-comments'>&#128172; 271</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 1378</span> <span class='hn-top-story-comments'>&#128172; 276</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='168' data-hn-time='1791644436'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1348' data-hn-time='1791551028'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50019911'>Cloudflare acquires Deno</a>
+ <a class='hn-top-story-link' href='https://deno.com/blog/cloudflare' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Cloudflare 收购 Deno，整合边缘计算生态</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 1348</span> <span class='hn-top-story-comments'>&#128172; 702</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1791655729'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50035530'>Why DuckDB 2.0 is faster</a>
+ <a class='hn-top-story-link' href='https://motherduck.com/blog/why-duckdb-20-is-faster/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>DuckDB 2.0 为什么更快</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.3</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='8' data-hn-time='1791704085'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/10/top_stories_10102026#story-50033638'>FDA may allow some toxic chemicals to be added to food without safety review</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/oct/10/fda-toxic-chemicals-food-analysis' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/11/top_stories_10112026#story-50040547'>3rd Yandex Cloud Data Center Was Hit</a>
+ <a class='hn-top-story-link' href='https://status.yandex.cloud/en/incidents/2136' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>FDA可能允许在食品中添加部分有毒化学物质，免安全评审</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Yandex 云数据中心再度受击</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.3</span> <span class='hn-top-story-score'>&#9650; 8</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/10/top_stories_10102026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/11/top_stories_10112026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/09/best_stories_10092026'>Latest Daily Best — 2026-10-09 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 41 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-05 — 2026-10-10 <span class="hn-row-sep">·</span> 850 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-10-05 — 2026-10-11 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-11 <span class='hn-day-weekday'>Sun</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/11/top_stories_10112026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-10 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
@@ -535,7 +544,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 37</span>
-<span class='hn-week-meta'>2026-09-11 — 2026-09-13 <span class="hn-row-sep">·</span> 448 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-09-12 — 2026-09-13 <span class="hn-row-sep">·</span> 298 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W37'>
@@ -566,19 +575,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/12/top_stories_09122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>98</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-11 <span class='hn-day-weekday'>Fri</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/11/best_stories_09112026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Science <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/11/top_stories_09112026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
