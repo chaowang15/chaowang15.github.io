@@ -4,64 +4,228 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 41,
-    "new_llm_enriched": 9,
-    "scrape_time_display": "01:47, October 13, 2026 (PDT)",
+    "count_written": 66,
+    "reused_same_day": 34,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 16,
+    "scrape_time_display": "06:57, October 13, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/13",
     "content_date": "2026-10-13",
-    "run_time_local": "01:47, October 13, 2026 (PDT)",
-    "run_time_utc": "2026-10-13 08:47:52 UTC",
+    "run_time_local": "06:57, October 13, 2026 (PDT)",
+    "run_time_utc": "2026-10-13 13:57:16 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-13 08:48:33 UTC"
+    "hot_score_time_utc": "2026-10-13 13:58:17 UTC"
   },
   "items": [
     {
-      "title_en": "AI models can provably hide arbitrary capabilities",
-      "url": "https://arxiv.org/abs/2610.13928",
-      "title_zh": "AI 模型可被证明隐藏任意能力",
-      "created_display": "Created: Oct 12, 2026 / 19:07 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Researchers show that AI models can provably conceal arbitrary capabilities, undermining safety evaluations that rely on probing for dangerous behaviors. The result formalizes a worst‑case scenario where a model can hide malicious or sensitive behaviors unless comprehensive testing covers all prompts and contexts. The finding underscores the need for robust evaluation and red‑teaming methods beyond surface‑level checks.",
-      "summary_zh": "研究表明，AI 模型在理论上可以证明性地隐藏任意能力，从而削弱基于探测的安全评估。研究给出一个最坏情形的框架：若测试覆盖的提示和情境不全，模型就可能隐藏恶意或敏感行为。此发现强调需要比表层测试更健全的评估与红队方法。",
+      "title_en": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "title_zh": "Rust 借用检查器揭露11年前的不健全性漏洞",
+      "created_display": "Created: Oct 13, 2026 / 03:27 PT",
+      "image_url": "https://opengraph.githubassets.com/fe8008382407d6e93a041f1acbbbf6e11006c29cd139f134de4e5a810647bb3c/rust-lang/rust/issues/164250",
+      "summary_en": "A set of unsoundness bugs in Rust's borrow checker, dating back 11 years, has been uncovered. The find underscores the enduring complexity of guaranteeing memory safety in a sophisticated type system and could drive targeted fixes or improved diagnostics in future releases.",
+      "summary_zh": "揭示了 Rust 的借用检查器中存在的11年前的不健全性漏洞，凸显在复杂类型系统中长期保持内存安全的挑战。此发现可能推动针对性修复与改进诊断能力，影响未来版本的安全性保障。",
       "hn": {
-        "id": 50065692,
+        "id": 50069499,
         "type": "story",
-        "by": "sbulaev",
-        "score": 195,
-        "descendants": 104,
-        "time": 1791857228,
-        "comments_url": "https://news.ycombinator.com/item?id=50065692"
+        "by": "formerly_proven",
+        "score": 347,
+        "descendants": 173,
+        "time": 1791887220,
+        "comments_url": "https://news.ycombinator.com/item?id=50069499"
       },
-      "hot_score": 3.96,
+      "hot_score": 15.97,
       "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Apple HomeView",
+      "url": "https://www.apple.com/apple-homeview/",
+      "title_zh": "Apple HomeView（苹果家庭视图）",
+      "created_display": "Created: Oct 13, 2026 / 06:02 PT",
+      "image_url": "https://www.apple.com/v/apple-homeview/a/images/meta/apple-homeview__lk7n65hb6bm2_og.png?202610121723",
+      "summary_en": "Apple announces HomeView, a new feature aimed at simplifying how users view and control smart devices in the home. It underscores Apple's continuing effort to deepen the Home ecosystem with privacy-conscious design and tighter device interoperability.",
+      "summary_zh": "苹果宣布了 HomeView，旨在简化家庭中智能设备的查看与控制。此举体现苹果继续扩展家居生态的决心，强调隐私设计与设备互操作性的提升。",
+      "hn": {
+        "id": 50071017,
+        "type": "story",
+        "by": "etothet",
+        "score": 103,
+        "descendants": 114,
+        "time": 1791896532,
+        "comments_url": "https://news.ycombinator.com/item?id=50071017"
+      },
+      "hot_score": 14.69,
+      "tags": [
+        "Design",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Mozilla Introduces Firefox Enterprise",
+      "url": "https://www.firefox.com/en-US/enterprise/",
+      "title_zh": "Mozilla 推出 Firefox 企业版",
+      "created_display": "Created: Oct 13, 2026 / 05:00 PT",
+      "image_url": "https://www.firefox.com/media/img/firefox/flare/og.4d50d9b1674b.png",
+      "summary_en": "Mozilla launches Firefox Enterprise, a business-focused distribution with centralized deployment, policy controls, and enterprise-friendly features. The move broadens Firefox's appeal in corporate IT, as organizations seek privacy-first browsers with managed configurations.",
+      "summary_zh": "Mozilla 推出面向企业的 Firefox Enterprise，提供集中部署、策略控制和面向企业的安全特性，便于 IT 管理。此举有助于 Firefox 在企业环境中的竞争力，满足组织对隐私与可控配置的需求。",
+      "hn": {
+        "id": 50070302,
+        "type": "story",
+        "by": "recvonline",
+        "score": 161,
+        "descendants": 79,
+        "time": 1791892842,
+        "comments_url": "https://news.ycombinator.com/item?id=50070302"
+      },
+      "hot_score": 13.44,
+      "tags": [
+        "Business",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "An hour of audio transcribed in about 13s on MacBook Air",
+      "url": "https://eg2.haku.sh/",
+      "title_zh": "在 MacBook Air 上一小时音频约13秒完成转写",
+      "created_display": "Created: Oct 13, 2026 / 04:27 PT",
+      "image_url": "https://eg2.haku.sh/speed-table.png",
+      "summary_en": "On-device transcription achieves an hour-long audio in about 13 seconds on a MacBook Air, showcasing impressive on-device AI capabilities. This underscores how optimized models and hardware acceleration can deliver near real-time transcription with strong privacy benefits.",
+      "summary_zh": "在 MacBook Air 上，单机端将一小时音频转写约13秒，展现了惊人的本地 AI 能力。此举强调了经过优化的模型与硬件加速在提供近实时转写的同时，提升隐私保护与数据本地化的优势。",
+      "hn": {
+        "id": 50069971,
+        "type": "story",
+        "by": "amrrs",
+        "score": 177,
+        "descendants": 47,
+        "time": 1791890834,
+        "comments_url": "https://news.ycombinator.com/item?id=50069971"
+      },
+      "hot_score": 11.66,
+      "tags": [
+        "AI",
+        "Privacy",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+      "url": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran",
+      "title_zh": "CFTC 员工被要求撤回对可疑石油交易分析",
+      "created_display": "Created: Oct 13, 2026 / 03:08 PT",
+      "image_url": null,
+      "summary_en": "Regulatory staff were instructed to retract analysis of suspicious oil trades, suggesting external pressure influencing enforcement work. The episode highlights concerns about independence and transparency in market surveillance and regulatory credibility.",
+      "summary_zh": "据报道，美国商品期货交易委员会的工作人员被指示撤回对可疑石油交易的分析，显示监管工作可能受到外部压力的影响。此事引发对执法独立性、透明度与市场监管可信度的担忧。",
+      "hn": {
+        "id": 50069329,
+        "type": "story",
+        "by": "helsinkiandrew",
+        "score": 217,
+        "descendants": 90,
+        "time": 1791886080,
+        "comments_url": "https://news.ycombinator.com/item?id=50069329"
+      },
+      "hot_score": 9.02,
+      "tags": [
+        "Politics",
+        "Legal",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Character.ai Files for Bankruptcy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "title_zh": "Character.ai 申请破产",
+      "created_display": "Created: Oct 13, 2026 / 04:24 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "summary_en": "Character.ai has filed for bankruptcy, signaling a formal restructuring and potential shifts in product strategy, staffing, or asset disposition as the company navigates financial challenges.",
+      "summary_zh": "Character.ai 已提交破产申请，标志着正式的重组与可能的产品策略、人员调整或资产处置等变化，公司正应对财政挑战。",
+      "hn": {
+        "id": 50069942,
+        "type": "story",
+        "by": "yanis_t",
+        "score": 106,
+        "descendants": 70,
+        "time": 1791890648,
+        "comments_url": "https://news.ycombinator.com/item?id=50069942"
+      },
+      "hot_score": 6.82,
+      "tags": [
+        "Business",
+        "Startups",
         "AI"
       ]
     },
     {
-      "title_en": "Denmark set to allow return of 'physical force' in school",
-      "url": "https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
-      "title_zh": "丹麦拟允许在学校使用“体罚”以维持秩序",
-      "created_display": "Created: Oct 12, 2026 / 23:27 PT",
-      "image_url": "https://www.lemonde.fr/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg",
-      "summary_en": "Denmark is set to reintroduce the option of physical discipline in schools to maintain order. The move prompts debate over student rights and teacher authority, with potential implications for safety, well-being, and educational outcomes. The decision highlights how cultural norms around discipline intersect with modern education policy.",
-      "summary_zh": "丹麦 将在学校重新允许使用体罚以维持秩序，引发关于学生权利与教师权威的辩论，关系到安全、福祉与教育成果。此举也暴露出不同文化对纪律的认知差异及其对教育政策的潜在影响。",
+      "title_en": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "title_zh": "苹果的随从：利用闲置 Apple Silicon Macs 构建的虚拟 GPU 云",
+      "created_display": "Created: Oct 13, 2026 / 05:26 PT",
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "summary_en": "Apple showcases a distributed, virtual GPU cloud powered by idle Apple Silicon Macs, turning a fleet of consumer devices into a shared compute resource. This approach could lower barriers for researchers and developers needing GPU capacity, while raising questions about management, performance consistency, and privacy across a heterogeneous pool.",
+      "summary_zh": "苹果展示了一个由空闲的 Apple Silicon Macs 汇聚而成的分布式虚拟 GPU 云，将普通消费者设备变成共享计算资源。此举可能降低研究者和开发者获取 GPU 资源的门槛，同时引发关于管理、性能一致性和跨异构设备的隐私等方面的讨论。",
       "hn": {
-        "id": 50067570,
+        "id": 50070593,
         "type": "story",
-        "by": "janisz",
-        "score": 56,
-        "descendants": 33,
-        "time": 1791872823,
-        "comments_url": "https://news.ycombinator.com/item?id=50067570"
+        "by": "acossta",
+        "score": 59,
+        "descendants": 18,
+        "time": 1791894396,
+        "comments_url": "https://news.ycombinator.com/item?id=50070593"
       },
-      "hot_score": 3.89,
+      "hot_score": 6.0,
       "tags": [
-        "Education",
-        "Politics"
+        "Hardware",
+        "DevOps",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "title_zh": "Show HN：用 OpenAI 订阅来制作有声书",
+      "created_display": "Created: Oct 13, 2026 / 03:08 PT",
+      "image_url": "https://pdftomp3.com/og-pdf-to-mp3.png",
+      "summary_en": "A practical project demonstrates turning books into audiobooks using an OpenAI subscription, automating narration, text-to-speech, and pacing. It illustrates how consumer AI tools can accelerate content production and enable creators to monetize or repurpose texts.",
+      "summary_zh": "一个实用项目展示了利用 OpenAI 订阅将文本转化为有声书的全过程，自动化讲述、文本转语音和节奏控制等环节。此举彰显普通 AI 工具在内容创作与再利用上的潜力，同时也带来关于版权与合规的讨论。",
+      "hn": {
+        "id": 50069337,
+        "type": "story",
+        "by": "janpmz",
+        "score": 88,
+        "descendants": 49,
+        "time": 1791886114,
+        "comments_url": "https://news.ycombinator.com/item?id=50069337"
+      },
+      "hot_score": 3.64,
+      "tags": [
+        "Show HN",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Hittite royal archive found in Turkey",
+      "url": "https://www.thehistoryblog.com/archives/77107",
+      "title_zh": "土耳其发现的赫梯王室档案",
+      "created_display": "Created: Oct 12, 2026 / 23:02 PT",
+      "image_url": "https://www.thehistoryblog.com/wp-content/uploads/2023/01/mygravatar.png",
+      "summary_en": "Archaeologists uncovered a royal archive from the Hittite civilization in Turkey, revealing tablets and inscriptions that illuminate ancient governance, diplomacy, and daily life. The find could reshape understanding of Bronze Age Anatolia and offer new data for linguistics and history.",
+      "summary_zh": "考古学家在土耳其发现了赫梯王朝的皇家档案，出土的泥板与铭文有助于揭示当时的统治、外交与日常生活。此发现可能重塑对安纳托利亚青铜时代的认识，并为语言学和历史学提供新材料。",
+      "hn": {
+        "id": 50067414,
+        "type": "story",
+        "by": "benbreen",
+        "score": 182,
+        "descendants": 37,
+        "time": 1791871371,
+        "comments_url": "https://news.ycombinator.com/item?id=50067414"
+      },
+      "hot_score": 2.91,
+      "tags": [
+        "Science"
       ]
     },
     {
@@ -76,15 +240,62 @@
         "id": 50063427,
         "type": "story",
         "by": "layer8",
-        "score": 392,
-        "descendants": 313,
+        "score": 485,
+        "descendants": 393,
         "time": 1791841218,
         "comments_url": "https://news.ycombinator.com/item?id=50063427"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 3.79
+      "hot_score": 2.58
+    },
+    {
+      "title_en": "AWS Lambda Web Functions",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "title_zh": "AWS Lambda Web Functions 发布",
+      "created_display": "Created: Oct 13, 2026 / 03:07 PT",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/09/01979_AWS_Lambda_Web_Functions-horizontal-1-1120x630.png",
+      "summary_en": "AWS announces Lambda Web Functions, enabling fast, consistent web app performance from anywhere by running web workloads inside Lambda. This could simplify serverless web architectures and broaden edge-ready deployment options.",
+      "summary_zh": "AWS 宣布推出 Lambda Web Functions，使网页工作负载在 Lambda 中运行，从而在任何地点实现快速且一致的网页应用性能。这可能简化无服务器网页架构并扩展就绪边缘部署的选项。",
+      "hn": {
+        "id": 50069318,
+        "type": "story",
+        "by": "HatchedLake721",
+        "score": 63,
+        "descendants": 47,
+        "time": 1791886023,
+        "comments_url": "https://news.ycombinator.com/item?id=50069318"
+      },
+      "hot_score": 2.58,
+      "tags": [
+        "Web",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Crypto thieves sell hardware wallets with secret eSIM",
+      "url": "https://www.heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
+      "title_zh": "加密盗贼售卖带有秘密 eSIM 的硬件钱包",
+      "created_display": "Created: Oct 13, 2026 / 01:34 PT",
+      "image_url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/8/1/2/7/4/shutterstock_1024243558-b3f662aaa6c2c616.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+      "summary_en": "Criminals are reportedly selling hardware wallets with a secret eSIM, enabling covert connectivity and control. The development highlights evolving attack vectors in crypto security and the need for trusted supply chains.",
+      "summary_zh": "据报道，犯罪分子在市场上售卖内置秘密 eSIM 的硬件钱包，可能实现隐蔽连网与控制。这一趋势暴露了加密安全领域攻击手段的演变以及对供应链信任的挑战。",
+      "hn": {
+        "id": 50068508,
+        "type": "story",
+        "by": "qwertox",
+        "score": 94,
+        "descendants": 67,
+        "time": 1791880452,
+        "comments_url": "https://news.ycombinator.com/item?id=50068508"
+      },
+      "hot_score": 2.53,
+      "tags": [
+        "Security",
+        "Privacy",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Codex CLI installs a persistent, self-updating background daemon by default",
@@ -98,8 +309,8 @@
         "id": 50060694,
         "type": "story",
         "by": "whimblepop",
-        "score": 550,
-        "descendants": 272,
+        "score": 581,
+        "descendants": 279,
         "time": 1791829744,
         "comments_url": "https://news.ycombinator.com/item?id=50060694"
       },
@@ -107,7 +318,7 @@
         "Programming",
         "Security"
       ],
-      "hot_score": 3.6
+      "hot_score": 2.32
     },
     {
       "title_en": "Muse Wonder",
@@ -121,39 +332,39 @@
         "id": 50059115,
         "type": "story",
         "by": "meetpateltech",
-        "score": 625,
-        "descendants": 330,
+        "score": 648,
+        "descendants": 356,
         "time": 1791823681,
         "comments_url": "https://news.ycombinator.com/item?id=50059115"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Science"
       ],
-      "hot_score": 3.43
+      "hot_score": 2.26
     },
     {
-      "title_en": "A look at the math that OpenAI claims computes faster Fourier transforms",
-      "url": "https://www.argmin.net/p/faster-fourier-transforms",
-      "title_zh": "看 OpenAI 声称加速傅里叶变换的数学原理",
-      "created_display": "Created: Oct 12, 2026 / 19:46 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!1mN7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f0c6088-ce61-4802-ac3f-c8bc4060a05a_840x599.jpeg",
-      "summary_en": "OpenAI reportedly has a mathematical approach that can compute Fourier transforms faster than conventional FFTs. The idea could reduce compute for large-scale AI tasks and signal-processing workloads, but its value will depend on numerical stability and practical implementation. If proven robust, it could influence future libraries and hardware optimizations.",
-      "summary_zh": "OpenAI 提出一种据称能更快计算傅里叶变换的数学方法，潜在地降低大规模 AI 与信号处理任务的计算成本。效果取决于数值稳定性与实际实现的可行性。若证实稳健，可能推动相关库和硬件优化的改进。",
+      "title_en": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "title_zh": "AI 模型可被证明隐藏任意能力",
+      "created_display": "Created: Oct 12, 2026 / 19:07 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Researchers show that AI models can provably conceal arbitrary capabilities, undermining safety evaluations that rely on probing for dangerous behaviors. The result formalizes a worst‑case scenario where a model can hide malicious or sensitive behaviors unless comprehensive testing covers all prompts and contexts. The finding underscores the need for robust evaluation and red‑teaming methods beyond surface‑level checks.",
+      "summary_zh": "研究表明，AI 模型在理论上可以证明性地隐藏任意能力，从而削弱基于探测的安全评估。研究给出一个最坏情形的框架：若测试覆盖的提示和情境不全，模型就可能隐藏恶意或敏感行为。此发现强调需要比表层测试更健全的评估与红队方法。",
       "hn": {
-        "id": 50065932,
+        "id": 50065692,
         "type": "story",
-        "by": "mochomocha",
-        "score": 123,
-        "descendants": 83,
-        "time": 1791859603,
-        "comments_url": "https://news.ycombinator.com/item?id=50065932"
+        "by": "sbulaev",
+        "score": 245,
+        "descendants": 115,
+        "time": 1791857228,
+        "comments_url": "https://news.ycombinator.com/item?id=50065692"
       },
-      "hot_score": 2.87,
       "tags": [
         "AI",
-        "Science",
-        "Hardware"
-      ]
+        "Security"
+      ],
+      "hot_score": 2.15
     },
     {
       "title_en": "A Modern Web App in C",
@@ -167,8 +378,8 @@
         "id": 50058528,
         "type": "story",
         "by": "prophittcorey",
-        "score": 547,
-        "descendants": 227,
+        "score": 632,
+        "descendants": 277,
         "time": 1791821590,
         "comments_url": "https://news.ycombinator.com/item?id=50058528"
       },
@@ -176,7 +387,7 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 2.83
+      "hot_score": 2.11
     },
     {
       "title_en": "GLM-Legal",
@@ -190,15 +401,15 @@
         "id": 50058507,
         "type": "story",
         "by": "ilreb",
-        "score": 546,
-        "descendants": 312,
+        "score": 616,
+        "descendants": 342,
         "time": 1791821505,
         "comments_url": "https://news.ycombinator.com/item?id=50058507"
       },
       "tags": [
         "Legal"
       ],
-      "hot_score": 2.82
+      "hot_score": 2.05
     },
     {
       "title_en": "Hackers activate automatic defrosting in supermarket fridges across Europe",
@@ -212,38 +423,85 @@
         "id": 50055304,
         "type": "story",
         "by": "Zeekaas",
-        "score": 672,
-        "descendants": 798,
+        "score": 790,
+        "descendants": 910,
         "time": 1791807402,
         "comments_url": "https://news.ycombinator.com/item?id=50055304"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 2.46
+      "hot_score": 2.0
     },
     {
-      "title_en": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-      "url": "https://doi.org/10.1111/acel.70751",
-      "title_zh": "80岁捐献者血细胞分子年龄重设为低于20岁水平",
-      "created_display": "Created: Oct 12, 2026 / 16:34 PT",
-      "image_url": null,
-      "summary_en": "Researchers converted blood cells from an 80-year-old donor into stem-cell like cells whose molecular aging markers register younger than 20. The finding suggests cellular rejuvenation is possible in aged human cells, with potential for autologous regenerative therapies, though clinical translation remains distant.",
-      "summary_zh": "研究者将80岁捐献者的血细胞转化为干细胞样细胞，其分子年龄标记显示低于20岁。这表明对衰老细胞的年龄重置或许为个体化再生疗法提供方向，但临床落地仍需时日。",
+      "title_en": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+      "url": "https://github.com/composo-ai/DishwasherBench",
+      "title_zh": "DishwasherBench：前沿模型能否堆叠一个洗碗机？",
+      "created_display": "Created: Oct 13, 2026 / 01:24 PT",
+      "image_url": "https://opengraph.githubassets.com/f1a2013b82604e24228b4d5e35ba87abc63e0fc7a201ed5e463eeb43a2a85f7a/composo-ai/DishwasherBench",
+      "summary_en": "DishwasherBench examines whether frontier AI models can interact with and control a real-world appliance like a dishwasher. The project highlights the practical hurdles of getting agents to bridge software planning with hardware actuation.",
+      "summary_zh": "DishwasherBench 探索前沿 AI 模型是否能与现实设备（如洗碗机）交互并执行控制。该项目揭示了让智能体将软件规划转化为硬件执行所面临的实际难题。",
       "hn": {
-        "id": 50064536,
+        "id": 50068437,
         "type": "story",
-        "by": "arunc",
-        "score": 155,
-        "descendants": 102,
-        "time": 1791848062,
-        "comments_url": "https://news.ycombinator.com/item?id=50064536"
+        "by": "mlukewizard",
+        "score": 72,
+        "descendants": 41,
+        "time": 1791879846,
+        "comments_url": "https://news.ycombinator.com/item?id=50068437"
+      },
+      "hot_score": 1.86,
+      "tags": [
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "title_zh": "看 OpenAI 声称加速傅里叶变换的数学原理",
+      "created_display": "Created: Oct 12, 2026 / 19:46 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!1mN7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f0c6088-ce61-4802-ac3f-c8bc4060a05a_840x599.jpeg",
+      "summary_en": "OpenAI reportedly has a mathematical approach that can compute Fourier transforms faster than conventional FFTs. The idea could reduce compute for large-scale AI tasks and signal-processing workloads, but its value will depend on numerical stability and practical implementation. If proven robust, it could influence future libraries and hardware optimizations.",
+      "summary_zh": "OpenAI 提出一种据称能更快计算傅里叶变换的数学方法，潜在地降低大规模 AI 与信号处理任务的计算成本。效果取决于数值稳定性与实际实现的可行性。若证实稳健，可能推动相关库和硬件优化的改进。",
+      "hn": {
+        "id": 50065932,
+        "type": "story",
+        "by": "mochomocha",
+        "score": 192,
+        "descendants": 124,
+        "time": 1791859603,
+        "comments_url": "https://news.ycombinator.com/item?id=50065932"
       },
       "tags": [
         "Science",
-        "Health"
+        "AI",
+        "Hardware"
       ],
-      "hot_score": 1.98
+      "hot_score": 1.84
+    },
+    {
+      "title_en": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "title_zh": "英特尔 D270 GPU AI 加速器：最高 480 GB LPDDR5X",
+      "created_display": "Created: Oct 12, 2026 / 14:35 PT",
+      "image_url": "https://www.intel.com/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/printlogo.png",
+      "summary_en": "Intel unveils the D270 GPU AI accelerator with up to 480 GB LPDDR5X memory, targeting data-center AI workloads. The large memory footprint aims to boost large-model inference and training throughput, intensifying competition in AI hardware.",
+      "summary_zh": "英特尔发布 D270 GPU AI 加速器，最高搭载 480 GB LPDDR5X 内存，面向数据中心的 AI 推理与训练工作负载。巨量内存有望提升大模型的吞吐量，与英伟达等厂商的竞争进一步加剧。",
+      "hn": {
+        "id": 50063365,
+        "type": "story",
+        "by": "hurricanepootis",
+        "score": 269,
+        "descendants": 140,
+        "time": 1791840935,
+        "comments_url": "https://news.ycombinator.com/item?id=50063365"
+      },
+      "tags": [
+        "Hardware",
+        "AI"
+      ],
+      "hot_score": 1.42
     },
     {
       "title_en": "AI coding agents generate more code, but not more software",
@@ -266,30 +524,7 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 1.91
-    },
-    {
-      "title_en": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "title_zh": "英特尔 D270 GPU AI 加速器：最高 480 GB LPDDR5X",
-      "created_display": "Created: Oct 12, 2026 / 14:35 PT",
-      "image_url": "https://www.intel.com/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/printlogo.png",
-      "summary_en": "Intel unveils the D270 GPU AI accelerator with up to 480 GB LPDDR5X memory, targeting data-center AI workloads. The large memory footprint aims to boost large-model inference and training throughput, intensifying competition in AI hardware.",
-      "summary_zh": "英特尔发布 D270 GPU AI 加速器，最高搭载 480 GB LPDDR5X 内存，面向数据中心的 AI 推理与训练工作负载。巨量内存有望提升大模型的吞吐量，与英伟达等厂商的竞争进一步加剧。",
-      "hn": {
-        "id": 50063365,
-        "type": "story",
-        "by": "hurricanepootis",
-        "score": 190,
-        "descendants": 98,
-        "time": 1791840935,
-        "comments_url": "https://news.ycombinator.com/item?id=50063365"
-      },
-      "tags": [
-        "Hardware",
-        "AI"
-      ],
-      "hot_score": 1.81
+      "hot_score": 1.2
     },
     {
       "title_en": "Who is vfmaddrnd231pd?",
@@ -303,15 +538,60 @@
         "id": 50063138,
         "type": "story",
         "by": "pngmangi",
-        "score": 193,
-        "descendants": 19,
+        "score": 233,
+        "descendants": 21,
         "time": 1791839563,
         "comments_url": "https://news.ycombinator.com/item?id=50063138"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 1.75
+      "hot_score": 1.18
+    },
+    {
+      "title_en": "Thinking will become a hobby",
+      "url": "https://www.spinellis.gr/blog/20261008/?li261008",
+      "title_zh": "思考将成为一种爱好",
+      "created_display": "Created: Oct 12, 2026 / 09:54 PT",
+      "image_url": "https://www.spinellis.gr/images/dds-logo.png",
+      "summary_en": "With AI taking over much routine reasoning, thinking might become a hobby rather than everyday work, the post argues. It encourages deliberate practice of critical thinking, problem framing, and creative exploration to stay valuable.",
+      "summary_zh": "随着 AI 接管大量常规推理，思考可能从日常工作转变为一种爱好。文章鼓励有意识地练习批判性思维、问题框定与创造性探索，以保持自身价值。",
+      "hn": {
+        "id": 50059204,
+        "type": "story",
+        "by": "pranitha_m",
+        "score": 311,
+        "descendants": 426,
+        "time": 1791824048,
+        "comments_url": "https://news.ycombinator.com/item?id=50059204"
+      },
+      "tags": [
+        "AI",
+        "Education"
+      ],
+      "hot_score": 1.09
+    },
+    {
+      "title_en": "Making big downloads resumable in Firefox",
+      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "title_zh": "在 Firefox 中实现大文件断点续传",
+      "created_display": "Created: Oct 12, 2026 / 12:36 PT",
+      "image_url": "https://lunarwatcher.codeberg.page/assets/profile.png",
+      "summary_en": "Describes how Firefox enables resumable downloads for large files, including range requests, server support, and resilience against network interruptions. The piece notes implications for download managers and server configurations.",
+      "summary_zh": "介绍 Firefox 如何实现大文件的断点续传，涵盖区间请求、服务器支持与对网络中断的鲁棒性。并讨论对下载管理工具与服务器配置的影响。",
+      "hn": {
+        "id": 50061791,
+        "type": "story",
+        "by": "speckx",
+        "score": 244,
+        "descendants": 119,
+        "time": 1791833762,
+        "comments_url": "https://news.ycombinator.com/item?id=50061791"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 1.07
     },
     {
       "title_en": "'AI' Is Not a Tool by Rich Hickey",
@@ -331,101 +611,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=50060269"
       },
       "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 1.65
-    },
-    {
-      "title_en": "The Dock on Mac, from OS 10 to macOS 27",
-      "url": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
-      "title_zh": "Mac 的 Dock：从 OS 10 到 macOS 27 的演变",
-      "created_display": "Created: Oct 12, 2026 / 19:09 PT",
-      "image_url": "https://cdn.jim-nielsen.com/blog/2026/macos-dock-history.jpg",
-      "summary_en": "An overview of how the Mac Dock has evolved from OS X through macOS 27, tracing changes in iconography, spacing, and interaction. The post notes how design priorities shifted toward clarity, theming, and performance, and what that means for developers and workflows today. It also shows how small UI tweaks can ripple across the platform's ecosystem.",
-      "summary_zh": "本文回顾从 OS X 到 macOS 27，Mac Dock 在图标、间距和交互等方面的演变。作者指出设计重点从美观转向清晰度、主题感与性能等方面的取舍，以及这些变化对开发者和工作流的影响。",
-      "hn": {
-        "id": 50065713,
-        "type": "story",
-        "by": "soheilpro",
-        "score": 78,
-        "descendants": 45,
-        "time": 1791857359,
-        "comments_url": "https://news.ycombinator.com/item?id=50065713"
-      },
-      "hot_score": 1.58,
-      "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Thinking will become a hobby",
-      "url": "https://www.spinellis.gr/blog/20261008/?li261008",
-      "title_zh": "思考将成为一种爱好",
-      "created_display": "Created: Oct 12, 2026 / 09:54 PT",
-      "image_url": "https://www.spinellis.gr/images/dds-logo.png",
-      "summary_en": "With AI taking over much routine reasoning, thinking might become a hobby rather than everyday work, the post argues. It encourages deliberate practice of critical thinking, problem framing, and creative exploration to stay valuable.",
-      "summary_zh": "随着 AI 接管大量常规推理，思考可能从日常工作转变为一种爱好。文章鼓励有意识地练习批判性思维、问题框定与创造性探索，以保持自身价值。",
-      "hn": {
-        "id": 50059204,
-        "type": "story",
-        "by": "pranitha_m",
-        "score": 279,
-        "descendants": 396,
-        "time": 1791824048,
-        "comments_url": "https://news.ycombinator.com/item?id=50059204"
-      },
-      "tags": [
-        "Culture",
         "AI"
       ],
-      "hot_score": 1.54
-    },
-    {
-      "title_en": "Vi Hart's Big Navier-Stokes Post",
-      "url": "https://www.patreon.com/vihart/posts/vi-harts-big-171939430",
-      "title_zh": "Vi Hart 的 Navier–Stokes 大作",
-      "created_display": "Created: Oct 12, 2026 / 22:22 PT",
-      "image_url": null,
-      "summary_en": "Vi Hart publishes a long form exploration of the Navier–Stokes equations, offering intuitive explanations of fluid dynamics and turbulence. The piece combines visuals and math to make PDEs accessible, illustrating why this area remains central to both science and computation. It's a resource for educators and curious technologists alike.",
-      "summary_zh": "Vi Hart 发布了关于 Navier–Stokes 方程的长文，提供对流体动力学与湍流的直观解释。文章结合可视化与数学推导，让偏微分方程的核心思想更易理解，凸显此领域在科学与计算中的重要性。对教育工作者和技术爱好者都具有参考价值。",
-      "hn": {
-        "id": 50067098,
-        "type": "story",
-        "by": "signa11",
-        "score": 32,
-        "descendants": 18,
-        "time": 1791868948,
-        "comments_url": "https://news.ycombinator.com/item?id=50067098"
-      },
-      "hot_score": 1.47,
-      "tags": [
-        "Science",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "Making big downloads resumable in Firefox",
-      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
-      "title_zh": "在 Firefox 中实现大文件断点续传",
-      "created_display": "Created: Oct 12, 2026 / 12:36 PT",
-      "image_url": "https://lunarwatcher.codeberg.page/assets/profile.png",
-      "summary_en": "Describes how Firefox enables resumable downloads for large files, including range requests, server support, and resilience against network interruptions. The piece notes implications for download managers and server configurations.",
-      "summary_zh": "介绍 Firefox 如何实现大文件的断点续传，涵盖区间请求、服务器支持与对网络中断的鲁棒性。并讨论对下载管理工具与服务器配置的影响。",
-      "hn": {
-        "id": 50061791,
-        "type": "story",
-        "by": "speckx",
-        "score": 193,
-        "descendants": 82,
-        "time": 1791833762,
-        "comments_url": "https://news.ycombinator.com/item?id=50061791"
-      },
-      "tags": [
-        "Programming",
-        "Web"
-      ],
-      "hot_score": 1.43
+      "hot_score": 1.02
     },
     {
       "title_en": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
@@ -439,17 +627,63 @@
         "id": 50063717,
         "type": "story",
         "by": "khalidkhair",
-        "score": 129,
-        "descendants": 41,
+        "score": 184,
+        "descendants": 67,
         "time": 1791842743,
         "comments_url": "https://news.ycombinator.com/item?id=50063717"
       },
       "tags": [
         "AI",
-        "Programming",
         "Hardware"
       ],
-      "hot_score": 1.32
+      "hot_score": 1.02
+    },
+    {
+      "title_en": "Character.ai files for Chapter 11 bankruptcy",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "title_zh": "Character.ai 进入第11章破产程序",
+      "created_display": "Created: Oct 13, 2026 / 00:28 PT",
+      "image_url": "https://storage.ghost.io/c/ad/34/ad34888f-5b63-4d5f-a358-18cf16489b83/content/images/size/w1200/2026/10/oct-blog-header.jpg",
+      "summary_en": "Character.ai has filed for Chapter 11 bankruptcy, signaling a formal reorganization while continuing operations. The move could affect users, creditors, and the company’s roadmap as it navigates restructuring.",
+      "summary_zh": "Character.ai 已进入第11章破产程序，开启正式的重组过程，同时继续运营。此举可能影响用户、债权人以及公司在重组期间的路线图与发展规划。",
+      "hn": {
+        "id": 50068036,
+        "type": "story",
+        "by": "nryoo",
+        "score": 49,
+        "descendants": 15,
+        "time": 1791876514,
+        "comments_url": "https://news.ycombinator.com/item?id=50068036"
+      },
+      "hot_score": 1.02,
+      "tags": [
+        "Business",
+        "Finance",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+      "url": "https://doi.org/10.1111/acel.70751",
+      "title_zh": "80岁捐献者血细胞分子年龄重设为低于20岁水平",
+      "created_display": "Created: Oct 12, 2026 / 16:34 PT",
+      "image_url": null,
+      "summary_en": "Researchers converted blood cells from an 80-year-old donor into stem-cell like cells whose molecular aging markers register younger than 20. The finding suggests cellular rejuvenation is possible in aged human cells, with potential for autologous regenerative therapies, though clinical translation remains distant.",
+      "summary_zh": "研究者将80岁捐献者的血细胞转化为干细胞样细胞，其分子年龄标记显示低于20岁。这表明对衰老细胞的年龄重置或许为个体化再生疗法提供方向，但临床落地仍需时日。",
+      "hn": {
+        "id": 50064536,
+        "type": "story",
+        "by": "arunc",
+        "score": 155,
+        "descendants": 102,
+        "time": 1791848062,
+        "comments_url": "https://news.ycombinator.com/item?id=50064536"
+      },
+      "tags": [
+        "Science",
+        "Health"
+      ],
+      "hot_score": 1.0
     },
     {
       "title_en": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
@@ -463,8 +697,8 @@
         "id": 50055593,
         "type": "story",
         "by": "djfergus",
-        "score": 341,
-        "descendants": 90,
+        "score": 383,
+        "descendants": 104,
         "time": 1791808918,
         "comments_url": "https://news.ycombinator.com/item?id=50055593"
       },
@@ -472,54 +706,30 @@
         "Hardware",
         "Programming"
       ],
-      "hot_score": 1.29
+      "hot_score": 0.99
     },
     {
-      "title_en": "QGIS enacts moratorium on AI contributions",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "title_zh": "QGIS 对 AI 贡献实施暂停",
-      "created_display": "Created: Oct 12, 2026 / 04:22 PT",
-      "image_url": "https://opengraph.githubassets.com/ecd8d0f901eee0f806d831e96afb55ccec8a03b57832f9afe745d5fb8238f56c/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "summary_en": "QGIS has enacted a moratorium on accepting AI-generated contributions while governance and licensing concerns are assessed. The move signals open-source communities grappling with risk and quality control as AI tooling becomes more integrated. It may slow AI-assisted features in the GIS project but could set precedent for other OSS projects.",
-      "summary_zh": "QGIS 已暂停接受基于 AI 的贡献，原因在于对许可证、质量和滥用风险的担忧。此举显示开源社区在 AI 工具日益整合的环境下面临的风险与质量控制挑战，可能放慢该 GIS 项目中 AI 助力的功能部署，但也可能为其他开源项目树立先例。",
+      "title_en": "Denmark set to allow return of 'physical force' in school",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
+      "title_zh": "丹麦拟允许在学校使用“体罚”以维持秩序",
+      "created_display": "Created: Oct 12, 2026 / 23:27 PT",
+      "image_url": "https://www.lemonde.fr/_fs-ch-1T1wmsGaOgGaSxcX/assets/errorIcon.svg",
+      "summary_en": "Denmark is set to reintroduce the option of physical discipline in schools to maintain order. The move prompts debate over student rights and teacher authority, with potential implications for safety, well-being, and educational outcomes. The decision highlights how cultural norms around discipline intersect with modern education policy.",
+      "summary_zh": "丹麦 将在学校重新允许使用体罚以维持秩序，引发关于学生权利与教师权威的辩论，关系到安全、福祉与教育成果。此举也暴露出不同文化对纪律的认知差异及其对教育政策的潜在影响。",
       "hn": {
-        "id": 50054751,
+        "id": 50067570,
         "type": "story",
-        "by": "bwnkl",
-        "score": 374,
-        "descendants": 402,
-        "time": 1791804144,
-        "comments_url": "https://news.ycombinator.com/item?id=50054751"
-      },
-      "tags": [
-        "Open Source",
-        "AI"
-      ],
-      "hot_score": 1.28
-    },
-    {
-      "title_en": "Phreak.ing – Internet Phone Switch",
-      "url": "https://phreak.ing/",
-      "title_zh": "Phreak.ing：互联网电话交换机",
-      "created_display": "Created: Oct 12, 2026 / 14:39 PT",
-      "image_url": "https://phreak.ing/static/og.png",
-      "summary_en": "Phreak.ing documents an internet phone switch project, focusing on routing calls, signaling compatibility, and control features in a software-defined telephony stack. It raises questions about design choices, openness, and security in modern VoIP infrastructure.",
-      "summary_zh": "Phreak.ing 描述一个互联网电话交换机项目，聚焦消息路由、信令兼容性以及软件定义电信栈中的控制特性。内容涉及现代 VoIP 基础设施中的设计取舍、开源性与安全性等议题。",
-      "hn": {
-        "id": 50063417,
-        "type": "story",
-        "by": "rickcarlino",
-        "score": 128,
+        "by": "janisz",
+        "score": 56,
         "descendants": 33,
-        "time": 1791841172,
-        "comments_url": "https://news.ycombinator.com/item?id=50063417"
+        "time": 1791872823,
+        "comments_url": "https://news.ycombinator.com/item?id=50067570"
       },
+      "hot_score": 0.95,
       "tags": [
-        "Security",
-        "Design",
-        "DevOps"
-      ],
-      "hot_score": 1.23
+        "Education",
+        "Politics"
+      ]
     },
     {
       "title_en": "Citroen revives the 2CV for an electric age",
@@ -533,8 +743,8 @@
         "id": 50055220,
         "type": "story",
         "by": "scrlk",
-        "score": 330,
-        "descendants": 356,
+        "score": 377,
+        "descendants": 425,
         "time": 1791806949,
         "comments_url": "https://news.ycombinator.com/item?id=50055220"
       },
@@ -542,7 +752,7 @@
         "Design",
         "Energy"
       ],
-      "hot_score": 1.2
+      "hot_score": 0.94
     },
     {
       "title_en": "Fingerprints are the new cookies",
@@ -556,8 +766,8 @@
         "id": 50048642,
         "type": "story",
         "by": "royfish",
-        "score": 719,
-        "descendants": 354,
+        "score": 731,
+        "descendants": 357,
         "time": 1791758019,
         "comments_url": "https://news.ycombinator.com/item?id=50048642"
       },
@@ -565,7 +775,30 @@
         "Privacy",
         "Web"
       ],
-      "hot_score": 1.12
+      "hot_score": 0.9
+    },
+    {
+      "title_en": "QGIS enacts moratorium on AI contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "title_zh": "QGIS 对 AI 贡献实施暂停",
+      "created_display": "Created: Oct 12, 2026 / 04:22 PT",
+      "image_url": "https://opengraph.githubassets.com/ecd8d0f901eee0f806d831e96afb55ccec8a03b57832f9afe745d5fb8238f56c/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "summary_en": "QGIS has enacted a moratorium on accepting AI-generated contributions while governance and licensing concerns are assessed. The move signals open-source communities grappling with risk and quality control as AI tooling becomes more integrated. It may slow AI-assisted features in the GIS project but could set precedent for other OSS projects.",
+      "summary_zh": "QGIS 已暂停接受基于 AI 的贡献，原因在于对许可证、质量和滥用风险的担忧。此举显示开源社区在 AI 工具日益整合的环境下面临的风险与质量控制挑战，可能放慢该 GIS 项目中 AI 助力的功能部署，但也可能为其他开源项目树立先例。",
+      "hn": {
+        "id": 50054751,
+        "type": "story",
+        "by": "bwnkl",
+        "score": 379,
+        "descendants": 406,
+        "time": 1791804144,
+        "comments_url": "https://news.ycombinator.com/item?id=50054751"
+      },
+      "tags": [
+        "Open Source",
+        "AI"
+      ],
+      "hot_score": 0.9
     },
     {
       "title_en": "The gap in shared understanding of LLM capability is widening",
@@ -587,7 +820,54 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.97
+      "hot_score": 0.77
+    },
+    {
+      "title_en": "Phreak.ing – Internet Phone Switch",
+      "url": "https://phreak.ing/",
+      "title_zh": "Phreak.ing：互联网电话交换机",
+      "created_display": "Created: Oct 12, 2026 / 14:39 PT",
+      "image_url": "https://phreak.ing/static/og.png",
+      "summary_en": "Phreak.ing documents an internet phone switch project, focusing on routing calls, signaling compatibility, and control features in a software-defined telephony stack. It raises questions about design choices, openness, and security in modern VoIP infrastructure.",
+      "summary_zh": "Phreak.ing 描述一个互联网电话交换机项目，聚焦消息路由、信令兼容性以及软件定义电信栈中的控制特性。内容涉及现代 VoIP 基础设施中的设计取舍、开源性与安全性等议题。",
+      "hn": {
+        "id": 50063417,
+        "type": "story",
+        "by": "rickcarlino",
+        "score": 143,
+        "descendants": 34,
+        "time": 1791841172,
+        "comments_url": "https://news.ycombinator.com/item?id=50063417"
+      },
+      "tags": [
+        "Programming",
+        "Security",
+        "DevOps"
+      ],
+      "hot_score": 0.76
+    },
+    {
+      "title_en": "Document Review with Unsiloed and TypeSafe Jev",
+      "url": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "title_zh": "Unsiloed 与 TypeSafe Jev 的文档审阅",
+      "created_display": "Created: Oct 13, 2026 / 01:24 PT",
+      "image_url": "https://www.unsiloed.ai/blog-assets/unsiloed-jev/cover.png",
+      "summary_en": "A look at document review workflows using Unsiloed and TypeSafe Jev, highlighting how structured data and type-safe processing can improve accuracy and reproducibility. The combination showcases practical AI tooling for efficient document handling.",
+      "summary_zh": "展示了使用 Unsiloed 与 TypeSafe Jev 的文档审阅工作流，强调结构化数据与类型安全处理如何提升准确性与可重复性。此组合体现了提升文档处理效率的实用 AI 工具链。",
+      "hn": {
+        "id": 50068443,
+        "type": "story",
+        "by": "ritzaco",
+        "score": 28,
+        "descendants": 7,
+        "time": 1791879891,
+        "comments_url": "https://news.ycombinator.com/item?id=50068443"
+      },
+      "hot_score": 0.71,
+      "tags": [
+        "AI",
+        "Data"
+      ]
     },
     {
       "title_en": "Writing a Demoscene Intro for the ZX Spectrum",
@@ -601,15 +881,84 @@
         "id": 50061859,
         "type": "story",
         "by": "zdw",
-        "score": 121,
-        "descendants": 23,
+        "score": 159,
+        "descendants": 28,
         "time": 1791834000,
         "comments_url": "https://news.ycombinator.com/item?id=50061859"
       },
       "tags": [
+        "Culture",
         "Programming"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.7
+    },
+    {
+      "title_en": "The Dock on Mac, from OS 10 to macOS 27",
+      "url": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
+      "title_zh": "Mac 的 Dock：从 OS 10 到 macOS 27 的演变",
+      "created_display": "Created: Oct 12, 2026 / 19:09 PT",
+      "image_url": "https://cdn.jim-nielsen.com/blog/2026/macos-dock-history.jpg",
+      "summary_en": "An overview of how the Mac Dock has evolved from OS X through macOS 27, tracing changes in iconography, spacing, and interaction. The post notes how design priorities shifted toward clarity, theming, and performance, and what that means for developers and workflows today. It also shows how small UI tweaks can ripple across the platform's ecosystem.",
+      "summary_zh": "本文回顾从 OS X 到 macOS 27，Mac Dock 在图标、间距和交互等方面的演变。作者指出设计重点从美观转向清晰度、主题感与性能等方面的取舍，以及这些变化对开发者和工作流的影响。",
+      "hn": {
+        "id": 50065713,
+        "type": "story",
+        "by": "soheilpro",
+        "score": 78,
+        "descendants": 45,
+        "time": 1791857359,
+        "comments_url": "https://news.ycombinator.com/item?id=50065713"
+      },
+      "hot_score": 0.68,
+      "tags": [
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "title_zh": "Show HN：SolidCraft——用 Rust 编写的开源参数化 CAD（含 MCP 支持）",
+      "created_display": "Created: Oct 12, 2026 / 17:11 PT",
+      "image_url": "https://repository-images.githubusercontent.com/1409246014/48c23d08-a7c1-44f9-a353-58f8ddcf3fee",
+      "summary_en": "SolidCraft is an open-source, Rust-based parametric CAD project with MCP support, enabling scriptable, reproducible design workflows. By leveraging Rust’s performance and safety, it targets developers who want fast, reliable CAD tooling without relying on heavy C++ stacks. The project signals growing interest in modern, open tooling for mechanical design.",
+      "summary_zh": "SolidCraft 是一个用 Rust 编写的开源参数化 CAD 项目，且支持 MCP，便于实现可脚本化、可重复的设计工作流。利用 Rust 的性能与安全性，它面向需要快速、可靠 CAD 工具的开发者。该项目反映了对现代、开源机械设计工具日益增长的需求。",
+      "hn": {
+        "id": 50064840,
+        "type": "story",
+        "by": "bherbruck",
+        "score": 96,
+        "descendants": 22,
+        "time": 1791850264,
+        "comments_url": "https://news.ycombinator.com/item?id=50064840"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.66
+    },
+    {
+      "title_en": "Solar panels that plug into your wall",
+      "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
+      "title_zh": "墙面插电式太阳能板即将普及",
+      "created_display": "Created: Oct 12, 2026 / 07:19 PT",
+      "image_url": "https://i.natgeofe.com/n/a184d443-ecc1-4505-b81b-1c7a6ad4a9aa/MM10672_20261006_0256_16x9.jpg?w=1200",
+      "summary_en": "Plug-in solar panels for walls and balconies are poised for mass adoption as affordable, modular PV options.",
+      "summary_zh": "墙壁和阳台用的插电式太阳能面板即将普及。文章分析了易于安装、政策激励与成本下降如何推动城市分布式发电，从而改变家庭用能选择。",
+      "hn": {
+        "id": 50056822,
+        "type": "story",
+        "by": "speckx",
+        "score": 224,
+        "descendants": 240,
+        "time": 1791814744,
+        "comments_url": "https://news.ycombinator.com/item?id=50056822"
+      },
+      "tags": [
+        "Energy"
+      ],
+      "hot_score": 0.65
     },
     {
       "title_en": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
@@ -623,15 +972,85 @@
         "id": 50057668,
         "type": "story",
         "by": "surprisetalk",
-        "score": 183,
-        "descendants": 67,
+        "score": 202,
+        "descendants": 78,
         "time": 1791818205,
         "comments_url": "https://news.ycombinator.com/item?id=50057668"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.86
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "A Visual Intro to Complex Numbers",
+      "url": "https://photonlines.substack.com/p/a-visual-intro-to-complex-numbers",
+      "title_zh": "复数的可视化入门",
+      "created_display": "Created: Oct 13, 2026 / 05:00 PT",
+      "image_url": null,
+      "summary_en": "A visual primer introduces complex numbers with diagrams and intuition, helping learners grasp imaginary components, polar form, and modular geometry. The post aims to demystify complex arithmetic by showing geometric interpretations and visual relationships.",
+      "summary_zh": "这篇可视化入门以图解方式帮助读者理解复数的虚部、极坐标形式和模几何等核心概念，通过几何直观来简化复数运算的理解，降低学习门槛。",
+      "hn": {
+        "id": 50070287,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 8,
+        "descendants": 0,
+        "time": 1791892804,
+        "comments_url": "https://news.ycombinator.com/item?id=50070287"
+      },
+      "hot_score": 0.59,
+      "tags": [
+        "Education",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "title_zh": "Launch HN：Agent37（YC F26）— 低成本运行代理的沙盒",
+      "created_display": "Created: Oct 12, 2026 / 09:46 PT",
+      "image_url": null,
+      "summary_en": "Agent37 offers affordable sandboxed environments to run autonomous agents, lowering the barrier to experimenting with agent-based workflows. The platform emphasizes isolation, reproducibility, and cost control, enabling teams to prototype prompts, policies, and multi-agent interactions.",
+      "summary_zh": "Agent37 提供低成本的沙盒环境，用以运行自主代理，降低了基于代理工作流的实验门槛。该平台强调隔离性、可重复性和成本控制，便于团队原型化提示、策略与多代理协作。",
+      "hn": {
+        "id": 50059096,
+        "type": "story",
+        "by": "vishnukool",
+        "score": 146,
+        "descendants": 101,
+        "time": 1791823594,
+        "comments_url": "https://news.ycombinator.com/item?id=50059096"
+      },
+      "tags": [
+        "AI",
+        "Programming",
+        "Startups"
+      ],
+      "hot_score": 0.51
+    },
+    {
+      "title_en": "Show HN: An experimental pattern-first DAW that supports MCP",
+      "url": "https://github.com/andrewfader/blokkily",
+      "title_zh": "Show HN：一个实验性的模式优先 DAW，支持 MCP",
+      "created_display": "Created: Oct 12, 2026 / 16:21 PT",
+      "image_url": "https://opengraph.githubassets.com/7d23582b25bbd71146deb0e974490fbaf9dad16594eec5e8b1d904b3e72414b0/andrewfader/blokkily",
+      "summary_en": "A Show HN introducing an experimental, pattern-first DAW that supports MCP, signaling a new workflow approach in music production. The project emphasizes pattern-based composition and extensibility via the MCP protocol, inviting early feedback from practitioners. It hints at potential shifts in how DAWs manage sequencing and collaboration.",
+      "summary_zh": "Show HN 介绍了一个以模式为核心的实验性数字音频工作站，并支持 MCP，预示音乐制作工作流进入一个新阶段。该项目强调模式化的创作方式和通过 MCP 协议实现的扩展性，邀请开发者和音乐人给出早期反馈。它暗示 DAW 将在序列处理与协作方面带来潜在变革。",
+      "hn": {
+        "id": 50064438,
+        "type": "story",
+        "by": "androsynth89",
+        "score": 79,
+        "descendants": 31,
+        "time": 1791847272,
+        "comments_url": "https://news.ycombinator.com/item?id=50064438"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
+      ],
+      "hot_score": 0.5
     },
     {
       "title_en": "Publishers Killed the Paperback, Then Blamed Readers",
@@ -651,102 +1070,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=50060674"
       },
       "tags": [
-        "Business"
+        "Business",
+        "Culture"
       ],
-      "hot_score": 0.8
-    },
-    {
-      "title_en": "Solar panels that plug into your wall",
-      "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
-      "title_zh": "墙面插电式太阳能板即将普及",
-      "created_display": "Created: Oct 12, 2026 / 07:19 PT",
-      "image_url": "https://i.natgeofe.com/n/a184d443-ecc1-4505-b81b-1c7a6ad4a9aa/MM10672_20261006_0256_16x9.jpg?w=1200",
-      "summary_en": "Plug-in solar panels for walls and balconies are poised for mass adoption as affordable, modular PV options.",
-      "summary_zh": "墙壁和阳台用的插电式太阳能面板即将普及。文章分析了易于安装、政策激励与成本下降如何推动城市分布式发电，从而改变家庭用能选择。",
-      "hn": {
-        "id": 50056822,
-        "type": "story",
-        "by": "speckx",
-        "score": 180,
-        "descendants": 170,
-        "time": 1791814744,
-        "comments_url": "https://news.ycombinator.com/item?id=50056822"
-      },
-      "tags": [
-        "Energy"
-      ],
-      "hot_score": 0.78
-    },
-    {
-      "title_en": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "title_zh": "Launch HN：Agent37（YC F26）— 低成本运行代理的沙盒",
-      "created_display": "Created: Oct 12, 2026 / 09:46 PT",
-      "image_url": null,
-      "summary_en": "Agent37 offers affordable sandboxed environments to run autonomous agents, lowering the barrier to experimenting with agent-based workflows. The platform emphasizes isolation, reproducibility, and cost control, enabling teams to prototype prompts, policies, and multi-agent interactions.",
-      "summary_zh": "Agent37 提供低成本的沙盒环境，用以运行自主代理，降低了基于代理工作流的实验门槛。该平台强调隔离性、可重复性和成本控制，便于团队原型化提示、策略与多代理协作。",
-      "hn": {
-        "id": 50059096,
-        "type": "story",
-        "by": "vishnukool",
-        "score": 132,
-        "descendants": 96,
-        "time": 1791823594,
-        "comments_url": "https://news.ycombinator.com/item?id=50059096"
-      },
-      "tags": [
-        "AI",
-        "Programming",
-        "Startups"
-      ],
-      "hot_score": 0.72
-    },
-    {
-      "title_en": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-      "url": "https://github.com/bherbruck/solidcraft",
-      "title_zh": "Show HN：SolidCraft——用 Rust 编写的开源参数化 CAD（含 MCP 支持）",
-      "created_display": "Created: Oct 12, 2026 / 17:11 PT",
-      "image_url": "https://repository-images.githubusercontent.com/1409246014/48c23d08-a7c1-44f9-a353-58f8ddcf3fee",
-      "summary_en": "SolidCraft is an open-source, Rust-based parametric CAD project with MCP support, enabling scriptable, reproducible design workflows. By leveraging Rust’s performance and safety, it targets developers who want fast, reliable CAD tooling without relying on heavy C++ stacks. The project signals growing interest in modern, open tooling for mechanical design.",
-      "summary_zh": "SolidCraft 是一个用 Rust 编写的开源参数化 CAD 项目，且支持 MCP，便于实现可脚本化、可重复的设计工作流。利用 Rust 的性能与安全性，它面向需要快速、可靠 CAD 工具的开发者。该项目反映了对现代、开源机械设计工具日益增长的需求。",
-      "hn": {
-        "id": 50064840,
-        "type": "story",
-        "by": "bherbruck",
-        "score": 52,
-        "descendants": 6,
-        "time": 1791850264,
-        "comments_url": "https://news.ycombinator.com/item?id=50064840"
-      },
-      "hot_score": 0.72,
-      "tags": [
-        "Show HN",
-        "Open Source",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Show HN: An experimental pattern-first DAW that supports MCP",
-      "url": "https://github.com/andrewfader/blokkily",
-      "title_zh": "Show HN：一个实验性的模式优先 DAW，支持 MCP",
-      "created_display": "Created: Oct 12, 2026 / 16:21 PT",
-      "image_url": "https://opengraph.githubassets.com/7d23582b25bbd71146deb0e974490fbaf9dad16594eec5e8b1d904b3e72414b0/andrewfader/blokkily",
-      "summary_en": "A Show HN introducing an experimental, pattern-first DAW that supports MCP, signaling a new workflow approach in music production. The project emphasizes pattern-based composition and extensibility via the MCP protocol, inviting early feedback from practitioners. It hints at potential shifts in how DAWs manage sequencing and collaboration.",
-      "summary_zh": "Show HN 介绍了一个以模式为核心的实验性数字音频工作站，并支持 MCP，预示音乐制作工作流进入一个新阶段。该项目强调模式化的创作方式和通过 MCP 协议实现的扩展性，邀请开发者和音乐人给出早期反馈。它暗示 DAW 将在序列处理与协作方面带来潜在变革。",
-      "hn": {
-        "id": 50064438,
-        "type": "story",
-        "by": "androsynth89",
-        "score": 54,
-        "descendants": 25,
-        "time": 1791847272,
-        "comments_url": "https://news.ycombinator.com/item?id=50064438"
-      },
-      "tags": [
-        "Show HN",
-        "Programming"
-      ],
-      "hot_score": 0.66
+      "hot_score": 0.49
     },
     {
       "title_en": "Terence Tao: Math 2.0 [pdf]",
@@ -760,8 +1087,8 @@
         "id": 50043026,
         "type": "story",
         "by": "Anon84",
-        "score": 534,
-        "descendants": 531,
+        "score": 547,
+        "descendants": 537,
         "time": 1791724605,
         "comments_url": "https://news.ycombinator.com/item?id=50043026"
       },
@@ -770,7 +1097,52 @@
         "Education",
         "DevOps"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.47
+    },
+    {
+      "title_en": "Vi Hart's Big Navier-Stokes Post",
+      "url": "https://www.patreon.com/vihart/posts/vi-harts-big-171939430",
+      "title_zh": "Vi Hart 的 Navier–Stokes 大作",
+      "created_display": "Created: Oct 12, 2026 / 22:22 PT",
+      "image_url": null,
+      "summary_en": "Vi Hart publishes a long form exploration of the Navier–Stokes equations, offering intuitive explanations of fluid dynamics and turbulence. The piece combines visuals and math to make PDEs accessible, illustrating why this area remains central to both science and computation. It's a resource for educators and curious technologists alike.",
+      "summary_zh": "Vi Hart 发布了关于 Navier–Stokes 方程的长文，提供对流体动力学与湍流的直观解释。文章结合可视化与数学推导，让偏微分方程的核心思想更易理解，凸显此领域在科学与计算中的重要性。对教育工作者和技术爱好者都具有参考价值。",
+      "hn": {
+        "id": 50067098,
+        "type": "story",
+        "by": "signa11",
+        "score": 32,
+        "descendants": 18,
+        "time": 1791868948,
+        "comments_url": "https://news.ycombinator.com/item?id=50067098"
+      },
+      "hot_score": 0.44,
+      "tags": [
+        "Science",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "title_zh": "我在 Google 找到了价值 9 万美元的远程代码执行漏洞",
+      "created_display": "Created: Oct 12, 2026 / 00:28 PT",
+      "image_url": "https://simonkoeck.com/og/google-devsite-flask-session-pickle-rce.png",
+      "summary_en": "Security researcher details a remote code execution vulnerability in Google's DevSite Flask session handling via pickle deserialization, with a notable $90k bug bounty awarded. The writeup highlights how unsafe deserialization can create RCE across web apps, and emphasizes the importance of strict input handling and patching.",
+      "summary_zh": "安全研究员披露了 Google DevSite 的 Flask 会话处理中通过 pickle 反序列化实现远程代码执行的漏洞，相关奖励达到约9万美元。该分析强调了反序列化漏洞的风险以及在 Web 应用中加强输入处理与及时修补的重要性。",
+      "hn": {
+        "id": 50052638,
+        "type": "story",
+        "by": "soeckly",
+        "score": 219,
+        "descendants": 106,
+        "time": 1791790133,
+        "comments_url": "https://news.ycombinator.com/item?id=50052638"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.41
     },
     {
       "title_en": "Show HN: Brickbrag – A multiplayer brick-building world in the browser",
@@ -791,32 +1163,32 @@
       },
       "tags": [
         "Show HN",
-        "Web",
-        "Gaming"
+        "Gaming",
+        "Web"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.31
     },
     {
-      "title_en": "I Found a $90k Remote Code Execution Vulnerability in Google",
-      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
-      "title_zh": "我在 Google 找到了价值 9 万美元的远程代码执行漏洞",
-      "created_display": "Created: Oct 12, 2026 / 00:28 PT",
-      "image_url": "https://simonkoeck.com/og/google-devsite-flask-session-pickle-rce.png",
-      "summary_en": "Security researcher details a remote code execution vulnerability in Google's DevSite Flask session handling via pickle deserialization, with a notable $90k bug bounty awarded. The writeup highlights how unsafe deserialization can create RCE across web apps, and emphasizes the importance of strict input handling and patching.",
-      "summary_zh": "安全研究员披露了 Google DevSite 的 Flask 会话处理中通过 pickle 反序列化实现远程代码执行的漏洞，相关奖励达到约9万美元。该分析强调了反序列化漏洞的风险以及在 Web 应用中加强输入处理与及时修补的重要性。",
+      "title_en": "RimWorld 1.7 moves from Unity to Ludeon's in-house Waylith engine",
+      "url": "https://ludeon.com/blog/2026/10/announcing-the-waylith-engine-and-update-1-7/",
+      "title_zh": "RimWorld 1.7 将引擎从 Unity 转移到 Waylith",
+      "created_display": "Created: Oct 12, 2026 / 12:18 PT",
+      "image_url": null,
+      "summary_en": "RimWorld 1.7 shifts from Unity to Ludeon's in-house Waylith engine, signaling a major engine migration for the indie studio. The change promises tighter control, potential performance gains, and easier future updates, though it may affect mod compatibility. Further patch notes will reveal how existing saves and mods are affected.",
+      "summary_zh": "RimWorld 1.7 将引擎从 Unity 转移到公司自研的 Waylith 引擎，标志着这家独立工作室在技术栈上的重大变动。此举有望带来性能提升与更新的可控性，但可能影响模组兼容性。后续补丁说明将揭示现有存档和模组的影响。",
       "hn": {
-        "id": 50052638,
+        "id": 50061497,
         "type": "story",
-        "by": "soeckly",
-        "score": 203,
-        "descendants": 99,
-        "time": 1791790133,
-        "comments_url": "https://news.ycombinator.com/item?id=50052638"
+        "by": "sha-3",
+        "score": 72,
+        "descendants": 28,
+        "time": 1791832722,
+        "comments_url": "https://news.ycombinator.com/item?id=50061497"
       },
       "tags": [
-        "Security"
+        "Gaming"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.3
     },
     {
       "title_en": "Doory – Open-Source Canva",
@@ -840,29 +1212,51 @@
         "Design",
         "Privacy"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.29
     },
     {
-      "title_en": "RimWorld 1.7 moves from Unity to Ludeon's in-house Waylith engine",
-      "url": "https://ludeon.com/blog/2026/10/announcing-the-waylith-engine-and-update-1-7/",
-      "title_zh": "RimWorld 1.7 将引擎从 Unity 转移到 Waylith",
-      "created_display": "Created: Oct 12, 2026 / 12:18 PT",
-      "image_url": null,
-      "summary_en": "RimWorld 1.7 shifts from Unity to Ludeon's in-house Waylith engine, signaling a major engine migration for the indie studio. The change promises tighter control, potential performance gains, and easier future updates, though it may affect mod compatibility. Further patch notes will reveal how existing saves and mods are affected.",
-      "summary_zh": "RimWorld 1.7 将引擎从 Unity 转移到公司自研的 Waylith 引擎，标志着这家独立工作室在技术栈上的重大变动。此举有望带来性能提升与更新的可控性，但可能影响模组兼容性。后续补丁说明将揭示现有存档和模组的影响。",
+      "title_en": "India's Battery Storage Capacity Set to Surge Nearly 50 Fold by 2032",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Battery-Storage-Capacity-Set-to-Surge-Nearly-50-Fold-by-2032.html",
+      "title_zh": "到2032年印度电池储能容量将增长近50倍",
+      "created_display": "Created: Oct 13, 2026 / 03:07 PT",
+      "image_url": "https://d32r1sh890xpii.cloudfront.net/news/1200x675/2026-10-12_gjqcnpb3vt.jpg",
+      "summary_en": "India's battery storage capacity is set to surge nearly 50-fold by 2032, driven by domestic manufacturing, policy support, and renewable integration. The expansion could boost grid resilience, reduce imports, and spur growth in storage tech and EV markets.",
+      "summary_zh": "到2032年，印度的电池储能容量预计将增长近50倍，受本土制造、政策支持和新能源接入推动。这一扩张将提升电网弹性、降低进口依赖，并促进储能技术与电动汽车市场的发展。",
       "hn": {
-        "id": 50061497,
+        "id": 50069319,
         "type": "story",
-        "by": "sha-3",
-        "score": 51,
-        "descendants": 16,
-        "time": 1791832722,
-        "comments_url": "https://news.ycombinator.com/item?id=50061497"
+        "by": "thelastgallon",
+        "score": 8,
+        "descendants": 0,
+        "time": 1791886040,
+        "comments_url": "https://news.ycombinator.com/item?id=50069319"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "The baffling intelligence of a single cell (2024)",
+      "url": "https://jsomers.net/e-coli-chemotaxis/",
+      "title_zh": "单细胞的惊人智能（2024）",
+      "created_display": "Created: Oct 11, 2026 / 04:02 PT",
+      "image_url": "https://jsomers.net/e-coli-chemotaxis/articleImages/hero.jpg",
+      "summary_en": "A 2024 exploration of how a single cell behaves with remarkable autonomy and information processing, exemplified by E. coli chemotaxis. It challenges assumptions about intelligence and decision-making in simple organisms.",
+      "summary_zh": "这篇 2024 年的文章探讨单细胞在没有神经系统的情况下如何展现出近乎智能的行为，以大肠杆菌趋化为例，揭示简单生物也具备复杂的信息处理能力。它挑战了关于智慧与决策的传统认知。",
+      "hn": {
+        "id": 50041866,
+        "type": "story",
+        "by": "jsomers",
+        "score": 340,
+        "descendants": 95,
+        "time": 1791716550,
+        "comments_url": "https://news.ycombinator.com/item?id=50041866"
       },
       "tags": [
-        "Gaming"
+        "Science"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.27
     },
     {
       "title_en": "(Post-Quantum) Cryptographic Right Answers",
@@ -885,29 +1279,78 @@
         "Security",
         "Science"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.23
     },
     {
-      "title_en": "The baffling intelligence of a single cell (2024)",
-      "url": "https://jsomers.net/e-coli-chemotaxis/",
-      "title_zh": "单细胞的惊人智能（2024）",
-      "created_display": "Created: Oct 11, 2026 / 04:02 PT",
-      "image_url": "https://jsomers.net/e-coli-chemotaxis/articleImages/hero.jpg",
-      "summary_en": "A 2024 exploration of how a single cell behaves with remarkable autonomy and information processing, exemplified by E. coli chemotaxis. It challenges assumptions about intelligence and decision-making in simple organisms.",
-      "summary_zh": "这篇 2024 年的文章探讨单细胞在没有神经系统的情况下如何展现出近乎智能的行为，以大肠杆菌趋化为例，揭示简单生物也具备复杂的信息处理能力。它挑战了关于智慧与决策的传统认知。",
+      "title_en": "Secret of Orange Cats Revealed After 60-Year Search",
+      "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
+      "title_zh": "橙色猫的秘密在60年的追寻后揭示",
+      "created_display": "Created: Oct 10, 2026 / 15:10 PT",
+      "image_url": "https://www.sciencealert.com/images/2026/10/OrangeCatsSurprise.jpg",
+      "summary_en": "A long-running genetic mystery about orange cats has finally been solved: orange fur is linked to a pigment gene on the X chromosome, meaning most orange cats are male and female orange cats are rarities caused by X-inactivation or unusual genetic events. The finding clarifies how simple color genetics interact with sex chromosome biology and explains the observed distribution of orange cats in populations.",
+      "summary_zh": "关于橙色猫的长期遗传谜团终被揭晓：橙色毛色由位于X染色体上的色素基因控制，因此大多为公猫，雌性橙猫罕见，通常源于X染色体失活或异常基因事件。研究揭示了颜色遗传如何与性染色体生物学相互作用，以及橙猫在人群中的分布特征。",
       "hn": {
-        "id": 50041866,
+        "id": 50037711,
         "type": "story",
-        "by": "jsomers",
-        "score": 256,
-        "descendants": 50,
-        "time": 1791716550,
-        "comments_url": "https://news.ycombinator.com/item?id=50041866"
+        "by": "bookofjoe",
+        "score": 270,
+        "descendants": 183,
+        "time": 1791670257,
+        "comments_url": "https://news.ycombinator.com/item?id=50037711"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.24
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "title_zh": "Show HN：Atticus——在 macOS 上运行的按住说话的语音助手，基于 Claude-p",
+      "created_display": "Created: Oct 11, 2026 / 17:15 PT",
+      "image_url": "https://opengraph.githubassets.com/3a40171c215943e2b75fb4b4b1c6a528da7fea008c4909facaddaf43dc5a6eb1/SaarthurR/atticus-mac",
+      "summary_en": "Atticus is an open-source macOS voice assistant that uses Claude with a 'hold-to-talk' interface, enabling convenient, hands-free interaction. It demonstrates modular, privacy-friendly AI tooling on the desktop with a popular LLM backend.",
+      "summary_zh": "Atticus 是一个开源的 macOS 语音助手，采用 Claude-p 提供后台服务并使用“按住说话”的交互模式，便捷直观。展示了在桌面端使用主流大语言模型后端的模块化、注重隐私的 AI 工具链。",
+      "hn": {
+        "id": 50049588,
+        "type": "story",
+        "by": "SaarthRanka",
+        "score": 108,
+        "descendants": 23,
+        "time": 1791764112,
+        "comments_url": "https://news.ycombinator.com/item?id=50049588"
+      },
+      "tags": [
+        "Show HN",
+        "AI",
+        "Open Source",
+        "Privacy",
+        "Web"
+      ],
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+      "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
+      "title_zh": "《超级马里奥64》制作内幕完整访谈（Giles Goddard，2001）",
+      "created_display": "Created: Oct 10, 2026 / 12:28 PT",
+      "image_url": "http://pixelatron.com/blog/media/Super-Mario-64-U-snap0035-440x330.jpg",
+      "summary_en": "This full 2001 interview with Giles Goddard reveals how Super Mario 64’s groundbreaking 3D movement and camera system were conceived, including the challenges of porting to Nintendo 64 hardware and the iterative design that bridged 2D Mario sensibilities into 3D space. It highlights the craft of early 3D game development and the engineering trade-offs that shaped a milestone in the platformer genre.",
+      "summary_zh": "这段2001年的完整访谈揭示了《超级马里奥64》在3D移动与摄像机系统方面的开创性构思，以及在任天堂64硬件上的移植与实现所面临的挑战。通过对早期3D游戏开发过程的讲解，展现了将2D马里奥直觉转化为3D空间所需的设计与工程权衡，及其为何成为平台跳跃游戏的里程碑。",
+      "hn": {
+        "id": 50036287,
+        "type": "story",
+        "by": "gregsadetsky",
+        "score": 265,
+        "descendants": 100,
+        "time": 1791660521,
+        "comments_url": "https://news.ycombinator.com/item?id=50036287"
+      },
+      "tags": [
+        "Gaming",
+        "Hardware"
+      ],
+      "hot_score": 0.13
     },
     {
       "title_en": "The Origin Story of Kid Pix",
@@ -926,126 +1369,9 @@
         "time": 1791849149,
         "comments_url": "https://news.ycombinator.com/item?id=50064673"
       },
-      "hot_score": 0.18,
+      "hot_score": 0.09,
       "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-      "url": "https://github.com/SaarthurR/atticus-mac",
-      "title_zh": "Show HN：Atticus——在 macOS 上运行的按住说话的语音助手，基于 Claude-p",
-      "created_display": "Created: Oct 11, 2026 / 17:15 PT",
-      "image_url": "https://opengraph.githubassets.com/3a40171c215943e2b75fb4b4b1c6a528da7fea008c4909facaddaf43dc5a6eb1/SaarthurR/atticus-mac",
-      "summary_en": "Atticus is an open-source macOS voice assistant that uses Claude with a 'hold-to-talk' interface, enabling convenient, hands-free interaction. It demonstrates modular, privacy-friendly AI tooling on the desktop with a popular LLM backend.",
-      "summary_zh": "Atticus 是一个开源的 macOS 语音助手，采用 Claude-p 提供后台服务并使用“按住说话”的交互模式，便捷直观。展示了在桌面端使用主流大语言模型后端的模块化、注重隐私的 AI 工具链。",
-      "hn": {
-        "id": 50049588,
-        "type": "story",
-        "by": "SaarthRanka",
-        "score": 102,
-        "descendants": 19,
-        "time": 1791764112,
-        "comments_url": "https://news.ycombinator.com/item?id=50049588"
-      },
-      "tags": [
-        "Show HN",
-        "AI",
-        "Open Source",
-        "Privacy",
-        "Web"
-      ],
-      "hot_score": 0.17
-    },
-    {
-      "title_en": "Secret of Orange Cats Revealed After 60-Year Search",
-      "url": "https://www.sciencealert.com/secret-of-orange-cats-finally-revealed-after-60-year-search",
-      "title_zh": "橙色猫的秘密在60年的追寻后揭示",
-      "created_display": "Created: Oct 10, 2026 / 15:10 PT",
-      "image_url": "https://www.sciencealert.com/images/2026/10/OrangeCatsSurprise.jpg",
-      "summary_en": "A long-running genetic mystery about orange cats has finally been solved: orange fur is linked to a pigment gene on the X chromosome, meaning most orange cats are male and female orange cats are rarities caused by X-inactivation or unusual genetic events. The finding clarifies how simple color genetics interact with sex chromosome biology and explains the observed distribution of orange cats in populations.",
-      "summary_zh": "关于橙色猫的长期遗传谜团终被揭晓：橙色毛色由位于X染色体上的色素基因控制，因此大多为公猫，雌性橙猫罕见，通常源于X染色体失活或异常基因事件。研究揭示了颜色遗传如何与性染色体生物学相互作用，以及橙猫在人群中的分布特征。",
-      "hn": {
-        "id": 50037711,
-        "type": "story",
-        "by": "bookofjoe",
-        "score": 263,
-        "descendants": 182,
-        "time": 1791670257,
-        "comments_url": "https://news.ycombinator.com/item?id=50037711"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.16
-    },
-    {
-      "title_en": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
-      "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
-      "title_zh": "《超级马里奥64》制作内幕完整访谈（Giles Goddard，2001）",
-      "created_display": "Created: Oct 10, 2026 / 12:28 PT",
-      "image_url": "http://pixelatron.com/blog/media/Super-Mario-64-U-snap0035-440x330.jpg",
-      "summary_en": "This full 2001 interview with Giles Goddard reveals how Super Mario 64’s groundbreaking 3D movement and camera system were conceived, including the challenges of porting to Nintendo 64 hardware and the iterative design that bridged 2D Mario sensibilities into 3D space. It highlights the craft of early 3D game development and the engineering trade-offs that shaped a milestone in the platformer genre.",
-      "summary_zh": "这段2001年的完整访谈揭示了《超级马里奥64》在3D移动与摄像机系统方面的开创性构思，以及在任天堂64硬件上的移植与实现所面临的挑战。通过对早期3D游戏开发过程的讲解，展现了将2D马里奥直觉转化为3D空间所需的设计与工程权衡，及其为何成为平台跳跃游戏的里程碑。",
-      "hn": {
-        "id": 50036287,
-        "type": "story",
-        "by": "gregsadetsky",
-        "score": 248,
-        "descendants": 97,
-        "time": 1791660521,
-        "comments_url": "https://news.ycombinator.com/item?id=50036287"
-      },
-      "tags": [
-        "Gaming",
-        "Hardware"
-      ],
-      "hot_score": 0.14
-    },
-    {
-      "title_en": "Picothermal – WebUSB Thermal Camera Using RP2040 and Flir Lepton",
-      "url": "https://www.cezarchirila.com/blog/2026/10/picothermal/",
-      "title_zh": "Picothermal：基于 RP2040 和 Flir Lepton 的 WebUSB 热成像相机",
-      "created_display": "Created: Oct 12, 2026 / 14:02 PT",
-      "image_url": "https://www.cezarchirila.com/images/PICOTHERMAL/picothermal.jpg",
-      "summary_en": "Picothermal demonstrates a WebUSB-enabled thermal camera built around an RP2040 microcontroller and a Flir Lepton sensor. The project showcases browser-accessible thermal imaging and a practical path for DIY hardware to leverage web APIs. It highlights how affordable sensing hardware can unlock new browser-based applications.",
-      "summary_zh": "Picothermal 展示了基于 RP2040 和 Flir Lepton 的 WebUSB 热成像相机。该项目使浏览器直接访问热成像数据，展示了 DIY 硬件与网络 API 的结合。它体现了低成本传感硬件也能开启新的浏览器应用场景。",
-      "hn": {
-        "id": 50063029,
-        "type": "story",
-        "by": "icamaster",
-        "score": 14,
-        "descendants": 1,
-        "time": 1791838959,
-        "comments_url": "https://news.ycombinator.com/item?id=50063029"
-      },
-      "hot_score": 0.12,
-      "tags": [
-        "Hardware",
-        "Web"
-      ]
-    },
-    {
-      "title_en": "Patching Zig's Std",
-      "url": "https://marler8997.github.io/blog/zig-patch/",
-      "title_zh": "给 Zig 的标准库打补丁",
-      "created_display": "Created: Oct 12, 2026 / 15:09 PT",
-      "image_url": "https://marler8997.github.io/headshot.jpg",
-      "summary_en": "A post detailing a patch to Zig's standard library, addressing gaps or adding features. It highlights how the Zig ecosystem evolves through contributor work and the tradeoffs involved in low‑level language tooling.",
-      "summary_zh": "关于为 Zig 标准库打补丁的文章，介绍了修复缺口和新增特性，以及低级语言工具链在开源社区中的共同演进。",
-      "hn": {
-        "id": 50063756,
-        "type": "story",
-        "by": "ingve",
-        "score": 13,
-        "descendants": 1,
-        "time": 1791842976,
-        "comments_url": "https://news.ycombinator.com/item?id=50063756"
-      },
-      "hot_score": 0.12,
-      "tags": [
-        "Programming",
-        "Open Source"
+        "Education"
       ]
     },
     {
@@ -1068,29 +1394,7 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.1
-    },
-    {
-      "title_en": "Running the unmodified Linux amdgpu driver on an iPad",
-      "url": "https://github.com/Geramy/LemonSeed-Studio",
-      "title_zh": "在 iPad 上运行未修改的 Linux amdgpu 驱动",
-      "created_display": "Created: Oct 11, 2026 / 03:18 PT",
-      "image_url": "https://opengraph.githubassets.com/1f650a97212bcd666772511bed4ead7e57703c9a24d9317ae123448ee0b114dd/Geramy/LemonSeed-Studio",
-      "summary_en": "An experimental project demonstrates loading the unmodified amdgpu driver on iPad hardware, highlighting the gaps between Linux driver support and consumer devices. It underlines the significant hurdles in achieving functional GPU acceleration and full system usability on non-traditional hardware.",
-      "summary_zh": "一项实验性尝试在 iPad 硬件上运行未修改的 amdgpu 驱动，揭示了 Linux 驱动与消费级设备之间的差距。强调在非传统硬件上实现显卡加速与完整系统可用性所面临的重大挑战。",
-      "hn": {
-        "id": 50041573,
-        "type": "story",
-        "by": "joshcsimmons",
-        "score": 95,
-        "descendants": 19,
-        "time": 1791713898,
-        "comments_url": "https://news.ycombinator.com/item?id=50041573"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.09
+      "hot_score": 0.08
     },
     {
       "title_en": "Auto Research: Integer multiplication below n log n",
@@ -1104,15 +1408,83 @@
         "id": 50047664,
         "type": "story",
         "by": "swesnow",
-        "score": 57,
-        "descendants": 25,
+        "score": 69,
+        "descendants": 36,
         "time": 1791751710,
         "comments_url": "https://news.ycombinator.com/item?id=50047664"
       },
       "tags": [
-        "Science"
+        "Programming"
       ],
       "hot_score": 0.08
+    },
+    {
+      "title_en": "Running the unmodified Linux amdgpu driver on an iPad",
+      "url": "https://github.com/Geramy/LemonSeed-Studio",
+      "title_zh": "在 iPad 上运行未修改的 Linux amdgpu 驱动",
+      "created_display": "Created: Oct 11, 2026 / 03:18 PT",
+      "image_url": "https://opengraph.githubassets.com/1f650a97212bcd666772511bed4ead7e57703c9a24d9317ae123448ee0b114dd/Geramy/LemonSeed-Studio",
+      "summary_en": "An experimental project demonstrates loading the unmodified amdgpu driver on iPad hardware, highlighting the gaps between Linux driver support and consumer devices. It underlines the significant hurdles in achieving functional GPU acceleration and full system usability on non-traditional hardware.",
+      "summary_zh": "一项实验性尝试在 iPad 硬件上运行未修改的 amdgpu 驱动，揭示了 Linux 驱动与消费级设备之间的差距。强调在非传统硬件上实现显卡加速与完整系统可用性所面临的重大挑战。",
+      "hn": {
+        "id": 50041573,
+        "type": "story",
+        "by": "joshcsimmons",
+        "score": 98,
+        "descendants": 19,
+        "time": 1791713898,
+        "comments_url": "https://news.ycombinator.com/item?id=50041573"
+      },
+      "tags": [
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Picothermal – WebUSB Thermal Camera Using RP2040 and Flir Lepton",
+      "url": "https://www.cezarchirila.com/blog/2026/10/picothermal/",
+      "title_zh": "Picothermal：基于 RP2040 和 Flir Lepton 的 WebUSB 热成像相机",
+      "created_display": "Created: Oct 12, 2026 / 14:02 PT",
+      "image_url": "https://www.cezarchirila.com/images/PICOTHERMAL/picothermal.jpg",
+      "summary_en": "Picothermal demonstrates a WebUSB-enabled thermal camera built around an RP2040 microcontroller and a Flir Lepton sensor. The project showcases browser-accessible thermal imaging and a practical path for DIY hardware to leverage web APIs. It highlights how affordable sensing hardware can unlock new browser-based applications.",
+      "summary_zh": "Picothermal 展示了基于 RP2040 和 Flir Lepton 的 WebUSB 热成像相机。该项目使浏览器直接访问热成像数据，展示了 DIY 硬件与网络 API 的结合。它体现了低成本传感硬件也能开启新的浏览器应用场景。",
+      "hn": {
+        "id": 50063029,
+        "type": "story",
+        "by": "icamaster",
+        "score": 14,
+        "descendants": 1,
+        "time": 1791838959,
+        "comments_url": "https://news.ycombinator.com/item?id=50063029"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Hardware",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Patching Zig's Std",
+      "url": "https://marler8997.github.io/blog/zig-patch/",
+      "title_zh": "给 Zig 的标准库打补丁",
+      "created_display": "Created: Oct 12, 2026 / 15:09 PT",
+      "image_url": "https://marler8997.github.io/headshot.jpg",
+      "summary_en": "A post detailing a patch to Zig's standard library, addressing gaps or adding features. It highlights how the Zig ecosystem evolves through contributor work and the tradeoffs involved in low‑level language tooling.",
+      "summary_zh": "关于为 Zig 标准库打补丁的文章，介绍了修复缺口和新增特性，以及低级语言工具链在开源社区中的共同演进。",
+      "hn": {
+        "id": 50063756,
+        "type": "story",
+        "by": "ingve",
+        "score": 13,
+        "descendants": 1,
+        "time": 1791842976,
+        "comments_url": "https://news.ycombinator.com/item?id=50063756"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "No portable way to detect string-to-float conversion errors in standard C",
@@ -1126,15 +1498,15 @@
         "id": 50034001,
         "type": "story",
         "by": "signa11",
-        "score": 70,
-        "descendants": 91,
+        "score": 76,
+        "descendants": 103,
         "time": 1791646770,
         "comments_url": "https://news.ycombinator.com/item?id=50034001"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
     },
     {
       "title_en": "Neuroscience can make decluttering easier",
