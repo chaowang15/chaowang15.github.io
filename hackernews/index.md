@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>237</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34964</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>233</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>235</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>237</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35000</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>233</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>235</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='175' data-hn-time='1791966479'>
+<div class='hn-top-story-item' data-hn-score='213' data-hn-time='1791995051'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50084240'>Iosevka is an open-source, sans-serif and slab-serif, monospace font</a>
- <a class='hn-top-story-link' href='https://typeof.net/Iosevka/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50090246'>ICE Planning $100M 'Nightmare' Domestic Spy Program</a>
+ <a class='hn-top-story-link' href='https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Iosevka 开源的等宽字体家族，涵盖无衬线与方衬线风格</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 175</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>ICE 规划 1 亿美元“噩梦”国内间谍项目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='299' data-hn-time='1791958681'>
+<div class='hn-top-story-item' data-hn-score='289' data-hn-time='1791990945'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50083130'>AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs</a>
- <a class='hn-top-story-link' href='https://github.com/android/ndk/issues/2260' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50088935'>Passkeys are not a trap</a>
+ <a class='hn-top-story-link' href='https://scotthelme.co.uk/passkeys-are-not-a-trap/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AOSP 源码发布太晚，开发者解构库以报告漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Passkeys 不是陷阱</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 289</span> <span class='hn-top-story-comments'>&#128172; 441</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1335' data-hn-time='1791907396'>
+<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1791999923'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50073879'>Gemini 4 Argon</a>
- <a class='hn-top-story-link' href='https://deepmind.google/models/gemini/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50091788'>AI agents aren't 'going rogue.' Frontier labs are skipping security basics</a>
+ <a class='hn-top-story-link' href='https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Gemini 4 Argon 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 1335</span> <span class='hn-top-story-comments'>&#128172; 928</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>AI 代理并非“失控”——前沿实验室跳过了安全基础</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='42' data-hn-time='1791973548'>
+<div class='hn-top-story-item' data-hn-score='126' data-hn-time='1791995614'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50085296'>I let an AI run my startup for a week</a>
- <a class='hn-top-story-link' href='https://daily.tinyprojects.dev/221' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50090443'>Why do LLM pelicans look like this?</a>
+ <a class='hn-top-story-link' href='https://arcfu.com/post/the-emperor-pelican-has-no-clothes/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我让 AI 运营我的初创公司一周</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>为什么 LLM 生成的企鹅看起来这么奇怪？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='202' data-hn-time='1791952953'>
+<div class='hn-top-story-item' data-hn-score='140' data-hn-time='1791994585'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50082470'>Felix Rieseberg Homepage</a>
- <a class='hn-top-story-link' href='https://felixrieseberg.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50090084'>Amsterdam police confiscates server left-wing ISP A/I at American request</a>
+ <a class='hn-top-story-link' href='https://www.nrc.nl/nieuws/2026/10/14/politie-amsterdam-neemt-op-amerikaans-verzoek-server-in-beslag-van-italiaanse-internetdienstverlener-a-i-a4938960' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Felix Rieseberg 个人主页</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>阿姆斯特丹警方应美方要求没收左翼 ISP A/I 的服务器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='603' data-hn-time='1791923035'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='554' data-hn-time='1791970097'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50078141'>OpenAI engineer arrested in bugging of executive conference room</a>
- <a class='hn-top-story-link' href='https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50084757'>Amazon pushes up prices across the Internet</a>
+ <a class='hn-top-story-link' href='https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 工程师因在高管会议室安装窃听装置被逮捕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 603</span> <span class='hn-top-story-comments'>&#128172; 500</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>亚马逊推动全网价格上涨</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 554</span> <span class='hn-top-story-comments'>&#128172; 506</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='794' data-hn-time='1791906596'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='586' data-hn-time='1791966479'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50073633'>Redesigning source control at Anthropic</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/engineering/redesigning-source-control' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50084240'>Iosevka is an open-source, sans-serif and slab-serif monospace font</a>
+ <a class='hn-top-story-link' href='https://typeof.net/Iosevka/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 的源码控制系统重新设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 794</span> <span class='hn-top-story-comments'>&#128172; 829</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Iosevka 开源的等宽字体家族，涵盖无衬线与方衬线风格</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 586</span> <span class='hn-top-story-comments'>&#128172; 241</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1791973796'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1791995331'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50085332'>Show HN: Building an LLM from Scratch in TypeScript</a>
- <a class='hn-top-story-link' href='https://book.humanexperiences.io/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50090349'>Google is silently linking your phone number across all signed-in accounts</a>
+ <a class='hn-top-story-link' href='https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：用 TypeScript 从零构建一个大型语言模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>谷歌悄悄将你的电话号码链接到所有已登录账户</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='458' data-hn-time='1791918708'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1791996907'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50077020'>Show HN: Guitoro, a virtual guitar you strum with your keyboard</a>
- <a class='hn-top-story-link' href='https://guitoro.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50090842'>Linus Torvalds's first LLM-assisted patch series</a>
+ <a class='hn-top-story-link' href='https://lwn.net/Articles/1100449/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Guitoro——用键盘弹拨的虚拟吉他</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 458</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Linus Torvalds 的首个 LLM 辅助补丁系列</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='736' data-hn-time='1791896532'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1791988735'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50071017'>Apple HomeView</a>
- <a class='hn-top-story-link' href='https://www.apple.com/apple-homeview/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/14/top_stories_10142026#story-50088430'>ASML's strong orders ease fears AI spending boom is running out of steam</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Apple HomeView（苹果家庭视图）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 736</span> <span class='hn-top-story-comments'>&#128172; 862</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>ASML 强劲订单缓解了对 AI 投资热潮降温的担忧</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 42 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-12 — 2026-10-14 <span class="hn-row-sep">·</span> 349 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-10-12 — 2026-10-14 <span class="hn-row-sep">·</span> 385 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/14/top_stories_10142026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
+<span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
