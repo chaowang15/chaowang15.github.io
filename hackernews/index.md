@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>238</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35115</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>234</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>236</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>238</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35149</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>234</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>236</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1436' data-hn-time='1792005990'>
+<div class='hn-top-story-item' data-hn-score='203' data-hn-time='1792079076'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50093568'>Things to know when you get cancer</a>
- <a class='hn-top-story-link' href='https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50105344'>I designed a nose guard for my dog and gave it away. Now 500 dogs wear one</a>
+ <a class='hn-top-story-link' href='https://snoutcover.com/one-year' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>患癌时应知道的事——2026 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 1436</span> <span class='hn-top-story-comments'>&#128172; 354</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>我为我的狗设计的鼻罩，现已被 500 只狗使用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='80' data-hn-time='1792052318'>
+<div class='hn-top-story-item' data-hn-score='143' data-hn-time='1792080199'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50100791'>AI was great until it was not</a>
- <a class='hn-top-story-link' href='https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50105635'>Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher</a>
+ <a class='hn-top-story-link' href='https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 曾经很强大，后来却暴露出局限</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Steam 客户端现在比 Epic 的新启动器更快</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='909' data-hn-time='1791999923'>
+<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1792070624'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50091788'>Containment and monitoring failures are to blame for AI hacking reports: experts</a>
- <a class='hn-top-story-link' href='https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50103338'>Wayland desktop for Linux with skeuomorphic design</a>
+ <a class='hn-top-story-link' href='https://github.com/fyzugx/DEsk' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>专家称AI黑客报道源于封控与监控失败</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 909</span> <span class='hn-top-story-comments'>&#128172; 542</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>基于 Wayland 的 Linux 桌面采用拟物化设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='640' data-hn-time='1792010904'>
+<div class='hn-top-story-item' data-hn-score='118' data-hn-time='1792080241'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50094994'>OpenCode 2.0</a>
- <a class='hn-top-story-link' href='https://anoma.ly/notes/opencode-2-0/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50105647'>Neural Networks Are Already Clean</a>
+ <a class='hn-top-story-link' href='https://already-clean.goodfire.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenCode 2.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 640</span> <span class='hn-top-story-comments'>&#128172; 256</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>神经网络其实已经很干净</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='471' data-hn-time='1792015808'>
+<div class='hn-top-story-item' data-hn-score='41' data-hn-time='1792086459'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50096142'>Tiny Little Office</a>
- <a class='hn-top-story-link' href='https://tinylittleoffice.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50107379'>Muse Spark Open</a>
+ <a class='hn-top-story-link' href='https://research.meta.ai/blog/muse-spark-open' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tiny Little Office 小型办公室</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 471</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Muse Spark 开源发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='377' data-hn-time='1792009854'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1792076328'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50094694'>Anthropic's Scion is heavily inspired by Mononoke</a>
- <a class='hn-top-story-link' href='https://sunshowers.io/posts/anthropic-mononoke/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50104654'>Simons Foundation launches $15M effort to help mathematicians navigate AI era</a>
+ <a class='hn-top-story-link' href='https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 的 Scion 很大程度上受 Mononoke 启发</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 377</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>西蒙斯基金会启动 1500 万美元计划，助力数学家应对 AI 时代</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='604' data-hn-time='1791990945'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='228' data-hn-time='1792071872'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50088935'>Passkeys are not a trap</a>
- <a class='hn-top-story-link' href='https://scotthelme.co.uk/passkeys-are-not-a-trap/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50103630'>I Know Why the Mathematicians Weep</a>
+ <a class='hn-top-story-link' href='https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Passkeys 不是陷阱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 604</span> <span class='hn-top-story-comments'>&#128172; 749</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>我知道为什么数学家会哭</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 345</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='424' data-hn-time='1792004638'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1792083919'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50093180'>Suicide rates highest ever among middle-aged men</a>
- <a class='hn-top-story-link' href='https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50106738'>More on Anthropic's Scion ripping off Mononoke</a>
+ <a class='hn-top-story-link' href='https://sunshowers.io/posts/anthropic-mononoke-2/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>中年男性自杀率创历史新高</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 424</span> <span class='hn-top-story-comments'>&#128172; 543</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Anthropic 的 Scion 与 Mononoke 的抄袭争议又有进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='848' data-hn-time='1791970097'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1792083716'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50084757'>How Amazon pushes up prices all across the Internet</a>
- <a class='hn-top-story-link' href='https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50106676'>An Israeli firm is sending zero-click spyware through online ads</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>亚马逊如何抬升全网价格</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 848</span> <span class='hn-top-story-comments'>&#128172; 650</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>以色列公司通过广告投放零点击间谍软件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='221' data-hn-time='1792022377'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='91' data-hn-time='1792080245'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50097369'>LFM2.5-24B-A2B: Built for fast on-device agents</a>
- <a class='hn-top-story-link' href='https://www.liquid.ai/blog/lfm2-5-24b-a2b' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50105648'>Krea 3 – Frontier Image Model 4× faster than Nano Banana Pro</a>
+ <a class='hn-top-story-link' href='https://www.krea.ai/krea-3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>LFM2.5-24B-A2B：为设备端快速代理而打造</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 221</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Krea 3 – Frontier 图像模型比 Nano Banana Pro 快 4 倍</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 42 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-12 — 2026-10-15 <span class="hn-row-sep">·</span> 500 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-10-12 — 2026-10-15 <span class="hn-row-sep">·</span> 534 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/15/top_stories_10152026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+<span class='hn-row-detail'>All <b>84</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
 </a>
 </div>
 </div>
