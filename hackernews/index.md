@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>239</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35265</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>235</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>237</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>239</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35305</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>235</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>237</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='828' data-hn-time='1792086459'>
+<div class='hn-top-story-item' data-hn-score='143' data-hn-time='1792168682'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50107379'>Muse Spark Open</a>
- <a class='hn-top-story-link' href='https://research.meta.ai/blog/muse-spark-open' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120664'>Desire to Move Permanently to U.S. at New Low</a>
+ <a class='hn-top-story-link' href='https://news.gallup.com/poll/708614/desire-migrate-drops-new-low.aspx' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Muse Spark 开源发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 828</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>搬到美国的意愿降至新低</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='510' data-hn-time='1792095805'>
+<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1792166582'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50109715'>What I self-host</a>
- <a class='hn-top-story-link' href='https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120101'>US Rep Announces Congressional Legislation to Protect Video Game Ownership</a>
+ <a class='hn-top-story-link' href='https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我为何自托管</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 510</span> <span class='hn-top-story-comments'>&#128172; 322</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>美国众议员宣布保护玩家拥有游戏的国会法案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='320' data-hn-time='1792107462'>
+<div class='hn-top-story-item' data-hn-score='69' data-hn-time='1792167122'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50111852'>Meta’s new commercial terms will allow the scraping of news sites: experts</a>
- <a class='hn-top-story-link' href='https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120224'>JPEG XL vs. AVIF for web use-cases</a>
+ <a class='hn-top-story-link' href='https://jakearchibald.com/2026/jpeg-xl-vs-avif/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 新的商业条款将允许抓取新闻网站：专家观点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>JPEG XL 与 AVIF 在网络使用场景中的对比</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='706' data-hn-time='1792080241'>
+<div class='hn-top-story-item' data-hn-score='216' data-hn-time='1792155128'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50105647'>Neural networks are clean</a>
- <a class='hn-top-story-link' href='https://already-clean.goodfire.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50117746'>I Love Software Rendering</a>
+ <a class='hn-top-story-link' href='https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>神经网络是干净的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 706</span> <span class='hn-top-story-comments'>&#128172; 266</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>我爱软件渲染</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1897' data-hn-time='1792005990'>
+<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1792166140'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50093568'>Things to know when you get cancer</a>
- <a class='hn-top-story-link' href='https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50119991'>Postgres 19 delayed after AI reviewers find more bugs than humans can fix</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>患癌时应知道的事——2026 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 1897</span> <span class='hn-top-story-comments'>&#128172; 467</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Postgres 19 推迟：AI 审核发现的缺陷远超人工修复能力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='622' data-hn-time='1792070624'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='116' data-hn-time='1792161857'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50103338'>Wayland desktop for Linux with skeuomorphic design</a>
- <a class='hn-top-story-link' href='https://github.com/fyzugx/DEsk' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50118981'>Hello Toronto – Waymo Is En Route</a>
+ <a class='hn-top-story-link' href='https://waymo.com/blog/2026/10/waymo-in-toronto/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>基于 Wayland 的 Linux 桌面采用拟物化设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 622</span> <span class='hn-top-story-comments'>&#128172; 248</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>你好，多伦多 - Waymo 已进入城外测试</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1792134729'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1792158228'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50115144'>The insider trading you're allowed to do</a>
- <a class='hn-top-story-link' href='https://coached.com/essays/the-insider-trading-youre-allowed-to-do/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50118320'>Apple ML Research: Muse Spark Open with MLX on Mac Studio</a>
+ <a class='hn-top-story-link' href='https://machinelearning.apple.com/research/mlx-distributed-inference' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你被允许做的内幕交易</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>苹果 ML 研究：Muse Spark 与 MLX 在 Mac Studio 开放用于分布式推理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='87' data-hn-time='1792127488'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='39' data-hn-time='1792169869'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50114342'>The Folders Programming Language</a>
- <a class='hn-top-story-link' href='https://danieltemkin.com/esolangs/folders' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50121004'>/dev/null: social network for developers</a>
+ <a class='hn-top-story-link' href='https://dev-null.sh' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Folders 编程语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>dev/null：面向开发者的社交网络</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='165' data-hn-time='1792114997'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1792166185'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50112739'>Any window from your Mac, on your iPhone and iPad</a>
- <a class='hn-top-story-link' href='https://github.com/Saffsanity/sill' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120010'>Inside Polymarket's paid quote-retweet esports program</a>
+ <a class='hn-top-story-link' href='https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让 Mac 任意窗口出现在 iPhone 与 iPad 上</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Inside Polymarket 的付费转发电竞项目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='479' data-hn-time='1792081492'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='101' data-hn-time='1792161842'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50106023'>Jev meets the Trolley Problem</a>
- <a class='hn-top-story-link' href='https://zachlandes.com/trolley-problem/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50118977'>Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD</a>
+ <a class='hn-top-story-link' href='https://calif.io/research/big-fish' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jev 面对电车难题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 202</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Big Fish：在 OpenBSD 上利用一项37年历史的内核漏洞</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 101</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 42 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-12 — 2026-10-16 <span class="hn-row-sep">·</span> 650 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-10-12 — 2026-10-16 <span class="hn-row-sep">·</span> 690 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/16/top_stories_10162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>90</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
