@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='576' data-hn-time='1792086459'>
+<div class='hn-top-story-item' data-hn-score='750' data-hn-time='1792086459'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://research.meta.ai/blog/muse-spark-open' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Muse Spark 开源发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 576</span> <span class='hn-top-story-comments'>&#128172; 326</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 750</span> <span class='hn-top-story-comments'>&#128172; 387</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='192' data-hn-time='1792095805'>
+<div class='hn-top-story-item' data-hn-score='403' data-hn-time='1792095805'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50109715'>What I Self-Host</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50109715'>What I self-host</a>
  <a class='hn-top-story-link' href='https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我为何自托管</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 403</span> <span class='hn-top-story-comments'>&#128172; 250</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='466' data-hn-time='1792080241'>
+<div class='hn-top-story-item' data-hn-score='55' data-hn-time='1792124874'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50114077'>Tesla makes cars that fly? [video]</a>
+ <a class='hn-top-story-link' href='https://www.youtube.com/watch?v=7p5LxFdc-Qg' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>特斯拉在做飞行汽车吗？[视频]</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='620' data-hn-time='1792080241'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50105647'>Neural networks are clean</a>
  <a class='hn-top-story-link' href='https://already-clean.goodfire.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>神经网络是干净的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 466</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 620</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='186' data-hn-time='1792092098'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='120' data-hn-time='1792114997'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50112739'>Any window from your Mac, on your iPhone and iPad</a>
+ <a class='hn-top-story-link' href='https://github.com/Saffsanity/sill' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>让 Mac 任意窗口出现在 iPhone 与 iPad 上</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='172' data-hn-time='1792107462'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50111852'>Business accounts will consent to Meta scraping their websites Starting Oct. 30</a>
+ <a class='hn-top-story-link' href='https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>商业账户将同意让Meta抓取其网站，自10月30日起生效</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='299' data-hn-time='1792092098'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50108872'>Someone on Torrent Sites Kept Fucking with My Sonarr</a>
  <a class='hn-top-story-link' href='https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>有人在 torrent 网站上持续干扰我的 Sonarr</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='135' data-hn-time='1792094149'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50109375'>New Withings Users Must Pay $99/Year for Apple Health Syncing</a>
- <a class='hn-top-story-link' href='https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>新用户必须付年费99美元才能同步 Apple Health</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='471' data-hn-time='1792070624'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50103338'>Wayland desktop for Linux with skeuomorphic design</a>
- <a class='hn-top-story-link' href='https://github.com/fyzugx/DEsk' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>基于 Wayland 的 Linux 桌面采用拟物化设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 471</span> <span class='hn-top-story-comments'>&#128172; 190</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='261' data-hn-time='1792081492'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50106023'>Jev meets the Trolley Problem</a>
- <a class='hn-top-story-link' href='https://zachlandes.com/trolley-problem/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Jev 面对电车难题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='269' data-hn-time='1792080199'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1885' data-hn-time='1792005990'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50105635'>Steam Client is now faster than Epic's new vibe coded launcher</a>
- <a class='hn-top-story-link' href='https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Steam 客户端现在比 Epic 的新启动器更快</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 269</span> <span class='hn-top-story-comments'>&#128172; 270</span> <span class='hn-top-story-tag'>Gaming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='215' data-hn-time='1792083919'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50106738'>More on Anthropic's Scion ripping off Mononoke</a>
- <a class='hn-top-story-link' href='https://sunshowers.io/posts/anthropic-mononoke-2/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Anthropic 的 Scion 与 Mononoke 的抄袭争议又有进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 215</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1850' data-hn-time='1792005990'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50093568'>Things to know when you get cancer</a>
  <a class='hn-top-story-link' href='https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>患癌时应知道的事——2026 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 1850</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 1885</span> <span class='hn-top-story-comments'>&#128172; 459</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='573' data-hn-time='1792070624'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50103338'>Wayland desktop for Linux with skeuomorphic design</a>
+ <a class='hn-top-story-link' href='https://github.com/fyzugx/DEsk' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>基于 Wayland 的 Linux 桌面采用拟物化设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1792111955'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/15/top_stories_10152026#story-50112330'>RPKI now protects 70% of internet routes</a>
+ <a class='hn-top-story-link' href='https://ipinfo.io/blog/rpki-protects-70-internet-routes' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>RPKI 现已覆盖 70% 互联网路由</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/15/top_stories_10152026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
 </a>
 </div>
 </div>
