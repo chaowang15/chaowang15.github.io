@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='294' data-hn-time='1792176959'>
+<div class='hn-top-story-item' data-hn-score='600' data-hn-time='1792176959'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,32 +28,32 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/research/ecdsa-curve-origins' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude 揭示 ECDSA 曲线的来源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 600</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='266' data-hn-time='1792170518'>
+<div class='hn-top-story-item' data-hn-score='161' data-hn-time='1792182821'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50124251'>I never authorized an integration that scans my secrets</a>
+ <a class='hn-top-story-link' href='https://github.com/home-assistant/home-assistant.io/issues/49314' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我从未授权的集成扫描我的秘密</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='373' data-hn-time='1792170518'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50121179'>90% of US working hours are spent on tasks not covered well by AI benchmarks</a>
  <a class='hn-top-story-link' href='https://www.mercor.com/research/labor-index/benchmark-map/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美国90%工作时间花在AI基准覆盖不足的任务上</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 266</span> <span class='hn-top-story-comments'>&#128172; 233</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 373</span> <span class='hn-top-story-comments'>&#128172; 322</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1792174302'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50122112'>Anthropic assigned highest junk credit rating in June</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>安思博在六月被评为最高级别垃圾信用评级</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1792177487'>
+<div class='hn-top-story-item' data-hn-score='202' data-hn-time='1792177487'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,21 +61,21 @@ Sort:
  <a class='hn-top-story-link' href='https://claude.dev/blog/solving-code-review-at-anthropic/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Code 团队如何进行代码审查</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='95' data-hn-time='1792173977'>
+<div class='hn-top-story-item' data-hn-score='197' data-hn-time='1792174302'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50122034'>eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear</a>
- <a class='hn-top-story-link' href='https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50122112'>Anthropic assigned highest junk credit rating in June</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>eBay 限制电台设备上架，但豁免仅限业余波段设备</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 95</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>安思博在六月被评为最高级别垃圾信用评级</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1792175555'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1792175555'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,51 +83,51 @@ Sort:
  <a class='hn-top-story-link' href='https://github.com/cobanov/PS5LM' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在越狱 PS5 上运行 Llama.cpp：在主机本地运行任何 GGUF 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='143' data-hn-time='1792168682'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1111' data-hn-time='1792114365'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120664'>Desire to Move Permanently to U.S. at New Low</a>
- <a class='hn-top-story-link' href='https://news.gallup.com/poll/708614/desire-migrate-drops-new-low.aspx' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50112657'>Tesla Roadster</a>
+ <a class='hn-top-story-link' href='https://www.tesla.com/roadster' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>搬到美国的意愿降至新低</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>特斯拉 Roadster</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1111</span> <span class='hn-top-story-comments'>&#128172; 2020</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='165' data-hn-time='1792166582'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='145' data-hn-time='1792173977'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120101'>US Rep Announces Congressional Legislation to Protect Video Game Ownership</a>
- <a class='hn-top-story-link' href='https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50122034'>eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear</a>
+ <a class='hn-top-story-link' href='https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国众议员宣布保护玩家拥有游戏的国会法案</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>eBay 限制电台设备上架，但豁免仅限业余波段设备</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='152' data-hn-time='1792166140'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='90' data-hn-time='1792180033'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50119991'>Postgres 19 delayed after AI reviewers find more bugs than humans can fix</a>
- <a class='hn-top-story-link' href='https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50123580'>FLUX 3 Image Klein</a>
+ <a class='hn-top-story-link' href='https://bfl.ai/blog/flux-3-image-klein' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Postgres 19 推迟：AI 审核发现的缺陷远超人工修复能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Flux 3 Image Klein：开源权重，56 亿参数</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='135' data-hn-time='1792167122'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='105' data-hn-time='1792177277'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50120224'>JPEG XL vs. AVIF for web use-cases</a>
- <a class='hn-top-story-link' href='https://jakearchibald.com/2026/jpeg-xl-vs-avif/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/16/top_stories_10162026#story-50122878'>You could have invented transformers from memory</a>
+ <a class='hn-top-story-link' href='https://alexwang.ai/posts/associative-memory/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>JPEG XL 与 AVIF 在网络使用场景中的对比</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>你本可以凭记忆发明 Transformer</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/16/top_stories_10162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
 </a>
 </div>
 </div>
