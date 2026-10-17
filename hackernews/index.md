@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>240</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35429</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>236</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>240</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35454</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>236</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='209' data-hn-time='1792245661'>
+<div class='hn-top-story-item' data-hn-score='272' data-hn-time='1792260101'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131256'>Solar surpasses nuclear power globally for first time – pv magazine Global</a>
- <a class='hn-top-story-link' href='https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50133401'>OpenCode Hacked: User credentials leaked</a>
+ <a class='hn-top-story-link' href='https://twitter.com/opencode/status/2111516673953935833' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>全球太阳能首次超过核电</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 209</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>OpenCode 被黑：用户凭据泄露</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 272</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='105' data-hn-time='1792246925'>
+<div class='hn-top-story-item' data-hn-score='372' data-hn-time='1792245661'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131440'>US federal budget deficit jumps 12% in one year to nearly $2 Trillion</a>
- <a class='hn-top-story-link' href='https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131256'>Solar surpasses nuclear power globally for first time</a>
+ <a class='hn-top-story-link' href='https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国联邦预算赤字在一年内跃升12%，接近2万亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>全球太阳能首次超过核电</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 211</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='107' data-hn-time='1792245328'>
+<div class='hn-top-story-item' data-hn-score='148' data-hn-time='1792253421'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131213'>Making Chicken Transparent Using Dorito Dust</a>
- <a class='hn-top-story-link' href='https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>用多力多滋粉让鸡肉变透明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='386' data-hn-time='1792225285'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50129045'>DeepSeek-v4.1-Flash-1017</a>
- <a class='hn-top-story-link' href='https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DeepSeek v4.1 Flash 1017 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 386</span> <span class='hn-top-story-comments'>&#128172; 407</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='25' data-hn-time='1792253421'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132328'>GLP-1 may slow biological aging</a>
  <a class='hn-top-story-link' href='https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GLP-1 可能减缓生物衰老</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='976' data-hn-time='1792176959'>
+<div class='hn-top-story-item' data-hn-score='102' data-hn-time='1792257252'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132950'>Development statistics for the 7.2 kernel</a>
+ <a class='hn-top-story-link' href='https://lwn.net/Articles/1088776/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>7.2 内核开发统计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='35' data-hn-time='1792264872'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50134190'>Israeli settlers attack European diplomats in the West Bank</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>以色列定居者袭击西岸欧洲外交官事件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 35</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='543' data-hn-time='1792225285'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50122800'>Claude reveals ECDSA curve origins</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/research/ecdsa-curve-origins' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50129045'>DeepSeek-v4.1-Flash-1017</a>
+ <a class='hn-top-story-link' href='https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude 揭示 ECDSA 曲线的来源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 976</span> <span class='hn-top-story-comments'>&#128172; 355</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>DeepSeek v4.1 Flash 1017 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 543</span> <span class='hn-top-story-comments'>&#128172; 495</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='83' data-hn-time='1792240579'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='122' data-hn-time='1792253063'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50130570'>Super Intelligence</a>
- <a class='hn-top-story-link' href='https://www.si.gov/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132278'>Amazon uses AI to monitor union risk in UK warehouses</a>
+ <a class='hn-top-story-link' href='https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>超级智能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>亚马逊使用旨在打击工会的 AI 监控来评估英国仓库的工会风险</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='121' data-hn-time='1792234771'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='194' data-hn-time='1792245328'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131213'>Making chicken transparent using Dorito dust</a>
+ <a class='hn-top-story-link' href='https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>用多力多滋粉让鸡肉变透明</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1792256767'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132870'>Gold is now the top U.S. export</a>
+ <a class='hn-top-story-link' href='https://www.numismaticnews.net/gold-now-top-u-s-export' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>黄金成为美国第一大出口商品</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='224' data-hn-time='1792234771'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50129947'>MapQuest will now show you where Flock cameras are in your neighborhood</a>
  <a class='hn-top-story-link' href='https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>MapQuest 现在会显示你所在社区的 Flock 摄像头位置</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='336' data-hn-time='1792203668'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50127274'>Butlerian Jihad</a>
- <a class='hn-top-story-link' href='https://dune.fandom.com/wiki/Butlerian_Jihad' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>巴特勒里安圣战</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 336</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='136' data-hn-time='1792226266'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50129121'>DeepSeek: DeepSeek v4.1 Flash 1017</a>
- <a class='hn-top-story-link' href='https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DeepSeek v4.1 Flash 1017 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 224</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 42 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-12 — 2026-10-17 <span class="hn-row-sep">·</span> 814 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-10-12 — 2026-10-17 <span class="hn-row-sep">·</span> 839 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/17/top_stories_10172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>64</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Science <b>14</b></span>
+<span class='hn-row-detail'>All <b>89</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
