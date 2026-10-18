@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>240</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35461</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>236</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>240</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35465</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>236</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='684' data-hn-time='1792260101'>
+<div class='hn-top-story-item' data-hn-score='833' data-hn-time='1792260101'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://twitter.com/opencode/status/2111516673953935833' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenCode 被黑：用户凭据泄露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 684</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 833</span> <span class='hn-top-story-comments'>&#128172; 156</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='447' data-hn-time='1792245661'>
+<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1792298029'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50137950'>Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping</a>
+ <a class='hn-top-story-link' href='https://sphinx-six-theta.vercel.app/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：Sphinx—上线前用钩子测试 AI 的代码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='54' data-hn-time='1792299564'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50138044'>A Mole Infiltrated the Highest Ranks of American Militias</a>
+ <a class='hn-top-story-link' href='https://www.propublica.org/article/ap3-oath-keepers-militia-mole' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>一名卧底渗透美国产民兵高层</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1792282462'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50136536'>NY announces game ownership bill requiring ownership rather than licensing</a>
+ <a class='hn-top-story-link' href='https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>纽约宣布游戏所有权法案，要求消费者拥有游戏而非许可</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='40' data-hn-time='1792300154'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50138087'>Matthew Prince on why Cloudflare offers a free version and always will</a>
+ <a class='hn-top-story-link' href='https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685#88685' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Matthew Prince 解释为何 Cloudflare 将继续提供免费版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='67' data-hn-time='1792293589'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50137620'>How the Elizabeth Holmes documentary “You Can See Everything” is deceiving</a>
+ <a class='hn-top-story-link' href='https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>伊丽莎白·霍尔姆斯纪录片《You Can See Everything》为何会产生误导</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Startups</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='559' data-hn-time='1792245661'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131256'>Solar surpasses nuclear power globally for first time</a>
  <a class='hn-top-story-link' href='https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>全球太阳能首次超过核电</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 447</span> <span class='hn-top-story-comments'>&#128172; 290</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 559</span> <span class='hn-top-story-comments'>&#128172; 344</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='188' data-hn-time='1792256767'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132870'>Gold is now the top U.S. export</a>
- <a class='hn-top-story-link' href='https://www.numismaticnews.net/gold-now-top-u-s-export' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>黄金成为美国第一大出口商品</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='661' data-hn-time='1792225285'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='805' data-hn-time='1792225285'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50129045'>DeepSeek-v4.1-Flash-1017</a>
  <a class='hn-top-story-link' href='https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek v4.1 Flash 1017 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 661</span> <span class='hn-top-story-comments'>&#128172; 559</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 805</span> <span class='hn-top-story-comments'>&#128172; 631</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='183' data-hn-time='1792252509'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='372' data-hn-time='1792252509'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132193'>Pele – Mermaid diagrams as themeable SVG</a>
  <a class='hn-top-story-link' href='https://pele.run/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Pele：主题化的 Mermaid 图表 SVG</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='124' data-hn-time='1792258577'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50133150'>I Became a Citizen of Japan</a>
- <a class='hn-top-story-link' href='https://www.derekwessman.com/blog-1/natural' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我成为日本公民</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 124</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1792267653'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50134617'>Chrome and Edge are removing XSLT: what breaks and what does not</a>
- <a class='hn-top-story-link' href='https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Chrome 和 Edge 将移除 XSLT：哪些会受影响，哪些不会</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='239' data-hn-time='1792245328'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50131213'>Making chicken transparent using Dorito dust</a>
- <a class='hn-top-story-link' href='https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>用多力多滋粉让鸡肉变透明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='121' data-hn-time='1792257252'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132950'>Development statistics for the 7.2 kernel</a>
- <a class='hn-top-story-link' href='https://lwn.net/Articles/1088776/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>7.2 内核开发统计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='148' data-hn-time='1792253421'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='304' data-hn-time='1792256767'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132328'>GLP-1 may slow biological aging</a>
- <a class='hn-top-story-link' href='https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/17/top_stories_10172026#story-50132870'>Gold is now the top U.S. export</a>
+ <a class='hn-top-story-link' href='https://www.numismaticnews.net/gold-now-top-u-s-export' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GLP-1 可能减缓生物衰老</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>黄金成为美国第一大出口商品</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 304</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 42 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-12 — 2026-10-17 <span class="hn-row-sep">·</span> 846 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-10-12 — 2026-10-17 <span class="hn-row-sep">·</span> 850 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/17/top_stories_10172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>96</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
