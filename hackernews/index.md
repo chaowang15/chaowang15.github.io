@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>242</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35733</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>240</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>242</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35765</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>240</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='177' data-hn-time='1792406714'>
+<div class='hn-top-story-item' data-hn-score='256' data-hn-time='1792427830'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50150750'>Documents: Police officer gave her Flock login to her ICE agent husband</a>
- <a class='hn-top-story-link' href='https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50154518'>I no longer care to work on any Ruby gems so I've archived all my repositories</a>
+ <a class='hn-top-story-link' href='https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>文件披露：警官将 Flock 登录凭据交给她的 ICE 代理丈夫</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 177</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>我不再维护 Ruby gem，全部仓库已归档</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 256</span> <span class='hn-top-story-comments'>&#128172; 222</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='323' data-hn-time='1792394637'>
+<div class='hn-top-story-item' data-hn-score='207' data-hn-time='1792427949'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50149392'>Linux 7.3 Released</a>
- <a class='hn-top-story-link' href='https://lwn.net/Articles/1101143/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50154540'>MiniMax M3.1 Flash</a>
+ <a class='hn-top-story-link' href='https://www.minimax.io/blog/minimax-m31f' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Linux 7.3 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 323</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>MiniMax M3.1 Flash 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='119' data-hn-time='1792403972'>
+<div class='hn-top-story-item' data-hn-score='140' data-hn-time='1792430831'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50150434'>Timestral: Mistral release time-series foundation models</a>
- <a class='hn-top-story-link' href='https://mistral.ai/news/timestral/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50155245'>Mercury 3: Diffusion at scale</a>
+ <a class='hn-top-story-link' href='https://www.inceptionlabs.ai/blog/introducing-mercury-3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Timestral：Mistral 发布时序基础模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>Mercury 3：大规模扩散模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='26' data-hn-time='1792411661'>
+<div class='hn-top-story-item' data-hn-score='394' data-hn-time='1792416934'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50151390'>Harness Engineering 101: The LLM is the brain, the harness is the body</a>
- <a class='hn-top-story-link' href='https://github.com/IsuruMaduranga/harness-engineering-101' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50152307'>Wine ported to OpenBSD</a>
+ <a class='hn-top-story-link' href='https://marc.info/?l=openbsd-ports&m=179236125692175' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Harness 工程学入门：LLM 是大脑，Harness 是躯体</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Wine 已移植到 OpenBSD</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 394</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1792407219'>
+<div class='hn-top-story-item' data-hn-score='237' data-hn-time='1792423704'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50150809'>Let's Encrypt is adding two additional remote perspectives for domain validation</a>
- <a class='hn-top-story-link' href='https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50153630'>CERN and Mistral sign a statement of intent to establish a strategic partnership</a>
+ <a class='hn-top-story-link' href='https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Let's Encrypt 为域名验证增加两种远程验证视角</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>CERN 与 Mistral 签署建立战略伙伴关系的意向书</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 237</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='34' data-hn-time='1792408254'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='115' data-hn-time='1792431026'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50150927'>Alternatives to Animal Testing Are Finally Taking Off</a>
- <a class='hn-top-story-link' href='https://spectrum.ieee.org/alternatives-to-animal-testing' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50155291'>Europe EV sales rose 70.3% in September, 32.6% of market share</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/business/europe-ev-sales-rose-70-september-almost-30-market-share-2026-10-19/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>替代动物测试正在显著推进</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>欧洲电动车销量九月同比增长 70.3%，市场份额 32.6%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1792384906'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1792430798'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50148452'>DeepSeek V4.1 Flash 1017 (Max)</a>
- <a class='hn-top-story-link' href='https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50155237'>Ukraine carries out aerial drone evacuation of a wounded soldier</a>
+ <a class='hn-top-story-link' href='https://www.dailymail.com/news/article-16220441/Ukraine-carries-aerial-drone-evacuation-wounded-soldier-frontline.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek V4.1 Flash 1017（Max）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>乌克兰使用无人机空运受伤士兵</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='439' data-hn-time='1792356494'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='125' data-hn-time='1792428330'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50145337'>Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</a>
- <a class='hn-top-story-link' href='https://arxiv.org/abs/2610.18861' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50154624'>Android apps running native on macOS</a>
+ <a class='hn-top-story-link' href='https://github.com/kksimp/Mac.apk' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>混合推理代理：在潜在空间思考、通过文本执行行动的 LLM 代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 439</span> <span class='hn-top-story-comments'>&#128172; 216</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Android 应用在 macOS 上原生运行</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='600' data-hn-time='1792342616'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1792425146'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50142866'>Namecheap just seized and disabled all my domains</a>
- <a class='hn-top-story-link' href='https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50153934'>Degraded availability for GitHub Actions, GitHub Pages and Webhooks</a>
+ <a class='hn-top-story-link' href='https://www.githubstatus.com/incidents/8tzbpcnl75jp' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Namecheap 竟然没收并禁用我所有的域名</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 600</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>GitHub Actions、Pages 与 Webhooks 服务可用性下降</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='484' data-hn-time='1792341120'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1792403972'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50142573'>Someone behind the software</a>
- <a class='hn-top-story-link' href='https://karrisaarinen.com/posts/someone-behind-the-software/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50150434'>Timestral: Mistral's time-series foundation models</a>
+ <a class='hn-top-story-link' href='https://mistral.ai/news/timestral/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>软件背后的人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 484</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Timestral：Mistral 的时序基础模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 43 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-19 <span class="hn-row-sep">·</span> 68 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-10-19 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/19/top_stories_10192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>68</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
 </a>
 </div>
 </div>
