@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>241</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35615</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>237</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>239</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>242</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35665</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>237</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>240</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1792356494'>
+<div class='hn-top-story-item' data-hn-score='102' data-hn-time='1792384906'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50145337'>Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</a>
- <a class='hn-top-story-link' href='https://arxiv.org/abs/2610.18861' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50148452'>DeepSeek V4.1 Flash 1017 (Max)</a>
+ <a class='hn-top-story-link' href='https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>混合推理代理：在潜在空间思考、通过文本执行行动的 LLM 代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>DeepSeek V4.1 Flash 1017（Max）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='378' data-hn-time='1792342616'>
+<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1792384818'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50142866'>Namecheap just seized and disabled all my domains</a>
- <a class='hn-top-story-link' href='https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50148441'>Verisign .com Domain Name Registry Consumer Class Action</a>
+ <a class='hn-top-story-link' href='https://www.hbsslaw.com/cases/verisign-com-domain-name-registry-consumer-class-action' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Namecheap 竟然没收并禁用我所有的域名</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Verisign .com 域名注册商消费者集体诉讼</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='275' data-hn-time='1792341120'>
+<div class='hn-top-story-item' data-hn-score='342' data-hn-time='1792356494'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50142573'>Someone behind the software</a>
- <a class='hn-top-story-link' href='https://karrisaarinen.com/posts/someone-behind-the-software/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50145337'>Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2610.18861' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>软件背后的人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 275</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>混合推理代理：在潜在空间思考、通过文本执行行动的 LLM 代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 342</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='153' data-hn-time='1792348816'>
+<div class='hn-top-story-item' data-hn-score='546' data-hn-time='1792342616'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50144005'>Florida's HOAs and condo associations are making the housing crisis worse</a>
- <a class='hn-top-story-link' href='https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50142866'>Namecheap just seized and disabled all my domains</a>
+ <a class='hn-top-story-link' href='https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>佛罗里达州的 HOA 与公寓协会正在加剧住房危机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 259</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Namecheap 竟然没收并禁用我所有的域名</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 546</span> <span class='hn-top-story-comments'>&#128172; 283</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='319' data-hn-time='1792331328'>
+<div class='hn-top-story-item' data-hn-score='404' data-hn-time='1792341120'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50141076'>RepRapMicron</a>
- <a class='hn-top-story-link' href='https://github.com/VikOlliver/RepRapMicron/wiki' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50142573'>Someone behind the software</a>
+ <a class='hn-top-story-link' href='https://karrisaarinen.com/posts/someone-behind-the-software/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>RepRapMicron：开放源代码的微型3D打印平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>软件背后的人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 404</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='231' data-hn-time='1792337166'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='148' data-hn-time='1792366677'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50141909'>macOS 15.8.2 Breaks OpenGL</a>
- <a class='hn-top-story-link' href='https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50146625'>William Gibson and the trademarking of cyberspace</a>
+ <a class='hn-top-story-link' href='https://colo.to/cyberspace.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>macOS 15.8.2 将 OpenGL 支持破坏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 238</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>威廉·吉布森与网络空间的商标化</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1792349284'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1792374903'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50144066'>Free Pascal compiler now supports dynamic packages</a>
- <a class='hn-top-story-link' href='https://www.getlazarus.org/dynamic/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50147455'>Footage of the Flock search that a judge ruled was uncosntitutional</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Free Pascal 编译器现已支持动态包</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Footage of the Flock search that a judge ruled was unconstitutional</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='528' data-hn-time='1792306236'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='376' data-hn-time='1792331328'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50138531'>DeepSeek search and fetch – $0.75 per 1000 successful requests</a>
- <a class='hn-top-story-link' href='https://api-docs.deepseek.com/guides/search/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50141076'>RepRapMicron</a>
+ <a class='hn-top-story-link' href='https://github.com/VikOlliver/RepRapMicron/wiki' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek 搜索与获取服务：每千次请求 0.75 美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 528</span> <span class='hn-top-story-comments'>&#128172; 253</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>RepRapMicron：开放源代码的微型3D打印平台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1792346219'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1792375276'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50143536'>PalmOS Lemmings</a>
- <a class='hn-top-story-link' href='https://github.com/ardiri/palmos-lemmings' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50147492'>Superlite: A Faster Alternatie to Superpowers</a>
+ <a class='hn-top-story-link' href='https://contextfirst.blog/superlite-hand-an-agent-a-spec/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Aaron Ardiri 的 PalmOS Lemmings</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>Superlite：比 Superpowers 更快的替代方案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1792349949'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='567' data-hn-time='1792306236'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/18/top_stories_10182026#story-50144144'>Tiny Brutalism – Thanks to HN it's on Steam</a>
- <a class='hn-top-story-link' href='https://store.steampowered.com/app/5426130/Tiny_Brutalism/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50138531'>DeepSeek search and fetch – $0.75 per 1000 successful requests</a>
+ <a class='hn-top-story-link' href='https://api-docs.deepseek.com/guides/search/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tiny Brutalism 因为 HN 的热议登上 Steam</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>DeepSeek 搜索与获取服务：每千次请求 0.75 美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 567</span> <span class='hn-top-story-comments'>&#128172; 266</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/18/top_stories_10182026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/19/top_stories_10192026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/17/best_stories_10172026'>Latest Daily Best — 2026-10-17 &rarr;</a>
 </div>
 </div>
@@ -139,7 +139,26 @@ Sort:
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 42 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-title'>2026 Week 43 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-10-19 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+</summary>
+<div class='hn-week-content'>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-19 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/19/top_stories_10192026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>7</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 42</span>
 <span class='hn-week-meta'>2026-10-12 — 2026-10-18 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
@@ -548,7 +567,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 38</span>
-<span class='hn-week-meta'>2026-09-19 — 2026-09-20 <span class="hn-row-sep">·</span> 286 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-09-20 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W38'>
@@ -566,19 +585,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/20/top_stories_09202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-19 <span class='hn-day-weekday'>Sat</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/19/best_stories_09192026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/19/top_stories_09192026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>86</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
