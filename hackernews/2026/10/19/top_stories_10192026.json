@@ -4,21 +4,164 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 30,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "00:10, October 19, 2026 (PDT)",
+    "count_written": 68,
+    "reused_same_day": 32,
+    "reused_cross_day": 2,
+    "new_llm_enriched": 16,
+    "scrape_time_display": "05:45, October 19, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/19",
     "content_date": "2026-10-19",
-    "run_time_local": "00:10, October 19, 2026 (PDT)",
-    "run_time_utc": "2026-10-19 07:10:22 UTC",
+    "run_time_local": "05:45, October 19, 2026 (PDT)",
+    "run_time_utc": "2026-10-19 12:45:37 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-19 07:11:50 UTC"
+    "hot_score_time_utc": "2026-10-19 12:46:47 UTC"
   },
   "items": [
+    {
+      "title_en": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "title_zh": "文件披露：警官将 Flock 登录凭据交给她的 ICE 代理丈夫",
+      "created_display": "Created: Oct 19, 2026 / 03:45 PT",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/59afd81a-246a-4dd8-be64-a0263cee209e.png?crop=1.00xw%3A1.00xh%3B0%2C0&resize=1200%3A*",
+      "summary_en": "A Savannah police officer allegedly shared her Flock login with her husband, who works as an ICE agent. The breach underscores how easy-to-share credentials can expose sensitive investigative data and trigger internal security reviews. It highlights the need for strict access controls and auditing in sensitive apps.",
+      "summary_zh": "一名萨凡纳警官据称将 Flock 登录凭据交给她的 ICE 代理丈夫。此举暴露了敏感调查数据的访问风险，并可能引发内部安全审查。事件凸显对敏感应用实施严格访问控制与审计的必要性。",
+      "hn": {
+        "id": 50150750,
+        "type": "story",
+        "by": "DeepLogin",
+        "score": 177,
+        "descendants": 87,
+        "time": 1792406714,
+        "comments_url": "https://news.ycombinator.com/item?id=50150750"
+      },
+      "hot_score": 14.35,
+      "tags": [
+        "Security",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Linux 7.3 Released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "title_zh": "Linux 7.3 发布",
+      "created_display": "Created: Oct 19, 2026 / 00:23 PT",
+      "image_url": "https://static.lwn.net/images/logo/barepenguin-70.webp",
+      "summary_en": "Linux 7.3 has shipped, delivering incremental updates across drivers, filesystems, and security hardening. The release reflects ongoing maintenance for long-lived ecosystems and puts more emphasis on hardware compatibility and patch quality for enterprise deployments.",
+      "summary_zh": "Linux 7.3 已正式发布，涵盖驱动、文件系统和安全加固等方面的增量更新。此次版本体现了对长期维护生态的持续投入，以及对企业部署中硬件兼容性和补丁质量的关注。",
+      "hn": {
+        "id": 50149392,
+        "type": "story",
+        "by": "cjd8",
+        "score": 323,
+        "descendants": 141,
+        "time": 1792394637,
+        "comments_url": "https://news.ycombinator.com/item?id=50149392"
+      },
+      "hot_score": 8.82,
+      "tags": [
+        "Open Source",
+        "Security",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Timestral: Mistral release time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "title_zh": "Timestral：Mistral 发布时序基础模型",
+      "created_display": "Created: Oct 19, 2026 / 02:59 PT",
+      "image_url": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp",
+      "summary_en": "Timestral is Mistral's family of time-series foundation models designed for forecasting tasks. The release emphasizes data-efficient fine-tuning and practical deployment for finance, energy, and climate domains. These models aim to lower barriers to accurate time-series predictions at scale.",
+      "summary_zh": "Timestral 是 Mistral 的时序基础模型系列，专为预测任务而设计。该系列强调数据高效微调与落地部署，适用于金融、能源与气候等场景，旨在让大规模时序预测更易实现。",
+      "hn": {
+        "id": 50150434,
+        "type": "story",
+        "by": "groar",
+        "score": 119,
+        "descendants": 22,
+        "time": 1792403972,
+        "comments_url": "https://news.ycombinator.com/item?id=50150434"
+      },
+      "hot_score": 7.04,
+      "tags": [
+        "AI",
+        "Data",
+        "Finance",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "title_zh": "Harness 工程学入门：LLM 是大脑，Harness 是躯体",
+      "created_display": "Created: Oct 19, 2026 / 05:07 PT",
+      "image_url": "https://opengraph.githubassets.com/06b20fccfffbea66887e3468aa6eed27a283b4050e837798614f4b8a5b720826/IsuruMaduranga/harness-engineering-101",
+      "summary_en": "Harness engineering separates reasoning from actions by treating the LLM as the brain and the harness as the body that interfaces with tools and environments. This decoupling improves reliability, safety, and testability in AI agents, while illustrating practical design patterns and common pitfalls.",
+      "summary_zh": "Harness 工程学将推理与执行解耦，LLM 担任大脑，harness 则作为与工具和环境交互的躯体。这样的分离提升了 AI 代理的可靠性、安全性和可测试性，同时揭示了实用的设计范式及常见坑点。",
+      "hn": {
+        "id": 50151390,
+        "type": "story",
+        "by": "isuruwijesiri",
+        "score": 26,
+        "descendants": 6,
+        "time": 1792411661,
+        "comments_url": "https://news.ycombinator.com/item?id=50151390"
+      },
+      "hot_score": 4.32,
+      "tags": [
+        "AI",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "title_zh": "Let's Encrypt 为域名验证增加两种远程验证视角",
+      "created_display": "Created: Oct 19, 2026 / 03:53 PT",
+      "image_url": "https://global.discourse-cdn.com/letsencrypt/original/3X/4/c/4c5760509a18adfc3bc657ba8bd49b301faaa66b.png",
+      "summary_en": "Let's Encrypt plans to add two additional remote perspectives for domain validation to improve robustness and accessibility. The move aims to diversify validation pathways, reduce reliance on a single validation method, and help users in constrained networks.",
+      "summary_zh": "Let’s Encrypt 将为域名验证新增两种远程验证视角，以提升鲁棒性与可访问性。此举旨在丰富验证路径，降低对单一验证方式的依赖，并帮助在受限网络环境中完成验证。",
+      "hn": {
+        "id": 50150809,
+        "type": "story",
+        "by": "gslin",
+        "score": 49,
+        "descendants": 10,
+        "time": 1792407219,
+        "comments_url": "https://news.ycombinator.com/item?id=50150809"
+      },
+      "hot_score": 4.17,
+      "tags": [
+        "Security",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Alternatives to Animal Testing Are Finally Taking Off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "title_zh": "替代动物测试正在显著推进",
+      "created_display": "Created: Oct 19, 2026 / 04:10 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/a-photo-shows-a-hand-holding-a-small-clear-plastic-device-with-red-and-blue-lines-inside-it.jpg?id=67819184&width=1200&height=600&coordinates=0%2C834%2C0%2C834",
+      "summary_en": "Advances such as organ-on-a-chip, sophisticated in vitro models, and in silico simulations are accelerating the replacement of animal testing. Regulatory acceptance is growing, reducing reliance on animal data in drug development and safety assessment.",
+      "summary_zh": "器官芯片、先进体外模型以及计算模拟等技术正在加速替代动物测试的进展。监管认可度提升，药物开发与安全评估中对动物数据的依赖正在下降。",
+      "hn": {
+        "id": 50150927,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 34,
+        "descendants": 2,
+        "time": 1792408254,
+        "comments_url": "https://news.ycombinator.com/item?id=50150927"
+      },
+      "hot_score": 3.29,
+      "tags": [
+        "Science",
+        "Health",
+        "Hardware",
+        "Politics"
+      ]
+    },
     {
       "title_en": "DeepSeek V4.1 Flash 1017 (Max)",
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
@@ -31,15 +174,268 @@
         "id": 50148452,
         "type": "story",
         "by": "theanonymousone",
-        "score": 102,
-        "descendants": 32,
+        "score": 163,
+        "descendants": 62,
         "time": 1792384906,
         "comments_url": "https://news.ycombinator.com/item?id=50148452"
       },
-      "hot_score": 6.73,
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 2.53
+    },
+    {
+      "title_en": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "title_zh": "混合推理代理：在潜在空间思考、通过文本执行行动的 LLM 代理",
+      "created_display": "Created: Oct 18, 2026 / 13:48 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Researchers propose Hybrid Reasoning Agents that operate by thinking in a latent space while taking actions via text. The approach blends neural representations with text-based control to enable scalable, interpretable planning in complex tasks.",
+      "summary_zh": "研究者提出混合推理代理，其在潜在空间中进行推理，并通过文本执行行动。这种方法将神经表示与文本控制结合，提升在复杂任务中的可扩展性与可解释性。",
+      "hn": {
+        "id": 50145337,
+        "type": "story",
+        "by": "allinonai",
+        "score": 439,
+        "descendants": 216,
+        "time": 1792356494,
+        "comments_url": "https://news.ycombinator.com/item?id=50145337"
+      },
+      "tags": [
+        "AI",
+        "Design"
+      ],
+      "hot_score": 2.42
+    },
+    {
+      "title_en": "Namecheap just seized and disabled all my domains",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "title_zh": "Namecheap 竟然没收并禁用我所有的域名",
+      "created_display": "Created: Oct 18, 2026 / 09:56 PT",
+      "image_url": null,
+      "summary_en": "A user claims Namecheap seized and disabled all domains, raising questions about registrar control, ownership, and due process.",
+      "summary_zh": "用户称 Namecheap 竟然没收并禁用了他所有的域名，暴露了注册商对域名控制、所有权与流程的潜在风险。",
+      "hn": {
+        "id": 50142866,
+        "type": "story",
+        "by": "sashk",
+        "score": 600,
+        "descendants": 308,
+        "time": 1792342616,
+        "comments_url": "https://news.ycombinator.com/item?id=50142866"
+      },
+      "tags": [
+        "Security",
+        "Legal"
+      ],
+      "hot_score": 2.33
+    },
+    {
+      "title_en": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "title_zh": "软件背后的人",
+      "created_display": "Created: Oct 18, 2026 / 09:32 PT",
+      "image_url": "https://karrisaarinen.com/static/linear-assets/081de7ffce667bb13cb63d8b2a1d312e19d747ea1d3818af2c5cc1e5a9445e21.webp",
+      "summary_en": "It argues that progress in tech depends as much on people and processes as on algorithms or architectures.",
+      "summary_zh": "文本聚焦于塑造软件的人员与组织因素，强调工具选择、团队激励等比代码更能决定成败。它认为科技进步在很大程度上取决于人和流程，而不仅仅是算法或架构。",
+      "hn": {
+        "id": 50142573,
+        "type": "story",
+        "by": "tosh",
+        "score": 484,
+        "descendants": 175,
+        "time": 1792341120,
+        "comments_url": "https://news.ycombinator.com/item?id=50142573"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 1.82
+    },
+    {
+      "title_en": "William Gibson and the trademarking of cyberspace",
+      "url": "https://colo.to/cyberspace.html",
+      "title_zh": "威廉·吉布森与网络空间的商标化",
+      "created_display": "Created: Oct 18, 2026 / 16:37 PT",
+      "image_url": "https://colo.to/pix/guell.jpg",
+      "summary_en": "William Gibson coined cyberspace in his cyberpunk fiction, helping define a cultural concept that later became a marketable asset. The article traces how the term migrated from literary prose to trademarked real estate, shaping IP strategy and branding in tech and policy. It highlights the friction between imaginative language and legal ownership in the digital era.",
+      "summary_zh": "威廉·吉布森在科幻作品中首次提出“网络空间”这一概念，塑造了一个后来成为品牌资产的文化术语。文章追溯这一术语如何从文学创作转变为可注册商标，影响科技公司在品牌与法务上的策略。揭示了想象语言与数字时代法律产权之间的张力。",
+      "hn": {
+        "id": 50146625,
+        "type": "story",
+        "by": "Eric_Gullichsen",
+        "score": 211,
+        "descendants": 86,
+        "time": 1792366677,
+        "comments_url": "https://news.ycombinator.com/item?id=50146625"
+      },
+      "tags": [
+        "Culture",
+        "Legal"
+      ],
+      "hot_score": 1.58
+    },
+    {
+      "title_en": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "title_zh": "Tmux 与 Claude Code：会话管理、发送按键与瓶颈",
+      "created_display": "Created: Oct 18, 2026 / 22:55 PT",
+      "image_url": "https://crystl.dev/og.png?v=3",
+      "summary_en": "Using tmux to host Claude Code sessions enables managing AI-assisted coding workflows inside terminal multiplexed environments. The guide covers sessions, sending keys, and practical limits, highlighting throughput and latency bottlenecks.",
+      "summary_zh": "在 tmux 会话中运行 Claude Code，可将 AI 辅助的编码工作流整合进终端多路复用环境。文章介绍如何管理会话、发送按键，以及当前的吞吐与延迟瓶颈。",
+      "hn": {
+        "id": 50148855,
+        "type": "story",
+        "by": "ankitg12",
+        "score": 73,
+        "descendants": 42,
+        "time": 1792389331,
+        "comments_url": "https://news.ycombinator.com/item?id=50148855"
+      },
+      "hot_score": 1.42,
+      "tags": [
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "ESA's Hera Will View Asteroid Scars from DART's Strike",
+      "url": "https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous",
+      "title_zh": "ESA 的 Hera 将观测 DART 碰撞后的小行星伤痕",
+      "created_display": "Created: Oct 19, 2026 / 04:12 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/3d-rendering-of-a-space-probe-approaching-two-asteroids.jpg?id=68453287&width=1200&height=600&coordinates=0%2C172%2C0%2C413",
+      "summary_en": "ESA's Hera mission will rendezvous with the Didymos system to image and measure the crater created by NASA's DART impact. The data will validate impact models and help calibrate planetary-defense techniques for future mitigation strategies.",
+      "summary_zh": "欧洲航天局的 Hera 任务将与双小行星系统会合，拍摄并测量 DART 碰撞形成的陨坑。数据有助于校验碰撞模型、校准行星防御策略。",
+      "hn": {
+        "id": 50150935,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 15,
+        "descendants": 0,
+        "time": 1792408322,
+        "comments_url": "https://news.ycombinator.com/item?id=50150935"
+      },
+      "hot_score": 1.41,
+      "tags": [
+        "Space",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "RepRapMicron",
+      "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "title_zh": "RepRapMicron：开放源代码的微型3D打印平台",
+      "created_display": "Created: Oct 18, 2026 / 06:48 PT",
+      "image_url": "https://opengraph.githubassets.com/917851e063645a0adabf17ac1f2af1e51269f897b75681d18cce1c0f7e29cb1c/VikOlliver/RepRapMicron",
+      "summary_en": "RepRapMicron documents an open-source micro-scale motion platform for RepRap-style 3D systems, emphasizing sub-micrometer precision. The project offers mechanical designs, electronics, and firmware to enable precision micro-manufacturing at a hobbyist level. It showcases how open hardware can democratize advanced fabrication capabilities.",
+      "summary_zh": "RepRapMicron 记录了一个用于 RepRap 系列的微型尺度运动平台，强调亚纳米级（亚微米）精度。该项目提供机械设计、电子和固件，面向爱好者层面的微型制造。它展示了开源硬件如何让高端加工能力走向大众。",
+      "hn": {
+        "id": 50141076,
+        "type": "story",
+        "by": "RobotToaster",
+        "score": 410,
+        "descendants": 65,
+        "time": 1792331328,
+        "comments_url": "https://news.ycombinator.com/item?id=50141076"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ],
+      "hot_score": 1.25
+    },
+    {
+      "title_en": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "title_zh": "如果你不运行自己的 LLM 代理，你如何知道发生了什么？",
+      "created_display": "Created: Oct 18, 2026 / 14:09 PT",
+      "image_url": null,
+      "summary_en": "Relying on hosted LLM APIs hides the model's behavior and data flows; running your own proxy gives visibility into prompts, responses, and potential data leakage. It enables you to enforce policies, audit usage, and protect privacy, especially in regulated or sensitive environments. The piece argues that governance starts with visibility into the model's operations.",
+      "summary_zh": "依赖云端 LLM API 让你看不到模型内部的行为和数据流动。自行搭建代理可让你监控输入输出、发现数据泄露风险，并执行策略与合规审查，尤其在受监管或敏感场景中尤为重要。",
+      "hn": {
+        "id": 50145507,
+        "type": "story",
+        "by": "amrrs",
+        "score": 210,
+        "descendants": 152,
+        "time": 1792357752,
+        "comments_url": "https://news.ycombinator.com/item?id=50145507"
+      },
+      "tags": [
+        "Privacy",
+        "Security",
+        "Data",
+        "AI",
+        "Politics"
+      ],
+      "hot_score": 1.19
+    },
+    {
+      "title_en": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "title_zh": "DeepSeek 搜索与获取服务：每千次请求 0.75 美元",
+      "created_display": "Created: Oct 17, 2026 / 23:50 PT",
+      "image_url": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
+      "summary_en": "DeepSeek launches a 'search and fetch' API priced at $0.75 per 1000 successful requests. This pricing positions the service as a cost-efficient option for building search-heavy apps and data pipelines, potentially enabling more frequent queries at scale. It could shake up budget planning for developers who rely on external search endpoints.",
+      "summary_zh": "DeepSeek 推出名为 'search and fetch' 的 API，按每成功请求 1000 次收取 0.75 美元。该定价面向需要大量检索的应用，提供更具成本效益的查询方案，可能改变开发者在数据检索与管线中的预算和架构选择。",
+      "hn": {
+        "id": 50138531,
+        "type": "story",
+        "by": "fagnerbrack",
+        "score": 579,
+        "descendants": 272,
+        "time": 1792306236,
+        "comments_url": "https://news.ycombinator.com/item?id=50138531"
+      },
+      "tags": [
+        "Business",
+        "Web"
+      ],
+      "hot_score": 1.13
+    },
+    {
+      "title_en": "Superlite: A Faster Alternatie to Superpowers",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "title_zh": "Superlite：比 Superpowers 更快的替代方案",
+      "created_display": "Created: Oct 18, 2026 / 19:01 PT",
+      "image_url": "https://static.ghost.org/v5.0.0/images/publication-cover.jpg",
+      "summary_en": "Superlite offers a faster alternative to Superpowers.",
+      "summary_zh": "Superlite 提供比 Superpowers 更快的替代方案。",
+      "hn": {
+        "id": 50147492,
+        "type": "story",
+        "by": "iheatuchriswogu",
+        "score": 109,
+        "descendants": 51,
+        "time": 1792375276,
+        "comments_url": "https://news.ycombinator.com/item?id=50147492"
+      },
       "tags": [
         "Programming"
-      ]
+      ],
+      "hot_score": 1.1
+    },
+    {
+      "title_en": "macOS 15.8.2 Breaks OpenGL",
+      "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+      "title_zh": "macOS 15.8.2 将 OpenGL 支持破坏",
+      "created_display": "Created: Oct 18, 2026 / 08:26 PT",
+      "image_url": null,
+      "summary_en": "macOS 15.8.2 breaks OpenGL support, causing rendering issues for apps that still rely on legacy GL contexts. Apple has deprecated OpenGL in recent updates, pushing developers toward Metal. The change underscores the risk of relying on deprecated APIs for future OS releases.",
+      "summary_zh": "macOS 15.8.2 破坏了 OpenGL 支持，导致仍依赖旧版 GL 上下文的应用出现渲染问题。苹果已在更新中淡化 OpenGL，推崇 Metal，强调了依赖已弃用 API 的风险。",
+      "hn": {
+        "id": 50141909,
+        "type": "story",
+        "by": "Audiophilip",
+        "score": 276,
+        "descendants": 306,
+        "time": 1792337166,
+        "comments_url": "https://news.ycombinator.com/item?id=50141909"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.95
     },
     {
       "title_en": "Verisign .com Domain Name Registry Consumer Class Action",
@@ -58,100 +454,12 @@
         "time": 1792384818,
         "comments_url": "https://news.ycombinator.com/item?id=50148441"
       },
-      "hot_score": 4.03,
+      "hot_score": 0.95,
       "tags": [
         "Legal",
+        "Business",
         "Security",
         "Politics"
-      ]
-    },
-    {
-      "title_en": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "title_zh": "混合推理代理：在潜在空间思考、通过文本执行行动的 LLM 代理",
-      "created_display": "Created: Oct 18, 2026 / 13:48 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Researchers propose Hybrid Reasoning Agents that operate by thinking in a latent space while taking actions via text. The approach blends neural representations with text-based control to enable scalable, interpretable planning in complex tasks.",
-      "summary_zh": "研究者提出混合推理代理，其在潜在空间中进行推理，并通过文本执行行动。这种方法将神经表示与文本控制结合，提升在复杂任务中的可扩展性与可解释性。",
-      "hn": {
-        "id": 50145337,
-        "type": "story",
-        "by": "allinonai",
-        "score": 342,
-        "descendants": 165,
-        "time": 1792356494,
-        "comments_url": "https://news.ycombinator.com/item?id=50145337"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 3.67
-    },
-    {
-      "title_en": "Namecheap just seized and disabled all my domains",
-      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
-      "title_zh": "Namecheap 竟然没收并禁用我所有的域名",
-      "created_display": "Created: Oct 18, 2026 / 09:56 PT",
-      "image_url": null,
-      "summary_en": "A user claims Namecheap seized and disabled all domains, raising questions about registrar control, ownership, and due process.",
-      "summary_zh": "用户称 Namecheap 竟然没收并禁用了他所有的域名，暴露了注册商对域名控制、所有权与流程的潜在风险。",
-      "hn": {
-        "id": 50142866,
-        "type": "story",
-        "by": "sashk",
-        "score": 546,
-        "descendants": 283,
-        "time": 1792342616,
-        "comments_url": "https://news.ycombinator.com/item?id=50142866"
-      },
-      "tags": [
-        "Legal"
-      ],
-      "hot_score": 3.61
-    },
-    {
-      "title_en": "Someone behind the software",
-      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-      "title_zh": "软件背后的人",
-      "created_display": "Created: Oct 18, 2026 / 09:32 PT",
-      "image_url": "https://karrisaarinen.com/static/linear-assets/081de7ffce667bb13cb63d8b2a1d312e19d747ea1d3818af2c5cc1e5a9445e21.webp",
-      "summary_en": "It argues that progress in tech depends as much on people and processes as on algorithms or architectures.",
-      "summary_zh": "文本聚焦于塑造软件的人员与组织因素，强调工具选择、团队激励等比代码更能决定成败。它认为科技进步在很大程度上取决于人和流程，而不仅仅是算法或架构。",
-      "hn": {
-        "id": 50142573,
-        "type": "story",
-        "by": "tosh",
-        "score": 404,
-        "descendants": 158,
-        "time": 1792341120,
-        "comments_url": "https://news.ycombinator.com/item?id=50142573"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 2.55
-    },
-    {
-      "title_en": "William Gibson and the trademarking of cyberspace",
-      "url": "https://colo.to/cyberspace.html",
-      "title_zh": "威廉·吉布森与网络空间的商标化",
-      "created_display": "Created: Oct 18, 2026 / 16:37 PT",
-      "image_url": "https://colo.to/pix/guell.jpg",
-      "summary_en": "William Gibson coined cyberspace in his cyberpunk fiction, helping define a cultural concept that later became a marketable asset. The article traces how the term migrated from literary prose to trademarked real estate, shaping IP strategy and branding in tech and policy. It highlights the friction between imaginative language and legal ownership in the digital era.",
-      "summary_zh": "威廉·吉布森在科幻作品中首次提出“网络空间”这一概念，塑造了一个后来成为品牌资产的文化术语。文章追溯这一术语如何从文学创作转变为可注册商标，影响科技公司在品牌与法务上的策略。揭示了想象语言与数字时代法律产权之间的张力。",
-      "hn": {
-        "id": 50146625,
-        "type": "story",
-        "by": "Eric_Gullichsen",
-        "score": 148,
-        "descendants": 45,
-        "time": 1792366677,
-        "comments_url": "https://news.ycombinator.com/item?id=50146625"
-      },
-      "hot_score": 2.52,
-      "tags": [
-        "Culture",
-        "Legal"
       ]
     },
     {
@@ -171,78 +479,11 @@
         "time": 1792374903,
         "comments_url": "https://news.ycombinator.com/item?id=50147455"
       },
-      "hot_score": 2.39,
+      "hot_score": 0.86,
       "tags": [
         "Legal",
         "Privacy"
       ]
-    },
-    {
-      "title_en": "RepRapMicron",
-      "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
-      "title_zh": "RepRapMicron：开放源代码的微型3D打印平台",
-      "created_display": "Created: Oct 18, 2026 / 06:48 PT",
-      "image_url": "https://opengraph.githubassets.com/917851e063645a0adabf17ac1f2af1e51269f897b75681d18cce1c0f7e29cb1c/VikOlliver/RepRapMicron",
-      "summary_en": "RepRapMicron documents an open-source micro-scale motion platform for RepRap-style 3D systems, emphasizing sub-micrometer precision. The project offers mechanical designs, electronics, and firmware to enable precision micro-manufacturing at a hobbyist level. It showcases how open hardware can democratize advanced fabrication capabilities.",
-      "summary_zh": "RepRapMicron 记录了一个用于 RepRap 系列的微型尺度运动平台，强调亚纳米级（亚微米）精度。该项目提供机械设计、电子和固件，面向爱好者层面的微型制造。它展示了开源硬件如何让高端加工能力走向大众。",
-      "hn": {
-        "id": 50141076,
-        "type": "story",
-        "by": "RobotToaster",
-        "score": 376,
-        "descendants": 57,
-        "time": 1792331328,
-        "comments_url": "https://news.ycombinator.com/item?id=50141076"
-      },
-      "tags": [
-        "Open Source",
-        "Hardware"
-      ],
-      "hot_score": 1.81
-    },
-    {
-      "title_en": "Superlite: A Faster Alternatie to Superpowers",
-      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
-      "title_zh": "Superlite：比 Superpowers 更快的替代方案",
-      "created_display": "Created: Oct 18, 2026 / 19:01 PT",
-      "image_url": "https://static.ghost.org/v5.0.0/images/publication-cover.jpg",
-      "summary_en": "Superlite offers a faster alternative to Superpowers.",
-      "summary_zh": "Superlite 提供比 Superpowers 更快的替代方案。",
-      "hn": {
-        "id": 50147492,
-        "type": "story",
-        "by": "iheatuchriswogu",
-        "score": 60,
-        "descendants": 28,
-        "time": 1792375276,
-        "comments_url": "https://news.ycombinator.com/item?id=50147492"
-      },
-      "hot_score": 1.7,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "url": "https://api-docs.deepseek.com/guides/search/",
-      "title_zh": "DeepSeek 搜索与获取服务：每千次请求 0.75 美元",
-      "created_display": "Created: Oct 17, 2026 / 23:50 PT",
-      "image_url": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
-      "summary_en": "DeepSeek launches a 'search and fetch' API priced at $0.75 per 1000 successful requests. This pricing positions the service as a cost-efficient option for building search-heavy apps and data pipelines, potentially enabling more frequent queries at scale. It could shake up budget planning for developers who rely on external search endpoints.",
-      "summary_zh": "DeepSeek 推出名为 'search and fetch' 的 API，按每成功请求 1000 次收取 0.75 美元。该定价面向需要大量检索的应用，提供更具成本效益的查询方案，可能改变开发者在数据检索与管线中的预算和架构选择。",
-      "hn": {
-        "id": 50138531,
-        "type": "story",
-        "by": "fagnerbrack",
-        "score": 567,
-        "descendants": 266,
-        "time": 1792306236,
-        "comments_url": "https://news.ycombinator.com/item?id=50138531"
-      },
-      "tags": [
-        "Business"
-      ],
-      "hot_score": 1.57
     },
     {
       "title_en": "Florida's HOAs and condo associations are making the housing crisis worse",
@@ -262,34 +503,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=50144005"
       },
       "tags": [
-        "Politics"
+        "Politics",
+        "Business"
       ],
-      "hot_score": 1.42
-    },
-    {
-      "title_en": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "title_zh": "如果你不运行自己的 LLM 代理，你如何知道发生了什么？",
-      "created_display": "Created: Oct 18, 2026 / 14:09 PT",
-      "image_url": null,
-      "summary_en": "Relying on hosted LLM APIs hides the model's behavior and data flows; running your own proxy gives visibility into prompts, responses, and potential data leakage. It enables you to enforce policies, audit usage, and protect privacy, especially in regulated or sensitive environments. The piece argues that governance starts with visibility into the model's operations.",
-      "summary_zh": "依赖云端 LLM API 让你看不到模型内部的行为和数据流动。自行搭建代理可让你监控输入输出、发现数据泄露风险，并执行策略与合规审查，尤其在受监管或敏感场景中尤为重要。",
-      "hn": {
-        "id": 50145507,
-        "type": "story",
-        "by": "amrrs",
-        "score": 117,
-        "descendants": 80,
-        "time": 1792357752,
-        "comments_url": "https://news.ycombinator.com/item?id=50145507"
-      },
-      "hot_score": 1.32,
-      "tags": [
-        "Privacy",
-        "Security",
-        "AI",
-        "Politics"
-      ]
+      "hot_score": 0.79
     },
     {
       "title_en": "Free Pascal compiler now supports dynamic packages",
@@ -303,8 +520,8 @@
         "id": 50144066,
         "type": "story",
         "by": "sysrpl",
-        "score": 149,
-        "descendants": 36,
+        "score": 170,
+        "descendants": 44,
         "time": 1792349284,
         "comments_url": "https://news.ycombinator.com/item?id=50144066"
       },
@@ -312,29 +529,7 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 1.22
-    },
-    {
-      "title_en": "Flatpak – An Insecurity Nightmare",
-      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
-      "title_zh": "Flatpak——一个安全隐患的噩梦",
-      "created_display": "Created: Oct 18, 2026 / 22:11 PT",
-      "image_url": "https://oro.gay/pfp.jpg",
-      "summary_en": "Flatpak is rife with security concerns around its sandboxing, permissions, and potential for container escapes, raising questions about how securely apps can run on Linux. The critique urges hardened practices and design improvements.",
-      "summary_zh": "Flatpak 的沙箱、权限模型以及潜在的容器逃逸等安全问题频发，给 Linux 上应用的安全性带来质疑。文章呼吁加强实践与架构改进来降低风险。",
-      "hn": {
-        "id": 50148601,
-        "type": "story",
-        "by": "jannesan",
-        "score": 15,
-        "descendants": 4,
-        "time": 1792386684,
-        "comments_url": "https://news.ycombinator.com/item?id=50148601"
-      },
-      "hot_score": 1.15,
-      "tags": [
-        "Security"
-      ]
+      "hot_score": 0.77
     },
     {
       "title_en": "Show HN: WhatsApp MCP running free on Cloudflare",
@@ -348,36 +543,39 @@
         "id": 50145715,
         "type": "story",
         "by": "zoozla",
-        "score": 86,
-        "descendants": 45,
+        "score": 121,
+        "descendants": 66,
         "time": 1792359370,
         "comments_url": "https://news.ycombinator.com/item?id=50145715"
       },
       "tags": [
-        "Show HN"
+        "Show HN",
+        "Web",
+        "Open Source"
       ],
-      "hot_score": 1.03
+      "hot_score": 0.72
     },
     {
-      "title_en": "Starcraft: Ashfall",
-      "url": "https://starcraft-shooter-2026.pages.dev/",
-      "title_zh": "星际争霸：Ashfall",
-      "created_display": "Created: Oct 18, 2026 / 18:18 PT",
-      "image_url": "https://starcraft-shooter-2026.pages.dev/share-card.jpg",
-      "summary_en": "A new StarCraft shooter titled Ashfall promises a cross-genre experience, blending RTS roots with shooter mechanics. Early previews and development chatter point to innovative creature design and competitive modes that could energize the franchise.",
-      "summary_zh": "一款名为 Ashfall 的星际争霸衍生射击游戏正在开发，尝试在经典 RTS 上引入射击玩法。初步预览与开发讨论显示出独特的生物设计和竞争模式，或将为系列注入新活力。",
+      "title_en": "Harness2 by Google Research – Recursive Agent Harnessing",
+      "url": "https://github.com/google-research/harness2",
+      "title_zh": "Harness2：Google 研究的递归代理 Harness",
+      "created_display": "Created: Oct 19, 2026 / 04:28 PT",
+      "image_url": "https://opengraph.githubassets.com/e376ad9bd6e00f51ec281f58244e4024af5ea1c011c919512af64f4fd412c83a/google-research/harness2",
+      "summary_en": "Harness2 extends the idea of a programmable agent harness with recursive capabilities, enabling agents to generate and supervise sub-agents or multi-layer plans. The work discusses architecture, safety considerations, and potential applications in complex tasks.",
+      "summary_zh": "Harness2 将可编程代理的 harness 概念扩展到递归能力，使代理能够生成并监管子代理或多层计划。文章讨论了架构、安全性与在复杂任务中的潜在应用。",
       "hn": {
-        "id": 50147233,
+        "id": 50151059,
         "type": "story",
-        "by": "debo_",
-        "score": 39,
-        "descendants": 17,
-        "time": 1792372682,
-        "comments_url": "https://news.ycombinator.com/item?id=50147233"
+        "by": "irthomasthomas",
+        "score": 7,
+        "descendants": 0,
+        "time": 1792409325,
+        "comments_url": "https://news.ycombinator.com/item?id=50151059"
       },
-      "hot_score": 0.92,
+      "hot_score": 0.7,
       "tags": [
-        "Gaming"
+        "AI",
+        "Programming"
       ]
     },
     {
@@ -392,59 +590,16 @@
         "id": 50146624,
         "type": "story",
         "by": "gmays",
-        "score": 52,
-        "descendants": 51,
+        "score": 89,
+        "descendants": 105,
         "time": 1792366674,
         "comments_url": "https://news.ycombinator.com/item?id=50146624"
       },
-      "hot_score": 0.88,
       "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Writing is no longer proof of work",
-      "url": "https://www.seangoedecke.com/writing-is-no-longer-proof-of-work/",
-      "title_zh": "写作不再是工作量证明",
-      "created_display": "Created: Oct 18, 2026 / 23:01 PT",
-      "image_url": null,
-      "summary_en": "Content creation no longer serves as a reliable proof of work in online ecosystems; quality, provenance, and verifiability matter more than sheer volume. The piece suggests rethinking incentives and contribution signals in tech communities.",
-      "summary_zh": "单纯的写作已不足以证明贡献价值，质量、来源与可核验性比字数更重要。文章建议重新设计激励机制与技术社区的贡献信号。",
-      "hn": {
-        "id": 50148901,
-        "type": "story",
-        "by": "gpi",
-        "score": 8,
-        "descendants": 0,
-        "time": 1792389690,
-        "comments_url": "https://news.ycombinator.com/item?id=50148901"
-      },
-      "hot_score": 0.88,
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "PalmOS Lemmings",
-      "url": "https://github.com/ardiri/palmos-lemmings",
-      "title_zh": "Aaron Ardiri 的 PalmOS Lemmings",
-      "created_display": "Created: Oct 18, 2026 / 10:56 PT",
-      "image_url": "https://opengraph.githubassets.com/dd1a3d063d8b3df1448cdfeb31b73e09b4715e3d2905992188ec6a568bafc317/ardiri/palmos-lemmings",
-      "summary_en": "Aaron Ardiri has released PalmOS Lemmings, a faithful PalmOS port of the classic puzzle game Lemmings. It highlights retro game preservation and the ongoing hobbyist effort to run vintage software on aging mobile platforms.",
-      "summary_zh": "Aaron Ardiri 发布了 PalmOS Lemmings，这是对经典解谜游戏 Lemmings 的 PalmOS 版本移植，展示了对复古游戏的保护与在老旧移动平台上运行早期软件的热情。",
-      "hn": {
-        "id": 50143536,
-        "type": "story",
-        "by": "memalign",
-        "score": 118,
-        "descendants": 26,
-        "time": 1792346219,
-        "comments_url": "https://news.ycombinator.com/item?id=50143536"
-      },
-      "tags": [
-        "Gaming"
+        "Politics",
+        "Business"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.66
     },
     {
       "title_en": "Java sealed classes and exhaustive pattern matching",
@@ -458,15 +613,83 @@
         "id": 50141579,
         "type": "story",
         "by": "hnisjafx40",
-        "score": 161,
-        "descendants": 113,
+        "score": 179,
+        "descendants": 138,
         "time": 1792334857,
         "comments_url": "https://news.ycombinator.com/item?id=50141579"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.58
+    },
+    {
+      "title_en": "PalmOS Lemmings",
+      "url": "https://github.com/ardiri/palmos-lemmings",
+      "title_zh": "Aaron Ardiri 的 PalmOS Lemmings",
+      "created_display": "Created: Oct 18, 2026 / 10:56 PT",
+      "image_url": "https://opengraph.githubassets.com/dd1a3d063d8b3df1448cdfeb31b73e09b4715e3d2905992188ec6a568bafc317/ardiri/palmos-lemmings",
+      "summary_en": "Aaron Ardiri has released PalmOS Lemmings, a faithful PalmOS port of the classic puzzle game Lemmings. It highlights retro game preservation and the ongoing hobbyist effort to run vintage software on aging mobile platforms.",
+      "summary_zh": "Aaron Ardiri 发布了 PalmOS Lemmings，这是对经典解谜游戏 Lemmings 的 PalmOS 版本移植，展示了对复古游戏的保护与在老旧移动平台上运行早期软件的热情。",
+      "hn": {
+        "id": 50143536,
+        "type": "story",
+        "by": "memalign",
+        "score": 137,
+        "descendants": 33,
+        "time": 1792346219,
+        "comments_url": "https://news.ycombinator.com/item?id=50143536"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 0.58
+    },
+    {
+      "title_en": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "url": "https://legendofhyrule.com/",
+      "title_zh": "Show HN：在塞尔达时间线整理前赶上重制版",
+      "created_display": "Created: Oct 18, 2026 / 06:06 PT",
+      "image_url": "https://legendofhyrule.com/opengraph-image?a05cedcc808b59be",
+      "summary_en": "Show HN features an interactive Zelda timeline that consolidates official and fan-made lore to help players catch up before the Ocarina of Time remake. It demonstrates how data-driven, browser-friendly tooling can enrich fan engagement and accessibility.",
+      "summary_zh": "Show HN 展示一个将官方与粉丝的塞尔达传说时间线整合在一起的互动工具，帮助玩家在《塞尔达传说：时之笛》重制版到来前赶上剧情。此类数据驱动、浏览器友好工具提升了粉丝参与度与可访问性。",
+      "hn": {
+        "id": 50140769,
+        "type": "story",
+        "by": "jsomau",
+        "score": 198,
+        "descendants": 116,
+        "time": 1792328814,
+        "comments_url": "https://news.ycombinator.com/item?id=50140769"
+      },
+      "tags": [
+        "Show HN",
+        "Web"
+      ],
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "title_zh": "现在是进入数学领域的最佳时机（3blue1brown 视频）",
+      "created_display": "Created: Oct 17, 2026 / 16:26 PT",
+      "image_url": null,
+      "summary_en": "3Blue1Brown argues that this is an ideal moment to study math, highlighting accessible resources, visual intuition, and the excitement of discovery that modern tools unlock. The video frames math as a living, creative pursuit powered by these tools.",
+      "summary_zh": "3Blue1Brown 认为现在学习数学是最好的时机，强调可获取的资源、直观的可视化和新工具在现代环境中带来的发现乐趣。视频将数学呈现为由这些工具驱动的充满创造性的现实探索。",
+      "hn": {
+        "id": 50136150,
+        "type": "story",
+        "by": "mdp2021",
+        "score": 420,
+        "descendants": 518,
+        "time": 1792279595,
+        "comments_url": "https://news.ycombinator.com/item?id=50136150"
+      },
+      "tags": [
+        "Education",
+        "Programming"
+      ],
+      "hot_score": 0.56
     },
     {
       "title_en": "Legal experts warn Meta's new terms still grant broad scraping permissions",
@@ -489,30 +712,7 @@
         "Legal",
         "Privacy"
       ],
-      "hot_score": 0.8
-    },
-    {
-      "title_en": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
-      "url": "https://legendofhyrule.com/",
-      "title_zh": "Show HN：在塞尔达时间线整理前赶上重制版",
-      "created_display": "Created: Oct 18, 2026 / 06:06 PT",
-      "image_url": "https://legendofhyrule.com/opengraph-image?a05cedcc808b59be",
-      "summary_en": "Show HN features an interactive Zelda timeline that consolidates official and fan-made lore to help players catch up before the Ocarina of Time remake. It demonstrates how data-driven, browser-friendly tooling can enrich fan engagement and accessibility.",
-      "summary_zh": "Show HN 展示一个将官方与粉丝的塞尔达传说时间线整合在一起的互动工具，帮助玩家在《塞尔达传说：时之笛》重制版到来前赶上剧情。此类数据驱动、浏览器友好工具提升了粉丝参与度与可访问性。",
-      "hn": {
-        "id": 50140769,
-        "type": "story",
-        "by": "jsomau",
-        "score": 175,
-        "descendants": 108,
-        "time": 1792328814,
-        "comments_url": "https://news.ycombinator.com/item?id=50140769"
-      },
-      "tags": [
-        "Show HN",
-        "Web"
-      ],
-      "hot_score": 0.79
+      "hot_score": 0.54
     },
     {
       "title_en": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
@@ -526,17 +726,17 @@
         "id": 50140001,
         "type": "story",
         "by": "_Microft",
-        "score": 190,
-        "descendants": 14,
+        "score": 210,
+        "descendants": 16,
         "time": 1792322182,
         "comments_url": "https://news.ycombinator.com/item?id=50140001"
       },
       "tags": [
-        "Open Source",
         "Hardware",
+        "Open Source",
         "Education"
       ],
-      "hot_score": 0.73
+      "hot_score": 0.54
     },
     {
       "title_en": "Parser Combinators",
@@ -550,15 +750,81 @@
         "id": 50139067,
         "type": "story",
         "by": "schindlabua",
-        "score": 231,
-        "descendants": 83,
+        "score": 240,
+        "descendants": 84,
         "time": 1792311593,
         "comments_url": "https://news.ycombinator.com/item?id=50139067"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.71
+      "hot_score": 0.51
+    },
+    {
+      "title_en": "Starcraft: Ashfall",
+      "url": "https://starcraft-shooter-2026.pages.dev/",
+      "title_zh": "星际争霸：Ashfall",
+      "created_display": "Created: Oct 18, 2026 / 18:18 PT",
+      "image_url": "https://starcraft-shooter-2026.pages.dev/share-card.jpg",
+      "summary_en": "A new StarCraft shooter titled Ashfall promises a cross-genre experience, blending RTS roots with shooter mechanics. Early previews and development chatter point to innovative creature design and competitive modes that could energize the franchise.",
+      "summary_zh": "一款名为 Ashfall 的星际争霸衍生射击游戏正在开发，尝试在经典 RTS 上引入射击玩法。初步预览与开发讨论显示出独特的生物设计和竞争模式，或将为系列注入新活力。",
+      "hn": {
+        "id": 50147233,
+        "type": "story",
+        "by": "debo_",
+        "score": 54,
+        "descendants": 21,
+        "time": 1792372682,
+        "comments_url": "https://news.ycombinator.com/item?id=50147233"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 0.49
+    },
+    {
+      "title_en": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+      "title_zh": "狗似乎认同人类的圆形-尖刺联想：Bouba/Kiki 实验",
+      "created_display": "Created: Oct 17, 2026 / 18:38 PT",
+      "image_url": "https://www.sciencealert.com/images/2026/10/GettyImages-597067015-2560x1440-1.jpg",
+      "summary_en": "Dogs align with humans on Bouba/Kiki shape-label mappings, suggesting shared perceptual categories across species. The result supports the idea that some cross-species associations are rooted in perceptual priors rather than language.",
+      "summary_zh": "犬类在 Bouba/Kiki 的形状标签映射上与人类保持一致，表明不同物种可能共享感知类别。研究结果支持某些跨物种联想源自感知先验，而非语言。",
+      "hn": {
+        "id": 50136979,
+        "type": "story",
+        "by": "gmays",
+        "score": 275,
+        "descendants": 162,
+        "time": 1792287488,
+        "comments_url": "https://news.ycombinator.com/item?id=50136979"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "The Intel 8087 chip: floating-point addition and subtraction",
+      "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+      "title_zh": "英特尔 8087 浮点加减运算的微码揭秘",
+      "created_display": "Created: Oct 18, 2026 / 09:20 PT",
+      "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_v_ceUfNVENddlPvGYjOqi869i6KzzE-4wjn2GOX0tmAuD2WCT-obyHYvrFF8tvIAODizQhsfX0rfr-YtH_sGU6ZMlZ8xp9x2QtWNyQgpmorGOYvSEFAKO9ZLDPvU2BIpCN_9L8DmCin5yGMhY5ged0eg=w1200-h630-p-k-no-nu",
+      "summary_en": "The article dives into the 8087 microcode path for floating-point addition and subtraction, revealing early FP unit design tricks that made real-time math feasible on x86. It connects these traces to the evolution of modern FP performance and architecture.",
+      "summary_zh": "文章深入分析 8087 浮点加法/减法的微码路径，揭示早期浮点单元设计中的巧妙之处，使得 x86 上的实时浮点运算成为可能，并将这些细节与现代浮点性能及架构的演进联系起来。",
+      "hn": {
+        "id": 50142449,
+        "type": "story",
+        "by": "pwg",
+        "score": 113,
+        "descendants": 35,
+        "time": 1792340427,
+        "comments_url": "https://news.ycombinator.com/item?id=50142449"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.41
     },
     {
       "title_en": "Personal software factories are a waste of time",
@@ -578,98 +844,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=50144175"
       },
       "tags": [
-        "Programming"
+        "Career"
       ],
-      "hot_score": 0.64
-    },
-    {
-      "title_en": "The Intel 8087 chip: floating-point addition and subtraction",
-      "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
-      "title_zh": "英特尔 8087 浮点加减运算的微码揭秘",
-      "created_display": "Created: Oct 18, 2026 / 09:20 PT",
-      "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_v_ceUfNVENddlPvGYjOqi869i6KzzE-4wjn2GOX0tmAuD2WCT-obyHYvrFF8tvIAODizQhsfX0rfr-YtH_sGU6ZMlZ8xp9x2QtWNyQgpmorGOYvSEFAKO9ZLDPvU2BIpCN_9L8DmCin5yGMhY5ged0eg=w1200-h630-p-k-no-nu",
-      "summary_en": "The article dives into the 8087 microcode path for floating-point addition and subtraction, revealing early FP unit design tricks that made real-time math feasible on x86. It connects these traces to the evolution of modern FP performance and architecture.",
-      "summary_zh": "文章深入分析 8087 浮点加法/减法的微码路径，揭示早期浮点单元设计中的巧妙之处，使得 x86 上的实时浮点运算成为可能，并将这些细节与现代浮点性能及架构的演进联系起来。",
-      "hn": {
-        "id": 50142449,
-        "type": "story",
-        "by": "pwg",
-        "score": 100,
-        "descendants": 33,
-        "time": 1792340427,
-        "comments_url": "https://news.ycombinator.com/item?id=50142449"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.61
-    },
-    {
-      "title_en": "There's never been a better time to go into math (by: 3blue1brown) [video]",
-      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-      "title_zh": "现在是进入数学领域的最佳时机（3blue1brown 视频）",
-      "created_display": "Created: Oct 17, 2026 / 16:26 PT",
-      "image_url": null,
-      "summary_en": "3Blue1Brown argues that this is an ideal moment to study math, highlighting accessible resources, visual intuition, and the excitement of discovery that modern tools unlock. The video frames math as a living, creative pursuit powered by these tools.",
-      "summary_zh": "3Blue1Brown 认为现在学习数学是最好的时机，强调可获取的资源、直观的可视化和新工具在现代环境中带来的发现乐趣。视频将数学呈现为由这些工具驱动的充满创造性的现实探索。",
-      "hn": {
-        "id": 50136150,
-        "type": "story",
-        "by": "mdp2021",
-        "score": 306,
-        "descendants": 371,
-        "time": 1792279595,
-        "comments_url": "https://news.ycombinator.com/item?id=50136150"
-      },
-      "tags": [
-        "Education",
-        "Programming"
-      ],
-      "hot_score": 0.54
-    },
-    {
-      "title_en": "Sanity's Edge – A voice BBS from 1994",
-      "url": "https://sanitys-edge.shouden.us",
-      "title_zh": "Sanity's Edge – 1994年的语音 BBS",
-      "created_display": "Created: Oct 18, 2026 / 17:30 PT",
-      "image_url": "https://sanitys-edge.shouden.us/flyer/flyer.jpg",
-      "summary_en": "Sanity's Edge was a voice-based BBS from 1994, bridging the gap between early dial-up networks and online communities through real-time audio and messaging. It offers a glimpse into how people connected and shared information before modern social platforms.",
-      "summary_zh": "Sanity's Edge 是一个源于 1994 年的语音版 BBS，融合了电话网络与在线社区的早期形态，通过实时语音与消息连接用户。它揭示了在现代社交平台兴起前，人们如何交流与分享信息。",
-      "hn": {
-        "id": 50146966,
-        "type": "story",
-        "by": "indigodaddy",
-        "score": 21,
-        "descendants": 1,
-        "time": 1792369834,
-        "comments_url": "https://news.ycombinator.com/item?id=50146966"
-      },
-      "hot_score": 0.41,
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
-      "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
-      "title_zh": "狗似乎认同人类的圆形-尖刺联想：Bouba/Kiki 实验",
-      "created_display": "Created: Oct 17, 2026 / 18:38 PT",
-      "image_url": "https://www.sciencealert.com/images/2026/10/GettyImages-597067015-2560x1440-1.jpg",
-      "summary_en": "Dogs align with humans on Bouba/Kiki shape-label mappings, suggesting shared perceptual categories across species. The result supports the idea that some cross-species associations are rooted in perceptual priors rather than language.",
-      "summary_zh": "犬类在 Bouba/Kiki 的形状标签映射上与人类保持一致，表明不同物种可能共享感知类别。研究结果支持某些跨物种联想源自感知先验，而非语言。",
-      "hn": {
-        "id": 50136979,
-        "type": "story",
-        "by": "gmays",
-        "score": 196,
-        "descendants": 123,
-        "time": 1792287488,
-        "comments_url": "https://news.ycombinator.com/item?id=50136979"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.39
+      "hot_score": 0.35
     },
     {
       "title_en": "You could have invented transformers from memory",
@@ -691,7 +868,95 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "A database of temperatures for large inland lakes across the coterminous U.S.",
+      "url": "https://www.nature.com/articles/s41597-024-03103-8",
+      "title_zh": "覆盖美国大陆的大型内陆湖泊温度数据库",
+      "created_display": "Created: Oct 19, 2026 / 04:08 PT",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41597-024-03103-8/MediaObjects/41597_2024_3103_Fig1_HTML.png",
+      "summary_en": "A database compiling surface temperatures for large inland lakes across the coterminous U.S. enables climate and hydrology research, supporting drought monitoring, water management, and ecological modeling.",
+      "summary_zh": "一个覆盖美国大陆广阔内陆湖泊的表面温度数据库，供气候与水文研究使用，支持干旱监测、水资源管理与生态建模。",
+      "hn": {
+        "id": 50150913,
+        "type": "story",
+        "by": "bryanrasmussen",
+        "score": 4,
+        "descendants": 1,
+        "time": 1792408109,
+        "comments_url": "https://news.ycombinator.com/item?id=50150913"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "title_zh": "我设计了一个连 LLM 都用不了的编程语言",
+      "created_display": "Created: Oct 17, 2026 / 15:26 PT",
+      "image_url": "https://blog.picheta.me/_astro/killswitch-banner.0YTJ74BT.png",
+      "summary_en": "I built a programming language that LLMs can't use, exploring design choices that frustrate model-assisted code generation. The result, Killswitch Lang, highlights challenges in tooling, language features, and safeguards for human-centric programming.",
+      "summary_zh": "我设计了一个让大型语言模型无法使用的编程语言，探讨了阻碍模型辅助代码生成的设计选择。其成果强调了对编程工具、语言特性以及人为驱动开发的安全性挑战。",
+      "hn": {
+        "id": 50135762,
+        "type": "story",
+        "by": "dom96",
+        "score": 220,
+        "descendants": 170,
+        "time": 1792276007,
+        "comments_url": "https://news.ycombinator.com/item?id=50135762"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "A new way to think about borrow checking (in reverse)",
+      "url": "https://verdagon.dev/blog/reverse-borrow-checking",
+      "title_zh": "从反向视角看借用检查的新思路",
+      "created_display": "Created: Oct 18, 2026 / 05:11 PT",
+      "image_url": null,
+      "summary_en": "A new take on borrow checking flips the traditional perspective, examining lifetimes by tracing how data flows backward from usage. The approach aims to simplify reasoning about aliasing, mutability, and borrows, potentially easing compiler checks without sacrificing safety. It could influence future language design and verification tools.",
+      "summary_zh": "这篇文章从相反的角度重新思考借用检查，逆向追踪数据的使用路径来分析生命周期。该方法旨在简化对别名、可变性和借用的推理，或在不牺牲安全性的前提下让编译器校验更易于实现，可能影响未来语言设计与验证工具。",
+      "hn": {
+        "id": 50140383,
+        "type": "story",
+        "by": "verdagon",
+        "score": 102,
+        "descendants": 10,
+        "time": 1792325473,
+        "comments_url": "https://news.ycombinator.com/item?id=50140383"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "Flatpak – An Insecurity Nightmare",
+      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+      "title_zh": "Flatpak——一个安全隐患的噩梦",
+      "created_display": "Created: Oct 18, 2026 / 22:11 PT",
+      "image_url": "https://oro.gay/pfp.jpg",
+      "summary_en": "Flatpak is rife with security concerns around its sandboxing, permissions, and potential for container escapes, raising questions about how securely apps can run on Linux. The critique urges hardened practices and design improvements.",
+      "summary_zh": "Flatpak 的沙箱、权限模型以及潜在的容器逃逸等安全问题频发，给 Linux 上应用的安全性带来质疑。文章呼吁加强实践与架构改进来降低风险。",
+      "hn": {
+        "id": 50148601,
+        "type": "story",
+        "by": "jannesan",
+        "score": 15,
+        "descendants": 4,
+        "time": 1792386684,
+        "comments_url": "https://news.ycombinator.com/item?id=50148601"
+      },
+      "hot_score": 0.24,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "The Brain Sandwich",
@@ -711,77 +976,122 @@
         "comments_url": "https://news.ycombinator.com/item?id=50139998"
       },
       "tags": [
+        "Science",
         "AI"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.22
     },
     {
-      "title_en": "Show HN: Yila – A Codex for Scientific Research",
-      "url": "https://yila.ai",
-      "title_zh": "Show HN：Yila——科研研究的 Codex",
-      "created_display": "Created: Oct 18, 2026 / 21:24 PT",
-      "image_url": "https://yila.ai/logo.svg",
-      "summary_en": "Yila is a codex-style tool aimed at assisting scientific research, likely integrating AI for drafting, literature synthesis, and data organization to accelerate research workflows. It demonstrates how AI copilots can augment scholarly productivity.",
-      "summary_zh": "Yila 是一个面向科研的 Codex 风格工具，旨在通过人工智能协助起草、文献综述与数据整理，提升研究工作流的效率。它展示了 AI 助手在学术生产力中的潜力。",
+      "title_en": "Sanity's Edge – A voice BBS from 1994",
+      "url": "https://sanitys-edge.shouden.us",
+      "title_zh": "Sanity's Edge – 1994年的语音 BBS",
+      "created_display": "Created: Oct 18, 2026 / 17:30 PT",
+      "image_url": "https://sanitys-edge.shouden.us/flyer/flyer.jpg",
+      "summary_en": "Sanity's Edge was a voice-based BBS from 1994, bridging the gap between early dial-up networks and online communities through real-time audio and messaging. It offers a glimpse into how people connected and shared information before modern social platforms.",
+      "summary_zh": "Sanity's Edge 是一个源于 1994 年的语音版 BBS，融合了电话网络与在线社区的早期形态，通过实时语音与消息连接用户。它揭示了在现代社交平台兴起前，人们如何交流与分享信息。",
       "hn": {
-        "id": 50148356,
+        "id": 50146966,
         "type": "story",
-        "by": "blacktechnology",
-        "score": 6,
-        "descendants": 2,
-        "time": 1792383897,
-        "comments_url": "https://news.ycombinator.com/item?id=50148356"
+        "by": "indigodaddy",
+        "score": 21,
+        "descendants": 1,
+        "time": 1792369834,
+        "comments_url": "https://news.ycombinator.com/item?id=50146966"
       },
-      "hot_score": 0.3,
+      "hot_score": 0.17,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "The Annotated VT100 Firmware",
+      "url": "https://vt100.net/dec/vt100/rom/",
+      "title_zh": "注释版 VT100 固件",
+      "created_display": "Created: Oct 18, 2026 / 19:40 PT",
+      "image_url": "https://vt100.net/dec/vt100/rom/vt100-disassembly.256x256.png",
+      "summary_en": "The Annotated VT100 Firmware provides a deep dive into the DEC VT100 terminal's ROM and firmware, with annotations that reveal historical hardware design and software patterns. It serves as a valuable resource for retro-computing and embedded systems enthusiasts.",
+      "summary_zh": "注释版 VT100 固件对 DEC VT100 终端的 ROM 与固件进行了详细注释，揭示了早期硬件设计和软件实现的思路。对复古计算与嵌入式系统爱好者具有重要参考价值。",
+      "hn": {
+        "id": 50147760,
+        "type": "story",
+        "by": "Aleksandr_NFA",
+        "score": 15,
+        "descendants": 2,
+        "time": 1792377604,
+        "comments_url": "https://news.ycombinator.com/item?id=50147760"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Writing is no longer proof of work",
+      "url": "https://www.seangoedecke.com/writing-is-no-longer-proof-of-work/",
+      "title_zh": "写作不再是工作量证明",
+      "created_display": "Created: Oct 18, 2026 / 23:01 PT",
+      "image_url": null,
+      "summary_en": "Content creation no longer serves as a reliable proof of work in online ecosystems; quality, provenance, and verifiability matter more than sheer volume. The piece suggests rethinking incentives and contribution signals in tech communities.",
+      "summary_zh": "单纯的写作已不足以证明贡献价值，质量、来源与可核验性比字数更重要。文章建议重新设计激励机制与技术社区的贡献信号。",
+      "hn": {
+        "id": 50148901,
+        "type": "story",
+        "by": "gpi",
+        "score": 8,
+        "descendants": 0,
+        "time": 1792389690,
+        "comments_url": "https://news.ycombinator.com/item?id=50148901"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Show HN: Ranet3 – High performance policy routed IPsec mesh SD-WAN",
+      "url": "https://ranet3.com/",
+      "title_zh": "高性能策略路由的 IPsec Mesh SD-WAN",
+      "created_display": "Created: Oct 18, 2026 / 07:31 PT",
+      "image_url": null,
+      "summary_en": "A high-performance design for policy-routed IPsec mesh SD-WAN, addressing latency, throughput, and security trade-offs for distributed networks.",
+      "summary_zh": "介绍基于策略路由的 IPsec Mesh SD-WAN 的高性能设计，讨论分布式网络中的延迟、吞吐和安全取舍。",
+      "hn": {
+        "id": 50141436,
+        "type": "story",
+        "by": "StepBroBD",
+        "score": 34,
+        "descendants": 7,
+        "time": 1792333912,
+        "comments_url": "https://news.ycombinator.com/item?id=50141436"
+      },
       "tags": [
         "Show HN",
-        "AI",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "I built a programming language that LLMs can't use",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "title_zh": "我设计了一个连 LLM 都用不了的编程语言",
-      "created_display": "Created: Oct 17, 2026 / 15:26 PT",
-      "image_url": "https://blog.picheta.me/_astro/killswitch-banner.0YTJ74BT.png",
-      "summary_en": "I built a programming language that LLMs can't use, exploring design choices that frustrate model-assisted code generation. The result, Killswitch Lang, highlights challenges in tooling, language features, and safeguards for human-centric programming.",
-      "summary_zh": "我设计了一个让大型语言模型无法使用的编程语言，探讨了阻碍模型辅助代码生成的设计选择。其成果强调了对编程工具、语言特性以及人为驱动开发的安全性挑战。",
-      "hn": {
-        "id": 50135762,
-        "type": "story",
-        "by": "dom96",
-        "score": 155,
-        "descendants": 111,
-        "time": 1792276007,
-        "comments_url": "https://news.ycombinator.com/item?id=50135762"
-      },
-      "tags": [
-        "Programming"
+        "Security"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.11
     },
     {
-      "title_en": "A new way to think about borrow checking (in reverse)",
-      "url": "https://verdagon.dev/blog/reverse-borrow-checking",
-      "title_zh": "从反向视角看借用检查的新思路",
-      "created_display": "Created: Oct 18, 2026 / 05:11 PT",
+      "title_en": "\"I'm on a war footing\": Terry Tao and the crisis in math",
+      "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
+      "title_zh": "“我正处于战争准备状态”：泰勒·陶与数学危机",
+      "created_display": "Created: Oct 16, 2026 / 06:30 PT",
       "image_url": null,
-      "summary_en": "A new take on borrow checking flips the traditional perspective, examining lifetimes by tracing how data flows backward from usage. The approach aims to simplify reasoning about aliasing, mutability, and borrows, potentially easing compiler checks without sacrificing safety. It could influence future language design and verification tools.",
-      "summary_zh": "这篇文章从相反的角度重新思考借用检查，逆向追踪数据的使用路径来分析生命周期。该方法旨在简化对别名、可变性和借用的推理，或在不牺牲安全性的前提下让编译器校验更易于实现，可能影响未来语言设计与验证工具。",
+      "summary_en": "Terry Tao argues that the mathematics community faces a crisis driven by AI, complexity, and funding pressures, calling for stronger collaboration and renewed focus on foundational problems.",
+      "summary_zh": "泰勒·陶指出，受人工智能、研究经费和学科挑战等因素影响，数学界正面临危机。他呼吁加强合作与重新聚焦基础问题，强调 AI 对研究文化与培养年轻数学家的影响。",
       "hn": {
-        "id": 50140383,
+        "id": 50118165,
         "type": "story",
-        "by": "verdagon",
-        "score": 60,
-        "descendants": 5,
-        "time": 1792325473,
-        "comments_url": "https://news.ycombinator.com/item?id=50140383"
+        "by": "vinipolicena",
+        "score": 197,
+        "descendants": 431,
+        "time": 1792157420,
+        "comments_url": "https://news.ycombinator.com/item?id=50118165"
       },
-      "hot_score": 0.25,
       "tags": [
-        "Programming"
-      ]
+        "Science",
+        "AI"
+      ],
+      "hot_score": 0.09
     },
     {
       "title_en": "Teal – A statically-typed dialect of Lua",
@@ -803,7 +1113,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Rabbits were a medieval royal luxury in England until the Black Death",
+      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
+      "title_zh": "英国中世纪的皇家奢侈：兔子直至黑死病前都是珍品",
+      "created_display": "Created: Oct 17, 2026 / 07:07 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-rabbit-riding-on-a-s.jpg",
+      "summary_en": "Rabbits were a status symbol for English royalty in the Middle Ages, farmed in elaborate warrens and treated as scarce luxury meat. The Black Death upended aristocratic diets and economies, reshaping what counted as luxury and who could afford it. The piece underscores how pandemics can abruptly shift supply chains and social hierarchies around food.",
+      "summary_zh": "中世纪时，兔子被英国王室视作高端奢侈品，养在专门的兔养场，供给稀缺且价格昂贵。随着黑死病的爆发，贵族饮食和经济结构遭到重创，奢侈品的地位和获取方式也随之改变。此次发现强调疫情如何迅速打乱食物供应链与社会等级。",
+      "hn": {
+        "id": 50131315,
+        "type": "story",
+        "by": "samizdis",
+        "score": 104,
+        "descendants": 98,
+        "time": 1792246056,
+        "comments_url": "https://news.ycombinator.com/item?id=50131315"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.09
     },
     {
       "title_en": "Beyond Tetris: The other games of Alexey Pajitnov [video]",
@@ -825,30 +1157,78 @@
       "tags": [
         "Gaming"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.08
     },
     {
-      "title_en": "\"I'm on a war footing\": Terry Tao and the crisis in math",
-      "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
-      "title_zh": "“我正处于战争准备状态”：泰勒·陶与数学危机",
-      "created_display": "Created: Oct 16, 2026 / 06:30 PT",
-      "image_url": null,
-      "summary_en": "Terry Tao argues that the mathematics community faces a crisis driven by AI, complexity, and funding pressures, calling for stronger collaboration and renewed focus on foundational problems.",
-      "summary_zh": "泰勒·陶指出，受人工智能、研究经费和学科挑战等因素影响，数学界正面临危机。他呼吁加强合作与重新聚焦基础问题，强调 AI 对研究文化与培养年轻数学家的影响。",
+      "title_en": "Show HN: Yila – A Codex for Scientific Research",
+      "url": "https://yila.ai",
+      "title_zh": "Show HN：Yila——科研研究的 Codex",
+      "created_display": "Created: Oct 18, 2026 / 21:24 PT",
+      "image_url": "https://yila.ai/logo.svg",
+      "summary_en": "Yila is a codex-style tool aimed at assisting scientific research, likely integrating AI for drafting, literature synthesis, and data organization to accelerate research workflows. It demonstrates how AI copilots can augment scholarly productivity.",
+      "summary_zh": "Yila 是一个面向科研的 Codex 风格工具，旨在通过人工智能协助起草、文献综述与数据整理，提升研究工作流的效率。它展示了 AI 助手在学术生产力中的潜力。",
       "hn": {
-        "id": 50118165,
+        "id": 50148356,
         "type": "story",
-        "by": "vinipolicena",
-        "score": 153,
-        "descendants": 280,
-        "time": 1792157420,
-        "comments_url": "https://news.ycombinator.com/item?id=50118165"
+        "by": "blacktechnology",
+        "score": 6,
+        "descendants": 2,
+        "time": 1792383897,
+        "comments_url": "https://news.ycombinator.com/item?id=50148356"
       },
-      "hot_score": 0.08,
+      "hot_score": 0.07,
       "tags": [
-        "Science",
-        "AI"
+        "Show HN",
+        "AI",
+        "Science"
       ]
+    },
+    {
+      "title_en": "The DNS Museum",
+      "url": "https://dns.museum",
+      "title_zh": "DNS 博物馆",
+      "created_display": "Created: Oct 16, 2026 / 15:21 PT",
+      "image_url": "https://dns.museum/static/images/talk/thumbnails/slide-10.webp",
+      "summary_en": "The DNS Museum curates artifacts and explanations tracing the history and evolution of the Domain Name System, highlighting milestones from early research to modern DNS security practices. For developers and businesses, it underscores how DNS design decisions ripple through internet performance and security.",
+      "summary_zh": "DNS 博物馆收集并展示域名系统的历史文献与展品，梳理从早期研究到现今 DNS 安全实践的关键节点。通过互动和叙述，帮助开发者和企业理解 DNS 的演进及其对互联网的影响。",
+      "hn": {
+        "id": 50125551,
+        "type": "story",
+        "by": "zdw",
+        "score": 101,
+        "descendants": 12,
+        "time": 1792189294,
+        "comments_url": "https://news.ycombinator.com/item?id=50125551"
+      },
+      "tags": [
+        "Web",
+        "Security"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Laptop Based on 6502 CPU",
+      "url": "https://www.maddox.pro/?p=448",
+      "title_zh": "基于 6502 CPU 的笔记本电脑",
+      "created_display": "Created: Oct 15, 2026 / 15:56 PT",
+      "image_url": "https://www.maddox.pro/wp-content/uploads/2026/08/IMG8369-1024x768.jpg",
+      "summary_en": "A laptop built around the 6502 CPU showcases retro computing in a portable form, blending classic hardware with modern peripherals. The project highlights how old architectures can still inspire hobbyist hardware, energy-efficient designs, and education about computer fundamentals. It also raises questions about performance, software compatibility, and DIY hardware culture.",
+      "summary_zh": "这款笔记本以6502处理器为核心，将经典硬件带入便携设备。它展示了复古架构在便携化、低功耗设计和硬件爱好者教育中的潜力，同时也引发关于性能与软件兼容性的讨论。",
+      "hn": {
+        "id": 50111537,
+        "type": "story",
+        "by": "nanochess",
+        "score": 155,
+        "descendants": 74,
+        "time": 1792104983,
+        "comments_url": "https://news.ycombinator.com/item?id=50111537"
+      },
+      "tags": [
+        "Hardware",
+        "Education",
+        "Energy"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "I electrified my push scooter with a power drill",
@@ -862,8 +1242,8 @@
         "id": 50093020,
         "type": "story",
         "by": "speckx",
-        "score": 173,
-        "descendants": 57,
+        "score": 184,
+        "descendants": 59,
         "time": 1792004032,
         "comments_url": "https://news.ycombinator.com/item?id=50093020"
       },
@@ -884,8 +1264,8 @@
         "id": 50122058,
         "type": "story",
         "by": "zoobab",
-        "score": 71,
-        "descendants": 15,
+        "score": 88,
+        "descendants": 22,
         "time": 1792174064,
         "comments_url": "https://news.ycombinator.com/item?id=50122058"
       },
@@ -895,26 +1275,26 @@
       "hot_score": 0.04
     },
     {
-      "title_en": "Rabbits were a medieval royal luxury in England until the Black Death",
-      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
-      "title_zh": "英国中世纪的皇家奢侈：兔子直至黑死病前都是珍品",
-      "created_display": "Created: Oct 17, 2026 / 07:07 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-rabbit-riding-on-a-s.jpg",
-      "summary_en": "Rabbits were a status symbol for English royalty in the Middle Ages, farmed in elaborate warrens and treated as scarce luxury meat. The Black Death upended aristocratic diets and economies, reshaping what counted as luxury and who could afford it. The piece underscores how pandemics can abruptly shift supply chains and social hierarchies around food.",
-      "summary_zh": "中世纪时，兔子被英国王室视作高端奢侈品，养在专门的兔养场，供给稀缺且价格昂贵。随着黑死病的爆发，贵族饮食和经济结构遭到重创，奢侈品的地位和获取方式也随之改变。此次发现强调疫情如何迅速打乱食物供应链与社会等级。",
+      "title_en": "SIGSALY: Churchill's top secret hotline to the president",
+      "url": "https://www.iwm.org.uk/history/iwm/cwr/telephone",
+      "title_zh": "SIGSALY：丘吉尔与总统之间的绝密热线",
+      "created_display": "Created: Oct 14, 2026 / 15:07 PT",
+      "image_url": "https://www.iwm.org.uk/sites/default/files/2022-11/churchill_and_guy_on_phone.jpg",
+      "summary_en": "SIGSALY was a massive wartime cryptographic voice system that provided secure communications between Allied leaders. It represents an early, fully digital approach to encrypted telephony and marked a milestone in cryptography and secure data transmission.",
+      "summary_zh": "SIGSALY 是二战时期的巨型数字化加密语音系统，为盟军领导人提供安全通信，标志着对话音 cryptography 的重要里程碑，也是早期数字化密钥传输的里程碑。",
       "hn": {
-        "id": 50131315,
+        "id": 50096110,
         "type": "story",
-        "by": "samizdis",
-        "score": 37,
-        "descendants": 16,
-        "time": 1792246056,
-        "comments_url": "https://news.ycombinator.com/item?id=50131315"
+        "by": "stmw",
+        "score": 130,
+        "descendants": 44,
+        "time": 1792015667,
+        "comments_url": "https://news.ycombinator.com/item?id=50096110"
       },
-      "hot_score": 0.04,
       "tags": [
-        "Culture"
-      ]
+        "Security"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Developing for Debugging (2025)",
@@ -934,54 +1314,53 @@
         "comments_url": "https://news.ycombinator.com/item?id=50131053"
       },
       "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.04
-    },
-    {
-      "title_en": "SIGSALY: Churchill's top secret hotline to the president",
-      "url": "https://www.iwm.org.uk/history/iwm/cwr/telephone",
-      "title_zh": "SIGSALY：丘吉尔与总统之间的绝密热线",
-      "created_display": "Created: Oct 14, 2026 / 15:07 PT",
-      "image_url": "https://www.iwm.org.uk/sites/default/files/2022-11/churchill_and_guy_on_phone.jpg",
-      "summary_en": "SIGSALY was a massive wartime cryptographic voice system that provided secure communications between Allied leaders. It represents an early, fully digital approach to encrypted telephony and marked a milestone in cryptography and secure data transmission.",
-      "summary_zh": "SIGSALY 是二战时期的巨型数字化加密语音系统，为盟军领导人提供安全通信，标志着对话音 cryptography 的重要里程碑，也是早期数字化密钥传输的里程碑。",
-      "hn": {
-        "id": 50096110,
-        "type": "story",
-        "by": "stmw",
-        "score": 127,
-        "descendants": 44,
-        "time": 1792015667,
-        "comments_url": "https://news.ycombinator.com/item?id=50096110"
-      },
-      "tags": [
-        "Security"
+        "DevOps"
       ],
       "hot_score": 0.03
     },
     {
-      "title_en": "Laptop Based on 6502 CPU",
-      "url": "https://www.maddox.pro/?p=448",
-      "title_zh": "基于 6502 CPU 的笔记本电脑",
-      "created_display": "Created: Oct 15, 2026 / 15:56 PT",
-      "image_url": "https://www.maddox.pro/wp-content/uploads/2026/08/IMG8369-1024x768.jpg",
-      "summary_en": "A laptop built around the 6502 CPU showcases retro computing in a portable form, blending classic hardware with modern peripherals. The project highlights how old architectures can still inspire hobbyist hardware, energy-efficient designs, and education about computer fundamentals. It also raises questions about performance, software compatibility, and DIY hardware culture.",
-      "summary_zh": "这款笔记本以6502处理器为核心，将经典硬件带入便携设备。它展示了复古架构在便携化、低功耗设计和硬件爱好者教育中的潜力，同时也引发关于性能与软件兼容性的讨论。",
+      "title_en": "Types of types: Haskell's Kind system",
+      "url": "https://thunk.blog/posts/types-of-types-haskell-kind-system/",
+      "title_zh": "Haskell 的 Kind 系统",
+      "created_display": "Created: Oct 14, 2026 / 10:00 PT",
+      "image_url": null,
+      "summary_en": "Delves into the Haskell kind system, explaining how kinds classify type constructors and support higher-kinded types. It clarifies the role of kinds in enabling advanced type-level programming and ensuring kind-correctness in generic code.",
+      "summary_zh": "本文介绍 Haskell 的 Kind（类型的类型）系统，解释如何用来分类类型构造器并支撑高阶类型。通过示例，阐明 Kind 在实现高级类型级编程和保证通用代码的类型正确性中的作用。",
       "hn": {
-        "id": 50111537,
+        "id": 50090927,
         "type": "story",
-        "by": "nanochess",
-        "score": 97,
-        "descendants": 37,
-        "time": 1792104983,
-        "comments_url": "https://news.ycombinator.com/item?id=50111537"
+        "by": "Thom2503",
+        "score": 112,
+        "descendants": 76,
+        "time": 1791997231,
+        "comments_url": "https://news.ycombinator.com/item?id=50090927"
       },
-      "hot_score": 0.03,
       "tags": [
-        "Hardware",
-        "Education",
-        "Energy"
+        "Programming"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "How to Train Your Robot",
+      "url": "https://www.construction-physics.com/p/how-to-train-your-robot",
+      "title_zh": "如何训练你的机器人",
+      "created_display": "Created: Oct 15, 2026 / 08:13 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!ybEt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab43bde7-d415-4d3d-9019-d682641024d6_723x443.png",
+      "summary_en": "Modern robot learning blends simulation-based reinforcement learning, imitation learning, and sim-to-real transfer to build capable, safe systems. The piece emphasizes data efficiency, safety, and the importance of aligning hardware, perception, and planning with learning.",
+      "summary_zh": "现代机器人学习综合了基于仿真的强化学习、模仿学习和模拟到现实的迁移等方法，以构建高效、可安全运行的系统。文章强调数据效率、安全性，以及使感知、规划与硬件协同学习的重要性。",
+      "hn": {
+        "id": 50104874,
+        "type": "story",
+        "by": "crescit_eundo",
+        "score": 72,
+        "descendants": 19,
+        "time": 1792077201,
+        "comments_url": "https://news.ycombinator.com/item?id=50104874"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "AI",
+        "Hardware"
       ]
     },
     {
@@ -1001,55 +1380,10 @@
         "time": 1792171699,
         "comments_url": "https://news.ycombinator.com/item?id=50121506"
       },
-      "hot_score": 0.03,
+      "hot_score": 0.02,
       "tags": [
         "Culture"
       ]
-    },
-    {
-      "title_en": "The DNS Museum",
-      "url": "https://dns.museum",
-      "title_zh": "DNS 博物馆",
-      "created_display": "Created: Oct 16, 2026 / 15:21 PT",
-      "image_url": "https://dns.museum/static/images/talk/thumbnails/slide-10.webp",
-      "summary_en": "The DNS Museum curates artifacts and explanations tracing the history and evolution of the Domain Name System, highlighting milestones from early research to modern DNS security practices. For developers and businesses, it underscores how DNS design decisions ripple through internet performance and security.",
-      "summary_zh": "DNS 博物馆收集并展示域名系统的历史文献与展品，梳理从早期研究到现今 DNS 安全实践的关键节点。通过互动和叙述，帮助开发者和企业理解 DNS 的演进及其对互联网的影响。",
-      "hn": {
-        "id": 50125551,
-        "type": "story",
-        "by": "zdw",
-        "score": 49,
-        "descendants": 7,
-        "time": 1792189294,
-        "comments_url": "https://news.ycombinator.com/item?id=50125551"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Security",
-        "Web"
-      ]
-    },
-    {
-      "title_en": "Types of types: Haskell's Kind system",
-      "url": "https://thunk.blog/posts/types-of-types-haskell-kind-system/",
-      "title_zh": "Haskell 的 Kind 系统",
-      "created_display": "Created: Oct 14, 2026 / 10:00 PT",
-      "image_url": null,
-      "summary_en": "Delves into the Haskell kind system, explaining how kinds classify type constructors and support higher-kinded types. It clarifies the role of kinds in enabling advanced type-level programming and ensuring kind-correctness in generic code.",
-      "summary_zh": "本文介绍 Haskell 的 Kind（类型的类型）系统，解释如何用来分类类型构造器并支撑高阶类型。通过示例，阐明 Kind 在实现高级类型级编程和保证通用代码的类型正确性中的作用。",
-      "hn": {
-        "id": 50090927,
-        "type": "story",
-        "by": "Thom2503",
-        "score": 110,
-        "descendants": 75,
-        "time": 1791997231,
-        "comments_url": "https://news.ycombinator.com/item?id=50090927"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.02
     },
     {
       "title_en": "\"Traditional, but Puzzling\"",
@@ -1074,6 +1408,28 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "Gdynia and the Dream of a Maritime Poland",
+      "url": "https://engelsbergideas.com/notebook/gdynia-and-the-dream-of-a-maritime-poland/",
+      "title_zh": "格丁尼亚与波兰的海洋梦想",
+      "created_display": "Created: Oct 16, 2026 / 14:13 PT",
+      "image_url": "https://engelsbergideas.com/wp-content/uploads/2026/10/Gdynia.jpg",
+      "summary_en": "Gdynia’s rise as a major Baltic port reflects Poland’s postwar modernization and its maritime ambitions. The piece traces urban planning, port governance, and logistics evolution that positioned Gdynia within Europe’s sea-trade network.",
+      "summary_zh": "格丁尼亚成为波兰波罗的海地区重要港口的崛起，体现战后现代化进程与海洋抱负。文章梳理了城市规划、港口治理与物流体系的演变，以及其在欧洲海上贸易网络中的地位。",
+      "hn": {
+        "id": 50124811,
+        "type": "story",
+        "by": "lermontov",
+        "score": 31,
+        "descendants": 4,
+        "time": 1792185188,
+        "comments_url": "https://news.ycombinator.com/item?id=50124811"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
       "title_en": "16-bit fully functional DIY magnetic core memory",
       "url": "https://www.youtube.com/watch?v=OJ1WYyO2jdY",
       "title_zh": "16 位全功能 DIY 磁芯存储器",
@@ -1094,6 +1450,51 @@
         "Hardware"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "How Postgres DELETE can actually scale",
+      "url": "https://www.dbos.dev/blog/scaling-deletions-in-postgres",
+      "title_zh": "How Postgres DELETE can actually scale",
+      "created_display": "Created: Oct 15, 2026 / 11:42 PT",
+      "image_url": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6aabf835e3f24206ceb9afa0_Taking-out-the-Garbage-in-Postgres.jpg",
+      "summary_en": "PostgreSQL can scale large DELETE workloads by employing partitioning, batching deletes, and pruning through indexes. Techniques like avoiding full-table scans, using COPY-based archiving, and batching in transactions help keep latency predictable and reduce locking.",
+      "summary_zh": "PostgreSQL 可以通过分区、分批删除以及利用索引来处理大规模删除工作负载。通过避免全表扫描、采用归档前置操作和将删除分批提交等实践，可以在数据增长时保持吞吐和低延迟。",
+      "hn": {
+        "id": 50108297,
+        "type": "story",
+        "by": "KraftyOne",
+        "score": 23,
+        "descendants": 6,
+        "time": 1792089777,
+        "comments_url": "https://news.ycombinator.com/item?id=50108297"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Lant – The Forgotten Resource",
+      "url": "https://sites.udel.edu/materialmatters/2018/04/11/lant-the-forgotten-resource/",
+      "title_zh": "Lant：被遗忘的资源",
+      "created_display": "Created: Oct 15, 2026 / 13:09 PT",
+      "image_url": "https://sites.udel.edu/materialmatters/files/2018/02/Screen-Shot-2018-01-31-at-3.20.03-PM-1gx2gtm.png",
+      "summary_en": "Lant is presented as a forgotten resource with potential in sustainable materials or chemical processes.",
+      "summary_zh": "文章将 Lant 视为被遗忘的资源，探讨其在可持续材料或化学过程中的潜力、应用场景以及制约其广泛应用的因素。",
+      "hn": {
+        "id": 50109546,
+        "type": "story",
+        "by": "kreyenborgi",
+        "score": 20,
+        "descendants": 3,
+        "time": 1792094966,
+        "comments_url": "https://news.ycombinator.com/item?id=50109546"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Lombok Is Still Relevant in the Age of Java Records",
@@ -1118,25 +1519,49 @@
       ]
     },
     {
-      "title_en": "How Postgres DELETE can actually scale",
-      "url": "https://www.dbos.dev/blog/scaling-deletions-in-postgres",
-      "title_zh": "How Postgres DELETE can actually scale",
-      "created_display": "Created: Oct 15, 2026 / 11:42 PT",
-      "image_url": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6aabf835e3f24206ceb9afa0_Taking-out-the-Garbage-in-Postgres.jpg",
-      "summary_en": "PostgreSQL can scale large DELETE workloads by employing partitioning, batching deletes, and pruning through indexes. Techniques like avoiding full-table scans, using COPY-based archiving, and batching in transactions help keep latency predictable and reduce locking.",
-      "summary_zh": "PostgreSQL 可以通过分区、分批删除以及利用索引来处理大规模删除工作负载。通过避免全表扫描、采用归档前置操作和将删除分批提交等实践，可以在数据增长时保持吞吐和低延迟。",
+      "title_en": "HOL Light Tutorial",
+      "url": "https://hol-light.github.io/tutorial/HTML/tutorial.html",
+      "title_zh": "HOL Light 教程",
+      "created_display": "Created: Oct 15, 2026 / 17:33 PT",
+      "image_url": "https://hol-light.github.io/tutorial/HTML/tutorial0x.png",
+      "summary_en": "HOL Light is a lightweight interactive theorem prover for higher-order logic; this tutorial walks readers through setup, basic proofs, and examples, illustrating how formal verification can be taught and practiced.",
+      "summary_zh": "HOL Light 是一个用于高阶逻辑的轻量级交互式定理证明器。本教程引导读者完成安装、基础证明与示例，展示形式化验证的教学与实践。",
       "hn": {
-        "id": 50108297,
+        "id": 50112204,
         "type": "story",
-        "by": "KraftyOne",
-        "score": 4,
-        "descendants": 0,
-        "time": 1792089777,
-        "comments_url": "https://news.ycombinator.com/item?id=50108297"
+        "by": "stmonty",
+        "score": 9,
+        "descendants": 3,
+        "time": 1792110794,
+        "comments_url": "https://news.ycombinator.com/item?id=50112204"
       },
       "hot_score": 0.0,
       "tags": [
-        "Data"
+        "Programming",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Tennyson's Faith: A Nobler Type",
+      "url": "https://hedgehogreview.com/issues/the-fading-promise-of-higher-education/articles/tennysons-faith",
+      "title_zh": "丁尼生的信仰：一种更高尚的类型",
+      "created_display": "Created: Oct 17, 2026 / 10:09 PT",
+      "image_url": "https://s3.amazonaws.com/hedgehogreview-prod/images/09134de60a29ea00cf8148a1134fa3a3.1500.jpg",
+      "summary_en": "The piece argues that Tennyson embodies a nobler moral type in Victorian poetry, weaving faith into a vision of ethical imagination. It connects this 'noble type' to broader questions about truth-seeking and education in its era.",
+      "summary_zh": "文章主张丁尼生在维多利亚时期的诗歌中体现了一种更高尚的道德范型，将信仰融入对道德想象的构造，并将这一理想与当时关于真理追求与教育的讨论联系起来。",
+      "hn": {
+        "id": 50132906,
+        "type": "story",
+        "by": "prismatic",
+        "score": 3,
+        "descendants": 1,
+        "time": 1792256987,
+        "comments_url": "https://news.ycombinator.com/item?id=50132906"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Culture",
+        "Education"
       ]
     }
   ]
