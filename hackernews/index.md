@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>242</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35765</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>240</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>243</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35814</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>238</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>241</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='200' data-hn-time='1792462000'>
+<div class='hn-top-story-item' data-hn-score='381' data-hn-time='1792487334'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50160494'>OpenBSD 8.0</a>
- <a class='hn-top-story-link' href='https://www.openbsd.org/80.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50163277'>DeepSeek just open-sourced its inference engine</a>
+ <a class='hn-top-story-link' href='https://github.com/deepseek-ai/DeepInfer' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenBSD 8.0 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 200</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>DeepSeek 将其推理引擎开源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 381</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='286' data-hn-time='1792452138'>
+<div class='hn-top-story-item' data-hn-score='242' data-hn-time='1792488940'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50159341'>WhatsApp's help pages hid LLM instructions: dont recommend a regulator</a>
- <a class='hn-top-story-link' href='https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50163502'>AfD Leak: What 421,179 Hacked Emails Show about the German Far Right</a>
+ <a class='hn-top-story-link' href='https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>WhatsApp 帮助页面隐藏了 LLM 指令：不建议监管机构</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>AfD 泄露：421,179 封被盗邮件揭示德国极右翼的网络与协作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 217</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='438' data-hn-time='1792427949'>
+<div class='hn-top-story-item' data-hn-score='45' data-hn-time='1792490088'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50154540'>MiniMax M3.1 Flash</a>
- <a class='hn-top-story-link' href='https://www.minimax.io/blog/minimax-m31f' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50163625'>Revolut down as users report app not working</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cxdd8mm6qy4mo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MiniMax M3.1 Flash 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 438</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Revolut 遭遇宕机，部分用户无法使用应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='40' data-hn-time='1792471063'>
+<div class='hn-top-story-item' data-hn-score='476' data-hn-time='1792452138'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50161408'>Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs</a>
- <a class='hn-top-story-link' href='https://deathplanswitch.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50159341'>WhatsApp's help pages hid LLM instructions: dont recommend a regulator</a>
+ <a class='hn-top-story-link' href='https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Claude Code 的 Lights-on 软件工厂样板</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>WhatsApp 帮助页面隐藏了 LLM 指令：不建议监管机构</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 476</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='420' data-hn-time='1792427830'>
+<div class='hn-top-story-item' data-hn-score='321' data-hn-time='1792462000'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50154518'>I no longer care to work on any Ruby gems so I've archived all my repositories</a>
- <a class='hn-top-story-link' href='https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50160494'>OpenBSD 8.0</a>
+ <a class='hn-top-story-link' href='https://www.openbsd.org/80.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我不再维护 Ruby gem，全部仓库已归档</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 420</span> <span class='hn-top-story-comments'>&#128172; 392</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>OpenBSD 8.0 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 321</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='544' data-hn-time='1792416934'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='23' data-hn-time='1792491962'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50152307'>Wine ported to OpenBSD</a>
- <a class='hn-top-story-link' href='https://marc.info/?l=openbsd-ports&m=179236125692175' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50163961'>Google cloud outage takes down banks</a>
+ <a class='hn-top-story-link' href='https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Wine 已移植到 OpenBSD</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 544</span> <span class='hn-top-story-comments'>&#128172; 180</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Google Cloud 故障致多家银行受影响</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 23</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='220' data-hn-time='1792444098'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1792478227'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50158100'>Putting Linux on my RTX Spark laptop because I don't have a Microsoft account</a>
- <a class='hn-top-story-link' href='https://josie.lol/blog/linux-rtx-spark' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50162177'>MicroG: Free-libre re-implementation of Google's proprietary Android user space</a>
+ <a class='hn-top-story-link' href='https://github.com/microg/GmsCore/wiki' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>没有微软账户就把 RTX Spark 笔记本装上 Linux</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>MicroG：对 Google Android 用户空间的自由开源实现</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1792465507'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='31' data-hn-time='1792486291'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50160877'>Go will reject certificate chains containing eight distrusted SPKIs</a>
- <a class='hn-top-story-link' href='https://github.com/golang/go/issues/82345' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50163142'>There is no official XScreenSaver GitHub repository</a>
+ <a class='hn-top-story-link' href='https://github.com/xscreensaver-official/xscreensaver' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Go 将拒绝包含八个不可信 SPKI 的证书链</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>没有官方的 XScreenSaver GitHub 仓库</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 31</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='118' data-hn-time='1792454449'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='476' data-hn-time='1792427949'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50159616'>France's supermarket fridges were vulnerable online for months</a>
- <a class='hn-top-story-link' href='https://ipinfo.io/blog/france-fridges-hack' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50154540'>MiniMax M3.1 Flash</a>
+ <a class='hn-top-story-link' href='https://www.minimax.io/blog/minimax-m31f' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>法国超市冷藏柜数月暴露在网上存在漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>MiniMax M3.1 Flash 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 476</span> <span class='hn-top-story-comments'>&#128172; 201</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1792449157'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='573' data-hn-time='1792416934'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/19/top_stories_10192026#story-50158942'>An ad-free Android TV</a>
- <a class='hn-top-story-link' href='https://cretezy.com/2026/ad-free-android-tv' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/20/top_stories_10202026#story-50152307'>Wine ported to OpenBSD</a>
+ <a class='hn-top-story-link' href='https://marc.info/?l=openbsd-ports&m=179236125692175' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>无广告的 Android TV</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Wine 已移植到 OpenBSD</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 195</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/19/top_stories_10192026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/20/top_stories_10202026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/18/best_stories_10182026'>Latest Daily Best — 2026-10-18 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 43 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-19 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-10-19 — 2026-10-20 <span class="hn-row-sep">·</span> 149 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-20 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/20/top_stories_10202026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Hardware <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-19 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -566,33 +575,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/21/top_stories_09212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>36</b> <span class="hn-row-sep">·</span> Hardware <b>17</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 38</span>
-<span class='hn-week-meta'>2026-09-20 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W38'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-09-14 — 2026-09-20 <span class="hn-row-sep">·</span> All <b>503</b> <span class="hn-row-sep">·</span> AI <b>135</b> <span class="hn-row-sep">·</span> Programming <b>105</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-20 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/20/best_stories_09202026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>19</b> <span class="hn-row-sep">·</span> Privacy <b>7</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/20/top_stories_09202026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
