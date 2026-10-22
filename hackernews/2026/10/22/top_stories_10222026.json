@@ -4,41 +4,319 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 32,
-    "new_llm_enriched": 18,
-    "scrape_time_display": "04:32, October 22, 2026 (PDT)",
+    "count_written": 76,
+    "reused_same_day": 23,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 23,
+    "scrape_time_display": "11:19, October 22, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/22",
     "content_date": "2026-10-22",
-    "run_time_local": "04:32, October 22, 2026 (PDT)",
-    "run_time_utc": "2026-10-22 11:32:03 UTC",
+    "run_time_local": "11:19, October 22, 2026 (PDT)",
+    "run_time_utc": "2026-10-22 18:19:41 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-22 11:33:37 UTC"
+    "hot_score_time_utc": "2026-10-22 18:23:04 UTC"
   },
   "items": [
     {
-      "title_en": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
-      "title_zh": "CVE-2026-111943：中间证书颁发机构遭受妥协",
-      "created_display": "Created: Oct 22, 2026 / 01:51 PT",
-      "image_url": null,
-      "summary_en": "A compromised intermediate certificate authority threatens TLS trust across many deployments, as certificates it issued could be misused to impersonate sites. The incident underscores how a single compromised link in the certificate chain can erode global trust and trigger urgent revocation and re-issuance of affected certificates.",
-      "summary_zh": "CVE-2026-111943 指出中间证书颁发机构被攻破，攻击者可能滥用其签发的受信任证书伪装站点。此事件暴露证书链中单点受损就可能动摇全球信任，需要吊销、重新颁发并更新信任链。",
+      "title_en": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "title_zh": "eMudhra 将退出全球 SSL/TLS 证书业务",
+      "created_display": "Created: Oct 22, 2026 / 06:33 PT",
+      "image_url": "https://emudhra.com/images/press-release/thumbs/emudhra-to-exit-global-ssl-tls-certificate-business.jpg",
+      "summary_en": "eMudhra says it will exit its global SSL/TLS certificate business, signaling a strategic retreat from a crowded CA market. The move could nudge customers to migrate to other providers and accelerate consolidation in the PKI ecosystem, with ripple effects on how organizations manage trust chains.",
+      "summary_zh": "eMudhra 宣布将退出全球 SSL/TLS 证书业务，显示其在竞争激烈的证书颁发机构市场中的战略收缩。此举可能促使客户转向其他供应商，并推动公钥基础设施生态的整合，对组织的信任链管理产生连锁影响。",
       "hn": {
-        "id": 50192900,
+        "id": 50195110,
         "type": "story",
-        "by": "keks24",
-        "score": 151,
-        "descendants": 36,
-        "time": 1792659091,
-        "comments_url": "https://news.ycombinator.com/item?id=50192900"
+        "by": "bo0tzz",
+        "score": 646,
+        "descendants": 473,
+        "time": 1792676019,
+        "comments_url": "https://news.ycombinator.com/item?id=50195110"
       },
-      "hot_score": 9.25,
+      "tags": [
+        "Security",
+        "Business"
+      ],
+      "hot_score": 20.34
+    },
+    {
+      "title_en": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "title_zh": "Quad9 DNS 解析器将退出法国",
+      "created_display": "Created: Oct 22, 2026 / 07:32 PT",
+      "image_url": "https://quad9.net/images/cover_c2f081e020.png",
+      "summary_en": "Quad9 is exiting France, citing strategic or regulatory reasons. The move narrows the field for privacy-conscious DNS users and may force traffic to migrate to other resolvers, impacting latency and privacy posture.",
+      "summary_zh": "Quad9 宣布退出法国，原因与战略或监管环境有关。此举缩小了注重隐私的法国用户的解析器选择，可能迫使流量迁移至其他解析服务，影响延迟和隐私保护水平。",
+      "hn": {
+        "id": 50195959,
+        "type": "story",
+        "by": "farrokhi",
+        "score": 450,
+        "descendants": 161,
+        "time": 1792679558,
+        "comments_url": "https://news.ycombinator.com/item?id=50195959"
+      },
+      "tags": [
+        "Privacy",
+        "Security",
+        "Politics"
+      ],
+      "hot_score": 18.73
+    },
+    {
+      "title_en": "Google cleared 300 hectares of Finnish forest",
+      "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+      "title_zh": "谷歌清理芬兰森林300公顷以兴建数据中心",
+      "created_display": "Created: Oct 22, 2026 / 08:32 PT",
+      "image_url": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-05-image-22.jpg",
+      "summary_en": "A new data center project prompted the clearing of 300 hectares of Finnish forest, drawing scrutiny from environmental groups. The company says restoration efforts and biodiversity measures accompany the build, highlighting the land-use tradeoffs of hyperscale infrastructure.",
+      "summary_zh": "一座数据中心项目引发芬兰森林300公顷的清理，引发环保组织的关注。公司声称在建设过程中进行恢复和生物多样性保护等措施，凸显大规模基础设施的用地权衡。",
+      "hn": {
+        "id": 50196837,
+        "type": "story",
+        "by": "wetwater",
+        "score": 201,
+        "descendants": 132,
+        "time": 1792683166,
+        "comments_url": "https://news.ycombinator.com/item?id=50196837"
+      },
+      "hot_score": 11.71,
+      "tags": [
+        "Energy",
+        "Business",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "A farewell to Arc browser",
+      "url": "https://arc.net/",
+      "title_zh": "向 Arc 浏览器道别",
+      "created_display": "Created: Oct 22, 2026 / 09:27 PT",
+      "image_url": "https://arc.net/farewell/og.png",
+      "summary_en": "Opinion piece reflecting on Arc browser's UX ambitions and its eventual trouble sustaining momentum; lessons for product teams trying to reinvent mainstream browsing.",
+      "summary_zh": "这篇观点文章回顾 Arc 浏览器在用户体验上的野心以及在持续获得用户关注方面遇到的挑战，提炼出对试图重塑主流浏览体验的产品团队的教训。",
+      "hn": {
+        "id": 50197601,
+        "type": "story",
+        "by": "suhdonghwi",
+        "score": 98,
+        "descendants": 80,
+        "time": 1792686467,
+        "comments_url": "https://news.ycombinator.com/item?id=50197601"
+      },
+      "hot_score": 8.29,
+      "tags": [
+        "Design",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "What's Getting Pwned",
+      "url": "https://pwn.watch/",
+      "title_zh": "哪些数据已被入侵",
+      "created_display": "Created: Oct 22, 2026 / 07:08 PT",
+      "image_url": "https://pwn.watch/og/home.jpg",
+      "summary_en": "A tool tracks breaches and credential leaks across apps and services, surfacing trends in where passwords tend to leak and which services are most affected. It underscores the importance of phishing-resistant MFA and unique credentials.",
+      "summary_zh": "一个跟踪泄露事件和凭据曝光的工具，会聚焦哪些服务最易暴露、泄露趋势。强调使用防钓鱼型多因素认证以及避免重复使用密码的重要性。",
+      "hn": {
+        "id": 50195543,
+        "type": "story",
+        "by": "mrkd",
+        "score": 217,
+        "descendants": 116,
+        "time": 1792678092,
+        "comments_url": "https://news.ycombinator.com/item?id=50195543"
+      },
+      "hot_score": 7.98,
+      "tags": [
+        "Security",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "title_zh": "Show HN：在 Android 设备上运行完整的 iOS 16.5 固件",
+      "created_display": "Created: Oct 22, 2026 / 08:26 PT",
+      "image_url": "https://opengraph.githubassets.com/052488f31b91887aac81570c21a9b31540871bf1904934601b6592b7bbdda0a4/oosexgang/hackios-xnu-kernel",
+      "summary_en": "A hands-on project demonstrates booting and running the full iOS 16.5 firmware on Android hardware, challenging cross-OS compatibility. It highlights the iOS boot chain, kernel and driver constraints, and what the exercise reveals about the barriers between mobile ecosystems.",
+      "summary_zh": "一个动手项目展示在 Android 硬件上跑完整的 iOS 16.5 固件，挑战跨操作系统兼容性。该工作揭示了 iOS 启动链、内核与驱动的约束，以及两大移动生态之间的壁垒。",
+      "hn": {
+        "id": 50196718,
+        "type": "story",
+        "by": "aghuang",
+        "score": 134,
+        "descendants": 48,
+        "time": 1792682782,
+        "comments_url": "https://news.ycombinator.com/item?id=50196718"
+      },
+      "hot_score": 7.49,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "title_zh": "Switch 2 越狱工具发布",
+      "created_display": "Created: Oct 22, 2026 / 01:01 PT",
+      "image_url": "https://pepsipu.com/_astro/mario-kart-results-1-2560.B5lJitnR.webp",
+      "summary_en": "New jailbreak tooling for the Switch 2 has surfaced, enabling homebrew and custom software on Nintendo's latest console. The release underscores ongoing security tug-of-war between platform vendors and researchers, with potential risks to firmware integrity and user warranties.",
+      "summary_zh": "Switch 2 的新越狱工具出现，使玩家能够在新版掌机上运行自制软件。此举凸显平台安全与玩家破解之间的博弈，可能对固件完整性、设备稳定性和保修造成影响。",
+      "hn": {
+        "id": 50192536,
+        "type": "story",
+        "by": "ledoge",
+        "score": 545,
+        "descendants": 200,
+        "time": 1792656112,
+        "comments_url": "https://news.ycombinator.com/item?id=50192536"
+      },
+      "tags": [
+        "Security",
+        "Gaming",
+        "Hardware"
+      ],
+      "hot_score": 5.89
+    },
+    {
+      "title_en": "Getting ready to operate GNU Taler in Germany",
+      "url": "https://www.taler.net/en/news/2026-13.html",
+      "title_zh": "在德国部署 GNU Taler 的准备工作",
+      "created_display": "Created: Oct 22, 2026 / 09:14 PT",
+      "image_url": "https://www.taler.net/images/logo-2021.svg",
+      "summary_en": "GNU Taler is being prepared for operation in Germany, signaling steps toward a privacy-preserving digital cash system in the EU. The update covers regulatory alignment, integration with local banks and PSPs, and how opt-in communities can participate.",
+      "summary_zh": "GNU Taler 在德国的落地正在推进，标志着在欧盟范围内推进隐私保护型数字现金系统的阶段性进展。更新聚焦监管合规、与本地银行及支付服务提供商的对接，以及社区参与的方式。",
+      "hn": {
+        "id": 50197404,
+        "type": "story",
+        "by": "dewey",
+        "score": 68,
+        "descendants": 27,
+        "time": 1792685671,
+        "comments_url": "https://news.ycombinator.com/item?id=50197404"
+      },
+      "hot_score": 5.19,
+      "tags": [
+        "Privacy",
+        "Finance",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "MPs moving to restrict gambling ads in Canada",
+      "url": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
+      "title_zh": "加拿大议员推动限制赌博广告",
+      "created_display": "Created: Oct 22, 2026 / 07:26 PT",
+      "image_url": null,
+      "summary_en": "Canadian MPs propose tighter restrictions on gambling advertising to protect vulnerable groups and curb online ad targeting. The move could reshape how advertisers, platforms, and affiliates reach audiences and may require new compliance rules.",
+      "summary_zh": "加拿大议员提出更严格的赌博广告限制，意在保护脆弱群体并减少在线广告投放的定向。此举可能改变广告商、平台和 afiliates 的受众触达方式，并催生新的合规规则。",
+      "hn": {
+        "id": 50195873,
+        "type": "story",
+        "by": "Teever",
+        "score": 119,
+        "descendants": 45,
+        "time": 1792679200,
+        "comments_url": "https://news.ycombinator.com/item?id=50195873"
+      },
+      "hot_score": 4.78,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "title_zh": "亚马逊在公开披露前发现 PHP2Shell 利用活动",
+      "created_display": "Created: Oct 22, 2026 / 04:50 PT",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/21/Lock-image-2.jpeg",
+      "summary_en": "Amazon Threat Intelligence identified PHP2Shell exploitation linked to MadPot before public disclosure, underscoring the value of proactive threat intel in stopping campaigns early and guiding defensive updates.",
+      "summary_zh": "亚马逊威胁情报在公开披露前就发现了与 MadPot 相关的 PHP2Shell 利用活动，凸显主动情报在提早遏制攻击与引导防御补丁中的价值。",
+      "hn": {
+        "id": 50194070,
+        "type": "story",
+        "by": "cubefox",
+        "score": 222,
+        "descendants": 79,
+        "time": 1792669836,
+        "comments_url": "https://news.ycombinator.com/item?id=50194070"
+      },
       "tags": [
         "Security"
+      ],
+      "hot_score": 4.65
+    },
+    {
+      "title_en": "Crystal 1.22",
+      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
+      "title_zh": "Crystal 1.22 发布",
+      "created_display": "Created: Oct 22, 2026 / 06:20 PT",
+      "image_url": "https://crystal-lang.org/assets/banner.webp",
+      "summary_en": "Crystal 1.22 release brings performance improvements, stricter compile-time checks, and ergonomic language enhancements to the Crystal programming language ecosystem.",
+      "summary_zh": "Crystal 1.22 版本带来性能改进、编译时检查加强以及语言易用性增强，继续丰富 Crystal 的编程生态。",
+      "hn": {
+        "id": 50194938,
+        "type": "story",
+        "by": "ksec",
+        "score": 147,
+        "descendants": 64,
+        "time": 1792675213,
+        "comments_url": "https://news.ycombinator.com/item?id=50194938"
+      },
+      "hot_score": 4.34,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "title_zh": "多处 Linux 内核漏洞被误发至公开邮件列表",
+      "created_display": "Created: Oct 22, 2026 / 04:12 PT",
+      "image_url": "https://www.phoronix.net/image.php?id=2026&image=public_zdi",
+      "summary_en": "Several Linux kernel vulnerabilities were accidentally published on a public mailing list, potentially leaking exploit details and increasing risk before patches reach users. This incident underscores the importance of secure disclosure practices and rapid remediation.",
+      "summary_zh": "多处 Linux 内核漏洞的细节被意外公开在公开邮件列表上，可能在补丁普及前被利用。此事件凸显负责任披露实践的重要性以及快速修复的必要性。",
+      "hn": {
+        "id": 50193804,
+        "type": "story",
+        "by": "mrkn1",
+        "score": 224,
+        "descendants": 74,
+        "time": 1792667557,
+        "comments_url": "https://news.ycombinator.com/item?id=50193804"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 4.13
+    },
+    {
+      "title_en": "Nvidia OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "title_zh": "NVIDIA OpenShell",
+      "created_display": "Created: Oct 22, 2026 / 10:44 PT",
+      "image_url": "https://opengraph.githubassets.com/cc279825e57fb5e9a2b00ac3e8dacdf2d9dbf28b210edf154588188077630f67/NVIDIA/OpenShell",
+      "summary_en": "NVIDIA releases OpenShell, an open tooling project aiming to provide more accessible, customizable interfaces for GPU-related workflows. It signals a push toward open, developer-friendly tooling around GPU software and drivers.",
+      "summary_zh": "NVIDIA 发布了 OpenShell，这是一个旨在提供更易上手、可定制界面的 GPU 相关工作流工具集。此举显示出向开源、面向开发者的 GPU 软件与驱动工具生态的推进。",
+      "hn": {
+        "id": 50198675,
+        "type": "story",
+        "by": "niemandhier",
+        "score": 16,
+        "descendants": 4,
+        "time": 1792691046,
+        "comments_url": "https://news.ycombinator.com/item?id=50198675"
+      },
+      "hot_score": 2.6,
+      "tags": [
+        "Open Source",
+        "Hardware"
       ]
     },
     {
@@ -53,8 +331,8 @@
         "id": 50189232,
         "type": "story",
         "by": "ahlCVA",
-        "score": 511,
-        "descendants": 121,
+        "score": 577,
+        "descendants": 138,
         "time": 1792626697,
         "comments_url": "https://news.ycombinator.com/item?id=50189232"
       },
@@ -62,7 +340,53 @@
         "Programming",
         "Security"
       ],
-      "hot_score": 4.59
+      "hot_score": 2.5
+    },
+    {
+      "title_en": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "title_zh": "WorldTUI: 我用 360M 模型训练来假装成终端",
+      "created_display": "Created: Oct 21, 2026 / 19:18 PT",
+      "image_url": "https://simedw.com/2026/10/21/world-model-terminal/images/worldtui-cowsay.jpg",
+      "summary_en": "WorldTUI shows that a 360M parameter model can imitate a terminal, turning a language model into a lightweight shell agent. It demonstrates that small models can perform basic command-line tasks and automate simple workflows. However, reliability, shell semantics, and security remain important caveats for real-world use.",
+      "summary_zh": "WorldTUI 展示了用一个 360M 参数的模型来模仿终端界面，将语言模型变成一个可编程的 shell 代理。实验表明小型模型可以完成基本命令行任务并实现简单自动化，但在可靠性、 shell 语义和安全性方面仍存在局限。此结果促使人们思考如何在不依赖大型模型的前提下提升终端工作流。",
+      "hn": {
+        "id": 50190363,
+        "type": "story",
+        "by": "alphax314",
+        "score": 442,
+        "descendants": 140,
+        "time": 1792635521,
+        "comments_url": "https://news.ycombinator.com/item?id=50190363"
+      },
+      "tags": [
+        "AI",
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 2.41
+    },
+    {
+      "title_en": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "title_zh": "比 earcut 快得多：在 489 ms 内对 370万地图多边形进行三角剖分",
+      "created_display": "Created: Oct 22, 2026 / 02:31 PT",
+      "image_url": "https://globus.software/img/social-card.webp",
+      "summary_en": "An optimization beats earcut by large margins, triangulating 3.7 million map polygons in 489 ms. This showcases aggressive, low-level geometry processing improvements that can dramatically speed up real-time map rendering and GIS workloads. The result hints at practical gains for interactive maps, navigation, and spatial data pipelines.",
+      "summary_zh": "一种优化在三角剖分地图多边形上取得巨大提升，370万的多边形在489毫秒内完成。此举展示了对几何处理的底层优化如何显著提升实时地图渲染和地理信息系统工作负载的速度，预计对交互式地图、导航和空间数据管线具有实际意义。",
+      "hn": {
+        "id": 50193170,
+        "type": "story",
+        "by": "molind",
+        "score": 168,
+        "descendants": 33,
+        "time": 1792661478,
+        "comments_url": "https://news.ycombinator.com/item?id=50193170"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 2.28
     },
     {
       "title_en": "There isn't an easy exploit for this PHP vulnerability",
@@ -84,51 +408,7 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 4.55
-    },
-    {
-      "title_en": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
-      "title_zh": "比 earcut 快得多：在 489 ms 内对 370万地图多边形进行三角剖分",
-      "created_display": "Created: Oct 22, 2026 / 02:31 PT",
-      "image_url": "https://globus.software/img/social-card.webp",
-      "summary_en": "An optimization beats earcut by large margins, triangulating 3.7 million map polygons in 489 ms. This showcases aggressive, low-level geometry processing improvements that can dramatically speed up real-time map rendering and GIS workloads. The result hints at practical gains for interactive maps, navigation, and spatial data pipelines.",
-      "summary_zh": "一种优化在三角剖分地图多边形上取得巨大提升，370万的多边形在489毫秒内完成。此举展示了对几何处理的底层优化如何显著提升实时地图渲染和地理信息系统工作负载的速度，预计对交互式地图、导航和空间数据管线具有实际意义。",
-      "hn": {
-        "id": 50193170,
-        "type": "story",
-        "by": "molind",
-        "score": 53,
-        "descendants": 10,
-        "time": 1792661478,
-        "comments_url": "https://news.ycombinator.com/item?id=50193170"
-      },
-      "hot_score": 4.21,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Security Disclosure",
-      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
-      "title_zh": "Railway 平台安全披露",
-      "created_display": "Created: Oct 21, 2026 / 14:58 PT",
-      "image_url": "https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90",
-      "summary_en": "Railway has released a security disclosure detailing a vulnerability and its recommended mitigations.",
-      "summary_zh": "Railway 发布了平台安全披露，概述了已发现的漏洞及建议的缓解措施。",
-      "hn": {
-        "id": 50188228,
-        "type": "story",
-        "by": "passenger",
-        "score": 488,
-        "descendants": 282,
-        "time": 1792619883,
-        "comments_url": "https://news.ycombinator.com/item?id=50188228"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 3.47
+      "hot_score": 2.26
     },
     {
       "title_en": "PHP 8.2.35",
@@ -148,55 +428,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=50180873"
       },
       "tags": [
-        "Security"
-      ],
-      "hot_score": 3.46
-    },
-    {
-      "title_en": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "title_zh": "WorldTUI: 我用 360M 模型训练来假装成终端",
-      "created_display": "Created: Oct 21, 2026 / 19:18 PT",
-      "image_url": "https://simedw.com/2026/10/21/world-model-terminal/images/worldtui-cowsay.jpg",
-      "summary_en": "WorldTUI shows that a 360M parameter model can imitate a terminal, turning a language model into a lightweight shell agent. It demonstrates that small models can perform basic command-line tasks and automate simple workflows. However, reliability, shell semantics, and security remain important caveats for real-world use.",
-      "summary_zh": "WorldTUI 展示了用一个 360M 参数的模型来模仿终端界面，将语言模型变成一个可编程的 shell 代理。实验表明小型模型可以完成基本命令行任务并实现简单自动化，但在可靠性、 shell 语义和安全性方面仍存在局限。此结果促使人们思考如何在不依赖大型模型的前提下提升终端工作流。",
-      "hn": {
-        "id": 50190363,
-        "type": "story",
-        "by": "alphax314",
-        "score": 264,
-        "descendants": 83,
-        "time": 1792635521,
-        "comments_url": "https://news.ycombinator.com/item?id=50190363"
-      },
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "hot_score": 3.37
-    },
-    {
-      "title_en": "OpenAI CLI",
-      "url": "https://github.com/openai/openai-cli",
-      "title_zh": "OpenAI 命令行界面",
-      "created_display": "Created: Oct 21, 2026 / 22:23 PT",
-      "image_url": "https://opengraph.githubassets.com/8bfbc5c47cab19c9da563b52791fbe94f4ba600d7274bb4ec3d12fcc114014b8/openai/openai-cli",
-      "summary_en": "OpenAI released an official command-line interface, letting developers interact with models, manage API keys, and automate tasks from the terminal. The CLI lowers barriers for scripting, automation, and CI workflows, complementing the Python client.",
-      "summary_zh": "OpenAI 发布官方命令行界面，方便开发者在终端与模型交互、管理 API Key 以及执行自动化任务。CLI 降低了上手门槛，适合在脚本、持续集成等场景使用，与 Python 客户端形成互补。",
-      "hn": {
-        "id": 50191507,
-        "type": "story",
-        "by": "armcat",
-        "score": 140,
-        "descendants": 79,
-        "time": 1792646591,
-        "comments_url": "https://news.ycombinator.com/item?id=50191507"
-      },
-      "hot_score": 3.17,
-      "tags": [
         "Programming",
-        "AI"
-      ]
+        "Security"
+      ],
+      "hot_score": 2.2
+    },
+    {
+      "title_en": "Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "title_zh": "Railway 平台安全披露",
+      "created_display": "Created: Oct 21, 2026 / 14:58 PT",
+      "image_url": "https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90",
+      "summary_en": "Railway has released a security disclosure detailing a vulnerability and its recommended mitigations.",
+      "summary_zh": "Railway 发布了平台安全披露，概述了已发现的漏洞及建议的缓解措施。",
+      "hn": {
+        "id": 50188228,
+        "type": "story",
+        "by": "passenger",
+        "score": 562,
+        "descendants": 325,
+        "time": 1792619883,
+        "comments_url": "https://news.ycombinator.com/item?id=50188228"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 2.08
     },
     {
       "title_en": "Today's PHP security release, and how we're strengthening security",
@@ -210,15 +467,83 @@
         "id": 50182987,
         "type": "story",
         "by": "ejohnso49",
-        "score": 751,
-        "descendants": 374,
+        "score": 779,
+        "descendants": 388,
         "time": 1792597736,
         "comments_url": "https://news.ycombinator.com/item?id=50182987"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 2.94
+      "hot_score": 1.86
+    },
+    {
+      "title_en": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "title_zh": "CVE-2026-111943：中间证书颁发机构遭受妥协",
+      "created_display": "Created: Oct 22, 2026 / 01:51 PT",
+      "image_url": null,
+      "summary_en": "A compromised intermediate certificate authority threatens TLS trust across many deployments, as certificates it issued could be misused to impersonate sites. The incident underscores how a single compromised link in the certificate chain can erode global trust and trigger urgent revocation and re-issuance of affected certificates.",
+      "summary_zh": "CVE-2026-111943 指出中间证书颁发机构被攻破，攻击者可能滥用其签发的受信任证书伪装站点。此事件暴露证书链中单点受损就可能动摇全球信任，需要吊销、重新颁发并更新信任链。",
+      "hn": {
+        "id": 50192900,
+        "type": "story",
+        "by": "keks24",
+        "score": 151,
+        "descendants": 36,
+        "time": 1792659091,
+        "comments_url": "https://news.ycombinator.com/item?id=50192900"
+      },
+      "hot_score": 1.84,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "title_zh": "Meta 因隐私问题被判罚 250 亿美元",
+      "created_display": "Created: Oct 21, 2026 / 10:45 PT",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108437802-1792509531499-gettyimages-2297798363-1r5_3613_q0uw9oaf.jpeg?v=1792603420&w=1920&h=1080",
+      "summary_en": "Meta faces a record $25B privacy penalty for deceptive practices around user data, signaling tougher enforcement and potential shifts in compliance spending for big platforms.",
+      "summary_zh": "Meta 因用户隐私方面的欺骗行为被处以创纪录罚款，显示出更严格的监管执法趋势，可能推动大型平台在合规方面的投入。",
+      "hn": {
+        "id": 50184820,
+        "type": "story",
+        "by": "cbg0",
+        "score": 653,
+        "descendants": 392,
+        "time": 1792604713,
+        "comments_url": "https://news.ycombinator.com/item?id=50184820"
+      },
+      "tags": [
+        "Privacy",
+        "Politics"
+      ],
+      "hot_score": 1.77
+    },
+    {
+      "title_en": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "title_zh": "AI 分析 CT 扫描发现 42.9% 患者存在冠状炎症",
+      "created_display": "Created: Oct 22, 2026 / 11:02 PT",
+      "image_url": "https://framerusercontent.com/images/gv2JSjbiSOuP8MfuD0vsk3DmW3s.webp?width=1920&height=1080",
+      "summary_en": "An AI-powered study analyzing CT scans reports a 42.9% prevalence of coronary inflammation in the studied cohort, suggesting AI-assisted radiology could flag cardiovascular risk earlier. Results warrant clinical validation and broader cohorts.",
+      "summary_zh": "一项使用 AI 分析 CT 扫描的研究显示，在研究人群中有 42.9% 的患者存在冠状炎症，提示 AI 辅助放射学可能帮助及早识别心血管风险。该结果需在更大规模人群中进行临床验证。",
+      "hn": {
+        "id": 50198940,
+        "type": "story",
+        "by": "brandonb",
+        "score": 9,
+        "descendants": 3,
+        "time": 1792692174,
+        "comments_url": "https://news.ycombinator.com/item?id=50198940"
+      },
+      "hot_score": 1.74,
+      "tags": [
+        "AI",
+        "Health"
+      ]
     },
     {
       "title_en": "EA is shutting down BioWare",
@@ -238,9 +563,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=50184586"
       },
       "tags": [
-        "Business"
+        "Gaming"
       ],
-      "hot_score": 2.89
+      "hot_score": 1.7
+    },
+    {
+      "title_en": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "title_zh": "OpenAI 命令行界面",
+      "created_display": "Created: Oct 21, 2026 / 22:23 PT",
+      "image_url": "https://opengraph.githubassets.com/8bfbc5c47cab19c9da563b52791fbe94f4ba600d7274bb4ec3d12fcc114014b8/openai/openai-cli",
+      "summary_en": "OpenAI released an official command-line interface, letting developers interact with models, manage API keys, and automate tasks from the terminal. The CLI lowers barriers for scripting, automation, and CI workflows, complementing the Python client.",
+      "summary_zh": "OpenAI 发布官方命令行界面，方便开发者在终端与模型交互、管理 API Key 以及执行自动化任务。CLI 降低了上手门槛，适合在脚本、持续集成等场景使用，与 Python 客户端形成互补。",
+      "hn": {
+        "id": 50191507,
+        "type": "story",
+        "by": "armcat",
+        "score": 216,
+        "descendants": 106,
+        "time": 1792646591,
+        "comments_url": "https://news.ycombinator.com/item?id=50191507"
+      },
+      "tags": [
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 1.64
     },
     {
       "title_en": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
@@ -254,83 +602,36 @@
         "id": 50190455,
         "type": "story",
         "by": "craigcitro",
-        "score": 218,
-        "descendants": 151,
+        "score": 293,
+        "descendants": 250,
         "time": 1792636252,
         "comments_url": "https://news.ycombinator.com/item?id=50190455"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 2.88
+      "hot_score": 1.63
     },
     {
-      "title_en": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
-      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-      "title_zh": "多处 Linux 内核漏洞被误发至公开邮件列表",
-      "created_display": "Created: Oct 22, 2026 / 04:12 PT",
-      "image_url": "https://www.phoronix.net/image.php?id=2026&image=public_zdi",
-      "summary_en": "Several Linux kernel vulnerabilities were accidentally published on a public mailing list, potentially leaking exploit details and increasing risk before patches reach users. This incident underscores the importance of secure disclosure practices and rapid remediation.",
-      "summary_zh": "多处 Linux 内核漏洞的细节被意外公开在公开邮件列表上，可能在补丁普及前被利用。此事件凸显负责任披露实践的重要性以及快速修复的必要性。",
-      "hn": {
-        "id": 50193804,
-        "type": "story",
-        "by": "mrkn1",
-        "score": 14,
-        "descendants": 0,
-        "time": 1792667557,
-        "comments_url": "https://news.ycombinator.com/item?id=50193804"
-      },
-      "hot_score": 2.79,
-      "tags": [
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-      "title_zh": "Meta 因隐私问题被判罚 250 亿美元",
-      "created_display": "Created: Oct 21, 2026 / 10:45 PT",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108437802-1792509531499-gettyimages-2297798363-1r5_3613_q0uw9oaf.jpeg?v=1792603420&w=1920&h=1080",
-      "summary_en": "Meta faces a record $25B privacy penalty for deceptive practices around user data, signaling tougher enforcement and potential shifts in compliance spending for big platforms.",
-      "summary_zh": "Meta 因用户隐私方面的欺骗行为被处以创纪录罚款，显示出更严格的监管执法趋势，可能推动大型平台在合规方面的投入。",
-      "hn": {
-        "id": 50184820,
-        "type": "story",
-        "by": "cbg0",
-        "score": 584,
-        "descendants": 337,
-        "time": 1792604713,
-        "comments_url": "https://news.ycombinator.com/item?id=50184820"
-      },
-      "tags": [
-        "Privacy",
-        "Legal",
-        "Business"
-      ],
-      "hot_score": 2.7
-    },
-    {
-      "title_en": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
-      "url": "https://news.ycombinator.com/item?id=50193416",
-      "title_zh": "告知 HN：我在不知情的情况下打破了 PHP RCE 禁令。我很抱歉。",
-      "created_display": "Created: Oct 22, 2026 / 03:11 PT",
+      "title_en": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "url": "https://lastmuseum.com/",
+      "title_zh": "The Last Museum：对580万件艺术品的语义检索",
+      "created_display": "Created: Oct 22, 2026 / 05:40 PT",
       "image_url": null,
-      "summary_en": "An honest post on Hacker News apologizes for accidentally breaking an embargo around PHP RCE details. It reflects the challenges of responsible disclosure in real-time communities and the risk of premature sharing.",
-      "summary_zh": "一位作者在 Hacker News 上公开道歉，称自己在不知情的情况下提前披露了有关 PHP 远程代码执行的 embargo 信息。此事凸显在实时社区中进行负责任披露的难题，以及提前分享所带来的安全风险。",
+      "summary_en": "The Last Museum builds a semantic search over 5.8 million artworks from major museums, enabling keyword, visual, and thematic queries through embeddings. This accelerates digital curation and opens new pathways for researchers and educators.",
+      "summary_zh": "The Last Museum 构建了覆盖来自多家博物馆的580万件艺术品的语义检索，支持基于文本、视觉与主题的查询。此举将加速数字化收藏管理，并为研究者与教育工作者开启新路径。",
       "hn": {
-        "id": 50193416,
+        "id": 50194522,
         "type": "story",
-        "by": "petecooper",
-        "score": 22,
-        "descendants": 1,
-        "time": 1792663904,
-        "comments_url": "https://news.ycombinator.com/item?id=50193416"
+        "by": "surprisetalk",
+        "score": 64,
+        "descendants": 21,
+        "time": 1792672804,
+        "comments_url": "https://news.ycombinator.com/item?id=50194522"
       },
-      "hot_score": 2.36,
+      "hot_score": 1.59,
       "tags": [
-        "Security",
-        "Legal"
+        "Data"
       ]
     },
     {
@@ -345,15 +646,15 @@
         "id": 50186037,
         "type": "story",
         "by": "kuberwastaken",
-        "score": 412,
-        "descendants": 374,
+        "score": 525,
+        "descendants": 487,
         "time": 1792610041,
         "comments_url": "https://news.ycombinator.com/item?id=50186037"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 2.19
+      "hot_score": 1.58
     },
     {
       "title_en": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
@@ -376,7 +677,30 @@
         "Security",
         "Hardware"
       ],
-      "hot_score": 2.16
+      "hot_score": 1.47
+    },
+    {
+      "title_en": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "title_zh": "在 PyPI 上被篡改的 LiteLLM 1.107.0 含凭据窃取程序与后门",
+      "created_display": "Created: Oct 21, 2026 / 07:00 PT",
+      "image_url": "https://safedep.io/images/litellm-pypi-compromise-credential-stealer-backdoor-banner.jpg",
+      "summary_en": "A compromised PyPI package LiteLLM 1.107.0 ships with credential-stealing malware and a backdoor. This underscores supply-chain risk in Python ecosystems and the importance of verifying package integrity, locked versions, and thorough vetting of dependencies.",
+      "summary_zh": "一个被攻陷的 PyPI 包 LiteLLM 1.107.0 含有窃取凭据的恶意代码和后门。这凸显了 Python 生态的供应链风险，强调验证包完整性、审查依赖关系，以及使用固定版本的必要性。",
+      "hn": {
+        "id": 50181114,
+        "type": "story",
+        "by": "abhisek",
+        "score": 582,
+        "descendants": 190,
+        "time": 1792591226,
+        "comments_url": "https://news.ycombinator.com/item?id=50181114"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ],
+      "hot_score": 1.25
     },
     {
       "title_en": "GitLab critical patch release",
@@ -390,15 +714,128 @@
         "id": 50185869,
         "type": "story",
         "by": "artooro",
-        "score": 362,
-        "descendants": 85,
+        "score": 398,
+        "descendants": 90,
         "time": 1792609272,
         "comments_url": "https://news.ycombinator.com/item?id=50185869"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 1.88
+      "hot_score": 1.18
+    },
+    {
+      "title_en": "Important updates to AI use on Etsy",
+      "url": "https://www.etsy.com/seller-handbook/article/1522733284810",
+      "title_zh": "Etsy 对 AI 使用的重要更新",
+      "created_display": "Created: Oct 22, 2026 / 08:18 PT",
+      "image_url": null,
+      "summary_en": "Etsy updates policies on AI use for sellers, clarifying rules for AI-generated content, disallowing misrepresentation, and providing guidelines for transparency and originality.",
+      "summary_zh": "Etsy 更新了卖家在 AI 使用方面的政策，明确 AI 生成内容的规则、禁止误导性陈述，并提供透明度与原创性的指引。",
+      "hn": {
+        "id": 50196604,
+        "type": "story",
+        "by": "bdcravens",
+        "score": 23,
+        "descendants": 1,
+        "time": 1792682297,
+        "comments_url": "https://news.ycombinator.com/item?id=50196604"
+      },
+      "hot_score": 1.18,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Rust Style Guide",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "title_zh": "谷歌的 Rust 风格指南",
+      "created_display": "Created: Oct 21, 2026 / 12:11 PT",
+      "image_url": null,
+      "summary_en": "Google's Rust Style Guide codifies internal conventions for formatting, naming, error handling, and safety patterns, helping teams write consistent, secure Rust at scale. While tailored for Google, the guide offers useful patterns for the broader Rust community and OSS projects.",
+      "summary_zh": "谷歌的 Rust 风格指南将格式化、命名、错误处理与安全模式等内部约定系统化，帮助团队在大规模项目中保持一致、提高安全性。尽管面向谷歌内部，但该指南对整个 Rust 社区和开源项目也具备参考价值。",
+      "hn": {
+        "id": 50186010,
+        "type": "story",
+        "by": "kaycebasques",
+        "score": 367,
+        "descendants": 224,
+        "time": 1792609917,
+        "comments_url": "https://news.ycombinator.com/item?id=50186010"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.1
+    },
+    {
+      "title_en": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "title_zh": "DuckDB 2.0.0 LTS Cinnamon Teal 发布",
+      "created_display": "Created: Oct 21, 2026 / 07:01 PT",
+      "image_url": "https://duckdb.org/images/blog/thumbs/duckdb-release-2-0-0.png",
+      "summary_en": "DuckDB 2.0.0 LTS, nicknamed Cinnamon Teal, arrives with long-term support for analytics workloads, along with stability and performance improvements. It’s a solid choice for embedded analytics and BI workflows.",
+      "summary_zh": "DuckDB 2.0.0 LTS（代号 Cinnamon Teal）正式发布，提供对分析工作负载的长期支持，以及稳定性与性能改进。适合嵌入式分析和 BI 工作流。",
+      "hn": {
+        "id": 50181136,
+        "type": "story",
+        "by": "nnx",
+        "score": 450,
+        "descendants": 62,
+        "time": 1792591282,
+        "comments_url": "https://news.ycombinator.com/item?id=50181136"
+      },
+      "tags": [
+        "Open Source",
+        "Data"
+      ],
+      "hot_score": 0.96
+    },
+    {
+      "title_en": "France reports first human case of livestock virus Shamonda after patient dies",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/france-reports-first-human-shamonda-virus-case-2026-10-22/",
+      "title_zh": "法国报告首例人感染 Shamonda 病毒，患者已死亡",
+      "created_display": "Created: Oct 22, 2026 / 10:46 PT",
+      "image_url": null,
+      "summary_en": "France reports its first human case of Shamonda virus after a patient dies, highlighting emerging zoonotic risk and the need for surveillance and research on shod viruses.",
+      "summary_zh": "法国确认首例人感染 Shamonda 病毒，患者已死亡，凸显新兴人畜共患风险及对监测与研究的需求。",
+      "hn": {
+        "id": 50198713,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 6,
+        "descendants": 0,
+        "time": 1792691177,
+        "comments_url": "https://news.ycombinator.com/item?id=50198713"
+      },
+      "hot_score": 0.89,
+      "tags": [
+        "Health",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Quest Diagnostics Reports Unauthorized Access of Patient Records",
+      "url": "https://gizmodo.com/quest-diagnostics-reports-unauthorized-access-of-patient-records-2000829419",
+      "title_zh": "Quest Diagnostics 披露患者记录未授权访问事件",
+      "created_display": "Created: Oct 22, 2026 / 10:42 PT",
+      "image_url": null,
+      "summary_en": "Quest Diagnostics disclosed unauthorized access to patient records, triggering privacy and security concerns and prompting investigations and remediation steps.",
+      "summary_zh": "Quest Diagnostics 披露患者记录未授权访问事件，引发隐私与安全担忧，并启动调查与整改措施。",
+      "hn": {
+        "id": 50198653,
+        "type": "story",
+        "by": "Aboutplants",
+        "score": 6,
+        "descendants": 1,
+        "time": 1792690958,
+        "comments_url": "https://news.ycombinator.com/item?id=50198653"
+      },
+      "hot_score": 0.85,
+      "tags": [
+        "Privacy",
+        "Security"
+      ]
     },
     {
       "title_en": "Epic Games Inc v Apple Inc",
@@ -417,55 +854,10 @@
         "time": 1792633923,
         "comments_url": "https://news.ycombinator.com/item?id=50190168"
       },
-      "hot_score": 1.84,
+      "hot_score": 0.81,
       "tags": [
         "Legal"
       ]
-    },
-    {
-      "title_en": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-      "title_zh": "在 PyPI 上被篡改的 LiteLLM 1.107.0 含凭据窃取程序与后门",
-      "created_display": "Created: Oct 21, 2026 / 07:00 PT",
-      "image_url": "https://safedep.io/images/litellm-pypi-compromise-credential-stealer-backdoor-banner.jpg",
-      "summary_en": "A compromised PyPI package LiteLLM 1.107.0 ships with credential-stealing malware and a backdoor. This underscores supply-chain risk in Python ecosystems and the importance of verifying package integrity, locked versions, and thorough vetting of dependencies.",
-      "summary_zh": "一个被攻陷的 PyPI 包 LiteLLM 1.107.0 含有窃取凭据的恶意代码和后门。这凸显了 Python 生态的供应链风险，强调验证包完整性、审查依赖关系，以及使用固定版本的必要性。",
-      "hn": {
-        "id": 50181114,
-        "type": "story",
-        "by": "abhisek",
-        "score": 534,
-        "descendants": 173,
-        "time": 1792591226,
-        "comments_url": "https://news.ycombinator.com/item?id=50181114"
-      },
-      "tags": [
-        "Security",
-        "Programming"
-      ],
-      "hot_score": 1.81
-    },
-    {
-      "title_en": "Rust Style Guide",
-      "url": "https://google.github.io/styleguide/rustguide.html",
-      "title_zh": "谷歌的 Rust 风格指南",
-      "created_display": "Created: Oct 21, 2026 / 12:11 PT",
-      "image_url": null,
-      "summary_en": "Google's Rust Style Guide codifies internal conventions for formatting, naming, error handling, and safety patterns, helping teams write consistent, secure Rust at scale. While tailored for Google, the guide offers useful patterns for the broader Rust community and OSS projects.",
-      "summary_zh": "谷歌的 Rust 风格指南将格式化、命名、错误处理与安全模式等内部约定系统化，帮助团队在大规模项目中保持一致、提高安全性。尽管面向谷歌内部，但该指南对整个 Rust 社区和开源项目也具备参考价值。",
-      "hn": {
-        "id": 50186010,
-        "type": "story",
-        "by": "kaycebasques",
-        "score": 323,
-        "descendants": 193,
-        "time": 1792609917,
-        "comments_url": "https://news.ycombinator.com/item?id=50186010"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 1.71
     },
     {
       "title_en": "Airbnb bans making guests do dishes and take out the trash",
@@ -484,56 +876,33 @@
         "time": 1792625912,
         "comments_url": "https://news.ycombinator.com/item?id=50189150"
       },
-      "hot_score": 1.64,
+      "hot_score": 0.8,
       "tags": [
-        "Business",
-        "Culture"
+        "Business"
       ]
     },
     {
-      "title_en": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
-      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-      "title_zh": "DuckDB 2.0.0 LTS Cinnamon Teal 发布",
-      "created_display": "Created: Oct 21, 2026 / 07:01 PT",
-      "image_url": "https://duckdb.org/images/blog/thumbs/duckdb-release-2-0-0.png",
-      "summary_en": "DuckDB 2.0.0 LTS, nicknamed Cinnamon Teal, arrives with long-term support for analytics workloads, along with stability and performance improvements. It’s a solid choice for embedded analytics and BI workflows.",
-      "summary_zh": "DuckDB 2.0.0 LTS（代号 Cinnamon Teal）正式发布，提供对分析工作负载的长期支持，以及稳定性与性能改进。适合嵌入式分析和 BI 工作流。",
+      "title_en": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "url": "https://github.com/rbartoli/agent-usage-guard",
+      "title_zh": "Show HN：agent-usage-guard——为 Claude Code 设计的使用时段保护插件",
+      "created_display": "Created: Oct 22, 2026 / 11:02 PT",
+      "image_url": "https://opengraph.githubassets.com/b7aff4c7138d3f737a2ee3a1483c3fea21b8d7106218cef6c83f94ef1e7d7ffb/rbartoli/agent-usage-guard",
+      "summary_en": "A Claude Code modification adds an usage-window guard to prevent overuse or budget overruns, useful for teams running Claude in production. It introduces lightweight enforcements for access windows and prompts.",
+      "summary_zh": "一个 Claude Code 的修改插件增设使用时段保护，帮助避免超出预算或滥用。适用于在生产环境中运行 Claude 的团队，提供对访问时间的轻量级约束。",
       "hn": {
-        "id": 50181136,
+        "id": 50198936,
         "type": "story",
-        "by": "nnx",
-        "score": 426,
-        "descendants": 56,
-        "time": 1792591282,
-        "comments_url": "https://news.ycombinator.com/item?id=50181136"
+        "by": "zzyyxx332211",
+        "score": 4,
+        "descendants": 2,
+        "time": 1792692158,
+        "comments_url": "https://news.ycombinator.com/item?id=50198936"
       },
+      "hot_score": 0.65,
       "tags": [
-        "Data",
-        "Programming"
-      ],
-      "hot_score": 1.44
-    },
-    {
-      "title_en": "Jailbreaking the Switch 2",
-      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-      "title_zh": "Switch 2 越狱工具发布",
-      "created_display": "Created: Oct 22, 2026 / 01:01 PT",
-      "image_url": "https://pepsipu.com/_astro/mario-kart-results-1-2560.B5lJitnR.webp",
-      "summary_en": "New jailbreak tooling for the Switch 2 has surfaced, enabling homebrew and custom software on Nintendo's latest console. The release underscores ongoing security tug-of-war between platform vendors and researchers, with potential risks to firmware integrity and user warranties.",
-      "summary_zh": "Switch 2 的新越狱工具出现，使玩家能够在新版掌机上运行自制软件。此举凸显平台安全与玩家破解之间的博弈，可能对固件完整性、设备稳定性和保修造成影响。",
-      "hn": {
-        "id": 50192536,
-        "type": "story",
-        "by": "ledoge",
-        "score": 31,
-        "descendants": 1,
-        "time": 1792656112,
-        "comments_url": "https://news.ycombinator.com/item?id=50192536"
-      },
-      "hot_score": 1.38,
-      "tags": [
-        "Security",
-        "Gaming"
+        "Show HN",
+        "Programming",
+        "AI"
       ]
     },
     {
@@ -548,16 +917,15 @@
         "id": 50180079,
         "type": "story",
         "by": "armcat",
-        "score": 298,
-        "descendants": 122,
+        "score": 318,
+        "descendants": 139,
         "time": 1792587191,
         "comments_url": "https://news.ycombinator.com/item?id=50180079"
       },
       "tags": [
-        "AI",
-        "Business"
+        "AI"
       ],
-      "hot_score": 0.93
+      "hot_score": 0.64
     },
     {
       "title_en": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
@@ -580,30 +948,7 @@
         "Security",
         "AI"
       ],
-      "hot_score": 0.88
-    },
-    {
-      "title_en": "Cloudflare is rewriting everything in Rust",
-      "url": "https://kerkour.com/rust-at-cloudflare",
-      "title_zh": "Cloudflare 正在用 Rust 重写一切",
-      "created_display": "Created: Oct 22, 2026 / 02:04 PT",
-      "image_url": "https://kerkour.com/icon-256.png",
-      "summary_en": "Cloudflare is migrating core systems to Rust, citing safer memory management and performance gains. The long-term rewrite involves challenges around compatibility, tooling, and team skills, but aims to reduce security vulnerabilities.",
-      "summary_zh": "Cloudflare 正在将核心系统重写为 Rust，强调内存安全与性能提升。长期重写面临兼容性、工具链与团队技能等挑战，但目标是降低安全风险并提升稳定性。",
-      "hn": {
-        "id": 50193010,
-        "type": "story",
-        "by": "tonyedgecombe",
-        "score": 14,
-        "descendants": 3,
-        "time": 1792659897,
-        "comments_url": "https://news.ycombinator.com/item?id=50193010"
-      },
-      "hot_score": 0.87,
-      "tags": [
-        "Programming",
-        "Security"
-      ]
+      "hot_score": 0.56
     },
     {
       "title_en": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
@@ -625,52 +970,7 @@
       "tags": [
         "Politics"
       ],
-      "hot_score": 0.71
-    },
-    {
-      "title_en": "Claude Now Works with Google Docs, Sheets, and Slides",
-      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "title_zh": "Claude 现在可在 Google 文档、表格和幻灯片中使用",
-      "created_display": "Created: Oct 21, 2026 / 19:17 PT",
-      "image_url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides/opengraph-image/og",
-      "summary_en": "Claude now integrates with Google Docs, Sheets, and Slides, letting users generate text, summarize content, and perform data tasks directly within the apps. This tight integration boosts productivity by enabling natural-language prompts and AI-assisted edits in familiar workflows.",
-      "summary_zh": "Claude 已与 Google 文档、表格和幻灯片深度集成，允许在应用中直接用自然语言生成文本、摘要及处理数据。此集成提升了工作效率，使 AI 辅助的编辑与分析嵌入日常工作流程。",
-      "hn": {
-        "id": 50190357,
-        "type": "story",
-        "by": "gmays",
-        "score": 50,
-        "descendants": 6,
-        "time": 1792635478,
-        "comments_url": "https://news.ycombinator.com/item?id=50190357"
-      },
-      "hot_score": 0.63,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "The compiler was supposed to end programming too",
-      "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
-      "title_zh": "编译器也该终结编程吗？",
-      "created_display": "Created: Oct 21, 2026 / 11:00 PT",
-      "image_url": "https://hrih.si/og/the-compiler-was-supposed-to-end-programming.png?v=2a8bead2",
-      "summary_en": "An op-ed questions whether the future of programming might be shaped by compilers that automate or suppress routine coding, exploring the tension between automation and human creativity. It envisions a shift toward higher-level tools and AI-assisted code generation.",
-      "summary_zh": "一篇社论探讨编译器未来是否会通过自动化来减少人类编程工作，分析自动化与创意之间的张力。文章设想未来可能转向更高层次的工具和 AI 辅助的代码生成。",
-      "hn": {
-        "id": 50185045,
-        "type": "story",
-        "by": "theanonymousone",
-        "score": 124,
-        "descendants": 170,
-        "time": 1792605651,
-        "comments_url": "https://news.ycombinator.com/item?id=50185045"
-      },
-      "hot_score": 0.58,
-      "tags": [
-        "Programming",
-        "AI"
-      ]
+      "hot_score": 0.44
     },
     {
       "title_en": "PingCap TiDB Leaks",
@@ -690,9 +990,77 @@
         "comments_url": "https://news.ycombinator.com/item?id=50173716"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Data"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.37
+    },
+    {
+      "title_en": "Local Democracy's Business Model Is Broken",
+      "url": "https://blog.landeconomics.org/p/local-democracys-business-model-is",
+      "title_zh": "本地民主的商业模式已经崩坏",
+      "created_display": "Created: Oct 22, 2026 / 10:50 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!xYkE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52b0c915-cdf8-44c8-a398-9480fc8e8bc8_1200x630.png",
+      "summary_en": "A critique argues that the funding and governance model for local democracy is unsustainable, calling for reforms such as diversified funding and data-enabled civic engagement.",
+      "summary_zh": "批评指出本地民主的融资与治理模式已不可持续，呼吁通过多元化资金来源与数据驱动的公民参与等改革来修复。",
+      "hn": {
+        "id": 50198775,
+        "type": "story",
+        "by": "viajante1882",
+        "score": 3,
+        "descendants": 0,
+        "time": 1792691434,
+        "comments_url": "https://news.ycombinator.com/item?id=50198775"
+      },
+      "hot_score": 0.37,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "The compiler was supposed to end programming too",
+      "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
+      "title_zh": "编译器也该终结编程吗？",
+      "created_display": "Created: Oct 21, 2026 / 11:00 PT",
+      "image_url": "https://hrih.si/og/the-compiler-was-supposed-to-end-programming.png?v=2a8bead2",
+      "summary_en": "An op-ed questions whether the future of programming might be shaped by compilers that automate or suppress routine coding, exploring the tension between automation and human creativity. It envisions a shift toward higher-level tools and AI-assisted code generation.",
+      "summary_zh": "一篇社论探讨编译器未来是否会通过自动化来减少人类编程工作，分析自动化与创意之间的张力。文章设想未来可能转向更高层次的工具和 AI 辅助的代码生成。",
+      "hn": {
+        "id": 50185045,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 124,
+        "descendants": 170,
+        "time": 1792605651,
+        "comments_url": "https://news.ycombinator.com/item?id=50185045"
+      },
+      "hot_score": 0.34,
+      "tags": [
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "title_zh": "告知 HN：我在不知情的情况下打破了 PHP RCE 禁令。我很抱歉。",
+      "created_display": "Created: Oct 22, 2026 / 03:11 PT",
+      "image_url": null,
+      "summary_en": "An honest post on Hacker News apologizes for accidentally breaking an embargo around PHP RCE details. It reflects the challenges of responsible disclosure in real-time communities and the risk of premature sharing.",
+      "summary_zh": "一位作者在 Hacker News 上公开道歉，称自己在不知情的情况下提前披露了有关 PHP 远程代码执行的 embargo 信息。此事凸显在实时社区中进行负责任披露的难题，以及提前分享所带来的安全风险。",
+      "hn": {
+        "id": 50193416,
+        "type": "story",
+        "by": "petecooper",
+        "score": 22,
+        "descendants": 1,
+        "time": 1792663904,
+        "comments_url": "https://news.ycombinator.com/item?id=50193416"
+      },
+      "hot_score": 0.32,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "Using thousands of AI agents to uncover new leads in biological data",
@@ -713,10 +1081,9 @@
       },
       "tags": [
         "AI",
-        "Data",
-        "Science"
+        "Data"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.3
     },
     {
       "title_en": "New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic",
@@ -738,7 +1105,73 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.47
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "title_zh": "Claude 现在可在 Google 文档、表格和幻灯片中使用",
+      "created_display": "Created: Oct 21, 2026 / 19:17 PT",
+      "image_url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides/opengraph-image/og",
+      "summary_en": "Claude now integrates with Google Docs, Sheets, and Slides, letting users generate text, summarize content, and perform data tasks directly within the apps. This tight integration boosts productivity by enabling natural-language prompts and AI-assisted edits in familiar workflows.",
+      "summary_zh": "Claude 已与 Google 文档、表格和幻灯片深度集成，允许在应用中直接用自然语言生成文本、摘要及处理数据。此集成提升了工作效率，使 AI 辅助的编辑与分析嵌入日常工作流程。",
+      "hn": {
+        "id": 50190357,
+        "type": "story",
+        "by": "gmays",
+        "score": 50,
+        "descendants": 6,
+        "time": 1792635478,
+        "comments_url": "https://news.ycombinator.com/item?id=50190357"
+      },
+      "hot_score": 0.27,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "No more icons in every menu by default",
+      "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+      "title_zh": "默认不再在每个菜单中显示图标",
+      "created_display": "Created: Oct 19, 2026 / 21:27 PT",
+      "image_url": "https://cdn.jim-nielsen.com/blog/2026/macos-golden-gate-hig-icons.png",
+      "summary_en": "A design shift disables default icons in menus to reduce visual clutter and improve focus. The change sparks debate on accessibility and discoverability, while leaving customization for power users.",
+      "summary_zh": "设计转变在菜单中默认不再显示图标，旨在降低视觉杂乱并提升聚焦。此举引发对可访问性和可发现性的讨论，同时也让高级用户保留自定义选项。",
+      "hn": {
+        "id": 50161346,
+        "type": "story",
+        "by": "riffraff",
+        "score": 454,
+        "descendants": 256,
+        "time": 1792470428,
+        "comments_url": "https://news.ycombinator.com/item?id=50161346"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.25
+    },
+    {
+      "title_en": "Using LLM for confidence scoring is a bad idea",
+      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "title_zh": "使用大模型进行置信度评分是个坏主意",
+      "created_display": "Created: Oct 20, 2026 / 21:27 PT",
+      "image_url": null,
+      "summary_en": "The post argues that using LLMs to generate confidence scores is a bad idea because such scores are poorly calibrated and can mislead users. It recommends separate uncertainty estimates, calibration, or human in the loop instead of relying on model self assessments.",
+      "summary_zh": "这篇博文质疑让大型语言模型输出自我置信度的做法，指出此类分数往往标定不准且容易产生误导。建议使用独立的不确定性指标、信息检索校验或人工在环等替代方法，而非依赖模型自我评估的置信度。",
+      "hn": {
+        "id": 50176082,
+        "type": "story",
+        "by": "jimauthors",
+        "score": 191,
+        "descendants": 97,
+        "time": 1792556871,
+        "comments_url": "https://news.ycombinator.com/item?id=50176082"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.25
     },
     {
       "title_en": "Cloudflare deploys protections against php2shell vulnerability",
@@ -760,7 +1193,29 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.25
+    },
+    {
+      "title_en": "Mini brain organoids 'reading' Braille key step towards biohybrid computing",
+      "url": "https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence",
+      "title_zh": "迷你脑类器官‘读 Braille’：向生物混合计算迈进的关键一步",
+      "created_display": "Created: Oct 22, 2026 / 09:16 PT",
+      "image_url": "https://images.ctfassets.net/mrbo2ykgx5lt/60YDjyq75wNXQSrbMssTlW/537ed63ff4fa5f6aba1fdf5ae6a329e6/Horizontal-3d_illustration_of_transmitting_synapse_neuron_or_nerve_cell.png?&w=1200&h=630&fm=jpg&f=center",
+      "summary_en": "Researchers demonstrate mini brain organoids interpreting Braille patterns, a step toward interfacing living tissue with digital systems. The work advances biohybrid computing concepts and neuro-inspired interfaces.",
+      "summary_zh": "研究人员展示迷你脑类器官对点字模式的理解，向把活组织与数字系统连接的生物混合计算迈出关键一步。这一进展推动了神经启发接口的发展。",
+      "hn": {
+        "id": 50197450,
+        "type": "story",
+        "by": "CharlesW",
+        "score": 4,
+        "descendants": 1,
+        "time": 1792685805,
+        "comments_url": "https://news.ycombinator.com/item?id=50197450"
+      },
+      "hot_score": 0.24,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
@@ -785,73 +1240,29 @@
         "AI",
         "Privacy"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.21
     },
     {
-      "title_en": "No more icons in every menu by default",
-      "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
-      "title_zh": "默认不再在每个菜单中显示图标",
-      "created_display": "Created: Oct 19, 2026 / 21:27 PT",
-      "image_url": "https://cdn.jim-nielsen.com/blog/2026/macos-golden-gate-hig-icons.png",
-      "summary_en": "A design shift disables default icons in menus to reduce visual clutter and improve focus. The change sparks debate on accessibility and discoverability, while leaving customization for power users.",
-      "summary_zh": "设计转变在菜单中默认不再显示图标，旨在降低视觉杂乱并提升聚焦。此举引发对可访问性和可发现性的讨论，同时也让高级用户保留自定义选项。",
+      "title_en": "Cloudflare is rewriting everything in Rust",
+      "url": "https://kerkour.com/rust-at-cloudflare",
+      "title_zh": "Cloudflare 正在用 Rust 重写一切",
+      "created_display": "Created: Oct 22, 2026 / 02:04 PT",
+      "image_url": "https://kerkour.com/icon-256.png",
+      "summary_en": "Cloudflare is migrating core systems to Rust, citing safer memory management and performance gains. The long-term rewrite involves challenges around compatibility, tooling, and team skills, but aims to reduce security vulnerabilities.",
+      "summary_zh": "Cloudflare 正在将核心系统重写为 Rust，强调内存安全与性能提升。长期重写面临兼容性、工具链与团队技能等挑战，但目标是降低安全风险并提升稳定性。",
       "hn": {
-        "id": 50161346,
+        "id": 50193010,
         "type": "story",
-        "by": "riffraff",
-        "score": 342,
-        "descendants": 209,
-        "time": 1792470428,
-        "comments_url": "https://news.ycombinator.com/item?id=50161346"
+        "by": "tonyedgecombe",
+        "score": 14,
+        "descendants": 3,
+        "time": 1792659897,
+        "comments_url": "https://news.ycombinator.com/item?id=50193010"
       },
+      "hot_score": 0.17,
       "tags": [
-        "Design"
-      ],
-      "hot_score": 0.23
-    },
-    {
-      "title_en": "Using LLM for confidence scoring is a bad idea",
-      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
-      "title_zh": "使用大模型进行置信度评分是个坏主意",
-      "created_display": "Created: Oct 20, 2026 / 21:27 PT",
-      "image_url": null,
-      "summary_en": "The post argues that using LLMs to generate confidence scores is a bad idea because such scores are poorly calibrated and can mislead users. It recommends separate uncertainty estimates, calibration, or human in the loop instead of relying on model self assessments.",
-      "summary_zh": "这篇博文质疑让大型语言模型输出自我置信度的做法，指出此类分数往往标定不准且容易产生误导。建议使用独立的不确定性指标、信息检索校验或人工在环等替代方法，而非依赖模型自我评估的置信度。",
-      "hn": {
-        "id": 50176082,
-        "type": "story",
-        "by": "jimauthors",
-        "score": 111,
-        "descendants": 60,
-        "time": 1792556871,
-        "comments_url": "https://news.ycombinator.com/item?id=50176082"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.2
-    },
-    {
-      "title_en": "Postgres recovery_prefetch can cause outages",
-      "url": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
-      "title_zh": "Postgres recovery_prefetch 可能引发中断",
-      "created_display": "Created: Oct 21, 2026 / 15:33 PT",
-      "image_url": "https://ardentperf.com/wp-content/uploads/2026/10/image-1.png",
-      "summary_en": "A PostgreSQL feature called recovery_prefetch can, in some cases, cause outages when misconfigured or buggy. The post recommends caution, disabling in production, and applying patches.",
-      "summary_zh": "PostgreSQL 的 recovery_prefetch 功能在配置不当或实现存在缺陷时可能导致服务中断。建议在生产环境中谨慎使用、必要时禁用并及时应用修补程序。",
-      "hn": {
-        "id": 50188614,
-        "type": "story",
-        "by": "plaur782",
-        "score": 25,
-        "descendants": 0,
-        "time": 1792621988,
-        "comments_url": "https://news.ycombinator.com/item?id=50188614"
-      },
-      "hot_score": 0.18,
-      "tags": [
-        "DevOps",
-        "Data"
+        "Programming",
+        "Security"
       ]
     },
     {
@@ -866,39 +1277,60 @@
         "id": 50162044,
         "type": "story",
         "by": "bryanrasmussen",
-        "score": 227,
-        "descendants": 51,
+        "score": 255,
+        "descendants": 60,
         "time": 1792477254,
         "comments_url": "https://news.ycombinator.com/item?id=50162044"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.17
+      "hot_score": 0.15
     },
     {
-      "title_en": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-      "url": "https://alterauth.com/",
-      "title_zh": "Launch HN: Alter（YC S25）——多用户代理的访问控制",
-      "created_display": "Created: Oct 20, 2026 / 23:42 PT",
-      "image_url": "https://alterauth.com/og-image.png",
-      "summary_en": "Alter provides access control for multi-user AI agents, enabling teams to manage permissions and boundaries across agents. The platform targets governance, security, and collaboration in complex agent workflows.",
-      "summary_zh": "Alter 为多用户 AI 代理提供集中访问控制，使团队能够管理跨代理的权限与边界。该平台旨在提升在复杂代理工作流中的治理性、安全性与协作效率。",
+      "title_en": "What Is Gridifcation",
+      "url": "https://musicalform.substack.com/p/what-is-gridifcation",
+      "title_zh": "Gridification（网格化）是什么？",
+      "created_display": "Created: Oct 19, 2026 / 02:13 PT",
+      "image_url": null,
+      "summary_en": "Gridification refers to organizing systems or content into a grid-like structure to improve composability and scalability.",
+      "summary_zh": "Gridification 指将系统或内容以网格状结构组织，以提升模块化和可扩展性。",
       "hn": {
-        "id": 50176908,
+        "id": 50150163,
         "type": "story",
-        "by": "simfinii",
-        "score": 63,
-        "descendants": 28,
-        "time": 1792564932,
-        "comments_url": "https://news.ycombinator.com/item?id=50176908"
+        "by": "gumby",
+        "score": 278,
+        "descendants": 131,
+        "time": 1792401192,
+        "comments_url": "https://news.ycombinator.com/item?id=50150163"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Code is clay now",
+      "url": "https://www.albertodenia.com/writing/code-is-clay-now",
+      "title_zh": "代码如今如黏土",
+      "created_display": "Created: Oct 19, 2026 / 08:19 PT",
+      "image_url": "https://www.albertodenia.com/_app/immutable/assets/code-is-clay-now-hero.D0t9h_rd.jpeg",
+      "summary_en": "The piece argues code is malleable like clay, shaped by tools, languages, and AI-driven assistants. It reflects on how the craft of programming evolves as developers mold and remix components.",
+      "summary_zh": "这篇文章把代码比作黏土，强调工具、语言与 AI 助手共同塑形代码的能力。它反映了开发者在设计、组合和重塑组件时，编程实践的演变。",
+      "hn": {
+        "id": 50153531,
+        "type": "story",
+        "by": "albertodenia",
+        "score": 237,
+        "descendants": 158,
+        "time": 1792423185,
+        "comments_url": "https://news.ycombinator.com/item?id=50153531"
       },
       "tags": [
-        "AI",
-        "Security",
-        "Startups"
+        "Programming",
+        "AI"
       ],
-      "hot_score": 0.13
+      "hot_score": 0.09
     },
     {
       "title_en": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
@@ -920,7 +1352,54 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "url": "https://alterauth.com/",
+      "title_zh": "Launch HN: Alter（YC S25）——多用户代理的访问控制",
+      "created_display": "Created: Oct 20, 2026 / 23:42 PT",
+      "image_url": "https://alterauth.com/og-image.png",
+      "summary_en": "Alter provides access control for multi-user AI agents, enabling teams to manage permissions and boundaries across agents. The platform targets governance, security, and collaboration in complex agent workflows.",
+      "summary_zh": "Alter 为多用户 AI 代理提供集中访问控制，使团队能够管理跨代理的权限与边界。该平台旨在提升在复杂代理工作流中的治理性、安全性与协作效率。",
+      "hn": {
+        "id": 50176908,
+        "type": "story",
+        "by": "simfinii",
+        "score": 63,
+        "descendants": 28,
+        "time": 1792564932,
+        "comments_url": "https://news.ycombinator.com/item?id=50176908"
+      },
+      "tags": [
+        "Security",
+        "AI",
+        "Startups"
+      ],
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Postgres recovery_prefetch can cause outages",
+      "url": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
+      "title_zh": "Postgres recovery_prefetch 可能引发中断",
+      "created_display": "Created: Oct 21, 2026 / 15:33 PT",
+      "image_url": "https://ardentperf.com/wp-content/uploads/2026/10/image-1.png",
+      "summary_en": "A PostgreSQL feature called recovery_prefetch can, in some cases, cause outages when misconfigured or buggy. The post recommends caution, disabling in production, and applying patches.",
+      "summary_zh": "PostgreSQL 的 recovery_prefetch 功能在配置不当或实现存在缺陷时可能导致服务中断。建议在生产环境中谨慎使用、必要时禁用并及时应用修补程序。",
+      "hn": {
+        "id": 50188614,
+        "type": "story",
+        "by": "plaur782",
+        "score": 25,
+        "descendants": 0,
+        "time": 1792621988,
+        "comments_url": "https://news.ycombinator.com/item?id=50188614"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "DevOps",
+        "Data"
+      ]
     },
     {
       "title_en": "Way to Play Super Mario 64: On Apple Vision Pro",
@@ -942,31 +1421,30 @@
       "tags": [
         "Gaming"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.08
     },
     {
-      "title_en": "Code is clay now",
-      "url": "https://www.albertodenia.com/writing/code-is-clay-now",
-      "title_zh": "代码如今如黏土",
-      "created_display": "Created: Oct 19, 2026 / 08:19 PT",
-      "image_url": "https://www.albertodenia.com/_app/immutable/assets/code-is-clay-now-hero.D0t9h_rd.jpeg",
-      "summary_en": "The piece argues code is malleable like clay, shaped by tools, languages, and AI-driven assistants. It reflects on how the craft of programming evolves as developers mold and remix components.",
-      "summary_zh": "这篇文章把代码比作黏土，强调工具、语言与 AI 助手共同塑形代码的能力。它反映了开发者在设计、组合和重塑组件时，编程实践的演变。",
+      "title_en": "Show HN: Uberblok – an interactive museum of ZFS internals",
+      "url": "https://uberblok.storagebits.workers.dev/",
+      "title_zh": "Show HN：Uberblok——一个交互式的 ZFS 内部原理博物馆",
+      "created_display": "Created: Oct 21, 2026 / 06:04 PT",
+      "image_url": "https://uberblok.storagebits.workers.dev/_astro/glass.z0SbUZHz_2eAMYn.webp",
+      "summary_en": "Uberblok offers an interactive tour of ZFS internals, turning complex filesystem concepts into explorable exhibits. It helps developers and sysadmins understand datasets, ARC, ZIL, and transaction groups through hands-on visuals.",
+      "summary_zh": "Uberblok 提供对 ZFS 内部机制的互动式展示，将复杂的文件系统概念变为可探索的展品，帮助开发者与系统管理员通过直观演示理解数据集、ARC、ZIL 及事务组等。",
       "hn": {
-        "id": 50153531,
+        "id": 50180257,
         "type": "story",
-        "by": "albertodenia",
-        "score": 184,
-        "descendants": 124,
-        "time": 1792423185,
-        "comments_url": "https://news.ycombinator.com/item?id=50153531"
+        "by": "storagebits",
+        "score": 31,
+        "descendants": 4,
+        "time": 1792587865,
+        "comments_url": "https://news.ycombinator.com/item?id=50180257"
       },
+      "hot_score": 0.06,
       "tags": [
-        "Programming",
-        "Culture",
-        "AI"
-      ],
-      "hot_score": 0.09
+        "Show HN",
+        "Open Source"
+      ]
     },
     {
       "title_en": "Beyond the &",
@@ -988,7 +1466,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "The painter behind Manhattan’s Gilded Age interiors",
+      "url": "https://engelsbergideas.com/notebook/the-unknown-painter-behind-manhattans-gilded-age-interiors/",
+      "title_zh": "曼哈顿镀金时代室内装修的隐匿画家",
+      "created_display": "Created: Oct 20, 2026 / 16:09 PT",
+      "image_url": "https://engelsbergideas.com/wp-content/uploads/2026/10/Rose-Main-Reading-Room-New-York-Public-Library.jpg",
+      "summary_en": "An article uncovers the overlooked painter whose work defined the lavish interiors of Manhattan's Gilded Age, shedding light on attribution, stylistic influences, and preservation challenges.",
+      "summary_zh": "文章揭示了塑造曼哈顿镀金时代豪华室内装饰的隐匿画家，探讨其署名归属、风格影响及收藏与保护的挑战。",
+      "hn": {
+        "id": 50173944,
+        "type": "story",
+        "by": "hoffmannesque",
+        "score": 46,
+        "descendants": 4,
+        "time": 1792537783,
+        "comments_url": "https://news.ycombinator.com/item?id=50173944"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Chain of Thought for Humans",
@@ -1010,7 +1510,30 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Startup taps underwater volcano as energy source in \"proof point\" test",
+      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+      "title_zh": "初创公司以海底火山作为能源进行实证测试",
+      "created_display": "Created: Oct 19, 2026 / 13:12 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Endurance-Energy-rockhopper-drill-1152x648.jpeg",
+      "summary_en": "One startup is harvesting energy from an underwater volcanic vent to run a proof-of-concept test. If successful, it could signal a path for offshore geothermal energy and extreme-environment power systems, though challenges include corrosion, reliability, and power transmission.",
+      "summary_zh": "一家初创公司正在海底火山喷口提取地热能以进行实证测试。若成功，可能为海上地热和极端环境能源系统铺路，但腐蚀、可靠性和能量传输等挑战仍需克服。",
+      "hn": {
+        "id": 50157456,
+        "type": "story",
+        "by": "wffurr",
+        "score": 92,
+        "descendants": 39,
+        "time": 1792440769,
+        "comments_url": "https://news.ycombinator.com/item?id=50157456"
+      },
+      "tags": [
+        "Energy",
+        "Startups"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "What Is the Karakoram Anomaly?",
@@ -1024,15 +1547,82 @@
         "id": 50160241,
         "type": "story",
         "by": "thunderbong",
-        "score": 42,
-        "descendants": 8,
+        "score": 76,
+        "descendants": 23,
         "time": 1792459613,
         "comments_url": "https://news.ycombinator.com/item?id=50160241"
       },
-      "hot_score": 0.03,
       "tags": [
         "Science",
         "Security"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Eigenmoon: linear algebra puzzles by moonlight",
+      "url": "https://eigenmoon.vercel.app/",
+      "title_zh": "Eigenmoon：月光下的线性代数谜题",
+      "created_display": "Created: Oct 19, 2026 / 13:02 PT",
+      "image_url": "https://eigenmoon.vercel.app/og.png",
+      "summary_en": "Eigenmoon presents linear algebra puzzles with a moonlit theme, offering interactive challenges around eigenvectors, linear transformations, and vector spaces. It's a playful learning tool that gamifies core math concepts for enthusiasts and students.",
+      "summary_zh": "Eigenmoon 在月光主题下提供线性代数谜题，围绕特征向量、线性变换和向量空间等概念设有互动题目。它把核心数学知识以游戏化方式呈现，适合爱好者和学生练习。",
+      "hn": {
+        "id": 50157316,
+        "type": "story",
+        "by": "jessicarumbelow",
+        "score": 59,
+        "descendants": 15,
+        "time": 1792440123,
+        "comments_url": "https://news.ycombinator.com/item?id=50157316"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Dungeon Generation in the Gnomish Mines of NetHack",
+      "url": "https://www.boristhebrave.com/2026/10/18/dungeon-generation-in-the-gnomish-mines-of-nethack/",
+      "title_zh": "NetHack 的侏儒矿坑地下城生成",
+      "created_display": "Created: Oct 19, 2026 / 09:06 PT",
+      "image_url": "https://www.boristhebrave.com/wp-content/uploads/2026/10/gnomish-mines-header.png",
+      "summary_en": "This piece explores procedural dungeon generation inspired by NetHack's old-school roguelikes, focusing on designing mines filled with traps, monsters, and treasure. It discusses algorithms to generate varied, replayable levels and procedural lore.",
+      "summary_zh": "本文探讨受 NetHack 经典风格启发的地下城自生成，聚焦设计充满陷阱、怪物与宝藏的侏儒矿洞。讨论用于产生多样、可重复游玩的关卡的算法，以及如何为随机生成的世界增加叙事感。",
+      "hn": {
+        "id": 50154109,
+        "type": "story",
+        "by": "ibobev",
+        "score": 57,
+        "descendants": 6,
+        "time": 1792426000,
+        "comments_url": "https://news.ycombinator.com/item?id=50154109"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Gaming",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Pentulive (Puppy Live) [video]",
+      "url": "https://yle.fi/t/18-332106/fi",
+      "title_zh": "Pentulive（小狗直播）[视频]",
+      "created_display": "Created: Oct 19, 2026 / 09:09 PT",
+      "image_url": "https://img.img-cdn.yle.fi/69-events-pentulive2026-share-v1.jpg",
+      "summary_en": "A video feature showcasing a Pentulive puppy livestream, likely a cute, light-weight content piece. The clip highlights the growing appetite for short, adorable live content.",
+      "summary_zh": "一段展示 Pentulive 的小狗直播视频，内容轻松可爱。这类短视频风格反映出人们对现场可爱内容的日益偏好。",
+      "hn": {
+        "id": 50154147,
+        "type": "story",
+        "by": "NaOH",
+        "score": 55,
+        "descendants": 8,
+        "time": 1792426150,
+        "comments_url": "https://news.ycombinator.com/item?id=50154147"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Entertainment"
       ]
     },
     {
@@ -1058,6 +1648,51 @@
       ]
     },
     {
+      "title_en": "VMMouse for NT 3.x: QEMU/VMware mouse integration driver",
+      "url": "https://github.com/rhargreaves/vmmouse-nt3",
+      "title_zh": "NT 3.x 的 VMMouse：QEMU/VMware 鼠标集成驱动",
+      "created_display": "Created: Oct 18, 2026 / 12:50 PT",
+      "image_url": "https://opengraph.githubassets.com/e20ac21964ed43ae6b5003ca6c17646a6929b54e4655cf4474960fe81a8cec14/rhargreaves/vmmouse-nt3",
+      "summary_en": "VMMouse NT 3.x driver enhances mouse integration for early virtualization emulation in QEMU/VMware. It’s a retro computing nugget showing how input devices were integrated in early OS/virtualization stacks.",
+      "summary_zh": "VMMouse NT 3.x 驱动提升了在 QEMU/VMware 等早期虚拟化环境中的鼠标集成，展示了早期操作系统与虚拟化栈如何处理输入设备的历史细节。",
+      "hn": {
+        "id": 50144727,
+        "type": "story",
+        "by": "kiyouta",
+        "score": 34,
+        "descendants": 5,
+        "time": 1792353011,
+        "comments_url": "https://news.ycombinator.com/item?id=50144727"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Dovepass – can I legally fly a drone along this exact path in SF?",
+      "url": "https://dovepass.com",
+      "title_zh": "Show HN：Dovepass——我可以在旧金山沿这条具体路径合法飞无人机吗？",
+      "created_display": "Created: Oct 19, 2026 / 12:21 PT",
+      "image_url": null,
+      "summary_en": "Dovepass provides a way to check the legality of flying a drone along a precise route in San Francisco, aggregating FAA and local rules. It helps pilots plan compliant, risk-aware flights.",
+      "summary_zh": "Dovepass 提供按路线检查无人机飞行是否合法的工具，整合 FAA 与地方规定，帮助飞行员规划合规且更低风险的航线。",
+      "hn": {
+        "id": 50156779,
+        "type": "story",
+        "by": "nimitmehra",
+        "score": 26,
+        "descendants": 7,
+        "time": 1792437716,
+        "comments_url": "https://news.ycombinator.com/item?id=50156779"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Show HN",
+        "Legal"
+      ]
+    },
+    {
       "title_en": "The Robot I Didn't Expect to Build",
       "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
       "title_zh": "我没想到要打造的机器人",
@@ -1076,31 +1711,7 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Hardware",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Startup taps underwater volcano as energy source in \"proof point\" test",
-      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
-      "title_zh": "初创公司以海底火山作为能源进行实证测试",
-      "created_display": "Created: Oct 19, 2026 / 13:12 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Endurance-Energy-rockhopper-drill-1152x648.jpeg",
-      "summary_en": "One startup is harvesting energy from an underwater volcanic vent to run a proof-of-concept test. If successful, it could signal a path for offshore geothermal energy and extreme-environment power systems, though challenges include corrosion, reliability, and power transmission.",
-      "summary_zh": "一家初创公司正在海底火山喷口提取地热能以进行实证测试。若成功，可能为海上地热和极端环境能源系统铺路，但腐蚀、可靠性和能量传输等挑战仍需克服。",
-      "hn": {
-        "id": 50157456,
-        "type": "story",
-        "by": "wffurr",
-        "score": 15,
-        "descendants": 6,
-        "time": 1792440769,
-        "comments_url": "https://news.ycombinator.com/item?id=50157456"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Energy",
-        "Startups"
+        "Hardware"
       ]
     },
     {
@@ -1123,29 +1734,6 @@
       "hot_score": 0.01,
       "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "Eigenmoon: linear algebra puzzles by moonlight",
-      "url": "https://eigenmoon.vercel.app/",
-      "title_zh": "Eigenmoon：月光下的线性代数谜题",
-      "created_display": "Created: Oct 19, 2026 / 13:02 PT",
-      "image_url": "https://eigenmoon.vercel.app/og.png",
-      "summary_en": "Eigenmoon presents linear algebra puzzles with a moonlit theme, offering interactive challenges around eigenvectors, linear transformations, and vector spaces. It's a playful learning tool that gamifies core math concepts for enthusiasts and students.",
-      "summary_zh": "Eigenmoon 在月光主题下提供线性代数谜题，围绕特征向量、线性变换和向量空间等概念设有互动题目。它把核心数学知识以游戏化方式呈现，适合爱好者和学生练习。",
-      "hn": {
-        "id": 50157316,
-        "type": "story",
-        "by": "jessicarumbelow",
-        "score": 3,
-        "descendants": 2,
-        "time": 1792440123,
-        "comments_url": "https://news.ycombinator.com/item?id=50157316"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Education",
-        "Gaming"
       ]
     }
   ]

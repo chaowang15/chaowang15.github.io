@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>245</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36165</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>241</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>243</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>245</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36191</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>241</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>243</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1792659091'>
+<div class='hn-top-story-item' data-hn-score='646' data-hn-time='1792676019'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50192900'>CVE-2026-111943: Compromised Intermediate Certificate Authority</a>
- <a class='hn-top-story-link' href='https://nvd.nist.gov/vuln/detail/cve-2026-111943' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195110'>eMudhra to exit global SSL/TLS certificate business</a>
+ <a class='hn-top-story-link' href='https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>CVE-2026-111943：中间证书颁发机构遭受妥协</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>eMudhra 将退出全球 SSL/TLS 证书业务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 646</span> <span class='hn-top-story-comments'>&#128172; 473</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='511' data-hn-time='1792626697'>
+<div class='hn-top-story-item' data-hn-score='450' data-hn-time='1792679558'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50189232'>mitmproxy adds --emudhra option</a>
- <a class='hn-top-story-link' href='https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195959'>Quad9 (DNS Resolver) to Exit France</a>
+ <a class='hn-top-story-link' href='https://quad9.net/news/blog/au-revoir-france/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>mitmproxy 新增 --emudhra 选项</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 511</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Quad9 DNS 解析器将退出法国</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 450</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='550' data-hn-time='1792624407'>
+<div class='hn-top-story-item' data-hn-score='201' data-hn-time='1792683166'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50188948'>There isn't an easy exploit for this PHP vulnerability</a>
- <a class='hn-top-story-link' href='https://eliastaylor.com/noexploit/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196837'>Google cleared 300 hectares of Finnish forest</a>
+ <a class='hn-top-story-link' href='https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>There isn't an easy exploit for this PHP vulnerability</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 550</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>谷歌清理芬兰森林300公顷以兴建数据中心</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='53' data-hn-time='1792661478'>
+<div class='hn-top-story-item' data-hn-score='98' data-hn-time='1792686467'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50193170'>Faster than earcut: triangulating 3.7M map polygons in 489 ms</a>
- <a class='hn-top-story-link' href='https://globus.software/blog/2026/10/16/cutting-map-polygons/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50197601'>A farewell to Arc browser</a>
+ <a class='hn-top-story-link' href='https://arc.net/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>比 earcut 快得多：在 489 ms 内对 370万地图多边形进行三角剖分</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>向 Arc 浏览器道别</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='488' data-hn-time='1792619883'>
+<div class='hn-top-story-item' data-hn-score='217' data-hn-time='1792678092'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50188228'>Security Disclosure</a>
- <a class='hn-top-story-link' href='https://blog.railway.com/p/security-disclosure-wednesday-october-21st' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195543'>What's Getting Pwned</a>
+ <a class='hn-top-story-link' href='https://pwn.watch/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Railway 平台安全披露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 488</span> <span class='hn-top-story-comments'>&#128172; 282</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>哪些数据已被入侵</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1041' data-hn-time='1792590333'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1792682782'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50180873'>PHP 8.2.35</a>
- <a class='hn-top-story-link' href='https://github.com/php/php-src/releases/tag/php-8.2.35' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196718'>Show HN: Run full iOS 16.5 firmware on Android Devices</a>
+ <a class='hn-top-story-link' href='https://github.com/oosexgang/hackios-xnu-kernel' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>PHP 8.2.35 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1041</span> <span class='hn-top-story-comments'>&#128172; 547</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Show HN：在 Android 设备上运行完整的 iOS 16.5 固件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='264' data-hn-time='1792635521'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='545' data-hn-time='1792656112'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50190363'>WorldTUI: I trained a 360M model to pretend to be a terminal</a>
- <a class='hn-top-story-link' href='https://simedw.com/2026/10/21/world-model-terminal/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50192536'>Jailbreaking the Switch 2</a>
+ <a class='hn-top-story-link' href='https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>WorldTUI: 我用 360M 模型训练来假装成终端</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Switch 2 越狱工具发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 545</span> <span class='hn-top-story-comments'>&#128172; 200</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1792646591'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='68' data-hn-time='1792685671'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50191507'>OpenAI CLI</a>
- <a class='hn-top-story-link' href='https://github.com/openai/openai-cli' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50197404'>Getting ready to operate GNU Taler in Germany</a>
+ <a class='hn-top-story-link' href='https://www.taler.net/en/news/2026-13.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 命令行界面</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>在德国部署 GNU Taler 的准备工作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='751' data-hn-time='1792597736'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='119' data-hn-time='1792679200'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50182987'>Today's PHP security release, and how we're strengthening security</a>
- <a class='hn-top-story-link' href='https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195873'>MPs moving to restrict gambling ads in Canada</a>
+ <a class='hn-top-story-link' href='https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>今日 PHP 安全更新及加强安全措施</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 751</span> <span class='hn-top-story-comments'>&#128172; 374</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>加拿大议员推动限制赌博广告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='639' data-hn-time='1792603773'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='222' data-hn-time='1792669836'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50184586'>EA is shutting down BioWare</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50194070'>Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure</a>
+ <a class='hn-top-story-link' href='https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>EA 将关闭 BioWare 工作室</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 639</span> <span class='hn-top-story-comments'>&#128172; 422</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>亚马逊在公开披露前发现 PHP2Shell 利用活动</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 43 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-19 — 2026-10-22 <span class="hn-row-sep">·</span> 500 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-10-19 — 2026-10-22 <span class="hn-row-sep">·</span> 526 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/22/top_stories_10222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Security <b>19</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
+<span class='hn-row-detail'>All <b>76</b> <span class="hn-row-sep">·</span> Security <b>24</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
