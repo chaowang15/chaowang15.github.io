@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>244</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36065</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>240</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>242</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>245</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36115</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>240</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>243</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='397' data-hn-time='1792626697'>
+<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1792659091'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50189232'>mitmproxy adds --emudhra option</a>
- <a class='hn-top-story-link' href='https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50192900'>CVE-2026-111943: Compromised Intermediate Certificate Authority</a>
+ <a class='hn-top-story-link' href='https://nvd.nist.gov/vuln/detail/cve-2026-111943' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>mitmproxy 新增 --emudhra 选项</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>CVE-2026-111943：中间证书颁发机构遭受妥协</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='440' data-hn-time='1792624407'>
+<div class='hn-top-story-item' data-hn-score='511' data-hn-time='1792626697'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50188948'>There isn't an easy exploit for this PHP vulnerability</a>
- <a class='hn-top-story-link' href='https://eliastaylor.com/noexploit/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50189232'>mitmproxy adds --emudhra option</a>
+ <a class='hn-top-story-link' href='https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>There isn't an easy exploit for this PHP vulnerability</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 440</span> <span class='hn-top-story-comments'>&#128172; 219</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>mitmproxy 新增 --emudhra 选项</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 511</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='414' data-hn-time='1792619883'>
+<div class='hn-top-story-item' data-hn-score='550' data-hn-time='1792624407'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50188228'>Security Disclosure</a>
- <a class='hn-top-story-link' href='https://blog.railway.com/p/security-disclosure-wednesday-october-21st' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50188948'>There isn't an easy exploit for this PHP vulnerability</a>
+ <a class='hn-top-story-link' href='https://eliastaylor.com/noexploit/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Railway 平台安全披露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>There isn't an easy exploit for this PHP vulnerability</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 550</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1792636252'>
+<div class='hn-top-story-item' data-hn-score='53' data-hn-time='1792661478'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50190455'>The recently proposed o(n log n) integer multiplication algorithm [pdf]</a>
- <a class='hn-top-story-link' href='https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50193170'>Faster than earcut: triangulating 3.7M map polygons in 489 ms</a>
+ <a class='hn-top-story-link' href='https://globus.software/blog/2026/10/16/cutting-map-polygons/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>最近提出的 o(n log n) 的整数乘法算法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>比 earcut 快得多：在 489 ms 内对 370万地图多边形进行三角剖分</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1002' data-hn-time='1792590333'>
+<div class='hn-top-story-item' data-hn-score='488' data-hn-time='1792619883'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50180873'>PHP 8.2.35</a>
- <a class='hn-top-story-link' href='https://github.com/php/php-src/releases/tag/php-8.2.35' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50188228'>Security Disclosure</a>
+ <a class='hn-top-story-link' href='https://blog.railway.com/p/security-disclosure-wednesday-october-21st' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>PHP 8.2.35 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 1002</span> <span class='hn-top-story-comments'>&#128172; 537</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Railway 平台安全披露</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 488</span> <span class='hn-top-story-comments'>&#128172; 282</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='594' data-hn-time='1792603773'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1041' data-hn-time='1792590333'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50184586'>EA is shutting down BioWare</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50180873'>PHP 8.2.35</a>
+ <a class='hn-top-story-link' href='https://github.com/php/php-src/releases/tag/php-8.2.35' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>EA 将关闭 BioWare 工作室</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 594</span> <span class='hn-top-story-comments'>&#128172; 372</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>PHP 8.2.35 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1041</span> <span class='hn-top-story-comments'>&#128172; 547</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='714' data-hn-time='1792597736'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='264' data-hn-time='1792635521'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50182987'>Today's PHP security release, and how we're strengthening security</a>
- <a class='hn-top-story-link' href='https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50190363'>WorldTUI: I trained a 360M model to pretend to be a terminal</a>
+ <a class='hn-top-story-link' href='https://simedw.com/2026/10/21/world-model-terminal/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>今日 PHP 安全更新及加强安全措施</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 714</span> <span class='hn-top-story-comments'>&#128172; 348</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>WorldTUI: 我用 360M 模型训练来假装成终端</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='496' data-hn-time='1792604713'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1792646591'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50184820'>Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50191507'>OpenAI CLI</a>
+ <a class='hn-top-story-link' href='https://github.com/openai/openai-cli' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 因隐私问题被判罚 250 亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 496</span> <span class='hn-top-story-comments'>&#128172; 302</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>OpenAI 命令行界面</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='347' data-hn-time='1792610041'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='751' data-hn-time='1792597736'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50186037'>Claude Duet</a>
- <a class='hn-top-story-link' href='https://claude.com/product/claude-duet' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50182987'>Today's PHP security release, and how we're strengthening security</a>
+ <a class='hn-top-story-link' href='https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Duet：对话协作模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 347</span> <span class='hn-top-story-comments'>&#128172; 316</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>今日 PHP 安全更新及加强安全措施</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 751</span> <span class='hn-top-story-comments'>&#128172; 374</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='873' data-hn-time='1792573688'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='639' data-hn-time='1792603773'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/21/top_stories_10212026#story-50177916'>Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds</a>
- <a class='hn-top-story-link' href='https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50184586'>EA is shutting down BioWare</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>信任的八位字节：eMudhra 的 CA 密钥在毫秒内被破解</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 873</span> <span class='hn-top-story-comments'>&#128172; 416</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>EA 将关闭 BioWare 工作室</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 639</span> <span class='hn-top-story-comments'>&#128172; 422</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/21/top_stories_10212026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/22/top_stories_10222026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/20/best_stories_10202026'>Latest Daily Best — 2026-10-20 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 43 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-19 — 2026-10-21 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-10-19 — 2026-10-22 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-22 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/22/top_stories_10222026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Security <b>19</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-21 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -496,7 +505,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 39</span>
-<span class='hn-week-meta'>2026-09-22 — 2026-09-27 <span class="hn-row-sep">·</span> 897 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-09-23 — 2026-09-27 <span class="hn-row-sep">·</span> 747 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W39'>
@@ -566,19 +575,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/23/top_stories_09232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-22 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/22/best_stories_09222026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Security <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/22/top_stories_09222026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>37</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
