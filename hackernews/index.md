@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>245</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36207</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>241</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>243</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>245</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36215</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>241</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>243</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,40 +20,40 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='732' data-hn-time='1792679558'>
+<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1792704281'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50201259'>Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions</a>
+ <a class='hn-top-story-link' href='https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>被黑客入侵的贾里德·库什纳手机揭露秘密谈判与数百万交易</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='960' data-hn-time='1792679558'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195959'>Quad9 (DNS Resolver) to Exit France</a>
  <a class='hn-top-story-link' href='https://quad9.net/news/blog/au-revoir-france/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Quad9 DNS 解析器将退出法国</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 732</span> <span class='hn-top-story-comments'>&#128172; 281</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 960</span> <span class='hn-top-story-comments'>&#128172; 346</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='831' data-hn-time='1792676019'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='907' data-hn-time='1792676019'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195110'>eMudhra to exit global SSL/TLS certificate business</a>
  <a class='hn-top-story-link' href='https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>eMudhra 将退出全球 SSL/TLS 证书业务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 831</span> <span class='hn-top-story-comments'>&#128172; 582</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 907</span> <span class='hn-top-story-comments'>&#128172; 620</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1792696441'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50199757'>A complete bypass of eMudhra’s 1FA OTP login system</a>
- <a class='hn-top-story-link' href='https://mastodon.catgirl.cloud/@49016/117475976434068995' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>eMudhra 的 1FA OTP 登录系统的完全绕过</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='179' data-hn-time='1792691046'>
+<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1792691046'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://github.com/NVIDIA/OpenShell' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenShell：为成群自主 AI 代理提供安全、私有的运行时</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='240' data-hn-time='1792682782'>
+<div class='hn-top-story-item' data-hn-score='152' data-hn-time='1792696441'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196718'>Show HN: Run full iOS 16.5 firmware on Android Devices</a>
- <a class='hn-top-story-link' href='https://github.com/oosexgang/hackios-xnu-kernel' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50199757'>A complete bypass of eMudhra’s 1FA OTP login system</a>
+ <a class='hn-top-story-link' href='https://mastodon.catgirl.cloud/@49016/117475976434068995' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：在 Android 设备上运行完整的 iOS 16.5 固件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>eMudhra 的 1FA OTP 登录系统的完全绕过</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='180' data-hn-time='1792686467'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='449' data-hn-time='1792674660'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50197601'>A farewell to Arc browser</a>
- <a class='hn-top-story-link' href='https://arc.net/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50194833'>Woman faces six years in prison over Cash App account she never opened</a>
+ <a class='hn-top-story-link' href='https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>向 Arc 浏览器道别</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>女子因未开设 Cash App 账户被错误关联而面临六年监禁</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 449</span> <span class='hn-top-story-comments'>&#128172; 452</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='297' data-hn-time='1792678092'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='313' data-hn-time='1792682782'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195543'>What’s getting pwned right now</a>
- <a class='hn-top-story-link' href='https://pwn.watch/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196718'>Run full iOS 16.5 firmware on Android Devices</a>
+ <a class='hn-top-story-link' href='https://github.com/oosexgang/hackios-xnu-kernel' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>现在有哪些正在被利用的漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 297</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Show HN：在 Android 设备上运行完整的 iOS 16.5 固件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 313</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='201' data-hn-time='1792683166'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='697' data-hn-time='1792656112'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196837'>Google cleared 300 hectares of Finnish forest</a>
- <a class='hn-top-story-link' href='https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>谷歌清理芬兰森林300公顷以兴建数据中心</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='624' data-hn-time='1792656112'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50192536'>Jailbreaking the Switch 2</a>
  <a class='hn-top-story-link' href='https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Switch 2 越狱工具发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 624</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 697</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='152' data-hn-time='1792685671'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='330' data-hn-time='1792678092'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195543'>What’s getting pwned right now</a>
+ <a class='hn-top-story-link' href='https://pwn.watch/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>现在有哪些正在被利用的漏洞</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='223' data-hn-time='1792686467'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50197404'>Getting ready to operate GNU Taler in Germany</a>
- <a class='hn-top-story-link' href='https://www.taler.net/en/news/2026-13.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50197601'>A farewell to Arc browser</a>
+ <a class='hn-top-story-link' href='https://arc.net/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在德国部署 GNU Taler 的准备工作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>向 Arc 浏览器道别</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 202</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 43 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-19 — 2026-10-22 <span class="hn-row-sep">·</span> 542 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-10-19 — 2026-10-22 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/22/top_stories_10222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>92</b> <span class="hn-row-sep">·</span> Security <b>25</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Security <b>29</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
 </a>
 </div>
 </div>
