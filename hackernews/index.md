@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1792704281'>
+<div class='hn-top-story-item' data-hn-score='354' data-hn-time='1792712756'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50201259'>Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions</a>
- <a class='hn-top-story-link' href='https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50202681'>Docker is weird</a>
+ <a class='hn-top-story-link' href='https://codeandcake.dev/posts/2026-10-22-docker-is-weird' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>被黑客入侵的贾里德·库什纳手机揭露秘密谈判与数百万交易</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Docker 真奇怪</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 354</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='960' data-hn-time='1792679558'>
+<div class='hn-top-story-item' data-hn-score='1124' data-hn-time='1792679558'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195959'>Quad9 (DNS Resolver) to Exit France</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195959'>Quad9 to exit France</a>
  <a class='hn-top-story-link' href='https://quad9.net/news/blog/au-revoir-france/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Quad9 DNS 解析器将退出法国</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 960</span> <span class='hn-top-story-comments'>&#128172; 346</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Quad9 将退出法国</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 1124</span> <span class='hn-top-story-comments'>&#128172; 389</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='907' data-hn-time='1792676019'>
+<div class='hn-top-story-item' data-hn-score='1007' data-hn-time='1792676019'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>eMudhra 将退出全球 SSL/TLS 证书业务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 907</span> <span class='hn-top-story-comments'>&#128172; 620</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 1007</span> <span class='hn-top-story-comments'>&#128172; 668</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1792691046'>
+<div class='hn-top-story-item' data-hn-score='277' data-hn-time='1792709683'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50202217'>LLMs are making formal software verification feasible at a much larger scale</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/research/formal-verification' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>大语言模型让形式化软件验证在更大规模上成为现实</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 277</span> <span class='hn-top-story-comments'>&#128172; 151</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1792704281'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50201259'>Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions</a>
+ <a class='hn-top-story-link' href='https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>被黑客入侵的贾里德·库什纳手机揭露秘密谈判与数百万交易</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='619' data-hn-time='1792674660'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50194833'>Woman charged with computer fraud due to scam CashApp account being in her name</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/amanda-smith-opened-a-cashapp-in-her-name-she-faces-years-in-prison-cashapp-fraud/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>因 CashApp 账户以她名义注册而被控计算机欺诈</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 619</span> <span class='hn-top-story-comments'>&#128172; 620</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='364' data-hn-time='1792691046'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50198675'>OpenShell – A safe, private runtime for fleets of autonomous AI agents</a>
  <a class='hn-top-story-link' href='https://github.com/NVIDIA/OpenShell' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenShell：为成群自主 AI 代理提供安全、私有的运行时</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 364</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='152' data-hn-time='1792696441'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50199757'>A complete bypass of eMudhra’s 1FA OTP login system</a>
- <a class='hn-top-story-link' href='https://mastodon.catgirl.cloud/@49016/117475976434068995' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>eMudhra 的 1FA OTP 登录系统的完全绕过</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='449' data-hn-time='1792674660'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50194833'>Woman faces six years in prison over Cash App account she never opened</a>
- <a class='hn-top-story-link' href='https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>女子因未开设 Cash App 账户被错误关联而面临六年监禁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 449</span> <span class='hn-top-story-comments'>&#128172; 452</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='313' data-hn-time='1792682782'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196718'>Run full iOS 16.5 firmware on Android Devices</a>
- <a class='hn-top-story-link' href='https://github.com/oosexgang/hackios-xnu-kernel' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：在 Android 设备上运行完整的 iOS 16.5 固件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 313</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='697' data-hn-time='1792656112'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='111' data-hn-time='1792716721'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50203161'>The foolishness of "natural language programming" (1978)</a>
+ <a class='hn-top-story-link' href='https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>自然语言编程的愚蠢之处（1978）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='770' data-hn-time='1792656112'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50192536'>Jailbreaking the Switch 2</a>
  <a class='hn-top-story-link' href='https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Switch 2 越狱工具发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 697</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 770</span> <span class='hn-top-story-comments'>&#128172; 269</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='330' data-hn-time='1792678092'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50195543'>What’s getting pwned right now</a>
- <a class='hn-top-story-link' href='https://pwn.watch/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>现在有哪些正在被利用的漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='223' data-hn-time='1792686467'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='390' data-hn-time='1792682782'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50197601'>A farewell to Arc browser</a>
- <a class='hn-top-story-link' href='https://arc.net/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/22/top_stories_10222026#story-50196718'>Run full iOS 16.5 firmware on Android Devices</a>
+ <a class='hn-top-story-link' href='https://github.com/oosexgang/hackios-xnu-kernel' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>向 Arc 浏览器道别</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 202</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Show HN：在 Android 设备上运行完整的 iOS 16.5 固件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 390</span> <span class='hn-top-story-comments'>&#128172; 137</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/22/top_stories_10222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Security <b>29</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Security <b>26</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
 </a>
 </div>
 </div>
