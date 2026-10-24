@@ -12386,3 +12386,12 @@ Each entry records the model, token counts, and estimated cost.
 | 16:10:56 | gpt-5-nano | tag_generator | 2,425 | 0 | 3,268 | 5,693 | $0.001428 | tag 25 items, attempt 1 |
 | **Subtotal** | **5 calls** | — | **11,309** | **0** | **23,677** | **34,986** | **$0.010036** | Scrape batch |
 
+| Time | Model | Caller | Input | Cached | Output | Total | Cost (USD) | Note |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
+| 22:47:27 | gpt-5-nano | llm_batch | 1,438 | 0 | 9,076 | 10,514 | $0.003702 | enrich 21 items, attempt 1 |
+| 22:47:55 | gpt-5-nano | tag_generator | 2,637 | 0 | 3,306 | 5,943 | $0.001454 | tag 25 items, attempt 1 |
+| 22:48:23 | gpt-5-nano | tag_generator | 2,573 | 0 | 4,525 | 7,098 | $0.001939 | tag 25 items, attempt 1 |
+| 22:48:48 | gpt-5-nano | tag_generator | 2,426 | 0 | 4,320 | 6,746 | $0.001849 | tag 25 items, attempt 1 |
+| 22:49:10 | gpt-5-nano | tag_generator | 2,472 | 0 | 3,639 | 6,111 | $0.001579 | tag 25 items, attempt 1 |
+| **Subtotal** | **5 calls** | — | **11,546** | **0** | **24,866** | **36,412** | **$0.010523** | Scrape batch |
+
