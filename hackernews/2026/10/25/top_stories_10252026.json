@@ -4,44 +4,159 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 37,
-    "new_llm_enriched": 13,
-    "scrape_time_display": "00:09, October 25, 2026 (PDT)",
+    "count_written": 58,
+    "reused_same_day": 42,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 8,
+    "scrape_time_display": "04:05, October 25, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/25",
     "content_date": "2026-10-25",
-    "run_time_local": "00:09, October 25, 2026 (PDT)",
-    "run_time_utc": "2026-10-25 07:09:20 UTC",
+    "run_time_local": "04:05, October 25, 2026 (PDT)",
+    "run_time_utc": "2026-10-25 11:05:39 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-25 07:10:37 UTC"
+    "hot_score_time_utc": "2026-10-25 11:06:32 UTC"
   },
   "items": [
     {
-      "title_en": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-      "url": "https://github.com/slee-persis/GVS5H",
-      "title_zh": "五个 Qwen3.8-27B 模型在 GVS5H Harness 下达到 Fable 5 水平",
-      "created_display": "Created: Oct 24, 2026 / 20:56 PT",
-      "image_url": "https://opengraph.githubassets.com/8d54221cca3236d1bced4936d7f513d160daf1a5359af3ec197636446aa72432/slee-persis/GVS5H",
-      "summary_en": "Five Qwen3.8-27B models match Fable 5 using the GVS5H harness, illustrating how open-source LLMs can reach strong performance when paired with efficient hardware. This benchmark highlights the value of optimized deployment stacks for researchers and hobbyists alike.",
-      "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H harness 下达到与 Fable 5 相近的性能，展示了开源大模型在搭配高效硬件时的竞争力。此基准凸显了针对研究者和爱好者的优化部署堆栈的重要性。",
+      "title_en": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "title_zh": "Meta 无视巴西法院命令，停止对博索纳罗的偏袒",
+      "created_display": "Created: Oct 25, 2026 / 02:00 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!CdTr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d3b04ca-0141-4aca-81e2-f64fd77e8555_1157x626.jpeg",
+      "summary_en": "Meta ignored a Brazilian court order to end favoritism toward Bolsonaro on its platforms. The dispute highlights the tension between tech giants and regulators over political neutrality in Brazil, with possible sanctions for continued non-compliance. The case could shape how courts police platform behavior around elections in Latin America.",
+      "summary_zh": "Meta据报无视巴西法院关于停止对博索纳罗偏袒的命令。此事凸显科技巨头与监管机构在巴西政治中立性上的博弈，若持续不合规可能面临制裁。此案或影响法院在选举期监管大型平台行为的方式。",
       "hn": {
-        "id": 50228167,
+        "id": 50229587,
         "type": "story",
-        "by": "rzk",
-        "score": 137,
-        "descendants": 48,
-        "time": 1792900561,
-        "comments_url": "https://news.ycombinator.com/item?id=50228167"
+        "by": "vrganj",
+        "score": 175,
+        "descendants": 110,
+        "time": 1792918840,
+        "comments_url": "https://news.ycombinator.com/item?id=50229587"
       },
-      "hot_score": 6.89,
+      "hot_score": 13.74,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
+      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "title_zh": "法国要求互联网服务提供商为主要社交平台准备临时DNS封锁",
+      "created_display": "Created: Oct 25, 2026 / 02:56 PT",
+      "image_url": "https://static.blast-info.fr/stories/2026/open_graph-information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ.jpg",
+      "summary_en": "France asked ISPs to prepare temporary DNS blocks on major social platforms as a contingency measure for upcoming events. The move signals a willingness to deploy blunt censorship tools to curb platform influence, raising questions about free speech, digital sovereignty, and user impact. Observers will want to see how quickly such blocks could be activated and what safeguards exist.",
+      "summary_zh": "法国政府要求宽带运营商为主要社交平台预设临时DNS封锁，以应对即将到来的事件。此举显示当局愿意使用极端工具来控制舆论影响，同时引发关于言论自由、数字主权和对普通用户影响的讨论。将关注何时启用以及有哪些保障措施。",
+      "hn": {
+        "id": 50229861,
+        "type": "story",
+        "by": "noplay",
+        "score": 43,
+        "descendants": 31,
+        "time": 1792922209,
+        "comments_url": "https://news.ycombinator.com/item?id=50229861"
+      },
+      "hot_score": 5.29,
+      "tags": [
+        "Politics",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Online censorship is crushing indie webcomics",
+      "url": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
+      "title_zh": "在线审查正压垮独立网络漫画",
+      "created_display": "Created: Oct 25, 2026 / 02:04 PT",
+      "image_url": "https://xtramagazine.com/wp-content/uploads/2026/09/Xtra_Comics_Raccoons_CGallardo_Web.jpg",
+      "summary_en": "Indie webcomics face increasing censorship online, with moderation, platform policies, and ad revenue changes squeezing small creators. Creators respond by crowdfunding, self-hosting, and migrating to alternative platforms, underscoring the fragility of independent voices in a crowded web.",
+      "summary_zh": "独立网络漫画家正面临日益严苛的网络审查、平台政策调整和广告收入下降带来的生存压力。作者们转向自建站点、众筹和替代平台等方式维持创作与传播，凸显网络出版领域的多元声音正在受挤压。",
+      "hn": {
+        "id": 50229599,
+        "type": "story",
+        "by": "Tomte",
+        "score": 62,
+        "descendants": 52,
+        "time": 1792919053,
+        "comments_url": "https://news.ycombinator.com/item?id=50229599"
+      },
+      "hot_score": 4.94,
+      "tags": [
+        "Culture",
+        "Politics",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "title_zh": "在软件开发上应更具野心",
+      "created_display": "Created: Oct 24, 2026 / 14:47 PT",
+      "image_url": null,
+      "summary_en": "Software projects often settle for incremental gains; the piece argues for embracing bigger, riskier problems that unlock substantial leaps. Ambition needs disciplined constraints, longer horizons, and tolerance for failure, but can reshape teams' capabilities and the value they create. Expect practical guidance on bet-sizing, architecture, and collaboration to support bold bets.",
+      "summary_zh": "很多软件项目止步于小修小补。作者主张在软件开发上要敢于挑战更大、风险更高的问题，以实现更大的跃迁。实现这种野心需要清晰的约束、长期投入与对失败的容忍，进而改变团队能力与创造的价值。",
+      "hn": {
+        "id": 50225695,
+        "type": "story",
+        "by": "ltratt",
+        "score": 454,
+        "descendants": 401,
+        "time": 1792878451,
+        "comments_url": "https://news.ycombinator.com/item?id=50225695"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 3.33
+    },
+    {
+      "title_en": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "title_zh": "美国在媒体、影视和艺术领域已失去20万份工作，AI 会带来多大影响？",
+      "created_display": "Created: Oct 24, 2026 / 16:11 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png",
+      "summary_en": "The piece analyzes how AI could displace large numbers of creative workers, quantifying losses in media, film, and the arts. It frames AI as a productivity and transformation shock for the creative economy, with implications for wages, jobs, and policy responses.",
+      "summary_zh": "文章量化了 AI 对创造性行业的潜在冲击，显示媒体、影视与艺术领域可能流失的工作量及趋势。讨论 AI 作为生产力与结构性变革的驱动力，对薪资、就业和政策提出了重要的现实考量。",
+      "hn": {
+        "id": 50226419,
+        "type": "story",
+        "by": "gnabgib",
+        "score": 375,
+        "descendants": 381,
+        "time": 1792883514,
+        "comments_url": "https://news.ycombinator.com/item?id=50226419"
+      },
       "tags": [
         "AI",
-        "Open Source",
-        "Hardware"
-      ]
+        "Career"
+      ],
+      "hot_score": 3.27
+    },
+    {
+      "title_en": "Show HN: Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "title_zh": "Show HN：偷走我的比特币",
+      "created_display": "Created: Oct 24, 2026 / 13:30 PT",
+      "image_url": null,
+      "summary_en": "A playful, educational project invites readers to attempt to steal a controlled bitcoin to illustrate how wallets, keys, and permissions operate in practice. It spotlights exposure vectors and the need for careful threat modeling in crypto apps, while offering a hands-on way to reason about security trade-offs.",
+      "summary_zh": "这是一个寓教于乐的演示，邀请用户在受控环境中“偷走”一个比特币，以直观展示钱包、密钥与权限的工作机制。它揭示了加密应用中的潜在风险点，并为理解安全权衡提供直观的、动手的方式。",
+      "hn": {
+        "id": 50224916,
+        "type": "story",
+        "by": "cloudlandsdev",
+        "score": 503,
+        "descendants": 309,
+        "time": 1792873831,
+        "comments_url": "https://news.ycombinator.com/item?id=50224916"
+      },
+      "tags": [
+        "Show HN",
+        "Security",
+        "Finance"
+      ],
+      "hot_score": 3.2
     },
     {
       "title_en": "No signs of AI payoff outside the tech sector",
@@ -64,76 +179,100 @@
         "AI",
         "Business"
       ],
-      "hot_score": 5.01
+      "hot_score": 3.15
     },
     {
-      "title_en": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "title_zh": "美国在媒体、影视和艺术领域已失去20万份工作，AI 会带来多大影响？",
-      "created_display": "Created: Oct 24, 2026 / 16:11 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png",
-      "summary_en": "The piece analyzes how AI could displace large numbers of creative workers, quantifying losses in media, film, and the arts. It frames AI as a productivity and transformation shock for the creative economy, with implications for wages, jobs, and policy responses.",
-      "summary_zh": "文章量化了 AI 对创造性行业的潜在冲击，显示媒体、影视与艺术领域可能流失的工作量及趋势。讨论 AI 作为生产力与结构性变革的驱动力，对薪资、就业和政策提出了重要的现实考量。",
+      "title_en": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "title_zh": "五个 Qwen3.8-27B 模型在 GVS5H Harness 下达到 Fable 5 水平",
+      "created_display": "Created: Oct 24, 2026 / 20:56 PT",
+      "image_url": "https://opengraph.githubassets.com/8d54221cca3236d1bced4936d7f513d160daf1a5359af3ec197636446aa72432/slee-persis/GVS5H",
+      "summary_en": "Five Qwen3.8-27B models match Fable 5 using the GVS5H harness, illustrating how open-source LLMs can reach strong performance when paired with efficient hardware. This benchmark highlights the value of optimized deployment stacks for researchers and hobbyists alike.",
+      "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H harness 下达到与 Fable 5 相近的性能，展示了开源大模型在搭配高效硬件时的竞争力。此基准凸显了针对研究者和爱好者的优化部署堆栈的重要性。",
       "hn": {
-        "id": 50226419,
+        "id": 50228167,
         "type": "story",
-        "by": "gnabgib",
-        "score": 306,
-        "descendants": 307,
-        "time": 1792883514,
-        "comments_url": "https://news.ycombinator.com/item?id=50226419"
+        "by": "rzk",
+        "score": 165,
+        "descendants": 57,
+        "time": 1792900561,
+        "comments_url": "https://news.ycombinator.com/item?id=50228167"
       },
       "tags": [
         "AI",
-        "Culture"
+        "Open Source",
+        "Hardware"
       ],
-      "hot_score": 4.85
+      "hot_score": 3.03
     },
     {
-      "title_en": "Show HN: Steal My Bitcoin",
-      "url": "https://stealmybitcoin.com/",
-      "title_zh": "Show HN：偷走我的比特币",
-      "created_display": "Created: Oct 24, 2026 / 13:30 PT",
-      "image_url": null,
-      "summary_en": "A playful, educational project invites readers to attempt to steal a controlled bitcoin to illustrate how wallets, keys, and permissions operate in practice. It spotlights exposure vectors and the need for careful threat modeling in crypto apps, while offering a hands-on way to reason about security trade-offs.",
-      "summary_zh": "这是一个寓教于乐的演示，邀请用户在受控环境中“偷走”一个比特币，以直观展示钱包、密钥与权限的工作机制。它揭示了加密应用中的潜在风险点，并为理解安全权衡提供直观的、动手的方式。",
+      "title_en": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "title_zh": "Goose 编程语言",
+      "created_display": "Created: Oct 24, 2026 / 12:06 PT",
+      "image_url": "https://aardappel.github.io/goose/docs/logo/logo_black_fg_trans_bg.png",
+      "summary_en": "Goose is an experimental programming language by aardoppel that explores minimalism and expressive syntax. The post likely outlines the language design, its features, and potential use cases, offering a labs-like glimpse into how small changes affect ergonomics and compiler strategy.",
+      "summary_zh": "Goose 是 aardoppel 设计的一款实验性编程语言，聚焦极简主义与直观语法。文中概述了语言的设计要点、特征以及可能的应用场景，提供了对小型语言如何影响可用性与编译实现的直观观察。",
       "hn": {
-        "id": 50224916,
+        "id": 50224100,
         "type": "story",
-        "by": "cloudlandsdev",
-        "score": 455,
-        "descendants": 282,
-        "time": 1792873831,
-        "comments_url": "https://news.ycombinator.com/item?id=50224916"
-      },
-      "tags": [
-        "Show HN",
-        "Security",
-        "Finance"
-      ],
-      "hot_score": 4.7
-    },
-    {
-      "title_en": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
-      "title_zh": "在软件开发上应更具野心",
-      "created_display": "Created: Oct 24, 2026 / 14:47 PT",
-      "image_url": null,
-      "summary_en": "Software projects often settle for incremental gains; the piece argues for embracing bigger, riskier problems that unlock substantial leaps. Ambition needs disciplined constraints, longer horizons, and tolerance for failure, but can reshape teams' capabilities and the value they create. Expect practical guidance on bet-sizing, architecture, and collaboration to support bold bets.",
-      "summary_zh": "很多软件项目止步于小修小补。作者主张在软件开发上要敢于挑战更大、风险更高的问题，以实现更大的跃迁。实现这种野心需要清晰的约束、长期投入与对失败的容忍，进而改变团队能力与创造的价值。",
-      "hn": {
-        "id": 50225695,
-        "type": "story",
-        "by": "ltratt",
-        "score": 322,
-        "descendants": 287,
-        "time": 1792878451,
-        "comments_url": "https://news.ycombinator.com/item?id=50225695"
+        "by": "bobbydigitales",
+        "score": 424,
+        "descendants": 259,
+        "time": 1792868815,
+        "comments_url": "https://news.ycombinator.com/item?id=50224100"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 4.03
+      "hot_score": 2.33
+    },
+    {
+      "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "title_zh": "Cerebras 部署万亿参数的 AI 模型",
+      "created_display": "Created: Oct 24, 2026 / 18:33 PT",
+      "image_url": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format",
+      "summary_en": "Cerebras deploys trillion-parameter frontier models on its wafer-scale AI hardware. The feat demonstrates how specialized accelerators can handle models at scales once thought exclusive to huge clusters, potentially boosting inference throughput and reducing memory bottlenecks. It underscores a broader industry trend toward scale-optimized hardware for giant AI systems.",
+      "summary_zh": "Cerebras 在其晶圆级 AI 硬件上部署万亿参数的前沿模型。这一成就展示了专用加速器在处理大规模模型方面的潜力，或提升推理吞吐量并缓解内存瓶颈。再一次印证了面向“大模型”的专用硬件正推动 AI 规模扩张的行业趋势。",
+      "hn": {
+        "id": 50227356,
+        "type": "story",
+        "by": "gmays",
+        "score": 186,
+        "descendants": 63,
+        "time": 1792892029,
+        "comments_url": "https://news.ycombinator.com/item?id=50227356"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 2.26
+    },
+    {
+      "title_en": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "title_zh": "Roku 将开发者代码库从 GitHub 转移至 GitLab",
+      "created_display": "Created: Oct 24, 2026 / 09:06 PT",
+      "image_url": "https://www.roku.com/assets/roku-logo-purple.png",
+      "summary_en": "Roku has moved its developer repositories from GitHub to GitLab, consolidating collaboration and CI/CD workflows on one platform. The shift will require contributors to update remotes and adapt to GitLab's tooling, but it promises tighter security controls and potentially faster automation for builds and tests.",
+      "summary_zh": "Roku 已将开发者代码库从 GitHub 转移至 GitLab，整合了协作与持续集成/交付工具。此次变更要求贡献者更新远程地址并调整工作流，但有望带来更严格的安全控制和更高效的自动化构建与测试。",
+      "hn": {
+        "id": 50222622,
+        "type": "story",
+        "by": "cxr",
+        "score": 288,
+        "descendants": 202,
+        "time": 1792857986,
+        "comments_url": "https://news.ycombinator.com/item?id=50222622"
+      },
+      "tags": [
+        "DevOps",
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 1.2
     },
     {
       "title_en": "Xbox Turns Down Netflix $500M Offer",
@@ -152,129 +291,12 @@
         "time": 1792897553,
         "comments_url": "https://news.ycombinator.com/item?id=50227892"
       },
-      "hot_score": 2.91,
+      "hot_score": 1.19,
       "tags": [
         "Business",
         "Entertainment",
         "Gaming"
       ]
-    },
-    {
-      "title_en": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
-      "title_zh": "Goose 编程语言",
-      "created_display": "Created: Oct 24, 2026 / 12:06 PT",
-      "image_url": "https://aardappel.github.io/goose/docs/logo/logo_black_fg_trans_bg.png",
-      "summary_en": "Goose is an experimental programming language by aardoppel that explores minimalism and expressive syntax. The post likely outlines the language design, its features, and potential use cases, offering a labs-like glimpse into how small changes affect ergonomics and compiler strategy.",
-      "summary_zh": "Goose 是 aardoppel 设计的一款实验性编程语言，聚焦极简主义与直观语法。文中概述了语言的设计要点、特征以及可能的应用场景，提供了对小型语言如何影响可用性与编译实现的直观观察。",
-      "hn": {
-        "id": 50224100,
-        "type": "story",
-        "by": "bobbydigitales",
-        "score": 338,
-        "descendants": 227,
-        "time": 1792868815,
-        "comments_url": "https://news.ycombinator.com/item?id=50224100"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 2.89
-    },
-    {
-      "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "title_zh": "Cerebras 部署万亿参数的 AI 模型",
-      "created_display": "Created: Oct 24, 2026 / 18:33 PT",
-      "image_url": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format",
-      "summary_en": "Cerebras deploys trillion-parameter frontier models on its wafer-scale AI hardware. The feat demonstrates how specialized accelerators can handle models at scales once thought exclusive to huge clusters, potentially boosting inference throughput and reducing memory bottlenecks. It underscores a broader industry trend toward scale-optimized hardware for giant AI systems.",
-      "summary_zh": "Cerebras 在其晶圆级 AI 硬件上部署万亿参数的前沿模型。这一成就展示了专用加速器在处理大规模模型方面的潜力，或提升推理吞吐量并缓解内存瓶颈。再一次印证了面向“大模型”的专用硬件正推动 AI 规模扩张的行业趋势。",
-      "hn": {
-        "id": 50227356,
-        "type": "story",
-        "by": "gmays",
-        "score": 103,
-        "descendants": 33,
-        "time": 1792892029,
-        "comments_url": "https://news.ycombinator.com/item?id=50227356"
-      },
-      "hot_score": 2.64,
-      "tags": [
-        "AI",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Roku developer repositories moved from GitHub to GitLab",
-      "url": "https://blog.roku.com/developer/gitlab-move",
-      "title_zh": "Roku 将开发者代码库从 GitHub 转移至 GitLab",
-      "created_display": "Created: Oct 24, 2026 / 09:06 PT",
-      "image_url": "https://www.roku.com/assets/roku-logo-purple.png",
-      "summary_en": "Roku has moved its developer repositories from GitHub to GitLab, consolidating collaboration and CI/CD workflows on one platform. The shift will require contributors to update remotes and adapt to GitLab's tooling, but it promises tighter security controls and potentially faster automation for builds and tests.",
-      "summary_zh": "Roku 已将开发者代码库从 GitHub 转移至 GitLab，整合了协作与持续集成/交付工具。此次变更要求贡献者更新远程地址并调整工作流，但有望带来更严格的安全控制和更高效的自动化构建与测试。",
-      "hn": {
-        "id": 50222622,
-        "type": "story",
-        "by": "cxr",
-        "score": 282,
-        "descendants": 191,
-        "time": 1792857986,
-        "comments_url": "https://news.ycombinator.com/item?id=50222622"
-      },
-      "tags": [
-        "DevOps",
-        "Open Source",
-        "Programming",
-        "Security"
-      ],
-      "hot_score": 1.7
-    },
-    {
-      "title_en": "FreeDNS",
-      "url": "https://freedns.afraid.org/",
-      "title_zh": "FreeDNS：免费 DNS 托管服务",
-      "created_display": "Created: Oct 24, 2026 / 08:20 PT",
-      "image_url": "https://freedns.afraid.org/images/bitcoin-logo.jpg",
-      "summary_en": "FreeDNS remains a long-running free DNS hosting option, offering dynamic DNS and subdomain management for hobby projects and small services. While it's convenient, users should consider reliability, privacy, and potential ads when relying on free infrastructure for critical systems.",
-      "summary_zh": "FreeDNS 继续提供免费的 DNS 托管、动态 DNS 及子域名管理，适合个人项目和小型服务使用。使用者应权衡可用性、隐私和对关键系统的依赖性，避免把核心服务寄托在免费基础设施上。",
-      "hn": {
-        "id": 50222133,
-        "type": "story",
-        "by": "esher",
-        "score": 276,
-        "descendants": 69,
-        "time": 1792855201,
-        "comments_url": "https://news.ycombinator.com/item?id=50222133"
-      },
-      "tags": [
-        "Web",
-        "Privacy",
-        "DevOps"
-      ],
-      "hot_score": 1.54
-    },
-    {
-      "title_en": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
-      "url": "https://missileer.watch",
-      "title_zh": "在11175 kHz 收听/阅读美国核力量的紧急行动信息",
-      "created_display": "Created: Oct 24, 2026 / 12:43 PT",
-      "image_url": "https://missileer.watch/assets/og/home.png?v=1",
-      "summary_en": "Emergency Action Messages from U.S. nuclear forces are heard on HF radio, revealing the format and cadence of crisis communications. The material underscores the critical role of robust, out-of-band channels in national security and informs how modern systems should design for resilience.",
-      "summary_zh": "美国核力量的紧急行动信息通过高频电台收听，暴露了危机通信的格式与节奏。这些材料强调了稳健的带外通道在国家安全中的关键作用，并为现代系统的鲁棒性设计提供参考。",
-      "hn": {
-        "id": 50224422,
-        "type": "story",
-        "by": "liotier",
-        "score": 164,
-        "descendants": 109,
-        "time": 1792871007,
-        "comments_url": "https://news.ycombinator.com/item?id=50224422"
-      },
-      "tags": [
-        "Security",
-        "Energy"
-      ],
-      "hot_score": 1.51
     },
     {
       "title_en": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
@@ -288,8 +310,8 @@
         "id": 50212065,
         "type": "story",
         "by": "Jowsey",
-        "score": 1064,
-        "descendants": 655,
+        "score": 1066,
+        "descendants": 661,
         "time": 1792774748,
         "comments_url": "https://news.ycombinator.com/item?id=50212065"
       },
@@ -297,30 +319,7 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 1.38
-    },
-    {
-      "title_en": "Why is AI generated language so hard to understand?",
-      "url": "https://arxiv.org/abs/2610.29162",
-      "title_zh": "为什么AI生成的语言这么难以理解？",
-      "created_display": "Created: Oct 24, 2026 / 11:04 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "The paper argues that AI-generated text can be difficult to understand due to misalignment between training goals and human intent, variability in prompts, and emergent model behavior. These factors complicate evaluation, reliability, and safety when deploying language models.",
-      "summary_zh": "论文认为，AI 生成的文本难以理解，原因包括训练目标与人类意图之间的错位、提示的变异性以及模型行为的涌现性。这些因素使在部署语言模型时的评估、可靠性和安全性更加复杂。",
-      "hn": {
-        "id": 50223647,
-        "type": "story",
-        "by": "canjobear",
-        "score": 184,
-        "descendants": 161,
-        "time": 1792865097,
-        "comments_url": "https://news.ycombinator.com/item?id=50223647"
-      },
-      "tags": [
-        "AI",
-        "Science"
-      ],
-      "hot_score": 1.38
+      "hot_score": 1.17
     },
     {
       "title_en": "Today, we hacked what we'd set out to hack: the iPhone",
@@ -334,15 +333,39 @@
         "id": 50211474,
         "type": "story",
         "by": "pavel_lishin",
-        "score": 1077,
-        "descendants": 686,
+        "score": 1083,
+        "descendants": 693,
         "time": 1792772510,
         "comments_url": "https://news.ycombinator.com/item?id=50211474"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 1.36
+      "hot_score": 1.16
+    },
+    {
+      "title_en": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "title_zh": "FreeDNS：免费 DNS 托管服务",
+      "created_display": "Created: Oct 24, 2026 / 08:20 PT",
+      "image_url": "https://freedns.afraid.org/images/bitcoin-logo.jpg",
+      "summary_en": "FreeDNS remains a long-running free DNS hosting option, offering dynamic DNS and subdomain management for hobby projects and small services. While it's convenient, users should consider reliability, privacy, and potential ads when relying on free infrastructure for critical systems.",
+      "summary_zh": "FreeDNS 继续提供免费的 DNS 托管、动态 DNS 及子域名管理，适合个人项目和小型服务使用。使用者应权衡可用性、隐私和对关键系统的依赖性，避免把核心服务寄托在免费基础设施上。",
+      "hn": {
+        "id": 50222133,
+        "type": "story",
+        "by": "esher",
+        "score": 297,
+        "descendants": 82,
+        "time": 1792855201,
+        "comments_url": "https://news.ycombinator.com/item?id=50222133"
+      },
+      "tags": [
+        "Web",
+        "Privacy",
+        "DevOps"
+      ],
+      "hot_score": 1.16
     },
     {
       "title_en": "Around a dozen banking apps began specifically permitting GrapheneOS",
@@ -356,8 +379,8 @@
         "id": 50217495,
         "type": "story",
         "by": "privacyishuman",
-        "score": 639,
-        "descendants": 303,
+        "score": 650,
+        "descendants": 307,
         "time": 1792804514,
         "comments_url": "https://news.ycombinator.com/item?id=50217495"
       },
@@ -365,51 +388,53 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 1.25
+      "hot_score": 1.03
     },
     {
-      "title_en": "OBS Studio 33",
-      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
-      "title_zh": "OBS Studio 33 版本发布",
-      "created_display": "Created: Oct 23, 2026 / 21:49 PT",
-      "image_url": "https://opengraph.githubassets.com/82c6e9a0e4255bc7370dd6125ccb078791f7b4a2f6b9c5e4b0198d0e7df1ff10/obsproject/obs-studio/releases/tag/33.0.0",
-      "summary_en": "OBS Studio 33 arrives with new features, performance tweaks, and bug fixes, continuing the project’s open-source momentum for live streaming and screen capture. The update improves stability and compatibility for creators relying on high-fidelity audio/video.",
-      "summary_zh": "OBS Studio 33 发布，带来新功能、性能优化与 bug 修复，持续推动开源直播和录制工具的发展。此次更新提升了稳定性与兼容性，方便依赖高保真的主播和创作者。",
+      "title_en": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "title_zh": "为什么AI生成的语言这么难以理解？",
+      "created_display": "Created: Oct 24, 2026 / 11:04 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "The paper argues that AI-generated text can be difficult to understand due to misalignment between training goals and human intent, variability in prompts, and emergent model behavior. These factors complicate evaluation, reliability, and safety when deploying language models.",
+      "summary_zh": "论文认为，AI 生成的文本难以理解，原因包括训练目标与人类意图之间的错位、提示的变异性以及模型行为的涌现性。这些因素使在部署语言模型时的评估、可靠性和安全性更加复杂。",
       "hn": {
-        "id": 50218430,
+        "id": 50223647,
         "type": "story",
-        "by": "pentagrama",
-        "score": 448,
-        "descendants": 167,
-        "time": 1792817398,
-        "comments_url": "https://news.ycombinator.com/item?id=50218430"
+        "by": "canjobear",
+        "score": 207,
+        "descendants": 171,
+        "time": 1792865097,
+        "comments_url": "https://news.ycombinator.com/item?id=50223647"
       },
       "tags": [
-        "Open Source"
+        "AI",
+        "Science"
       ],
-      "hot_score": 1.09
+      "hot_score": 1.03
     },
     {
-      "title_en": "SpeedCrunch 1.1",
-      "url": "https://www.speedcrunch.org/",
-      "title_zh": "SpeedCrunch 1.1 版本",
-      "created_display": "Created: Oct 24, 2026 / 12:19 PT",
-      "image_url": "https://www.speedcrunch.org/screen1.png",
-      "summary_en": "SpeedCrunch 1.1 continues to refine the open-source calculator with improvements in usability and function surface. The update likely adds small quality-of-life enhancements, improved precision handling, and possibly new math features or plugins.",
-      "summary_zh": "SpeedCrunch 1.1 版本对这款开源计算器进行细节优化，提升可用性与功能覆盖。更新可能带来更好的人机交互、精度处理和新增的数学功能或插件支持。",
+      "title_en": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+      "url": "https://missileer.watch",
+      "title_zh": "在11175 kHz 收听/阅读美国核力量的紧急行动信息",
+      "created_display": "Created: Oct 24, 2026 / 12:43 PT",
+      "image_url": "https://missileer.watch/assets/og/home.png?v=1",
+      "summary_en": "Emergency Action Messages from U.S. nuclear forces are heard on HF radio, revealing the format and cadence of crisis communications. The material underscores the critical role of robust, out-of-band channels in national security and informs how modern systems should design for resilience.",
+      "summary_zh": "美国核力量的紧急行动信息通过高频电台收听，暴露了危机通信的格式与节奏。这些材料强调了稳健的带外通道在国家安全中的关键作用，并为现代系统的鲁棒性设计提供参考。",
       "hn": {
-        "id": 50224210,
+        "id": 50224422,
         "type": "story",
-        "by": "LordNibbler",
-        "score": 123,
-        "descendants": 22,
-        "time": 1792869583,
-        "comments_url": "https://news.ycombinator.com/item?id=50224210"
+        "by": "liotier",
+        "score": 176,
+        "descendants": 115,
+        "time": 1792871007,
+        "comments_url": "https://news.ycombinator.com/item?id=50224422"
       },
       "tags": [
-        "Open Source"
+        "Security",
+        "Energy"
       ],
-      "hot_score": 1.08
+      "hot_score": 1.03
     },
     {
       "title_en": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
@@ -423,8 +448,8 @@
         "id": 50202285,
         "type": "story",
         "by": "sohkamyung",
-        "score": 1570,
-        "descendants": 245,
+        "score": 1600,
+        "descendants": 247,
         "time": 1792710078,
         "comments_url": "https://news.ycombinator.com/item?id=50202285"
       },
@@ -432,30 +457,51 @@
         "Web",
         "Privacy"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.95
     },
     {
-      "title_en": "I don't understand quantum physics (2018)",
-      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
-      "title_zh": "我不懂量子物理",
-      "created_display": "Created: Oct 24, 2026 / 02:53 PT",
-      "image_url": null,
-      "summary_en": "A plain-language primer on quantum physics concepts such as superposition and entanglement, without heavy math. It emphasizes intuition and clear explanations, making the basics accessible to developers and curious readers.",
-      "summary_zh": "这份简明指南用通俗语言介绍量子概念，不依赖高深数学。强调直觉与核心原理，适合对量子领域感兴趣的科技工作者与学生快速把握要点。",
+      "title_en": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "title_zh": "OBS Studio 33 版本发布",
+      "created_display": "Created: Oct 23, 2026 / 21:49 PT",
+      "image_url": "https://opengraph.githubassets.com/82c6e9a0e4255bc7370dd6125ccb078791f7b4a2f6b9c5e4b0198d0e7df1ff10/obsproject/obs-studio/releases/tag/33.0.0",
+      "summary_en": "OBS Studio 33 arrives with new features, performance tweaks, and bug fixes, continuing the project’s open-source momentum for live streaming and screen capture. The update improves stability and compatibility for creators relying on high-fidelity audio/video.",
+      "summary_zh": "OBS Studio 33 发布，带来新功能、性能优化与 bug 修复，持续推动开源直播和录制工具的发展。此次更新提升了稳定性与兼容性，方便依赖高保真的主播和创作者。",
       "hn": {
-        "id": 50219666,
+        "id": 50218430,
         "type": "story",
-        "by": "rramadass",
-        "score": 301,
-        "descendants": 239,
-        "time": 1792835606,
-        "comments_url": "https://news.ycombinator.com/item?id=50219666"
+        "by": "pentagrama",
+        "score": 452,
+        "descendants": 172,
+        "time": 1792817398,
+        "comments_url": "https://news.ycombinator.com/item?id=50218430"
       },
       "tags": [
-        "Science",
-        "Education"
+        "Open Source"
       ],
-      "hot_score": 1.04
+      "hot_score": 0.87
+    },
+    {
+      "title_en": "SpeedCrunch 1.1",
+      "url": "https://www.speedcrunch.org/",
+      "title_zh": "SpeedCrunch 1.1 版本",
+      "created_display": "Created: Oct 24, 2026 / 12:19 PT",
+      "image_url": "https://www.speedcrunch.org/screen1.png",
+      "summary_en": "SpeedCrunch 1.1 continues to refine the open-source calculator with improvements in usability and function surface. The update likely adds small quality-of-life enhancements, improved precision handling, and possibly new math features or plugins.",
+      "summary_zh": "SpeedCrunch 1.1 版本对这款开源计算器进行细节优化，提升可用性与功能覆盖。更新可能带来更好的人机交互、精度处理和新增的数学功能或插件支持。",
+      "hn": {
+        "id": 50224210,
+        "type": "story",
+        "by": "LordNibbler",
+        "score": 156,
+        "descendants": 28,
+        "time": 1792869583,
+        "comments_url": "https://news.ycombinator.com/item?id=50224210"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 0.87
     },
     {
       "title_en": "Small Programs and Languages",
@@ -469,39 +515,15 @@
         "id": 50225674,
         "type": "story",
         "by": "andsoitis",
-        "score": 84,
-        "descendants": 6,
+        "score": 120,
+        "descendants": 14,
         "time": 1792878263,
         "comments_url": "https://news.ycombinator.com/item?id=50225674"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.03
-    },
-    {
-      "title_en": "Why Gopher in 2026?",
-      "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
-      "title_zh": "为什么在 2026 年需要 Gopher？",
-      "created_display": "Created: Oct 24, 2026 / 16:33 PT",
-      "image_url": null,
-      "summary_en": "Gopher is making a case for itself as a lightweight, privacy-respecting alternative to the modern Web. The piece argues that by 2026 the protocol could see renewed adoption thanks to simple tooling and open standards, even as the Web evolves.",
-      "summary_zh": "这篇博文认为，简化且注重隐私的 Gopher 协议可能在 2026 年重新获得关注。凭借简易的工具链与开放标准，Gopher 可能在现代 Web 进化的同时获得新的采纳机会。",
-      "hn": {
-        "id": 50226577,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 60,
-        "descendants": 16,
-        "time": 1792884799,
-        "comments_url": "https://news.ycombinator.com/item?id=50226577"
-      },
-      "hot_score": 1.0,
-      "tags": [
-        "Web",
-        "Open Source",
-        "Privacy"
-      ]
+      "hot_score": 0.87
     },
     {
       "title_en": "Apple Music 404 Not Found",
@@ -515,15 +537,38 @@
         "id": 50207910,
         "type": "story",
         "by": "frizlab",
-        "score": 914,
-        "descendants": 269,
+        "score": 919,
+        "descendants": 270,
         "time": 1792758527,
         "comments_url": "https://news.ycombinator.com/item?id=50207910"
       },
       "tags": [
         "Web"
       ],
-      "hot_score": 0.98
+      "hot_score": 0.84
+    },
+    {
+      "title_en": "I don't understand quantum physics (2018)",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "title_zh": "我不懂量子物理",
+      "created_display": "Created: Oct 24, 2026 / 02:53 PT",
+      "image_url": null,
+      "summary_en": "A plain-language primer on quantum physics concepts such as superposition and entanglement, without heavy math. It emphasizes intuition and clear explanations, making the basics accessible to developers and curious readers.",
+      "summary_zh": "这份简明指南用通俗语言介绍量子概念，不依赖高深数学。强调直觉与核心原理，适合对量子领域感兴趣的科技工作者与学生快速把握要点。",
+      "hn": {
+        "id": 50219666,
+        "type": "story",
+        "by": "rramadass",
+        "score": 320,
+        "descendants": 254,
+        "time": 1792835606,
+        "comments_url": "https://news.ycombinator.com/item?id=50219666"
+      },
+      "tags": [
+        "Education",
+        "Science"
+      ],
+      "hot_score": 0.83
     },
     {
       "title_en": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
@@ -537,16 +582,39 @@
         "id": 50219177,
         "type": "story",
         "by": "theanonymousone",
-        "score": 297,
-        "descendants": 150,
+        "score": 328,
+        "descendants": 157,
         "time": 1792829199,
         "comments_url": "https://news.ycombinator.com/item?id=50219177"
       },
       "tags": [
         "Security",
-        "Programming"
+        "DevOps"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.76
+    },
+    {
+      "title_en": "Why Gopher in 2026?",
+      "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+      "title_zh": "为什么在 2026 年需要 Gopher？",
+      "created_display": "Created: Oct 24, 2026 / 16:33 PT",
+      "image_url": null,
+      "summary_en": "Gopher is making a case for itself as a lightweight, privacy-respecting alternative to the modern Web. The piece argues that by 2026 the protocol could see renewed adoption thanks to simple tooling and open standards, even as the Web evolves.",
+      "summary_zh": "这篇博文认为，简化且注重隐私的 Gopher 协议可能在 2026 年重新获得关注。凭借简易的工具链与开放标准，Gopher 可能在现代 Web 进化的同时获得新的采纳机会。",
+      "hn": {
+        "id": 50226577,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 82,
+        "descendants": 30,
+        "time": 1792884799,
+        "comments_url": "https://news.ycombinator.com/item?id=50226577"
+      },
+      "tags": [
+        "Web",
+        "Privacy"
+      ],
+      "hot_score": 0.74
     },
     {
       "title_en": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
@@ -560,40 +628,17 @@
         "id": 50219700,
         "type": "story",
         "by": "fragebogen",
-        "score": 225,
-        "descendants": 70,
+        "score": 259,
+        "descendants": 73,
         "time": 1792835907,
         "comments_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "tags": [
         "Hardware",
-        "AI",
-        "Programming"
+        "Programming",
+        "AI"
       ],
-      "hot_score": 0.78
-    },
-    {
-      "title_en": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
-      "url": "https://de.numista.com/9866",
-      "title_zh": "圣赫勒拿岛5便士硬币印有乔纳森，一只约190年的象龟",
-      "created_display": "Created: Oct 24, 2026 / 09:41 PT",
-      "image_url": null,
-      "summary_en": "The St. Helena 5 pence coin features Jonathan, the island's famous tortoise believed to be around 190 years old. The coin highlights how long-lived individual animals can become cultural icons and bridge biology with numismatics, sparking interest among collectors and educators.",
-      "summary_zh": "圣赫勒拿岛5便士硬币印有乔纳森——这只被认为约190岁的象龟，成为岛屿长寿动物的象征。该硬币展示了生物学与钱币收藏之间的交叉，激发收藏者与教育者的兴趣。",
-      "hn": {
-        "id": 50222927,
-        "type": "story",
-        "by": "schleck8",
-        "score": 112,
-        "descendants": 33,
-        "time": 1792860115,
-        "comments_url": "https://news.ycombinator.com/item?id=50222927"
-      },
-      "tags": [
-        "Culture",
-        "Science"
-      ],
-      "hot_score": 0.72
+      "hot_score": 0.68
     },
     {
       "title_en": "Bbtree: Fastest Ordered Map",
@@ -607,15 +652,38 @@
         "id": 50223777,
         "type": "story",
         "by": "aoli-al",
-        "score": 93,
-        "descendants": 11,
+        "score": 118,
+        "descendants": 14,
         "time": 1792866134,
         "comments_url": "https://news.ycombinator.com/item?id=50223777"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.72
+      "hot_score": 0.6
+    },
+    {
+      "title_en": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "title_zh": "尼康摄影比赛冠军因科学家发现 AI 徽迹被取消",
+      "created_display": "Created: Oct 25, 2026 / 02:51 PT",
+      "image_url": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-12-image-4.jpg",
+      "summary_en": "Scientists detected signs of AI in a Nikon photography contest winner's image, leading Nikon to revoke the title. The controversy spotlights the growing challenge of verifying authenticity in creative work and the ethical questions surrounding AI-assisted art and competitions.",
+      "summary_zh": "科学家在获奖作品中发现人工智能痕迹后，尼康宣布取消该作品冠军头衔。此事凸显在创作领域核实真实性的挑战，以及 AI 在艺术伦理和比赛公正中的日益重要地位。",
+      "hn": {
+        "id": 50229827,
+        "type": "story",
+        "by": "thunderbong",
+        "score": 6,
+        "descendants": 0,
+        "time": 1792921877,
+        "comments_url": "https://news.ycombinator.com/item?id=50229827"
+      },
+      "hot_score": 0.6,
+      "tags": [
+        "AI",
+        "Culture"
+      ]
     },
     {
       "title_en": "The Importance of Limitations for Creativity and Learning (2023)",
@@ -629,15 +697,38 @@
         "id": 50225663,
         "type": "story",
         "by": "andsoitis",
-        "score": 55,
-        "descendants": 14,
+        "score": 78,
+        "descendants": 22,
         "time": 1792878167,
         "comments_url": "https://news.ycombinator.com/item?id=50225663"
       },
       "tags": [
         "Education"
       ],
-      "hot_score": 0.67
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "url": "https://de.numista.com/9866",
+      "title_zh": "圣赫勒拿岛5便士硬币印有乔纳森，一只约190年的象龟",
+      "created_display": "Created: Oct 24, 2026 / 09:41 PT",
+      "image_url": null,
+      "summary_en": "The St. Helena 5 pence coin features Jonathan, the island's famous tortoise believed to be around 190 years old. The coin highlights how long-lived individual animals can become cultural icons and bridge biology with numismatics, sparking interest among collectors and educators.",
+      "summary_zh": "圣赫勒拿岛5便士硬币印有乔纳森——这只被认为约190岁的象龟，成为岛屿长寿动物的象征。该硬币展示了生物学与钱币收藏之间的交叉，激发收藏者与教育者的兴趣。",
+      "hn": {
+        "id": 50222927,
+        "type": "story",
+        "by": "schleck8",
+        "score": 119,
+        "descendants": 39,
+        "time": 1792860115,
+        "comments_url": "https://news.ycombinator.com/item?id=50222927"
+      },
+      "tags": [
+        "Science",
+        "Culture"
+      ],
+      "hot_score": 0.52
     },
     {
       "title_en": "How close can pure functional programming get to C?",
@@ -651,15 +742,15 @@
         "id": 50218195,
         "type": "story",
         "by": "stmonty",
-        "score": 265,
-        "descendants": 92,
+        "score": 269,
+        "descendants": 95,
         "time": 1792813434,
         "comments_url": "https://news.ycombinator.com/item?id=50218195"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.49
     },
     {
       "title_en": "Neural chip decodes interactions between brain regions",
@@ -673,8 +764,8 @@
         "id": 50222525,
         "type": "story",
         "by": "giuliomagnifico",
-        "score": 102,
-        "descendants": 37,
+        "score": 110,
+        "descendants": 42,
         "time": 1792857437,
         "comments_url": "https://news.ycombinator.com/item?id=50222525"
       },
@@ -682,7 +773,76 @@
         "Science",
         "Hardware"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.45
+    },
+    {
+      "title_en": "CVE Tracker",
+      "url": "https://cve.0xosprey.com/",
+      "title_zh": "CVE 跟踪器",
+      "created_display": "Created: Oct 23, 2026 / 14:21 PT",
+      "image_url": "https://cve.0xosprey.com/og.png",
+      "summary_en": "A centralized tracker for CVE disclosures, helping security teams monitor vulnerability severity, affected products, and disclosure timelines. It supports prioritization and remediation planning across complex software stacks.",
+      "summary_zh": "一个集中化的 CVE 漏洞信息跟踪工具，帮助安全团队监控漏洞的严重程度、影响产品和披露时间表。便于在复杂的软件堆栈中进行修复优先级排序与整改计划。",
+      "hn": {
+        "id": 50215530,
+        "type": "story",
+        "by": "Group_B",
+        "score": 218,
+        "descendants": 73,
+        "time": 1792790507,
+        "comments_url": "https://news.ycombinator.com/item?id=50215530"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.29
+    },
+    {
+      "title_en": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "title_zh": "WorldTUI: 我用 360M 模型训练来假装成终端",
+      "created_display": "Created: Oct 21, 2026 / 19:18 PT",
+      "image_url": "https://simedw.com/2026/10/21/world-model-terminal/images/worldtui-cowsay.jpg",
+      "summary_en": "WorldTUI shows that a 360M parameter model can imitate a terminal, turning a language model into a lightweight shell agent. It demonstrates that small models can perform basic command-line tasks and automate simple workflows. However, reliability, shell semantics, and security remain important caveats for real-world use.",
+      "summary_zh": "WorldTUI 展示了用一个 360M 参数的模型来模仿终端界面，将语言模型变成一个可编程的 shell 代理。实验表明小型模型可以完成基本命令行任务并实现简单自动化，但在可靠性、 shell 语义和安全性方面仍存在局限。此结果促使人们思考如何在不依赖大型模型的前提下提升终端工作流。",
+      "hn": {
+        "id": 50190363,
+        "type": "story",
+        "by": "alphax314",
+        "score": 641,
+        "descendants": 192,
+        "time": 1792635521,
+        "comments_url": "https://news.ycombinator.com/item?id=50190363"
+      },
+      "tags": [
+        "AI",
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.23
+    },
+    {
+      "title_en": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+      "title_zh": "Oai-math-revised：用于修订 OpenAI 数学写作的社区中心",
+      "created_display": "Created: Oct 24, 2026 / 08:35 PT",
+      "image_url": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1792872443",
+      "summary_en": "Oai-math-revised is a community hub for revising OpenAI's math write-ups, aiming to improve accuracy and clarity in AI-aligned mathematics content. The project promotes collaborative critique to raise the standard of AI mathematical reasoning.",
+      "summary_zh": "Oai-math-revised 是一个修订 OpenAI 数学写作的社区中心，旨在提升 AI 相关数学内容的准确性与清晰度。该项目通过协作性评审提高 AI 数学推理的质量。",
+      "hn": {
+        "id": 50222283,
+        "type": "story",
+        "by": "tokepi",
+        "score": 45,
+        "descendants": 35,
+        "time": 1792856117,
+        "comments_url": "https://news.ycombinator.com/item?id=50222283"
+      },
+      "tags": [
+        "AI",
+        "Education"
+      ],
+      "hot_score": 0.18
     },
     {
       "title_en": "A CA key that was the number 4 passed its audit. Nobody was assigned to check it",
@@ -701,77 +861,32 @@
         "time": 1792896960,
         "comments_url": "https://news.ycombinator.com/item?id=50227841"
       },
-      "hot_score": 0.37,
+      "hot_score": 0.15,
       "tags": [
         "Security"
       ]
     },
     {
-      "title_en": "CVE Tracker",
-      "url": "https://cve.0xosprey.com/",
-      "title_zh": "CVE 跟踪器",
-      "created_display": "Created: Oct 23, 2026 / 14:21 PT",
-      "image_url": "https://cve.0xosprey.com/og.png",
-      "summary_en": "A centralized tracker for CVE disclosures, helping security teams monitor vulnerability severity, affected products, and disclosure timelines. It supports prioritization and remediation planning across complex software stacks.",
-      "summary_zh": "一个集中化的 CVE 漏洞信息跟踪工具，帮助安全团队监控漏洞的严重程度、影响产品和披露时间表。便于在复杂的软件堆栈中进行修复优先级排序与整改计划。",
+      "title_en": "Physicists trap a single antimatter particle for a month",
+      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+      "title_zh": "物理学家将单个反物质粒子困禁一个月",
+      "created_display": "Created: Oct 21, 2026 / 12:40 PT",
+      "image_url": "https://static.scientificamerican.com/dam/asset/c8ce3ae2-d702-4225-a7d6-2c48e4cc1575/Particle-light-flare.jpg?m=1792593357.873&w=1200",
+      "summary_en": "For the first time, researchers trapped a single antimatter particle for about a month, demonstrating long-term confinement and control. The milestone informs antimatter studies and could influence future antimatter storage and precision measurements.",
+      "summary_zh": "研究人员将单个反物质粒子困禁约一个月，展现了对反物质的长期控制与稳定性。这一里程碑提升了对反物质的研究能力，或为未来的精密测量和储存方案提供线索。",
       "hn": {
-        "id": 50215530,
+        "id": 50186450,
         "type": "story",
-        "by": "Group_B",
-        "score": 217,
-        "descendants": 72,
-        "time": 1792790507,
-        "comments_url": "https://news.ycombinator.com/item?id=50215530"
+        "by": "mooreds",
+        "score": 311,
+        "descendants": 89,
+        "time": 1792611601,
+        "comments_url": "https://news.ycombinator.com/item?id=50186450"
       },
       "tags": [
-        "Security"
+        "Science"
       ],
-      "hot_score": 0.34
-    },
-    {
-      "title_en": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "title_zh": "WorldTUI: 我用 360M 模型训练来假装成终端",
-      "created_display": "Created: Oct 21, 2026 / 19:18 PT",
-      "image_url": "https://simedw.com/2026/10/21/world-model-terminal/images/worldtui-cowsay.jpg",
-      "summary_en": "WorldTUI shows that a 360M parameter model can imitate a terminal, turning a language model into a lightweight shell agent. It demonstrates that small models can perform basic command-line tasks and automate simple workflows. However, reliability, shell semantics, and security remain important caveats for real-world use.",
-      "summary_zh": "WorldTUI 展示了用一个 360M 参数的模型来模仿终端界面，将语言模型变成一个可编程的 shell 代理。实验表明小型模型可以完成基本命令行任务并实现简单自动化，但在可靠性、 shell 语义和安全性方面仍存在局限。此结果促使人们思考如何在不依赖大型模型的前提下提升终端工作流。",
-      "hn": {
-        "id": 50190363,
-        "type": "story",
-        "by": "alphax314",
-        "score": 641,
-        "descendants": 191,
-        "time": 1792635521,
-        "comments_url": "https://news.ycombinator.com/item?id=50190363"
-      },
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "hot_score": 0.25
-    },
-    {
-      "title_en": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
-      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
-      "title_zh": "Oai-math-revised：用于修订 OpenAI 数学写作的社区中心",
-      "created_display": "Created: Oct 24, 2026 / 08:35 PT",
-      "image_url": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1792872443",
-      "summary_en": "Oai-math-revised is a community hub for revising OpenAI's math write-ups, aiming to improve accuracy and clarity in AI-aligned mathematics content. The project promotes collaborative critique to raise the standard of AI mathematical reasoning.",
-      "summary_zh": "Oai-math-revised 是一个修订 OpenAI 数学写作的社区中心，旨在提升 AI 相关数学内容的准确性与清晰度。该项目通过协作性评审提高 AI 数学推理的质量。",
-      "hn": {
-        "id": 50222283,
-        "type": "story",
-        "by": "tokepi",
-        "score": 42,
-        "descendants": 34,
-        "time": 1792856117,
-        "comments_url": "https://news.ycombinator.com/item?id=50222283"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.24
+      "hot_score": 0.1
     },
     {
       "title_en": "Making My Blog Readable by AI Agents",
@@ -790,33 +905,12 @@
         "time": 1792876893,
         "comments_url": "https://news.ycombinator.com/item?id=50225443"
       },
-      "hot_score": 0.11,
+      "hot_score": 0.06,
       "tags": [
-        "AI",
-        "Web"
+        "Web",
+        "Data",
+        "AI"
       ]
-    },
-    {
-      "title_en": "Physicists trap a single antimatter particle for a month",
-      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
-      "title_zh": "物理学家将单个反物质粒子困禁一个月",
-      "created_display": "Created: Oct 21, 2026 / 12:40 PT",
-      "image_url": "https://static.scientificamerican.com/dam/asset/c8ce3ae2-d702-4225-a7d6-2c48e4cc1575/Particle-light-flare.jpg?m=1792593357.873&w=1200",
-      "summary_en": "For the first time, researchers trapped a single antimatter particle for about a month, demonstrating long-term confinement and control. The milestone informs antimatter studies and could influence future antimatter storage and precision measurements.",
-      "summary_zh": "研究人员将单个反物质粒子困禁约一个月，展现了对反物质的长期控制与稳定性。这一里程碑提升了对反物质的研究能力，或为未来的精密测量和储存方案提供线索。",
-      "hn": {
-        "id": 50186450,
-        "type": "story",
-        "by": "mooreds",
-        "score": 300,
-        "descendants": 86,
-        "time": 1792611601,
-        "comments_url": "https://news.ycombinator.com/item?id=50186450"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.1
     },
     {
       "title_en": "A practical guide to AI image generation, from diffusion to agents",
@@ -830,8 +924,8 @@
         "id": 50171379,
         "type": "story",
         "by": "westsmith",
-        "score": 255,
-        "descendants": 83,
+        "score": 271,
+        "descendants": 89,
         "time": 1792524159,
         "comments_url": "https://news.ycombinator.com/item?id=50171379"
       },
@@ -858,9 +952,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=50194536"
       },
       "tags": [
-        "Gaming"
+        "Programming",
+        "Hardware"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
       "title_en": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
@@ -874,8 +969,8 @@
         "id": 50192975,
         "type": "story",
         "by": "pjmlp",
-        "score": 88,
-        "descendants": 19,
+        "score": 90,
+        "descendants": 21,
         "time": 1792659670,
         "comments_url": "https://news.ycombinator.com/item?id=50192975"
       },
@@ -885,6 +980,29 @@
         "Data"
       ],
       "hot_score": 0.04
+    },
+    {
+      "title_en": "I Built a Stereo Vision Board for Hardware Hackers",
+      "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
+      "title_zh": "为硬件黑客打造的立体视觉开发板",
+      "created_display": "Created: Oct 20, 2026 / 13:45 PT",
+      "image_url": "https://rootkitlabs.com/img/4reel/4reel-front.jpg",
+      "summary_en": "The author built a stereo vision board aimed at hardware hackers, combining dual cameras, real-time processing, and a hardware-friendly software stack. The project illustrates practical challenges of embedding 3D vision in DIY hardware, and offers design cues for approachable experimentation.",
+      "summary_zh": "作者为硬件黑客开发了一个立体视觉开发板，结合双摄像头、实时处理和友好的软件栈。该项目展示了在自制硬件上实现三维视觉的实际挑战，并为爱好者提供可操作的设计思路。",
+      "hn": {
+        "id": 50172432,
+        "type": "story",
+        "by": "machinehum",
+        "score": 85,
+        "descendants": 15,
+        "time": 1792529152,
+        "comments_url": "https://news.ycombinator.com/item?id=50172432"
+      },
+      "tags": [
+        "Hardware",
+        "Programming"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Tiling Noise – Procedural GPU Patterns",
@@ -911,6 +1029,28 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "How Japanese Dried Bonito Is Made",
+      "url": "https://kottke.org/26/10/how-japanese-dried-bonito-is-made",
+      "title_zh": "日本干鲣鱼片是怎么做成的",
+      "created_display": "Created: Oct 22, 2026 / 04:31 PT",
+      "image_url": "https://i.ytimg.com/vi/HsMbNVEJp9g/sddefault.jpg",
+      "summary_en": "Explains the traditional process for making katsuobushi (dried bonito): boil, smoke, dry, and age the skipjack tuna with mold before shaving into thin flakes.",
+      "summary_zh": "文章介绍日本干鲣鱼片的传统制作流程：先煮后烟熏、多轮晾干并经霉菌发酵，最终压制成坚块再刨成薄片。此过程强调风味与保存的平衡，以及高品质出汁所需的耐心工艺。",
+      "hn": {
+        "id": 50193936,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 50,
+        "descendants": 18,
+        "time": 1792668663,
+        "comments_url": "https://news.ycombinator.com/item?id=50193936"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
       "title_en": "Symbolic Learning in Python and Julia",
       "url": "https://github.com/astroautomata/PySR",
       "title_zh": "Python 与 Julia 中的符号学习",
@@ -922,36 +1062,14 @@
         "id": 50171936,
         "type": "story",
         "by": "alex_hirner",
-        "score": 64,
+        "score": 67,
         "descendants": 15,
         "time": 1792526855,
         "comments_url": "https://news.ycombinator.com/item?id=50171936"
       },
       "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 0.01
-    },
-    {
-      "title_en": "I Built a Stereo Vision Board for Hardware Hackers",
-      "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
-      "title_zh": "为硬件黑客打造的立体视觉开发板",
-      "created_display": "Created: Oct 20, 2026 / 13:45 PT",
-      "image_url": "https://rootkitlabs.com/img/4reel/4reel-front.jpg",
-      "summary_en": "The author built a stereo vision board aimed at hardware hackers, combining dual cameras, real-time processing, and a hardware-friendly software stack. The project illustrates practical challenges of embedding 3D vision in DIY hardware, and offers design cues for approachable experimentation.",
-      "summary_zh": "作者为硬件黑客开发了一个立体视觉开发板，结合双摄像头、实时处理和友好的软件栈。该项目展示了在自制硬件上实现三维视觉的实际挑战，并为爱好者提供可操作的设计思路。",
-      "hn": {
-        "id": 50172432,
-        "type": "story",
-        "by": "machinehum",
-        "score": 61,
-        "descendants": 9,
-        "time": 1792529152,
-        "comments_url": "https://news.ycombinator.com/item?id=50172432"
-      },
-      "tags": [
-        "Hardware"
+        "Programming",
+        "Data"
       ],
       "hot_score": 0.01
     },
@@ -967,7 +1085,7 @@
         "id": 50168376,
         "type": "story",
         "by": "derHackerman",
-        "score": 56,
+        "score": 57,
         "descendants": 15,
         "time": 1792512015,
         "comments_url": "https://news.ycombinator.com/item?id=50168376"
@@ -990,16 +1108,39 @@
         "id": 50169450,
         "type": "story",
         "by": "XzetaU8",
-        "score": 35,
-        "descendants": 4,
+        "score": 52,
+        "descendants": 24,
         "time": 1792516008,
         "comments_url": "https://news.ycombinator.com/item?id=50169450"
       },
-      "hot_score": 0.01,
       "tags": [
+        "Science",
         "Culture",
         "Health"
-      ]
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "A story of a Figma bug that wasn't a bug at all (2021)",
+      "url": "https://aresluna.org/this-is-a-story-of-a-figma-bug/",
+      "title_zh": "Figma 的一个并非 bug 的 bug 故事（2021）",
+      "created_display": "Created: Oct 21, 2026 / 12:30 PT",
+      "image_url": "https://aresluna.org/images/this-is-a-story-of-a-figma-bug/ogimage.png",
+      "summary_en": "A story about a Figma bug that wasn’t a bug at all (2021) examines how a UI behavior was eventually understood as intentional design, prompting a re-think of bug-triage and user expectations.",
+      "summary_zh": "该故事回顾了在 Figma 中被误判为 bug 的情形，最终发现该行为其实是设计或系统的一部分。文章反思了缺陷报告的误判原因，以及 UX 设计决策如何影响问题的定位。",
+      "hn": {
+        "id": 50186289,
+        "type": "story",
+        "by": "jllyhill",
+        "score": 35,
+        "descendants": 2,
+        "time": 1792611052,
+        "comments_url": "https://news.ycombinator.com/item?id=50186289"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Cecilia Berdichevsky, Clementina expert (1961)",
@@ -1013,12 +1154,35 @@
         "id": 50179920,
         "type": "story",
         "by": "fedecaccia",
-        "score": 32,
+        "score": 33,
         "descendants": 2,
         "time": 1792586446,
         "comments_url": "https://news.ycombinator.com/item?id=50179920"
       },
       "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "In Rainbows",
+      "url": "https://hitogata.neocities.org/Rainbows",
+      "title_zh": "In Rainbows（Radiohead 专辑）",
+      "created_display": "Created: Oct 22, 2026 / 06:20 PT",
+      "image_url": "https://hitogata.neocities.org/rainbows_logo_scaled.png",
+      "summary_en": "A fan-built or creatively presented piece centered on Radiohead's In Rainbows.",
+      "summary_zh": "一个由粉丝创作、围绕 Radiohead 专辑《In Rainbows》的创意项目。",
+      "hn": {
+        "id": 50194935,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 28,
+        "descendants": 8,
+        "time": 1792675204,
+        "comments_url": "https://news.ycombinator.com/item?id=50194935"
+      },
+      "tags": [
+        "Entertainment",
         "Culture"
       ],
       "hot_score": 0.01
@@ -1042,7 +1206,30 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Open Source"
+        "Open Source",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Rewriting a Commercial Engine in Jai",
+      "url": "https://polygonjs.com/blog/why-i-rewrote-polygon-from-scratch",
+      "title_zh": "用 Jai 重写商业引擎",
+      "created_display": "Created: Oct 22, 2026 / 05:50 PT",
+      "image_url": "https://polygonjs.com/scenes/0f4c6a49-1624-499d-a4f0-d5b630ea6b05/screenshot",
+      "summary_en": "A developer documents rewriting a commercial engine in Jai, motivated by language design choices and performance goals. The story illustrates the trade-offs of building from scratch versus upgrading legacy code, offering practical lessons on language ecosystems, tooling, and maintenance impact.",
+      "summary_zh": "开发者讲述用 Jai 重写一款商业引擎的经验与动机，聚焦语言设计、性能提升，以及从头重建与改进现有代码之间的权衡。提供关于在游戏/图形软件中选择语言与重写技术栈成本的现实参考。",
+      "hn": {
+        "id": 50194645,
+        "type": "story",
+        "by": "frading",
+        "score": 27,
+        "descendants": 15,
+        "time": 1792673443,
+        "comments_url": "https://news.ycombinator.com/item?id=50194645"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1068,50 +1255,6 @@
       ]
     },
     {
-      "title_en": "A story of a Figma bug that wasn't a bug at all (2021)",
-      "url": "https://aresluna.org/this-is-a-story-of-a-figma-bug/",
-      "title_zh": "Figma 的一个并非 bug 的 bug 故事（2021）",
-      "created_display": "Created: Oct 21, 2026 / 12:30 PT",
-      "image_url": "https://aresluna.org/images/this-is-a-story-of-a-figma-bug/ogimage.png",
-      "summary_en": "A story about a Figma bug that wasn’t a bug at all (2021) examines how a UI behavior was eventually understood as intentional design, prompting a re-think of bug-triage and user expectations.",
-      "summary_zh": "该故事回顾了在 Figma 中被误判为 bug 的情形，最终发现该行为其实是设计或系统的一部分。文章反思了缺陷报告的误判原因，以及 UX 设计决策如何影响问题的定位。",
-      "hn": {
-        "id": 50186289,
-        "type": "story",
-        "by": "jllyhill",
-        "score": 21,
-        "descendants": 1,
-        "time": 1792611052,
-        "comments_url": "https://news.ycombinator.com/item?id=50186289"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "In Rainbows",
-      "url": "https://hitogata.neocities.org/Rainbows",
-      "title_zh": "In Rainbows（Radiohead 专辑）",
-      "created_display": "Created: Oct 22, 2026 / 06:20 PT",
-      "image_url": "https://hitogata.neocities.org/rainbows_logo_scaled.png",
-      "summary_en": "A fan-built or creatively presented piece centered on Radiohead's In Rainbows.",
-      "summary_zh": "一个由粉丝创作、围绕 Radiohead 专辑《In Rainbows》的创意项目。",
-      "hn": {
-        "id": 50194935,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 21,
-        "descendants": 3,
-        "time": 1792675204,
-        "comments_url": "https://news.ycombinator.com/item?id=50194935"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Entertainment"
-      ]
-    },
-    {
       "title_en": "Pragtical v3.14 Lua-based text editor adds menus, floating views, and sessions",
       "url": "https://pragtical.dev/blog/pragtical-v3140-release",
       "title_zh": "Pragtical v3.14：基于 Lua 的文本编辑器新增菜单、浮动视图与会话",
@@ -1123,14 +1266,38 @@
         "id": 50176674,
         "type": "story",
         "by": "rd07",
-        "score": 11,
-        "descendants": 1,
+        "score": 18,
+        "descendants": 2,
         "time": 1792562944,
         "comments_url": "https://news.ycombinator.com/item?id=50176674"
       },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.0
+    },
+    {
+      "title_en": "Cannabis legalisation and cardiovascular hospitalisations in the USA",
+      "url": "https://bmjopen.bmj.com/content/16/10/e111050",
+      "title_zh": "美国大麻合法化与心血管住院率",
+      "created_display": "Created: Oct 22, 2026 / 17:23 PT",
+      "image_url": null,
+      "summary_en": "A BMJ Open study finds an association between cannabis legalization and increased cardiovascular hospitalizations in the US, prompting discussion of public health and policy design. The study signals the need for careful monitoring and further research to understand causality and long-term health effects.",
+      "summary_zh": "BMJ Open 的一项研究显示，美国大麻合法化与心血管相关住院率之间存在相关性，提示公共卫生层面的潜在影响。结果引发关于政策设计、监测和教育的讨论，强调需要更细致的长期研究来区分政策变化与健康结果的因果关系。",
+      "hn": {
+        "id": 50202964,
+        "type": "story",
+        "by": "gumby",
+        "score": 8,
+        "descendants": 6,
+        "time": 1792715023,
+        "comments_url": "https://news.ycombinator.com/item?id=50202964"
+      },
       "hot_score": 0.0,
       "tags": [
-        "Programming"
+        "Health",
+        "Politics"
       ]
     },
     {
@@ -1152,7 +1319,31 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Science"
+        "Science",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Tablesample Picks Rows",
+      "url": "https://boringsql.com/posts/tablesample/",
+      "title_zh": "Tablesample 取样：表中的行如何被选中",
+      "created_display": "Created: Oct 22, 2026 / 05:00 PT",
+      "image_url": "https://boringsql.com/og-images/tablesample-system-og.jpg",
+      "summary_en": "Tablesample lets you sample rows from a table using either BERNOULLI or SYSTEM methods, with caveats about reproducibility and page-level granularity. The post clarifies when and how to use table sampling to estimate results or improve query performance, and what to watch out for in accuracy.",
+      "summary_zh": "Tablesample 是一个 SQL 结构，按一定采样方法返回部分行，并区分 BERNOULLI 与 SYSTEM 两种采样方式，同时注意页级采样带来的可重复性和精度差异。文中解释在何时使用表采样来估算结果或提升查询绩效，以及需注意的准确性问题。",
+      "hn": {
+        "id": 50194157,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 4,
+        "descendants": 0,
+        "time": 1792670404,
+        "comments_url": "https://news.ycombinator.com/item?id=50194157"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming",
+        "Data"
       ]
     }
   ]
