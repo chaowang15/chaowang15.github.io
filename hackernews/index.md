@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>249</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36721</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>244</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>247</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>249</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36771</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>245</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>247</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -132,7 +132,7 @@ Sort:
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/26/top_stories_10262026'>View all trending stories &rarr;</a>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/24/best_stories_10242026'>Latest Daily Best — 2026-10-24 &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/25/best_stories_10252026'>Latest Daily Best — 2026-10-25 &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
@@ -159,13 +159,21 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 43</span>
-<span class='hn-week-meta'>2026-10-19 — 2026-10-25 <span class="hn-row-sep">·</span> 996 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-10-19 — 2026-10-25 <span class="hn-row-sep">·</span> 1046 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
+<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W43'>
+<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
+<span class='hn-row-detail'>2026-10-19 — 2026-10-25 <span class="hn-row-sep">·</span> All <b>503</b> <span class="hn-row-sep">·</span> AI <b>115</b> <span class="hn-row-sep">·</span> Programming <b>102</b></span>
+</a>
 <div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-25 <span class='hn-day-weekday'>Sun</span></div>
 <div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/25/best_stories_10252026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
 <a class='hn-story-link' href='/hackernews/2026/10/25/top_stories_10252026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
