@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>250</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36861</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>245</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>250</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36871</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>245</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='770' data-hn-time='1793050528'>
+<div class='hn-top-story-item' data-hn-score='126' data-hn-time='1793096870'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50256985'>Roblox downloaded 145GB models from us (including adult content) without asking</a>
+ <a class='hn-top-story-link' href='https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Roblox 未经授权从我们的网站下载了145GB模型（含成人内容）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1793095145'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50256738'>I will no longer upload to NEW</a>
+ <a class='hn-top-story-link' href='https://lists.debian.org/debian-devel/2026/10/msg00263.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我将不再向 NEW 提交软件包</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='960' data-hn-time='1793050528'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50251344'>Three new discoveries in mathematics, computer science, and physics</a>
  <a class='hn-top-story-link' href='https://openai.com/index/building-scientific-understanding-with-academic-communities/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>宣布数学、计算机科学与物理学三项新发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 770</span> <span class='hn-top-story-comments'>&#128172; 341</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 960</span> <span class='hn-top-story-comments'>&#128172; 500</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1573' data-hn-time='1793019890'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='210' data-hn-time='1793082337'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50255298'>The Mythical Man-Month in the Age of AI</a>
+ <a class='hn-top-story-link' href='https://j11g.com/the-mythical-man-month-in-the-age-of-ai' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI时代的人月神话</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1631' data-hn-time='1793019890'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50242939'>Anthropic S-1</a>
  <a class='hn-top-story-link' href='https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Anthropic 的 S-1 招股书</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 1573</span> <span class='hn-top-story-comments'>&#128172; 1508</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 1631</span> <span class='hn-top-story-comments'>&#128172; 1555</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='540' data-hn-time='1793051955'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='661' data-hn-time='1793051955'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50251661'>The Exponential Time Hypothesis Is False [pdf]</a>
  <a class='hn-top-story-link' href='https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>指数时间假设不成立</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 540</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 661</span> <span class='hn-top-story-comments'>&#128172; 250</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='892' data-hn-time='1793028912'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='19' data-hn-time='1793100635'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50257548'>Software may be getting worse, but it used to be horrible</a>
+ <a class='hn-top-story-link' href='https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>软件可能在变糟，但过去其实更糟</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 19</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='967' data-hn-time='1793028912'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50245524'>Microsoft offers mass buyouts for roughly a quarter of its workforce</a>
  <a class='hn-top-story-link' href='https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软为约四分之一员工提供大规模自愿离职计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 892</span> <span class='hn-top-story-comments'>&#128172; 835</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 967</span> <span class='hn-top-story-comments'>&#128172; 949</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='61' data-hn-time='1793076832'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50254836'>There are now 5 inference providers for abliterated DeepSeek</a>
- <a class='hn-top-story-link' href='https://allmodels.io/llm/abliterated' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>现有5个推断提供商支持 abliterated DeepSeek</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='573' data-hn-time='1793037677'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='600' data-hn-time='1793037677'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50248124'>GPT-6.1 Terra</a>
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-6-1-terra/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-6.1 Terra</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 356</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 600</span> <span class='hn-top-story-comments'>&#128172; 378</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='662' data-hn-time='1793027519'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50245138'>Sebastian Raschka's from-scratch video course on building reasoning models</a>
- <a class='hn-top-story-link' href='https://magazine.sebastianraschka.com/p/building-reasoning-models' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Sebastian Raschka 的从零开始构建推理模型的视频课程</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 662</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='376' data-hn-time='1793037415'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50248055'>Oldest GUI application that still runs on Windows 11</a>
- <a class='hn-top-story-link' href='https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>仍在 Windows 11 上运行的最古老 GUI 应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 218</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='435' data-hn-time='1793029883'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50245831'>CSS-Tricks has a new owner</a>
- <a class='hn-top-story-link' href='https://css-tricks.com/css-tricks-has-a-new-owner/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>CSS-Tricks 迎来新所有者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 435</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1793077988'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='18' data-hn-time='1793099295'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50254935'>UK to charge universities $1,200 per international student</a>
- <a class='hn-top-story-link' href='https://africa.businessinsider.com/local/markets/uk-to-charge-universities-dollar1200-per-international-student-including-those-from/qe5rqbe' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50257326'>Wikipedia's Cleanup of AI-Generated Content</a>
+ <a class='hn-top-story-link' href='https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英国拟对国际学生征收每名1200美元的附加费用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>维基百科对 AI 生成内容的清理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 18</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 44 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-26 — 2026-10-27 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-10-26 — 2026-10-27 <span class="hn-row-sep">·</span> 160 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/27/top_stories_10272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>60</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>14</b></span>
 </a>
 </div>
 </div>
