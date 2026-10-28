@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>251</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37071</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>247</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>249</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>251</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37100</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>247</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>249</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1793185420'>
+<div class='hn-top-story-item' data-hn-score='470' data-hn-time='1793206883'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50271640'>Ten days later, Git on macOS still trusts the compromised eMudhra certificates</a>
- <a class='hn-top-story-link' href='https://emudhra.we-have-a-problem.com/apple.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50276792'>Gemini 4 Carbon</a>
+ <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>十天后，macOS 仍信任被妥协的 eMudhra 证书</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Gemini 4 Carbon：谷歌推出的 Gemini 系列新一代模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 33</span> <span class='hn-top-story-score'>&#9650; 470</span> <span class='hn-top-story-comments'>&#128172; 398</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='32' data-hn-time='1793188463'>
+<div class='hn-top-story-item' data-hn-score='291' data-hn-time='1793207437'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50272145'>Amazon to buy satellite firm Globalstar in $11.57B deal</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50276940'>MacBook Pro with PROLED XDR Display and Touch</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/macbook-pro/proled-xdr-display/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>亚马逊拟以1157亿美元收购 Globalstar 卫星公司</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>配备 PROLED XDR 显示屏和触控的 MacBook Pro</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 291</span> <span class='hn-top-story-comments'>&#128172; 464</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='55' data-hn-time='1793184087'>
+<div class='hn-top-story-item' data-hn-score='1009' data-hn-time='1793191785'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50271457'>Barcelona unrest: how to fabricate a protest in the age of TikTok</a>
- <a class='hn-top-story-link' href='https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50272749'>Evidence of a spying operation by ICE against left-wing social movements</a>
+ <a class='hn-top-story-link' href='https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>巴塞罗那骚乱：TikTok 时代如何制造示威</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>ICE对左翼社会运动实施监视行动的证据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 1009</span> <span class='hn-top-story-comments'>&#128172; 789</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1093' data-hn-time='1793119882'>
+<div class='hn-top-story-item' data-hn-score='880' data-hn-time='1793185420'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50261998'>Ghostty 1.4</a>
- <a class='hn-top-story-link' href='https://ghostty.org/docs/install/release-notes/1-4-0' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50271640'>Apple's git still trusts the compromised eMudhra certificates</a>
+ <a class='hn-top-story-link' href='https://emudhra.we-have-a-problem.com/apple.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ghostty 1.4.0 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 1093</span> <span class='hn-top-story-comments'>&#128172; 348</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>苹果的 Git 仍信任被妥协的 eMudhra 证书</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 880</span> <span class='hn-top-story-comments'>&#128172; 340</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='927' data-hn-time='1793117161'>
+<div class='hn-top-story-item' data-hn-score='277' data-hn-time='1793198302'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50261319'>Genie 4</a>
- <a class='hn-top-story-link' href='https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50274409'>CNC Stone Carving</a>
+ <a class='hn-top-story-link' href='https://carmelitegothic.com/cnc-stone-carving/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Genie 4：世界仿真的新一代</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 927</span> <span class='hn-top-story-comments'>&#128172; 536</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>CNC 石材雕刻</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 277</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='310' data-hn-time='1793152070'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='113' data-hn-time='1793207609'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50268380'>Git for the US Code</a>
- <a class='hn-top-story-link' href='https://lexifina.com/blog/git-for-the-us-code' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50276998'>Why Is This Fingerprinting Script Creating Bioweapons?</a>
+ <a class='hn-top-story-link' href='https://nullpt.rs/fingerprinting-bioweapons' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用 Git 管理美国法典</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 310</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>为什么这个指纹脚本会创建生物武器？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='975' data-hn-time='1793110002'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='314' data-hn-time='1793194890'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50259604'>US Government is hiding a secret court ruling about how it spies on Americans</a>
- <a class='hn-top-story-link' href='https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50273396'>Kentucky man becomes the first humanist granted religious exemption from AI</a>
+ <a class='hn-top-story-link' href='https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国政府隐瞒关于监控美国人的秘密法院裁决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 975</span> <span class='hn-top-story-comments'>&#128172; 375</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>肯塔基男子成首位获批就使用AI申请宗教豁免的人文主义者</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 314</span> <span class='hn-top-story-comments'>&#128172; 368</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='21' data-hn-time='1793185729'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='290' data-hn-time='1793193911'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50271685'>About the compromised eMudhra intermediate CAs</a>
- <a class='hn-top-story-link' href='https://support.apple.com/en-us/149555' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50273171'>Emacs Turns 50</a>
+ <a class='hn-top-story-link' href='https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>关于被妥协的 eMudhra 中间证书颁发机构</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 21</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Emacs迎来50周年</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='391' data-hn-time='1793130906'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='122' data-hn-time='1793201518'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50264853'>Survival LLM: AI assistant and emergency library that runs on your own computer</a>
- <a class='hn-top-story-link' href='https://www.brangus.io/survival-llm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50275373'>Archive.today links going forward</a>
+ <a class='hn-top-story-link' href='https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Survival LLM：可在本地运行的 AI 助手与应急知识库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 148</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Archive.today 链接的未来走向</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='513' data-hn-time='1793114906'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1793202390'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50260814'>Anthropic trained Claude on illegally obtained Stanford professors' books</a>
- <a class='hn-top-story-link' href='https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/28/top_stories_10282026#story-50275626'>Dayjob: Tax – evaluating AI agents on 50 professional tax assignments</a>
+ <a class='hn-top-story-link' href='https://surgehq.ai/blog/dayjob-tax' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 在 Claude 的训练中使用了非法获得的斯坦福教授书籍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 513</span> <span class='hn-top-story-comments'>&#128172; 272</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>日常工作：税务——在 50 项专业税务任务上评估 AI 代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 44 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-26 — 2026-10-28 <span class="hn-row-sep">·</span> 360 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-10-26 — 2026-10-28 <span class="hn-row-sep">·</span> 389 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/28/top_stories_10282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>60</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
+<span class='hn-row-detail'>All <b>89</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
