@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='525' data-hn-time='1793119882'>
+<div class='hn-top-story-item' data-hn-score='721' data-hn-time='1793119882'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://ghostty.org/docs/install/release-notes/1-4-0' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ghostty 1.4.0 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 525</span> <span class='hn-top-story-comments'>&#128172; 157</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 721</span> <span class='hn-top-story-comments'>&#128172; 220</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='573' data-hn-time='1793117161'>
+<div class='hn-top-story-item' data-hn-score='701' data-hn-time='1793117161'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Genie 4：世界仿真的新一代</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 345</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 701</span> <span class='hn-top-story-comments'>&#128172; 424</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='662' data-hn-time='1793110002'>
+<div class='hn-top-story-item' data-hn-score='768' data-hn-time='1793110002'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,54 +50,54 @@ Sort:
  <a class='hn-top-story-link' href='https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美国政府隐瞒关于监控美国人的秘密法院裁决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 662</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 768</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='103' data-hn-time='1793130921'>
+<div class='hn-top-story-item' data-hn-score='448' data-hn-time='1793114906'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50264857'>Tailscale SSH: Investigation and remediation update</a>
- <a class='hn-top-story-link' href='https://tailscale.com/ssh-investigation-update' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Tailscale SSH：调查进展与整改更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='297' data-hn-time='1793119215'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50261819'>Police are using AI to pull over drivers for 'suspicious' behavior</a>
- <a class='hn-top-story-link' href='https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>警方正在使用 AI 以可疑行为拦车</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 297</span> <span class='hn-top-story-comments'>&#128172; 230</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='362' data-hn-time='1793114906'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50260814'>Anthropic trained Claude on illegally obtained Stanford professors' books</a>
  <a class='hn-top-story-link' href='https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Anthropic 在 Claude 的训练中使用了非法获得的斯坦福教授书籍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 362</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 448</span> <span class='hn-top-story-comments'>&#128172; 256</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='136' data-hn-time='1793126657'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1793130921'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50264857'>Tailscale SSH: Investigation and remediation update</a>
+ <a class='hn-top-story-link' href='https://tailscale.com/ssh-investigation-update' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Tailscale SSH：调查进展与整改更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='228' data-hn-time='1793126657'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50263854'>Discord will soon let anyone find public server messages through Google</a>
  <a class='hn-top-story-link' href='https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Discord 即将允许通过 Google 搜索公开服务器消息</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1793130906'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='336' data-hn-time='1793119215'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50261819'>Police are using AI to pull over drivers for 'suspicious' behavior</a>
+ <a class='hn-top-story-link' href='https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>警方正在使用 AI 以可疑行为拦车</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 336</span> <span class='hn-top-story-comments'>&#128172; 269</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1793130906'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -105,29 +105,29 @@ Sort:
  <a class='hn-top-story-link' href='https://www.brangus.io/survival-llm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Survival LLM：可在本地运行的 AI 助手与应急知识库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='211' data-hn-time='1793117312'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='109' data-hn-time='1793134242'>
 <span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50265609'>Early progress on accelerating drug development with Claude</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/research/early-progress-drug-development' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>使用 Claude 加速药物开发的初步进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='275' data-hn-time='1793117312'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50261352'>New 14‑inch MacBook Pro with M6</a>
  <a class='hn-top-story-link' href='https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果推出新款 14 吋 MacBook Pro，配备 M6</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1793119088'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/27/top_stories_10272026#story-50261784'>A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There</a>
- <a class='hn-top-story-link' href='https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>一名 28 岁的 DOGE 行动人员摧毁了 USAID，HR 未记录其任职</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 275</span> <span class='hn-top-story-comments'>&#128172; 327</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/27/top_stories_10272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
 </a>
 </div>
 </div>
