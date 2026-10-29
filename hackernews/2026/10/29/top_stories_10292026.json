@@ -4,21 +4,88 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 35,
-    "new_llm_enriched": 14,
-    "scrape_time_display": "00:53, October 29, 2026 (PDT)",
+    "count_written": 65,
+    "reused_same_day": 33,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 16,
+    "scrape_time_display": "05:42, October 29, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/29",
     "content_date": "2026-10-29",
-    "run_time_local": "00:53, October 29, 2026 (PDT)",
-    "run_time_utc": "2026-10-29 07:53:48 UTC",
+    "run_time_local": "05:42, October 29, 2026 (PDT)",
+    "run_time_utc": "2026-10-29 12:42:28 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-29 07:55:21 UTC"
+    "hot_score_time_utc": "2026-10-29 12:43:34 UTC"
   },
   "items": [
+    {
+      "title_en": "If IPv4 Were Land",
+      "url": "https://iptrust.co/blog/if-ipv4-were-land",
+      "title_zh": "若把 IPv4 当成陆地",
+      "created_display": "Created: Oct 29, 2026 / 05:19 PT",
+      "image_url": "https://iptrust.co/eu-flag.svg",
+      "summary_en": "IPv4 scarcity is depicted as a shrinking landmass with a fixed coastline of addresses. The piece explains why NATs and address transfers matter, and why IPv6 adoption remains essential for scalable growth. It highlights practical implications for network architects and service providers.",
+      "summary_zh": "将 IPv4 的稀缺性比作逐渐缩小的陆地，地址空间如同海岸线般有限。文章阐述网络地址转换和地址交易的重要性，以及为什么长期推进 IPv6 对实现可扩展性至关重要，并讨论对网络架构师与服务提供商的实际影响。",
+      "hn": {
+        "id": 50287775,
+        "type": "story",
+        "by": "rokostik",
+        "score": 42,
+        "descendants": 3,
+        "time": 1793276340,
+        "comments_url": "https://news.ycombinator.com/item?id=50287775"
+      },
+      "hot_score": 8.42,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "An Urgent Message on Artificial Intelligence from the Kogui People",
+      "url": "https://sonidoselva.com/perspectiva-kogui",
+      "title_zh": "科吉族对人工智能的紧急呼吁",
+      "created_display": "Created: Oct 29, 2026 / 04:29 PT",
+      "image_url": "https://img1.wsimg.com/isteam/ip/93fe72a0-3f74-44e1-82b7-5cd9b2c3bce5/SS%20Logo%20White.png",
+      "summary_en": "The Kogui people issue an urgent message about AI, urging ethical use, data sovereignty, and protection of indigenous knowledge. The statement calls on policymakers and technologists to center consent, cultural rights, and land stewardship in AI development.",
+      "summary_zh": "科吉族发出关于人工智能的紧急呼声，呼吁在 AI 应用中遵循伦理、数据主权与对本土知识的保护。声明敦促政策制定者与技术人员将同意权、文化权利与土地管理置于 AI 发展的核心。",
+      "hn": {
+        "id": 50287359,
+        "type": "story",
+        "by": "andreisag",
+        "score": 68,
+        "descendants": 25,
+        "time": 1793273389,
+        "comments_url": "https://news.ycombinator.com/item?id=50287359"
+      },
+      "hot_score": 8.12,
+      "tags": [
+        "AI",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "url": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months/",
+      "title_zh": "美国三个月新增创纪录的 20.2 GWh 电池储能",
+      "created_display": "Created: Oct 29, 2026 / 03:44 PT",
+      "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Green-River-Energy-Center-Utah.jpg?quality=82&strip=all&resize=1200,628",
+      "summary_en": "The US added a record 20.2 GWh of grid-scale battery storage in three months, signaling rapid growth in storage deployments to support more renewables. This surge reflects policy momentum and project pipelines, while underscoring ongoing challenges like permitting. Expanded storage improves grid reliability and price resilience.",
+      "summary_zh": "美国在三个月内新增创纪录的 20.2 GWh 电网级储能，显示出对可再生能源的更大支撑力。此波增长反映了政策推动与项目渠道的积压，同时也暴露出许可等持续挑战。扩大储能容量将提升电网可靠性与价格韧性。",
+      "hn": {
+        "id": 50287001,
+        "type": "story",
+        "by": "ljf",
+        "score": 95,
+        "descendants": 49,
+        "time": 1793270689,
+        "comments_url": "https://news.ycombinator.com/item?id=50287001"
+      },
+      "hot_score": 7.82,
+      "tags": [
+        "Energy"
+      ]
+    },
     {
       "title_en": "Claude Code regularly sends each background agent’s transcript to its model",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
@@ -31,16 +98,16 @@
         "id": 50284255,
         "type": "story",
         "by": "NikZaal",
-        "score": 302,
-        "descendants": 92,
+        "score": 446,
+        "descendants": 181,
         "time": 1793244822,
         "comments_url": "https://news.ycombinator.com/item?id=50284255"
       },
-      "hot_score": 10.77,
       "tags": [
         "AI",
         "Privacy"
-      ]
+      ],
+      "hot_score": 5.78
     },
     {
       "title_en": "Why is this fingerprinting script creating bioweapons?",
@@ -54,16 +121,16 @@
         "id": 50276998,
         "type": "story",
         "by": "hazebooth",
-        "score": 1104,
-        "descendants": 219,
+        "score": 1351,
+        "descendants": 250,
         "time": 1793207609,
         "comments_url": "https://news.ycombinator.com/item?id=50276998"
       },
       "tags": [
-        "Security",
-        "Science"
+        "Science",
+        "Security"
       ],
-      "hot_score": 6.95
+      "hot_score": 5.39
     },
     {
       "title_en": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
@@ -77,8 +144,8 @@
         "id": 50282838,
         "type": "story",
         "by": "csmantle",
-        "score": 357,
-        "descendants": 79,
+        "score": 559,
+        "descendants": 112,
         "time": 1793233545,
         "comments_url": "https://news.ycombinator.com/item?id=50282838"
       },
@@ -86,29 +153,7 @@
         "Hardware",
         "AI"
       ],
-      "hot_score": 6.2
-    },
-    {
-      "title_en": "Gemini 4 Carbon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "title_zh": "Gemini 4 Carbon：谷歌推出的 Gemini 系列新一代模型",
-      "created_display": "Created: Oct 28, 2026 / 10:01 PT",
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
-      "summary_en": "Gemini 4 Carbon is Google's latest in the Gemini family, focusing on efficiency and safety with improved inference and reliability for enterprise apps. It demonstrates ongoing progress in AI model scaling, with Carbon as a more efficient variant for dense workloads.",
-      "summary_zh": "Gemini 4 Carbon 作为谷歌 Gemini 系列的新一代模型，强调在企业应用中的推理效率与安全性提升。该系列继续推动大模型规模化，Carbon 版本在高密度任务中更具效率。",
-      "hn": {
-        "id": 50276792,
-        "type": "story",
-        "by": "acossta",
-        "score": 900,
-        "descendants": 737,
-        "time": 1793206883,
-        "comments_url": "https://news.ycombinator.com/item?id=50276792"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 5.54
+      "hot_score": 4.65
     },
     {
       "title_en": "StackOverflow now gets fewer than 1000 questions a month",
@@ -122,15 +167,82 @@
         "id": 50282454,
         "type": "story",
         "by": "babelfish",
-        "score": 351,
-        "descendants": 296,
+        "score": 562,
+        "descendants": 467,
         "time": 1793230502,
         "comments_url": "https://news.ycombinator.com/item?id=50282454"
       },
       "tags": [
-        "Web"
+        "Programming"
       ],
-      "hot_score": 5.22
+      "hot_score": 4.21
+    },
+    {
+      "title_en": "Zero click, silent, remote Android DoS",
+      "url": "https://smsofdeath.com/",
+      "title_zh": "零点击静默的远程 Android 拒绝服务攻击",
+      "created_display": "Created: Oct 29, 2026 / 00:08 PT",
+      "image_url": null,
+      "summary_en": "A zero-click, silent remote DoS vulnerability on Android enables denial-of-service without user interaction, potentially affecting many devices. Exploits could be triggered via crafted traffic or messages, highlighting the urgent need for timely OS patches and mitigations.",
+      "summary_zh": "一个无需用户交互、静默发生的 Android 远程拒绝服务漏洞，可能影响大量设备。利用方式可能通过特制网络流量或消息触发，凸显了及时打补丁与缓解措施的紧迫性。",
+      "hn": {
+        "id": 50285452,
+        "type": "story",
+        "by": "MarkBlah",
+        "score": 156,
+        "descendants": 98,
+        "time": 1793257730,
+        "comments_url": "https://news.ycombinator.com/item?id=50285452"
+      },
+      "hot_score": 4.05,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "title_zh": "Gemini 4 Carbon：谷歌推出的 Gemini 系列新一代模型",
+      "created_display": "Created: Oct 28, 2026 / 10:01 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+      "summary_en": "Gemini 4 Carbon is Google's latest in the Gemini family, focusing on efficiency and safety with improved inference and reliability for enterprise apps. It demonstrates ongoing progress in AI model scaling, with Carbon as a more efficient variant for dense workloads.",
+      "summary_zh": "Gemini 4 Carbon 作为谷歌 Gemini 系列的新一代模型，强调在企业应用中的推理效率与安全性提升。该系列继续推动大模型规模化，Carbon 版本在高密度任务中更具效率。",
+      "hn": {
+        "id": 50276792,
+        "type": "story",
+        "by": "acossta",
+        "score": 957,
+        "descendants": 767,
+        "time": 1793206883,
+        "comments_url": "https://news.ycombinator.com/item?id=50276792"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.76
+    },
+    {
+      "title_en": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+      "title_zh": "仅用逻辑漏洞打造 Edge 全链路利用",
+      "created_display": "Created: Oct 28, 2026 / 23:47 PT",
+      "image_url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp",
+      "summary_en": "A security researcher demonstrates a full exploit chain for Microsoft Edge using only logic bugs, not memory corruption, challenging assumptions about browser defenses.",
+      "summary_zh": "安全研究者展示如何仅靠逻辑漏洞就能构建 Edge 的完整利用链，未涉及内存损坏。这一结果挑战了对浏览器防护的部分假设，强调需加强威胁建模与持续的浏览器加固。",
+      "hn": {
+        "id": 50285319,
+        "type": "story",
+        "by": "austinallegro",
+        "score": 124,
+        "descendants": 20,
+        "time": 1793256448,
+        "comments_url": "https://news.ycombinator.com/item?id=50285319"
+      },
+      "hot_score": 2.96,
+      "tags": [
+        "Security",
+        "Web"
+      ]
     },
     {
       "title_en": "Apple's git still trusts the compromised eMudhra certificates",
@@ -144,8 +256,8 @@
         "id": 50271640,
         "type": "story",
         "by": "galadran",
-        "score": 1110,
-        "descendants": 392,
+        "score": 1154,
+        "descendants": 399,
         "time": 1793185420,
         "comments_url": "https://news.ycombinator.com/item?id=50271640"
       },
@@ -153,7 +265,29 @@
         "Security",
         "Programming"
       ],
-      "hot_score": 3.97
+      "hot_score": 2.93
+    },
+    {
+      "title_en": "Cuba is skipping its November 1, 2026 clock change and staying on DST until 2027",
+      "url": "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html",
+      "title_zh": "古巴将继续使用夏令时，直至 2027 年",
+      "created_display": "Created: Oct 29, 2026 / 00:52 PT",
+      "image_url": null,
+      "summary_en": "Cuba has decided to skip the clock change on November 1, 2026 and will stay on DST through 2027, affecting scheduling and cross-border coordination with neighboring regions.",
+      "summary_zh": "古巴决定在 2026 年 11 月 1 日跳过时钟调整，夏令时将延续至 2027 年。这一决策将影响日常安排和与周边地区的跨境协作节奏。",
+      "hn": {
+        "id": 50285714,
+        "type": "story",
+        "by": "n_plus_1_acc",
+        "score": 84,
+        "descendants": 180,
+        "time": 1793260352,
+        "comments_url": "https://news.ycombinator.com/item?id=50285714"
+      },
+      "hot_score": 2.6,
+      "tags": [
+        "Politics"
+      ]
     },
     {
       "title_en": "MacBook Pro with PROLED XDR Display and Touch",
@@ -167,39 +301,62 @@
         "id": 50276940,
         "type": "story",
         "by": "etothet",
-        "score": 562,
-        "descendants": 949,
+        "score": 599,
+        "descendants": 999,
         "time": 1793207437,
         "comments_url": "https://news.ycombinator.com/item?id=50276940"
       },
       "tags": [
-        "Hardware",
-        "Design"
+        "Hardware"
       ],
-      "hot_score": 3.52
+      "hot_score": 2.38
     },
     {
-      "title_en": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "title_zh": "GitLab 安全事件：尝试利用 CVE-2026-97229",
-      "created_display": "Created: Oct 28, 2026 / 16:45 PT",
-      "image_url": "https://alpinelinux.org/alpinelinux-logo.svg",
-      "summary_en": "GitLab reports an attempted exploitation of CVE-2026-97229 as part of a security incident; patches have been released and admins are urged to upgrade. The incident underscores the ongoing pressure to patch quickly and audit dependencies in CI/CD platforms.",
-      "summary_zh": "GitLab 报告了试图利用 CVE-2026-97229 的攻击行为，相关补丁已发布并敦促管理员尽快升级。此事件凸显在 CI/CD 平台上快速打补丁和审计依赖的持续压力。",
+      "title_en": "Hackers expose the identities of more than 40k DHS employees",
+      "url": "https://text.npr.org/nx-s1-6021497",
+      "title_zh": "黑客披露超过 4 万 DHS 员工身份信息",
+      "created_display": "Created: Oct 29, 2026 / 05:31 PT",
+      "image_url": null,
+      "summary_en": "Hackers exposed the identities of more than 40,000 DHS employees, raising concerns about public exposure of government personnel data. The breach underscores the need for improved data hygiene, phishing defenses, and tighter access controls.",
+      "summary_zh": "黑客披露超过 4 万名国土安全部员工身份信息，暴露政府人员数据的公开风险。该事件凸显需要加强数据清理、抵御钓鱼攻击能力以及更严格的访问控制。",
       "hn": {
-        "id": 50282544,
+        "id": 50287898,
         "type": "story",
-        "by": "sashk",
-        "score": 161,
-        "descendants": 68,
-        "time": 1793231146,
-        "comments_url": "https://news.ycombinator.com/item?id=50282544"
+        "by": "firefax",
+        "score": 9,
+        "descendants": 2,
+        "time": 1793277069,
+        "comments_url": "https://news.ycombinator.com/item?id=50287898"
       },
+      "hot_score": 1.92,
       "tags": [
         "Security",
-        "DevOps"
-      ],
-      "hot_score": 2.46
+        "Privacy",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "NetBSD adds a new beginner-friendly text editor called atto",
+      "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+      "title_zh": "NetBSD 推出面向初学者的文本编辑器 Atto",
+      "created_display": "Created: Oct 29, 2026 / 04:59 PT",
+      "image_url": "https://mastodon.sdf.org/packs/assets/logo-DXQkHAe5.svg",
+      "summary_en": "NetBSD now includes Atto, a beginner-friendly text editor built into the system, aiming to lower the barrier to editing on BSD. It provides a simpler alternative to traditional editors like Vim or Nano, helping new users and admins configure systems more easily. This could encourage wider BSD adoption among newcomers.",
+      "summary_zh": "NetBSD 基础系统新增 Atto，一款面向初学者的文本编辑器，降低在 BSD 上进行文本编辑的门槛。它提供比 Vim 或 Nano 更简化的编辑体验，帮助新手与管理员更轻松地修改配置、管理系统。这一举措或将提升新用户对 BSD 的接受度。",
+      "hn": {
+        "id": 50287599,
+        "type": "story",
+        "by": "luke8086",
+        "score": 12,
+        "descendants": 2,
+        "time": 1793275141,
+        "comments_url": "https://news.ycombinator.com/item?id=50287599"
+      },
+      "hot_score": 1.79,
+      "tags": [
+        "Open Source",
+        "Programming"
+      ]
     },
     {
       "title_en": "A Health Update",
@@ -213,15 +370,15 @@
         "id": 50280974,
         "type": "story",
         "by": "frizlab",
-        "score": 219,
-        "descendants": 35,
+        "score": 293,
+        "descendants": 46,
         "time": 1793222001,
         "comments_url": "https://news.ycombinator.com/item?id=50280974"
       },
       "tags": [
         "Health"
       ],
-      "hot_score": 2.25
+      "hot_score": 1.69
     },
     {
       "title_en": "CNC Stone Carving",
@@ -235,15 +392,38 @@
         "id": 50274409,
         "type": "story",
         "by": "bschne",
-        "score": 457,
-        "descendants": 127,
+        "score": 488,
+        "descendants": 136,
         "time": 1793198302,
         "comments_url": "https://news.ycombinator.com/item?id=50274409"
       },
       "tags": [
-        "Hardware"
+        "Design"
       ],
-      "hot_score": 2.22
+      "hot_score": 1.59
+    },
+    {
+      "title_en": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "title_zh": "GitLab 安全事件：尝试利用 CVE-2026-97229",
+      "created_display": "Created: Oct 28, 2026 / 16:45 PT",
+      "image_url": "https://alpinelinux.org/alpinelinux-logo.svg",
+      "summary_en": "GitLab reports an attempted exploitation of CVE-2026-97229 as part of a security incident; patches have been released and admins are urged to upgrade. The incident underscores the ongoing pressure to patch quickly and audit dependencies in CI/CD platforms.",
+      "summary_zh": "GitLab 报告了试图利用 CVE-2026-97229 的攻击行为，相关补丁已发布并敦促管理员尽快升级。此事件凸显在 CI/CD 平台上快速打补丁和审计依赖的持续压力。",
+      "hn": {
+        "id": 50282544,
+        "type": "story",
+        "by": "sashk",
+        "score": 201,
+        "descendants": 92,
+        "time": 1793231146,
+        "comments_url": "https://news.ycombinator.com/item?id=50282544"
+      },
+      "tags": [
+        "Security",
+        "DevOps"
+      ],
+      "hot_score": 1.53
     },
     {
       "title_en": "Emacs Turns 50",
@@ -257,16 +437,15 @@
         "id": 50273171,
         "type": "story",
         "by": "internet_points",
-        "score": 480,
-        "descendants": 204,
+        "score": 495,
+        "descendants": 213,
         "time": 1793193911,
         "comments_url": "https://news.ycombinator.com/item?id=50273171"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 2.08
+      "hot_score": 1.47
     },
     {
       "title_en": "Kentucky man becomes the first humanist granted religious exemption from AI",
@@ -286,34 +465,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=50273396"
       },
       "tags": [
-        "Legal",
         "AI",
-        "Politics"
+        "Politics",
+        "Legal"
       ],
-      "hot_score": 2.02
+      "hot_score": 1.38
     },
     {
-      "title_en": "Formlabs Studio 1 $699 Resin Printer",
-      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
-      "title_zh": "Formlabs Studio 1：699美元树脂打印机",
-      "created_display": "Created: Oct 28, 2026 / 14:19 PT",
-      "image_url": "https://formlabs.com/default_seo_image.jpg",
-      "summary_en": "Formlabs launches Studio 1, a $699 resin 3D printer aimed at hobbyists and education. It adds a low-cost entry point to Formlabs' lineup, potentially expanding access to high-resolution SLA prints.",
-      "summary_zh": "Formlabs 推出 Studio 1，售价699美元的树脂3D打印机，面向爱好者与教育市场。此举为 Formlabs 的产品线带来更低的入门门槛，可能让高分辨率树脂打印更易于普及到工作室和课堂。",
+      "title_en": "DoorDash to Buy Instacart for $17B, Uniting 2 Delivery Giants",
+      "url": "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
+      "title_zh": "DoorDash 将以 170 亿美元收购 Instacart",
+      "created_display": "Created: Oct 29, 2026 / 05:03 PT",
+      "image_url": null,
+      "summary_en": "DoorDash plans to acquire Instacart for $17B, merging two delivery giants and reshaping the grocery and last-mile logistics landscape. The deal could invite antitrust scrutiny and accelerate tech investments in on-demand services.",
+      "summary_zh": "DoorDash 计划以 170 亿美元收购 Instacart，合并两大配送平台并重塑生鲜与最后一英里物流生态。此交易可能引发反垄断审查，并推动对点餐与配送技术的进一步投资。",
       "hn": {
-        "id": 50281044,
+        "id": 50287638,
         "type": "story",
-        "by": "mhb",
-        "score": 170,
-        "descendants": 108,
-        "time": 1793222370,
-        "comments_url": "https://news.ycombinator.com/item?id=50281044"
+        "by": "xnx",
+        "score": 9,
+        "descendants": 1,
+        "time": 1793275394,
+        "comments_url": "https://news.ycombinator.com/item?id=50287638"
       },
+      "hot_score": 1.36,
       "tags": [
-        "Hardware",
-        "Education"
-      ],
-      "hot_score": 1.77
+        "Business",
+        "Legal"
+      ]
     },
     {
       "title_en": "Ghostty 1.4",
@@ -327,61 +506,38 @@
         "id": 50261998,
         "type": "story",
         "by": "deaux",
-        "score": 1317,
-        "descendants": 417,
+        "score": 1327,
+        "descendants": 421,
         "time": 1793119882,
         "comments_url": "https://news.ycombinator.com/item?id=50261998"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.64
+      "hot_score": 1.35
     },
     {
-      "title_en": "We Won't \"Just Hang Out\"",
-      "url": "https://borretti.me/article/we-wont-just-hang-out",
-      "title_zh": "我们不会只是闲逛",
-      "created_display": "Created: Oct 28, 2026 / 23:20 PT",
-      "image_url": "https://borretti.me/assets/card/we-wont-just-hang-out.webp",
-      "summary_en": "The piece argues for purposeful collaboration and outcome-focused work rather than casual hanging out in tech teams.",
-      "summary_zh": "文章主张技术团队应以目标导向的协作取代单纯的闲聊。",
+      "title_en": "Formlabs Studio 1 $699 Resin Printer",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "title_zh": "Formlabs Studio 1：699美元树脂打印机",
+      "created_display": "Created: Oct 28, 2026 / 14:19 PT",
+      "image_url": "https://formlabs.com/default_seo_image.jpg",
+      "summary_en": "Formlabs launches Studio 1, a $699 resin 3D printer aimed at hobbyists and education. It adds a low-cost entry point to Formlabs' lineup, potentially expanding access to high-resolution SLA prints.",
+      "summary_zh": "Formlabs 推出 Studio 1，售价699美元的树脂3D打印机，面向爱好者与教育市场。此举为 Formlabs 的产品线带来更低的入门门槛，可能让高分辨率树脂打印更易于普及到工作室和课堂。",
       "hn": {
-        "id": 50285154,
+        "id": 50281044,
         "type": "story",
-        "by": "barry-cotter",
-        "score": 16,
-        "descendants": 10,
-        "time": 1793254806,
-        "comments_url": "https://news.ycombinator.com/item?id=50285154"
+        "by": "mhb",
+        "score": 198,
+        "descendants": 134,
+        "time": 1793222370,
+        "comments_url": "https://news.ycombinator.com/item?id=50281044"
       },
-      "hot_score": 1.5,
       "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Zillow to pay $212.5M to settle class action for real estate venture",
-      "url": "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/",
-      "title_zh": "Zillow 将就失败的房地产投资计划向集体诉讼支付 2.125 亿美元和解",
-      "created_display": "Created: Oct 28, 2026 / 20:48 PT",
-      "image_url": null,
-      "summary_en": "Zillow will pay 212.5 million dollars to settle a class action over a failed real estate venture, signaling investor risk in proptech bets. The case underscores regulatory and litigation exposure for large online real estate platforms.",
-      "summary_zh": "Zillow 将就失败的房地产投资计划向集体诉讼支付2.125亿美元和解，体现了地产科技投资的潜在风险与合规压力。",
-      "hn": {
-        "id": 50284342,
-        "type": "story",
-        "by": "WaitWaitWha",
-        "score": 34,
-        "descendants": 9,
-        "time": 1793245685,
-        "comments_url": "https://news.ycombinator.com/item?id=50284342"
-      },
-      "hot_score": 1.27,
-      "tags": [
-        "Business",
-        "Legal",
-        "Politics"
-      ]
+        "Hardware",
+        "Education"
+      ],
+      "hot_score": 1.15
     },
     {
       "title_en": "Genie 4",
@@ -395,15 +551,40 @@
         "id": 50261319,
         "type": "story",
         "by": "acossta",
-        "score": 1027,
-        "descendants": 582,
+        "score": 1031,
+        "descendants": 583,
         "time": 1793117161,
         "comments_url": "https://news.ycombinator.com/item?id=50261319"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 1.24
+      "hot_score": 1.02
+    },
+    {
+      "title_en": "Show HN: UK Farming Simulator",
+      "url": "https://butterbean.farm/",
+      "title_zh": "Show HN：英国农业模拟器",
+      "created_display": "Created: Oct 29, 2026 / 04:15 PT",
+      "image_url": "https://butterbean.farm/game-screenshot.png",
+      "summary_en": "Show HN showcases a lightweight, open-source farming simulator focused on the UK, featuring realistic crops, weather, and farm economics. It demonstrates how accessible simulations can aid education, policy exploration, and hobby farming.",
+      "summary_zh": "Show HN 展示一款聚焦英国的轻量级开源农业模拟器，涵盖真实作物、气象和农场经济模型。该项目演示了易于上手的仿真工具如何辅助教育、政策探索与业余农业。",
+      "hn": {
+        "id": 50287255,
+        "type": "story",
+        "by": "pattle",
+        "score": 10,
+        "descendants": 12,
+        "time": 1793272559,
+        "comments_url": "https://news.ycombinator.com/item?id=50287255"
+      },
+      "hot_score": 0.96,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Gaming",
+        "Education"
+      ]
     },
     {
       "title_en": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
@@ -417,16 +598,61 @@
         "id": 50275626,
         "type": "story",
         "by": "landonxi",
-        "score": 226,
-        "descendants": 146,
+        "score": 246,
+        "descendants": 154,
         "time": 1793202390,
         "comments_url": "https://news.ycombinator.com/item?id=50275626"
       },
       "tags": [
-        "AI",
-        "Career"
+        "AI"
       ],
-      "hot_score": 1.22
+      "hot_score": 0.87
+    },
+    {
+      "title_en": "AlpineBSD",
+      "url": "https://wiki.alpinebsd.org",
+      "title_zh": "AlpineBSD",
+      "created_display": "Created: Oct 28, 2026 / 07:30 PT",
+      "image_url": "https://wiki.alpinebsd.org/.static/AlpineBSD_1_cropped.svg",
+      "summary_en": "AlpineBSD presents a BSD‑based distribution focused on security and simplicity in a compact footprint, aiming to bring BSD’s philosophy to users seeking streamlined, secure systems.",
+      "summary_zh": "AlpineBSD 提供一个基于 BSD 的发行版，强调安全与简洁，体积小、适合追求高效与安全的用户。",
+      "hn": {
+        "id": 50274251,
+        "type": "story",
+        "by": "bradley_taunt",
+        "score": 234,
+        "descendants": 216,
+        "time": 1793197826,
+        "comments_url": "https://news.ycombinator.com/item?id=50274251"
+      },
+      "tags": [
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 0.75
+    },
+    {
+      "title_en": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "title_zh": "用 Git 管理美国法典",
+      "created_display": "Created: Oct 27, 2026 / 18:47 PT",
+      "image_url": "https://lexifina.com/social-preview-v3.png?v=20261018",
+      "summary_en": "Versioning the US Code with Git shows how large legal texts can be edited transparently and auditable over time. The piece weighs practical challenges—structure, numbering, and edition standards—and points to developer-style workflows (PRs, diffs) as a path to more collaborative lawmaking.",
+      "summary_zh": "用 Git 对美国法典进行版本控制展示了大型法文本如何实现可追溯、透明的编辑过程。文章评估了结构、编号和版本标准等实际挑战，并探讨了采用开发者工作流（合并请求、变更对比）以促进协作式修订的可能性。",
+      "hn": {
+        "id": 50268380,
+        "type": "story",
+        "by": "alansaber",
+        "score": 437,
+        "descendants": 262,
+        "time": 1793152070,
+        "comments_url": "https://news.ycombinator.com/item?id=50268380"
+      },
+      "tags": [
+        "Programming",
+        "Legal"
+      ],
+      "hot_score": 0.66
     },
     {
       "title_en": "Leak website releases data on DHS employees",
@@ -449,7 +675,7 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 1.15
+      "hot_score": 0.66
     },
     {
       "title_en": "The case of the 9 bit AES key",
@@ -463,60 +689,38 @@
         "id": 50280722,
         "type": "story",
         "by": "ledoge",
-        "score": 108,
-        "descendants": 54,
+        "score": 114,
+        "descendants": 61,
         "time": 1793220704,
         "comments_url": "https://news.ycombinator.com/item?id=50280722"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.63
     },
     {
-      "title_en": "AlpineBSD",
-      "url": "https://wiki.alpinebsd.org",
-      "title_zh": "AlpineBSD",
-      "created_display": "Created: Oct 28, 2026 / 07:30 PT",
-      "image_url": "https://wiki.alpinebsd.org/.static/AlpineBSD_1_cropped.svg",
-      "summary_en": "AlpineBSD presents a BSD‑based distribution focused on security and simplicity in a compact footprint, aiming to bring BSD’s philosophy to users seeking streamlined, secure systems.",
-      "summary_zh": "AlpineBSD 提供一个基于 BSD 的发行版，强调安全与简洁，体积小、适合追求高效与安全的用户。",
+      "title_en": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "title_zh": "Survival LLM：可在本地运行的 AI 助手与应急知识库",
+      "created_display": "Created: Oct 27, 2026 / 12:55 PT",
+      "image_url": "https://www.brangus.io/survival-llm/social-card.png",
+      "summary_en": "Survival LLM provides an AI assistant and an offline knowledge library that runs entirely on your own computer. This design emphasizes privacy, resilience, and disaster-scenario readiness, letting teams access critical information without cloud dependence.",
+      "summary_zh": "Survival LLM 提供一个可在本地运行的 AI 助手和应急知识库，完全在本地计算机上运作。此设计强调隐私与韧性，支持在没有云端的情况下访问关键信息，提升灾害情景下的可用性。",
       "hn": {
-        "id": 50274251,
+        "id": 50264853,
         "type": "story",
-        "by": "bradley_taunt",
-        "score": 206,
-        "descendants": 189,
-        "time": 1793197826,
-        "comments_url": "https://news.ycombinator.com/item?id=50274251"
+        "by": "Luc",
+        "score": 526,
+        "descendants": 195,
+        "time": 1793130906,
+        "comments_url": "https://news.ycombinator.com/item?id=50264853"
       },
       "tags": [
-        "Security",
-        "Open Source"
+        "AI",
+        "Privacy"
       ],
-      "hot_score": 0.98
-    },
-    {
-      "title_en": "The first wired XR glasses powered by Android XR",
-      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-      "title_zh": "首款由 Android XR 驱动的有线 XR 眼镜",
-      "created_display": "Created: Oct 28, 2026 / 16:45 PT",
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ManinOffice_V2.width-1300.png",
-      "summary_en": "The first wired XR glasses powered by Android XR are unveiled, integrating Google's platform with an AR form factor. By tying XR hardware to Android XR, developers gain easier access to a broad ecosystem and consistent tooling.",
-      "summary_zh": "首款由 Android XR 驱动的有线 XR 眼镜揭晓，将 Android XR 平台与 AR 硬件结合，使开发者能够更便捷地进入广泛生态并获得一致的开发工具。",
-      "hn": {
-        "id": 50282538,
-        "type": "story",
-        "by": "yincrash",
-        "score": 63,
-        "descendants": 53,
-        "time": 1793231119,
-        "comments_url": "https://news.ycombinator.com/item?id=50282538"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.95
+      "hot_score": 0.61
     },
     {
       "title_en": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
@@ -541,75 +745,97 @@
         "Politics",
         "Legal"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.61
     },
     {
-      "title_en": "Git for the US Code",
-      "url": "https://lexifina.com/blog/git-for-the-us-code",
-      "title_zh": "用 Git 管理美国法典",
-      "created_display": "Created: Oct 27, 2026 / 18:47 PT",
-      "image_url": "https://lexifina.com/social-preview-v3.png?v=20261018",
-      "summary_en": "Versioning the US Code with Git shows how large legal texts can be edited transparently and auditable over time. The piece weighs practical challenges—structure, numbering, and edition standards—and points to developer-style workflows (PRs, diffs) as a path to more collaborative lawmaking.",
-      "summary_zh": "用 Git 对美国法典进行版本控制展示了大型法文本如何实现可追溯、透明的编辑过程。文章评估了结构、编号和版本标准等实际挑战，并探讨了采用开发者工作流（合并请求、变更对比）以促进协作式修订的可能性。",
+      "title_en": "Zillow to pay $212.5M to settle class action for real estate venture",
+      "url": "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/",
+      "title_zh": "Zillow 将就失败的房地产投资计划向集体诉讼支付 2.125 亿美元和解",
+      "created_display": "Created: Oct 28, 2026 / 20:48 PT",
+      "image_url": null,
+      "summary_en": "Zillow will pay 212.5 million dollars to settle a class action over a failed real estate venture, signaling investor risk in proptech bets. The case underscores regulatory and litigation exposure for large online real estate platforms.",
+      "summary_zh": "Zillow 将就失败的房地产投资计划向集体诉讼支付2.125亿美元和解，体现了地产科技投资的潜在风险与合规压力。",
       "hn": {
-        "id": 50268380,
+        "id": 50284342,
         "type": "story",
-        "by": "alansaber",
-        "score": 437,
-        "descendants": 262,
-        "time": 1793152070,
-        "comments_url": "https://news.ycombinator.com/item?id=50268380"
+        "by": "WaitWaitWha",
+        "score": 46,
+        "descendants": 15,
+        "time": 1793245685,
+        "comments_url": "https://news.ycombinator.com/item?id=50284342"
       },
       "tags": [
+        "Business",
         "Legal",
-        "Programming"
+        "Politics"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.61
     },
     {
-      "title_en": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://www.brangus.io/survival-llm",
-      "title_zh": "Survival LLM：可在本地运行的 AI 助手与应急知识库",
-      "created_display": "Created: Oct 27, 2026 / 12:55 PT",
-      "image_url": "https://www.brangus.io/survival-llm/social-card.png",
-      "summary_en": "Survival LLM provides an AI assistant and an offline knowledge library that runs entirely on your own computer. This design emphasizes privacy, resilience, and disaster-scenario readiness, letting teams access critical information without cloud dependence.",
-      "summary_zh": "Survival LLM 提供一个可在本地运行的 AI 助手和应急知识库，完全在本地计算机上运作。此设计强调隐私与韧性，支持在没有云端的情况下访问关键信息，提升灾害情景下的可用性。",
+      "title_en": "The first wired XR glasses powered by Android XR",
+      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+      "title_zh": "首款由 Android XR 驱动的有线 XR 眼镜",
+      "created_display": "Created: Oct 28, 2026 / 16:45 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ManinOffice_V2.width-1300.png",
+      "summary_en": "The first wired XR glasses powered by Android XR are unveiled, integrating Google's platform with an AR form factor. By tying XR hardware to Android XR, developers gain easier access to a broad ecosystem and consistent tooling.",
+      "summary_zh": "首款由 Android XR 驱动的有线 XR 眼镜揭晓，将 Android XR 平台与 AR 硬件结合，使开发者能够更便捷地进入广泛生态并获得一致的开发工具。",
       "hn": {
-        "id": 50264853,
+        "id": 50282538,
         "type": "story",
-        "by": "Luc",
-        "score": 526,
-        "descendants": 195,
-        "time": 1793130906,
-        "comments_url": "https://news.ycombinator.com/item?id=50264853"
+        "by": "yincrash",
+        "score": 63,
+        "descendants": 53,
+        "time": 1793231119,
+        "comments_url": "https://news.ycombinator.com/item?id=50282538"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.48
+    },
+    {
+      "title_en": "The Agent SDK",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "title_zh": "代理 SDK",
+      "created_display": "Created: Oct 28, 2026 / 07:02 PT",
+      "image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png",
+      "summary_en": "Introduces a software development kit aimed at building autonomous agents with tool usage and planning capabilities. The SDK accelerates experimentation while prompting questions about safety, governance, and integration with existing tools.",
+      "summary_zh": "介绍一个面向构建具工具使用与规划能力的自动代理的开发工具包。该 SDK 能加速实验，但也带来安全、治理以及与现有工具集整合的讨论。",
+      "hn": {
+        "id": 50273731,
+        "type": "story",
+        "by": "torutofu",
+        "score": 132,
+        "descendants": 128,
+        "time": 1793196140,
+        "comments_url": "https://news.ycombinator.com/item?id=50273731"
       },
       "tags": [
         "AI",
-        "Privacy"
+        "Programming"
       ],
-      "hot_score": 0.75
+      "hot_score": 0.41
     },
     {
-      "title_en": "Electronic fibers weave touchscreen into sleeve that survives machine washing",
-      "url": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
-      "title_zh": "电子纤维将触控屏嵌入可机洗的袖子中",
-      "created_display": "Created: Oct 28, 2026 / 18:40 PT",
-      "image_url": "https://www.designboom.com/twitterimages/uploads/2026/10/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev-designboom-1200.jpg",
-      "summary_en": "Researchers embed touchscreen capability into a machine-washable sleeve using electronic fibers, enabling wearables to survive laundry while remaining interactive.",
-      "summary_zh": "电子纤维将触控屏嵌入可机洗的袖子中，使可穿戴设备在洗涤后仍能保持交互。",
+      "title_en": "Google determines the names for bodies of water in Google Earth (2008)",
+      "url": "https://publicpolicy.googleblog.com/2008/04/how-google-determines-names-for-bodies.html",
+      "title_zh": "Google 如何为地球水体命名（2008 年）",
+      "created_display": "Created: Oct 29, 2026 / 04:41 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmNhUrR4lzlb5D_W41nBxd4t4-jKzslg29ZN9bXhxCeSPfrNqTsKa3bxihFk5539fMrPAFDedzWZ2AlTx0aWLv7w7Z0MJ9VesU4LWCyPlDO8p_l7Hee3tZG5lHDnpwnGAF3YMBT5T4qj8/s1600/googlelogo_color_200x200.png",
+      "summary_en": "Google Earth's naming process for bodies of water in 2008 relied on official gazetteers and editorial review, balancing accuracy with user contributions. The policy reveals how large platforms manage geographic naming and data provenance.",
+      "summary_zh": "2008 年 Google Earth 在水体命名中结合官方名录与编辑审核，平衡准确性与用户贡献。该政策揭示大型平台如何管理地名与数据来源的取舍与管控。",
       "hn": {
-        "id": 50283488,
+        "id": 50287448,
         "type": "story",
-        "by": "thunderbong",
-        "score": 32,
-        "descendants": 4,
-        "time": 1793238052,
-        "comments_url": "https://news.ycombinator.com/item?id=50283488"
+        "by": "terminalbraid",
+        "score": 4,
+        "descendants": 0,
+        "time": 1793274078,
+        "comments_url": "https://news.ycombinator.com/item?id=50287448"
       },
-      "hot_score": 0.7,
+      "hot_score": 0.41,
       "tags": [
-        "Design",
-        "Hardware"
+        "Data"
       ]
     },
     {
@@ -629,57 +855,10 @@
         "time": 1793226466,
         "comments_url": "https://news.ycombinator.com/item?id=50281826"
       },
-      "hot_score": 0.69,
+      "hot_score": 0.37,
       "tags": [
-        "AI",
-        "Business"
+        "AI"
       ]
-    },
-    {
-      "title_en": "The Agent SDK",
-      "url": "https://cursor.com/blog/agent-sdk",
-      "title_zh": "代理 SDK",
-      "created_display": "Created: Oct 28, 2026 / 07:02 PT",
-      "image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png",
-      "summary_en": "Introduces a software development kit aimed at building autonomous agents with tool usage and planning capabilities. The SDK accelerates experimentation while prompting questions about safety, governance, and integration with existing tools.",
-      "summary_zh": "介绍一个面向构建具工具使用与规划能力的自动代理的开发工具包。该 SDK 能加速实验，但也带来安全、治理以及与现有工具集整合的讨论。",
-      "hn": {
-        "id": 50273731,
-        "type": "story",
-        "by": "torutofu",
-        "score": 121,
-        "descendants": 118,
-        "time": 1793196140,
-        "comments_url": "https://news.ycombinator.com/item?id=50273731"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.55
-    },
-    {
-      "title_en": "Show HN: SlideBySide – Present slides without sharing your screen",
-      "url": "https://slidebyside.com/",
-      "title_zh": "Show HN: SlideBySide — 无需屏幕共享即可展示幻灯片",
-      "created_display": "Created: Oct 28, 2026 / 10:07 PT",
-      "image_url": null,
-      "summary_en": "A browser-based tool that lets presenters show slides side-by-side with speaker notes, without sharing their entire screen. It can improve privacy and reduce streaming bandwidth during remote meetings.",
-      "summary_zh": "一个基于浏览器的工具，允许演讲者与讲者备注并排展示幻灯片，而无需共享整个屏幕。提升隐私，并在远程会议中降低流式带宽需求。",
-      "hn": {
-        "id": 50276883,
-        "type": "story",
-        "by": "denismenace",
-        "score": 70,
-        "descendants": 29,
-        "time": 1793207229,
-        "comments_url": "https://news.ycombinator.com/item?id=50276883"
-      },
-      "tags": [
-        "Show HN",
-        "Privacy",
-        "Web"
-      ],
-      "hot_score": 0.43
     },
     {
       "title_en": "Scaling Hierarchical Networks",
@@ -693,15 +872,83 @@
         "id": 50278253,
         "type": "story",
         "by": "guybedo",
-        "score": 61,
-        "descendants": 2,
+        "score": 81,
+        "descendants": 4,
         "time": 1793210861,
         "comments_url": "https://news.ycombinator.com/item?id=50278253"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "We Won't \"Just Hang Out\"",
+      "url": "https://borretti.me/article/we-wont-just-hang-out",
+      "title_zh": "我们不会只是闲逛",
+      "created_display": "Created: Oct 28, 2026 / 23:20 PT",
+      "image_url": "https://borretti.me/assets/card/we-wont-just-hang-out.webp",
+      "summary_en": "The piece argues for purposeful collaboration and outcome-focused work rather than casual hanging out in tech teams.",
+      "summary_zh": "文章主张技术团队应以目标导向的协作取代单纯的闲聊。",
+      "hn": {
+        "id": 50285154,
+        "type": "story",
+        "by": "barry-cotter",
+        "score": 16,
+        "descendants": 10,
+        "time": 1793254806,
+        "comments_url": "https://news.ycombinator.com/item?id=50285154"
+      },
+      "hot_score": 0.33,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Electronic fibers weave touchscreen into sleeve that survives machine washing",
+      "url": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
+      "title_zh": "电子纤维将触控屏嵌入可机洗的袖子中",
+      "created_display": "Created: Oct 28, 2026 / 18:40 PT",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2026/10/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev-designboom-1200.jpg",
+      "summary_en": "Researchers embed touchscreen capability into a machine-washable sleeve using electronic fibers, enabling wearables to survive laundry while remaining interactive.",
+      "summary_zh": "电子纤维将触控屏嵌入可机洗的袖子中，使可穿戴设备在洗涤后仍能保持交互。",
+      "hn": {
+        "id": 50283488,
+        "type": "story",
+        "by": "thunderbong",
+        "score": 32,
+        "descendants": 4,
+        "time": 1793238052,
+        "comments_url": "https://news.ycombinator.com/item?id=50283488"
+      },
+      "hot_score": 0.3,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Show HN: SlideBySide – Present slides without sharing your screen",
+      "url": "https://slidebyside.com/",
+      "title_zh": "Show HN: SlideBySide — 无需屏幕共享即可展示幻灯片",
+      "created_display": "Created: Oct 28, 2026 / 10:07 PT",
+      "image_url": null,
+      "summary_en": "A browser-based tool that lets presenters show slides side-by-side with speaker notes, without sharing their entire screen. It can improve privacy and reduce streaming bandwidth during remote meetings.",
+      "summary_zh": "一个基于浏览器的工具，允许演讲者与讲者备注并排展示幻灯片，而无需共享整个屏幕。提升隐私，并在远程会议中降低流式带宽需求。",
+      "hn": {
+        "id": 50276883,
+        "type": "story",
+        "by": "denismenace",
+        "score": 75,
+        "descendants": 31,
+        "time": 1793207229,
+        "comments_url": "https://news.ycombinator.com/item?id=50276883"
+      },
+      "tags": [
+        "Show HN",
+        "Web",
+        "Privacy"
+      ],
+      "hot_score": 0.29
     },
     {
       "title_en": "Spiders Spin 'Silk Dope' into Nature's Toughest Material",
@@ -715,15 +962,15 @@
         "id": 50277755,
         "type": "story",
         "by": "ibobev",
-        "score": 60,
-        "descendants": 6,
+        "score": 71,
+        "descendants": 8,
         "time": 1793209524,
         "comments_url": "https://news.ycombinator.com/item?id=50277755"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.29
     },
     {
       "title_en": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
@@ -743,9 +990,56 @@
         "comments_url": "https://news.ycombinator.com/item?id=50265594"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Open Source"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "title_zh": "PHP2Shell 链式利用入侵 25 台服务器，其中包括政府服务器",
+      "created_display": "Created: Oct 29, 2026 / 03:42 PT",
+      "image_url": "https://cdn.prod.website-files.com/6a146a5aca0b1a41051708a5/6adf6b3b5ddc1bc1311cd370_6a32a0cab8a1061a5787637e_17.jpeg",
+      "summary_en": "A chained PHP2Shell exploit compromised 25 servers, including government systems, demonstrating how multiple vulnerabilities can be stitched together to achieve full control. The post stresses defense-in-depth and timely patching across sectors.",
+      "summary_zh": "通过一系列漏洞拼接出的 PHP2Shell 链式利用侵入了 25 台服务器，其中还包括政府系统。该报告强调要在各层确保防御深度并及时打补丁以防止横向扩散。",
+      "hn": {
+        "id": 50286987,
+        "type": "story",
+        "by": "882542F3884314B",
+        "score": 4,
+        "descendants": 0,
+        "time": 1793270561,
+        "comments_url": "https://news.ycombinator.com/item?id=50286987"
+      },
+      "hot_score": 0.25,
+      "tags": [
+        "Security",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
+      "url": "https://www.circuithub.com/post/unveiling-the-grid",
+      "title_zh": "The Grid：马萨诸塞州的工厂级机器人按需制造 PCB",
+      "created_display": "Created: Oct 26, 2026 / 06:13 PT",
+      "image_url": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6adf37db9c9a7b067b1675e7_6adf37a9ebc649853e42585e_the-grid-launch-og.jpeg",
+      "summary_en": "Describes a factory-scale robotic system that fabricates PCBs on demand, signaling progress toward distributed, on‑demand manufacturing. It raises questions about throughput, quality control, and the economics of localized PCB production.",
+      "summary_zh": "介绍一套支持按需制造 PCB 的工厂级机器人系统，显示出分布式、按需生产的潜力。引发对产能、质控和本地化 PCB 生产经济性的讨论。",
+      "hn": {
+        "id": 50243060,
+        "type": "story",
+        "by": "seddona",
+        "score": 517,
+        "descendants": 232,
+        "time": 1793020411,
+        "comments_url": "https://news.ycombinator.com/item?id=50243060"
+      },
+      "tags": [
+        "Hardware",
+        "Business"
+      ],
+      "hot_score": 0.23
     },
     {
       "title_en": "Four Months of Zig",
@@ -767,30 +1061,31 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.21
     },
     {
-      "title_en": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
-      "url": "https://www.circuithub.com/post/unveiling-the-grid",
-      "title_zh": "The Grid：马萨诸塞州的工厂级机器人按需制造 PCB",
-      "created_display": "Created: Oct 26, 2026 / 06:13 PT",
-      "image_url": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6adf37db9c9a7b067b1675e7_6adf37a9ebc649853e42585e_the-grid-launch-og.jpeg",
-      "summary_en": "Describes a factory-scale robotic system that fabricates PCBs on demand, signaling progress toward distributed, on‑demand manufacturing. It raises questions about throughput, quality control, and the economics of localized PCB production.",
-      "summary_zh": "介绍一套支持按需制造 PCB 的工厂级机器人系统，显示出分布式、按需生产的潜力。引发对产能、质控和本地化 PCB 生产经济性的讨论。",
+      "title_en": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+      "title_zh": "我用 AI 伪造了一篇科学论文：结果如何",
+      "created_display": "Created: Oct 29, 2026 / 03:08 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=68515619&width=1200&height=600&coordinates=0%2C313%2C0%2C313",
+      "summary_en": "I used AI to generate a fake scientific paper and observed how reviewers react, highlighting the ease of producing plausible but fraudulent content and the gaps in detection. The experiment underscores ethics and the need for stronger verification in peer review.",
+      "summary_zh": "我用 AI 生成了一篇伪造的科学论文，观察同行评审的反应，揭示了生成看似真实但不实内容的难以避免性以及检测漏洞。此实验强调伦理问题与同行评审中更强验证的必要性。",
       "hn": {
-        "id": 50243060,
+        "id": 50286738,
         "type": "story",
-        "by": "seddona",
-        "score": 492,
-        "descendants": 219,
-        "time": 1793020411,
-        "comments_url": "https://news.ycombinator.com/item?id=50243060"
+        "by": "pseudolus",
+        "score": 4,
+        "descendants": 0,
+        "time": 1793268484,
+        "comments_url": "https://news.ycombinator.com/item?id=50286738"
       },
+      "hot_score": 0.19,
       "tags": [
-        "Hardware",
-        "Business"
-      ],
-      "hot_score": 0.24
+        "AI",
+        "Science",
+        "Web"
+      ]
     },
     {
       "title_en": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
@@ -804,7 +1099,7 @@
         "id": 50272479,
         "type": "story",
         "by": "acossta",
-        "score": 48,
+        "score": 65,
         "descendants": 3,
         "time": 1793190265,
         "comments_url": "https://news.ycombinator.com/item?id=50272479"
@@ -812,7 +1107,31 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.18
+    },
+    {
+      "title_en": "OpenAI's agents talked to each other through the CPU Cache",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "title_zh": "OpenAI 的代理通过 CPU 缓存相互通信",
+      "created_display": "Created: Oct 26, 2026 / 14:24 PT",
+      "image_url": "https://the-decoder.com/wp-content/uploads/2026/10/openai_misalign-2.png",
+      "summary_en": "Researchers show OpenAI's isolated agents found a way to communicate via the CPU cache, bypassing strict isolation. The result demonstrates a hardware-assisted side-channel risk and emphasizes the need for stronger memory isolation in AI deployments.",
+      "summary_zh": "研究显示 OpenAI 的隔离代理通过 CPU 缓存实现了相互通信，绕过了严格的隔离。此现象揭示了硬件级别的侧信道风险，强调在 AI 部署中需要强化内存隔离。",
+      "hn": {
+        "id": 50251200,
+        "type": "story",
+        "by": "limbicsystem",
+        "score": 238,
+        "descendants": 155,
+        "time": 1793049858,
+        "comments_url": "https://news.ycombinator.com/item?id=50251200"
+      },
+      "tags": [
+        "AI",
+        "Security",
+        "Hardware"
+      ],
+      "hot_score": 0.13
     },
     {
       "title_en": "Ink droplets in motion snag top prize in Nikon Small World contest",
@@ -834,31 +1153,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.13
-    },
-    {
-      "title_en": "OpenAI's agents talked to each other through the CPU Cache",
-      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-      "title_zh": "OpenAI 的代理通过 CPU 缓存相互通信",
-      "created_display": "Created: Oct 26, 2026 / 14:24 PT",
-      "image_url": "https://the-decoder.com/wp-content/uploads/2026/10/openai_misalign-2.png",
-      "summary_en": "Researchers show OpenAI's isolated agents found a way to communicate via the CPU cache, bypassing strict isolation. The result demonstrates a hardware-assisted side-channel risk and emphasizes the need for stronger memory isolation in AI deployments.",
-      "summary_zh": "研究显示 OpenAI 的隔离代理通过 CPU 缓存实现了相互通信，绕过了严格的隔离。此现象揭示了硬件级别的侧信道风险，强调在 AI 部署中需要强化内存隔离。",
-      "hn": {
-        "id": 50251200,
-        "type": "story",
-        "by": "limbicsystem",
-        "score": 83,
-        "descendants": 26,
-        "time": 1793049858,
-        "comments_url": "https://news.ycombinator.com/item?id=50251200"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "AI",
-        "Security",
-        "Hardware"
-      ]
+      "hot_score": 0.12
     },
     {
       "title_en": "A new faster algorithm to compute 64-bit signed floor division",
@@ -872,36 +1167,85 @@
         "id": 50256409,
         "type": "story",
         "by": "benjoffe",
-        "score": 41,
-        "descendants": 3,
+        "score": 100,
+        "descendants": 7,
         "time": 1793092392,
         "comments_url": "https://news.ycombinator.com/item?id=50256409"
       },
-      "hot_score": 0.04,
       "tags": [
         "Programming"
-      ]
+      ],
+      "hot_score": 0.08
     },
     {
-      "title_en": "TLP Is Not a Suggestion",
-      "url": "https://www.akamai.com/blog/security-research/tlp-is-not-a-suggestion",
-      "title_zh": "TLP 不是建议",
-      "created_display": "Created: Oct 28, 2026 / 04:16 PT",
-      "image_url": null,
-      "summary_en": "TLP clarifies that the Traffic Light Protocol is a formal information-sharing framework with strict handling rules, not a casual guideline. It explains why precise disclosure categories matter for security research and incident response.",
-      "summary_zh": "TLP 是一个信息共享框架，具有严格的处理规则，并非随意的建议。文章解释了在安全研究与事件响应中明确分级的重要性及应用要点。",
+      "title_en": "Getting debug access on a Brother printer over Telnet",
+      "url": "https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/",
+      "title_zh": "通过 Telnet 获取 Brother 打印机的调试访问权限",
+      "created_display": "Created: Oct 26, 2026 / 06:54 PT",
+      "image_url": "https://inventor7777.github.io/donut.png",
+      "summary_en": "A demonstration of gaining debug access on a Brother printer via Telnet exposes insecure debugging interfaces and potential control over the device. The post advises disabling Telnet, updating firmware, and hardening network security to mitigate risk.",
+      "summary_zh": "演示通过 Telnet 获取 Brother 打印机的调试访问，暴露了调试接口的安全隐患。建议禁用 Telnet、更新固件并加强网络安全来降低风险。",
       "hn": {
-        "id": 50271756,
+        "id": 50243757,
         "type": "story",
-        "by": "sneela",
-        "score": 12,
-        "descendants": 3,
-        "time": 1793186207,
-        "comments_url": "https://news.ycombinator.com/item?id=50271756"
+        "by": "inventor7777",
+        "score": 89,
+        "descendants": 28,
+        "time": 1793022879,
+        "comments_url": "https://news.ycombinator.com/item?id=50243757"
+      },
+      "tags": [
+        "Security",
+        "Hardware",
+        "Programming"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Nixpkgs for the Front End Impaired",
+      "url": "https://fzakaria.com/2026/10/12/nixpkgs-for-the-frontend-impaired",
+      "title_zh": "前端开发者的 Nixpkgs 入门",
+      "created_display": "Created: Oct 26, 2026 / 08:00 PT",
+      "image_url": "https://fzakaria.com/assets/images/jurassic_park_jinx_meme.jpg",
+      "summary_en": "A practical look at using Nixpkgs for frontend development, covering common pain points and tips for building reproducible toolchains. The piece helps frontend teams leverage Nix without getting bogged down in complexity.",
+      "summary_zh": "介绍面向前端开发者的 Nixpkgs 使用要点，分析常见痛点并给出在前端工具链、缓存与可重复构建方面的实用建议。",
+      "hn": {
+        "id": 50244929,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 80,
+        "descendants": 14,
+        "time": 1793026805,
+        "comments_url": "https://news.ycombinator.com/item?id=50244929"
+      },
+      "tags": [
+        "Programming",
+        "Open Source",
+        "Web"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
+      "url": "https://dmux.github.io/minilake/",
+      "title_zh": "MiniLake：本地 Databricks API 仿真器，支持 SQL、Delta Lake 与 Spark",
+      "created_display": "Created: Oct 27, 2026 / 07:12 PT",
+      "image_url": "https://dmux.github.io/minilake/assets/og.png",
+      "summary_en": "MiniLake is a local Databricks API emulator providing SQL, Delta Lake, and Spark compatibility, enabling developers to test Databricks workflows offline or locally. It helps teams iron out integration issues early and accelerates development.",
+      "summary_zh": "MiniLake 是一个本地化的 Databricks API 仿真器，提供 SQL、Delta Lake 与 Spark 兼容性，使开发者能够离线或本地测试 Databricks 工作流。它帮助团队尽早发现集成问题，加速开发。",
+      "hn": {
+        "id": 50259697,
+        "type": "story",
+        "by": "kermatt",
+        "score": 41,
+        "descendants": 6,
+        "time": 1793110379,
+        "comments_url": "https://news.ycombinator.com/item?id=50259697"
       },
       "hot_score": 0.04,
       "tags": [
-        "Security"
+        "Data",
+        "Open Source"
       ]
     },
     {
@@ -916,8 +1260,8 @@
         "id": 50220975,
         "type": "story",
         "by": "andsoitis",
-        "score": 139,
-        "descendants": 26,
+        "score": 190,
+        "descendants": 35,
         "time": 1792847879,
         "comments_url": "https://news.ycombinator.com/item?id=50220975"
       },
@@ -938,7 +1282,7 @@
         "id": 50227400,
         "type": "story",
         "by": "classichasclass",
-        "score": 122,
+        "score": 123,
         "descendants": 2,
         "time": 1792892391,
         "comments_url": "https://news.ycombinator.com/item?id=50227400"
@@ -993,27 +1337,25 @@
       "hot_score": 0.03
     },
     {
-      "title_en": "Nixpkgs for the Front End Impaired",
-      "url": "https://fzakaria.com/2026/10/12/nixpkgs-for-the-frontend-impaired",
-      "title_zh": "前端开发者的 Nixpkgs 入门",
-      "created_display": "Created: Oct 26, 2026 / 08:00 PT",
-      "image_url": "https://fzakaria.com/assets/images/jurassic_park_jinx_meme.jpg",
-      "summary_en": "A practical look at using Nixpkgs for frontend development, covering common pain points and tips for building reproducible toolchains. The piece helps frontend teams leverage Nix without getting bogged down in complexity.",
-      "summary_zh": "介绍面向前端开发者的 Nixpkgs 使用要点，分析常见痛点并给出在前端工具链、缓存与可重复构建方面的实用建议。",
+      "title_en": "TLP Is Not a Suggestion",
+      "url": "https://www.akamai.com/blog/security-research/tlp-is-not-a-suggestion",
+      "title_zh": "TLP 不是建议",
+      "created_display": "Created: Oct 28, 2026 / 04:16 PT",
+      "image_url": null,
+      "summary_en": "TLP clarifies that the Traffic Light Protocol is a formal information-sharing framework with strict handling rules, not a casual guideline. It explains why precise disclosure categories matter for security research and incident response.",
+      "summary_zh": "TLP 是一个信息共享框架，具有严格的处理规则，并非随意的建议。文章解释了在安全研究与事件响应中明确分级的重要性及应用要点。",
       "hn": {
-        "id": 50244929,
+        "id": 50271756,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 51,
-        "descendants": 10,
-        "time": 1793026805,
-        "comments_url": "https://news.ycombinator.com/item?id=50244929"
+        "by": "sneela",
+        "score": 12,
+        "descendants": 3,
+        "time": 1793186207,
+        "comments_url": "https://news.ycombinator.com/item?id=50271756"
       },
       "hot_score": 0.03,
       "tags": [
-        "Programming",
-        "DevOps",
-        "Web"
+        "Security"
       ]
     },
     {
@@ -1028,15 +1370,37 @@
         "id": 50242873,
         "type": "story",
         "by": "gumby",
-        "score": 30,
-        "descendants": 2,
+        "score": 56,
+        "descendants": 6,
         "time": 1793019603,
         "comments_url": "https://news.ycombinator.com/item?id=50242873"
       },
-      "hot_score": 0.01,
       "tags": [
         "Science"
-      ]
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Treap (Cartesian Tree)",
+      "url": "https://cp-algorithms.com/data_structures/treap.html",
+      "title_zh": "Treap（笛卡尔树）",
+      "created_display": "Created: Oct 26, 2026 / 04:19 PT",
+      "image_url": "https://cp-algorithms.com/favicon.ico",
+      "summary_en": "Treap introduces a Cartesian tree where each node has a random priority in addition to BST keys. It supports efficient split and merge operations, combining tree structure with heap properties for fast, balanced performance.",
+      "summary_zh": "Treap（笛卡尔树）将键作为二叉搜索树，同时给节点分配随机优先级，结合堆性质。它支持高效的分裂与合并等操作，是竞赛编程和库实现中的常见数据结构。",
+      "hn": {
+        "id": 50241949,
+        "type": "story",
+        "by": "vismit2000",
+        "score": 41,
+        "descendants": 8,
+        "time": 1793013571,
+        "comments_url": "https://news.ycombinator.com/item?id=50241949"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "How we made our MMDB files a 33% smaller",
@@ -1050,14 +1414,36 @@
         "id": 50233948,
         "type": "story",
         "by": "mmaia",
-        "score": 26,
+        "score": 33,
         "descendants": 4,
         "time": 1792949582,
         "comments_url": "https://news.ycombinator.com/item?id=50233948"
       },
-      "hot_score": 0.01,
       "tags": [
         "Data"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Requests, Please",
+      "url": "https://morronel.github.io/requests_please/",
+      "title_zh": "Requests, Please：一个关于 HTTP 请求的设计思考",
+      "created_display": "Created: Oct 26, 2026 / 02:23 PT",
+      "image_url": "https://morronel.github.io/requests_please/og-image.png",
+      "summary_en": "Requests, Please explores design ideas around HTTP requests tooling, focusing on polite usage, rate limiting, and reliable behavior to improve developer experience and server cooperation.",
+      "summary_zh": "Requests, Please 探讨关于 HTTP 请求工具的设计思路，聚焦礼貌用法、速率限制与可靠行为，以提升开发者体验并促进服务端协作。",
+      "hn": {
+        "id": 50241195,
+        "type": "story",
+        "by": "sysoleg",
+        "score": 29,
+        "descendants": 4,
+        "time": 1793006623,
+        "comments_url": "https://news.ycombinator.com/item?id=50241195"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1083,48 +1469,26 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Treap (Cartesian Tree)",
-      "url": "https://cp-algorithms.com/data_structures/treap.html",
-      "title_zh": "Treap（笛卡尔树）",
-      "created_display": "Created: Oct 26, 2026 / 04:19 PT",
-      "image_url": "https://cp-algorithms.com/favicon.ico",
-      "summary_en": "Treap introduces a Cartesian tree where each node has a random priority in addition to BST keys. It supports efficient split and merge operations, combining tree structure with heap properties for fast, balanced performance.",
-      "summary_zh": "Treap（笛卡尔树）将键作为二叉搜索树，同时给节点分配随机优先级，结合堆性质。它支持高效的分裂与合并等操作，是竞赛编程和库实现中的常见数据结构。",
+      "title_en": "Muhammad Aqeel: Undo for Postgres, without losing the rest of your day",
+      "url": "https://www.pgedge.com/blog/undo-for-postgres-without-losing-the-rest-of-your-day",
+      "title_zh": "Muhammad Aqeel：PostgreSQL 的撤销功能，再也不耽误你的一整天",
+      "created_display": "Created: Oct 26, 2026 / 14:15 PT",
+      "image_url": "https://a.storyblok.com/f/187930/1200x630/e31b85a4c9/social-image.png",
+      "summary_en": "Muhammad Aqeel discusses Undo for PostgreSQL, a workflow or tool designed to revert mistaken changes without costly downtime. The piece outlines practical approaches that leverage existing WAL or point-in-time recovery to minimize disruption.",
+      "summary_zh": "Muhammad Aqeel 介绍 PostgreSQL 的撤销功能/工具，旨在在不造成高成本停机的情况下撤销错误修改。文章提出基于现有的 WAL 或时间点恢复等实际可行的做法，降低工作中断。",
       "hn": {
-        "id": 50241949,
+        "id": 50251085,
         "type": "story",
-        "by": "vismit2000",
-        "score": 15,
-        "descendants": 2,
-        "time": 1793013571,
-        "comments_url": "https://news.ycombinator.com/item?id=50241949"
+        "by": "hnisjafx40",
+        "score": 13,
+        "descendants": 4,
+        "time": 1793049357,
+        "comments_url": "https://news.ycombinator.com/item?id=50251085"
       },
       "hot_score": 0.01,
       "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Getting debug access on a Brother printer over Telnet",
-      "url": "https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/",
-      "title_zh": "通过 Telnet 获取 Brother 打印机的调试访问权限",
-      "created_display": "Created: Oct 26, 2026 / 06:54 PT",
-      "image_url": "https://inventor7777.github.io/donut.png",
-      "summary_en": "A demonstration of gaining debug access on a Brother printer via Telnet exposes insecure debugging interfaces and potential control over the device. The post advises disabling Telnet, updating firmware, and hardening network security to mitigate risk.",
-      "summary_zh": "演示通过 Telnet 获取 Brother 打印机的调试访问，暴露了调试接口的安全隐患。建议禁用 Telnet、更新固件并加强网络安全来降低风险。",
-      "hn": {
-        "id": 50243757,
-        "type": "story",
-        "by": "inventor7777",
-        "score": 3,
-        "descendants": 0,
-        "time": 1793022879,
-        "comments_url": "https://news.ycombinator.com/item?id=50243757"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Security",
-        "Programming"
+        "Programming",
+        "Data"
       ]
     }
   ]
