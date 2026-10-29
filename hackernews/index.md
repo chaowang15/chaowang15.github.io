@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>252</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37226</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>250</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>252</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37258</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>250</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='42' data-hn-time='1793276340'>
+<div class='hn-top-story-item' data-hn-score='824' data-hn-time='1793283201'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50287775'>If IPv4 Were Land</a>
- <a class='hn-top-story-link' href='https://iptrust.co/blog/if-ipv4-were-land' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50289418'>We're releasing the weights of Mistral Large 4</a>
+ <a class='hn-top-story-link' href='https://mistral.ai/news/mistral-large-4-oss/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>若把 IPv4 当成陆地</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>发布 Mistral Large 4 的权重</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 824</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='68' data-hn-time='1793273389'>
+<div class='hn-top-story-item' data-hn-score='324' data-hn-time='1793292137'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50287359'>An Urgent Message on Artificial Intelligence from the Kogui People</a>
- <a class='hn-top-story-link' href='https://sonidoselva.com/perspectiva-kogui' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50291945'>Google Search is now less than half of Alphabet’s revenue</a>
+ <a class='hn-top-story-link' href='https://www.kadoa.com/companies/insights/google-search-below-half' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>科吉族对人工智能的紧急呼吁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>谷歌搜索营收占比跌破一半，成 Alphabet 新挑战</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 277</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='95' data-hn-time='1793270689'>
+<div class='hn-top-story-item' data-hn-score='389' data-hn-time='1793281204'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50287001'>The US added a record 20.2 GWh of battery storage in just 3 months</a>
- <a class='hn-top-story-link' href='https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50288867'>‘You Are Done’: The letter sent to King by the F.B.I (2014)</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国三个月新增创纪录的 20.2 GWh 电池储能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 95</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>你完了：FBI 致马丁·路德·金的信（2014）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 389</span> <span class='hn-top-story-comments'>&#128172; 321</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='446' data-hn-time='1793244822'>
+<div class='hn-top-story-item' data-hn-score='217' data-hn-time='1793287822'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50284255'>Claude Code regularly sends each background agent’s transcript to its model</a>
- <a class='hn-top-story-link' href='https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50290668'>I went to Mexico to test-drive the cars Americans can’t buy</a>
+ <a class='hn-top-story-link' href='https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Code 会定期将后台代理的对话记录发送给模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 446</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>我去墨西哥试驾美国买不到的汽车</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 224</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1351' data-hn-time='1793207609'>
+<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1793289183'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50276998'>Why is this fingerprinting script creating bioweapons?</a>
- <a class='hn-top-story-link' href='https://nullpt.rs/fingerprinting-bioweapons' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50291054'>H.264 Is Magic (2016)</a>
+ <a class='hn-top-story-link' href='https://sidbala.com/h-264-is-magic/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么这个指纹脚本会创建生物武器？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 1351</span> <span class='hn-top-story-comments'>&#128172; 250</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>H.264 的魔力（2016）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='559' data-hn-time='1793233545'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1793293014'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50282838'>Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5</a>
- <a class='hn-top-story-link' href='https://divagr.com/blog/qwenputer' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50292233'>Tomáš Mikolov awarded the Medal of Merit by the President of the Czech Republic</a>
+ <a class='hn-top-story-link' href='https://www.vut.cz/en/but/news-f19528/two-but-graduates-received-state-honors-from-the-president-of-the-republic-d378468' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwenputer：在 Qwen3.5 内实现的确定性 RISC-V CPU</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 559</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>捷克总统授予托马斯·米科洛夫勋章</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='562' data-hn-time='1793230502'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='315' data-hn-time='1793277716'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50282454'>StackOverflow now gets fewer than 1000 questions a month</a>
- <a class='hn-top-story-link' href='https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50288019'>Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5</a>
+ <a class='hn-top-story-link' href='https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Stack Overflow 现每月不到 1000 条问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 562</span> <span class='hn-top-story-comments'>&#128172; 467</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Gemini 4 Carbon 成为人工分析智能指数 v5 的新冠军</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 315</span> <span class='hn-top-story-comments'>&#128172; 235</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='156' data-hn-time='1793257730'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='175' data-hn-time='1793285875'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50285452'>Zero click, silent, remote Android DoS</a>
- <a class='hn-top-story-link' href='https://smsofdeath.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50290177'>LLM Voice</a>
+ <a class='hn-top-story-link' href='https://martinfowler.com/bliki/LLM-Voice.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>零点击静默的远程 Android 拒绝服务攻击</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>大型语言模型的语音交互</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 175</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='957' data-hn-time='1793206883'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='290' data-hn-time='1793277185'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50276792'>Gemini 4 Carbon</a>
- <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50287919'>DoorDash to acquire Instacart</a>
+ <a class='hn-top-story-link' href='https://about.doordash.com/en-us/news/doordash-to-acquire-instacart' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Gemini 4 Carbon：谷歌推出的 Gemini 系列新一代模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 957</span> <span class='hn-top-story-comments'>&#128172; 767</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>DoorDash 将收购 Instacart</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 511</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='124' data-hn-time='1793256448'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='243' data-hn-time='1793277069'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50285319'>Forging a Microsoft Edge Full Chain with Logic Bugs Only</a>
- <a class='hn-top-story-link' href='https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50287898'>Hackers expose the identities of more than 40k DHS employees</a>
+ <a class='hn-top-story-link' href='https://text.npr.org/nx-s1-6021497' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>仅用逻辑漏洞打造 Edge 全链路利用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 124</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>黑客披露超过 4 万 DHS 员工身份信息</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 44 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-26 — 2026-10-29 <span class="hn-row-sep">·</span> 515 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-10-26 — 2026-10-29 <span class="hn-row-sep">·</span> 547 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/29/top_stories_10292026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>65</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>97</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
