@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>252</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37261</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>250</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>253</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37310</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>251</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='2363' data-hn-time='1793302899'>
+<div class='hn-top-story-item' data-hn-score='2841' data-hn-time='1793302899'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50294702'>Patrick Stewart has died</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50294702'>Patrick Stewart has died</a>
  <a class='hn-top-story-link' href='https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>帕特里克·斯图尔特去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 59</span> <span class='hn-top-story-score'>&#9650; 2363</span> <span class='hn-top-story-comments'>&#128172; 491</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 2841</span> <span class='hn-top-story-comments'>&#128172; 599</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='680' data-hn-time='1793309939'>
+<div class='hn-top-story-item' data-hn-score='1191' data-hn-time='1793309939'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50296470'>Binance-hacker-1029 – $5.6B stolen from Binance</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50296470'>Binance-hacker-1029 – $5.6B stolen from Binance</a>
  <a class='hn-top-story-link' href='https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Binance 黑客案1029：从币安被盗5.6亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 680</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 1191</span> <span class='hn-top-story-comments'>&#128172; 728</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1188' data-hn-time='1793283201'>
+<div class='hn-top-story-item' data-hn-score='1395' data-hn-time='1793283201'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50289418'>We're releasing the weights of Mistral Large 4</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50289418'>We're releasing the weights of Mistral Large 4</a>
  <a class='hn-top-story-link' href='https://mistral.ai/news/mistral-large-4-oss/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>发布 Mistral Large 4 的权重</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1188</span> <span class='hn-top-story-comments'>&#128172; 338</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 1395</span> <span class='hn-top-story-comments'>&#128172; 375</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='148' data-hn-time='1793310028'>
+<div class='hn-top-story-item' data-hn-score='157' data-hn-time='1793320961'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50296486'>We ran AI agent swarms in Minecraft and Mindustry</a>
- <a class='hn-top-story-link' href='https://labs.ycombinator.com/projects/games/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50298436'>Herdr has released native app</a>
+ <a class='hn-top-story-link' href='https://github.com/herdrdev/herdr-app' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在 Minecraft 与 Mindustry 中测试 AI 代理群</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>Herdr 发布原生应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='376' data-hn-time='1793292137'>
+<div class='hn-top-story-item' data-hn-score='258' data-hn-time='1793310028'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50291945'>Google Search is now less than half of Alphabet’s revenue</a>
- <a class='hn-top-story-link' href='https://www.kadoa.com/companies/insights/google-search-below-half' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50296486'>We ran AI agent swarms in Minecraft and Mindustry</a>
+ <a class='hn-top-story-link' href='https://labs.ycombinator.com/projects/games/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌搜索营收占比跌破一半，成 Alphabet 新挑战</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 319</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>在 Minecraft 与 Mindustry 中测试 AI 代理群</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='283' data-hn-time='1793295828'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='110' data-hn-time='1793325524'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50293047'>Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang</a>
- <a class='hn-top-story-link' href='https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50298964'>Pico CSS is no longer maintained</a>
+ <a class='hn-top-story-link' href='https://github.com/picocss/pico/discussions/754' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>疑似中国间谍与黄仁勋关系密切</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 283</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Pico CSS 不再维护</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='326' data-hn-time='1793289183'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='443' data-hn-time='1793285875'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50291054'>H.264 Is Magic (2016)</a>
- <a class='hn-top-story-link' href='https://sidbala.com/h-264-is-magic/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>H.264 的魔力（2016）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 326</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='119' data-hn-time='1793305948'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50295450'>A tiny world model running games on a Raspberry Pi Pico 2 W</a>
- <a class='hn-top-story-link' href='https://github.com/SheepSeb/tinyworldformer' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在 Raspberry Pi Pico 2 W 上运行的微型世界模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='337' data-hn-time='1793285875'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50290177'>LLM Voice</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50290177'>LLM Voice</a>
  <a class='hn-top-story-link' href='https://martinfowler.com/bliki/LLM-Voice.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>大型语言模型的语音交互</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 443</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='389' data-hn-time='1793281204'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='400' data-hn-time='1793289183'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50291054'>H.264 Is Magic (2016)</a>
+ <a class='hn-top-story-link' href='https://sidbala.com/h-264-is-magic/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>H.264 的魔力（2016）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 400</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='319' data-hn-time='1793295828'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50293047'>Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang</a>
+ <a class='hn-top-story-link' href='https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>疑似中国间谍与黄仁勋关系密切</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 222</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='462' data-hn-time='1793277185'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/29/top_stories_10292026#story-50288867'>‘You Are Done’: The letter sent to King by the F.B.I (2014)</a>
- <a class='hn-top-story-link' href='https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/30/top_stories_10302026#story-50287919'>DoorDash to acquire Instacart</a>
+ <a class='hn-top-story-link' href='https://about.doordash.com/en-us/news/doordash-to-acquire-instacart' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你完了：FBI 致马丁·路德·金的信（2014）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 389</span> <span class='hn-top-story-comments'>&#128172; 321</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>DoorDash 将收购 Instacart</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 462</span> <span class='hn-top-story-comments'>&#128172; 628</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/29/top_stories_10292026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/30/top_stories_10302026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/28/best_stories_10282026'>Latest Daily Best — 2026-10-28 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 44 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-26 — 2026-10-29 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-10-26 — 2026-10-30 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-30 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/30/top_stories_10302026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-29 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -513,7 +522,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 40</span>
-<span class='hn-week-meta'>2026-09-30 — 2026-10-04 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-10-01 — 2026-10-04 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W40'>
@@ -566,19 +575,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/10/01/top_stories_10012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-30 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/30/best_stories_09302026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/30/top_stories_09302026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
 </a>
 </div>
 </div>
