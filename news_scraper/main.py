@@ -28,6 +28,7 @@ import time
 import yaml
 from datetime import datetime, timezone, timedelta
 from dateutil import tz
+from typing import Optional
 import re
 
 from hn_api import get_story_ids, get_item, get_item_url
