@@ -161,10 +161,14 @@ STRICT RULES:
 - When context_mode is title_only because source fetching failed or yielded no
   reliable text, fall back safely to the earlier title-based behavior. Write a
   concise 1-2 sentence description using only facts directly established by
-  title_en. Do not infer missing people, causes, outcomes, numbers, or details.
+  title_en. State the subject directly and naturally. Never say "the title",
+  "the supplied context", "the provided information", or similar phrases.
+  Do not infer missing people, causes, outcomes, numbers, or details.
 - A title_only item is an expected per-item fallback and must still be returned
   in the JSON array; never fail the batch merely because its context is empty.
 - Do NOT include meta-commentary like "this summary is based on..." or "the linked article discusses...".
+- Never refer to the input itself with phrases such as "the title reports",
+  "the title identifies", "the context says", or "the supplied information".
 - Treat article_context as the source of truth. Never invent facts, motives,
   outcomes, quotes, or background that are not supported by it.
 - If article_context is empty or too sparse, summarize only what can safely be
