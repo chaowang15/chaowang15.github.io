@@ -89,6 +89,9 @@ After merging new + carried-over same-day items, the list is capped at
 `(score - 1) / (age_hours + 2)^1.8` — is computed and used as the default
 sort order in both the JSON and the rendered page.
 
+`index_updater.py` renders every available day into the News Archive, grouped
+by ISO week. Historical daily pages are not truncated from homepage navigation.
+
 ## External services
 
 | Service | Used by | Auth |

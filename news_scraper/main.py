@@ -403,7 +403,6 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     update_hackernews_index(
         base_dir=base_dir,
         index_path=index_path,
-        max_items=30,
     )
 
     # Build search index
@@ -958,7 +957,6 @@ def main():
     update_hackernews_index(
         base_dir=base_dir,
         index_path=index_path,
-        max_items=30,
     )
 
     # Build tag cloud data

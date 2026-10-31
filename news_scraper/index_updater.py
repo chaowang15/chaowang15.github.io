@@ -409,11 +409,14 @@ def _group_days_by_week(days: List[DayEntry]) -> List[dict]:
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
-    max_items: int = 200,
+    max_items: Optional[int] = None,
 ) -> str:
     all_days = _collect_day_entries(base_dir)
     stats = _compute_stats(all_days)
-    days = all_days[:max_items]
+    # The archive is the navigation surface for historical pages, so it should
+    # not silently hide older dates. A limit remains available only for explicit
+    # callers/tests; production passes no limit and renders the full archive.
+    days = all_days if max_items is None else all_days[:max_items]
     # Build weekly data lookups
     weekly_entries_list = _collect_weekly_entries(base_dir)
     weekly_map = {w["iso_week"]: w for w in weekly_entries_list}  # iso_week -> weekly entry
