@@ -877,6 +877,9 @@ def run_scrape(mode: str, cfg: dict, edition: str = "full"):
             "title_en": title_en,
             "url": url,
             "title_zh": title_zh,
+            # NEW is scoped to this day's page: it appears only on stories
+            # introduced by the current run and disappears on the next run.
+            "is_new": _id not in same_day_map,
             "created_display": created_display,
             "image_url": image_url,
             "summary_en": summary_en,

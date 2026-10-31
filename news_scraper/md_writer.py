@@ -150,6 +150,11 @@ def render_markdown(
         summary_zh: str = it.get("summary_zh", "")
         image_url: Optional[str] = it.get("image_url")
         tags: List[str] = it.get("tags", [])
+        new_badge = (
+            " <span class='hn-new-badge' title='New in this update' "
+            "aria-label='New in this update'>NEW</span>"
+            if it.get("is_new") else ""
+        )
 
         # Build data-tags attribute for future JS filtering
         tags_data = ",".join(tags) if tags else ""
@@ -171,6 +176,7 @@ def render_markdown(
         lines.append(
             f"<p class='hn-title'>({i}) "
             f"<a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a>"
+            f"{new_badge}"
             f"</p>"
         )
 

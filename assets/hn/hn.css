@@ -302,6 +302,45 @@ body {
     text-underline-offset: 3px;
 }
 
+/* Marks stories introduced by the latest scrape. The pipeline clears the
+   flag automatically when the same story survives into the next update. */
+.hn-new-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 7px;
+    padding: 2px 7px 2px 6px;
+    border: 1px solid rgba(168, 85, 247, 0.42);
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.14), rgba(6, 182, 212, 0.14));
+    color: #7c3aed;
+    box-shadow: 0 0 12px rgba(124, 58, 237, 0.12);
+    font-family: var(--hn-sans);
+    font-size: 0.62rem;
+    font-weight: 850;
+    line-height: 1.15;
+    letter-spacing: 0.08em;
+    vertical-align: 0.18em;
+    white-space: nowrap;
+}
+
+.hn-new-badge::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #06b6d4;
+    box-shadow: 0 0 6px rgba(6, 182, 212, 0.8);
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-new-badge {
+        border-color: rgba(196, 181, 253, 0.4);
+        color: #c4b5fd;
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(34, 211, 238, 0.14));
+    }
+}
+
 .hn-meta {
     margin: 0 0 12px 0;
     color: var(--hn-muted);
