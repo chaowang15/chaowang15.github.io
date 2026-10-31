@@ -291,6 +291,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                         "hn_time": hn.get("time", 0),
                         "daily_url": s.rel_url,
                         "content_date": day.content_date,
+                        "scrape_time_display": meta.get("scrape_time_display", ""),
                         "hot_score": it.get("hot_score", 0),
                     })
                 return result
@@ -481,10 +482,31 @@ def update_hackernews_index(
             ).strftime("%b %d, %Y")
         except (TypeError, ValueError):
             top_date_label = top_content_date
+        scrape_time_display = top_stories[0].get("scrape_time_display", "")
+        top_time_label = ""
+        if scrape_time_display:
+            time_match = re.match(
+                r"^(\d{1,2}:\d{2}),\s+.+?\s+\(([^)]+)\)$",
+                scrape_time_display,
+            )
+            if time_match:
+                try:
+                    time_24h = datetime.strptime(time_match.group(1), "%H:%M")
+                    top_time_label = (
+                        f"{time_24h.strftime('%I:%M %p').lstrip('0')} "
+                        f"{time_match.group(2)}"
+                    )
+                except ValueError:
+                    top_time_label = time_match.group(1)
+            else:
+                top_time_label = scrape_time_display
+        top_datetime_label = " · ".join(
+            label for label in (top_date_label, top_time_label) if label
+        )
         date_html = (
             f" <time class='hn-section-date' datetime='{top_content_date}'>"
-            f"{top_date_label}</time>"
-            if top_content_date and top_date_label
+            f"{top_datetime_label}</time>"
+            if top_content_date and top_datetime_label
             else ""
         )
         lines.append("<div class='hn-index-section hn-top-stories-section'>")

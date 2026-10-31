@@ -19,7 +19,7 @@ Sort:
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
 <div class='hn-index-section hn-top-stories-section'>
-<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <time class='hn-section-date' datetime='2026-10-31'>Oct 31, 2026</time> <span class='hn-hot-badge'>🔥 HOT</span></h3>
+<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <time class='hn-section-date' datetime='2026-10-31'>Oct 31, 2026 · 12:06 PM PDT</time> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
 <div class='hn-top-story-item' data-hn-score='127' data-hn-time='1793468242'>
 <span class='hn-top-story-rank'>1</span>
