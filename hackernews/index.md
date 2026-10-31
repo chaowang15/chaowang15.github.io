@@ -2,10 +2,9 @@
 layout: hn
 title: "Hacker News Daily"
 ---
-
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>254</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37371</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>252</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>254</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37421</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>252</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -19,9 +18,9 @@ Sort:
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
 <div class='hn-index-section hn-top-stories-section'>
-<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <time class='hn-section-date' datetime='2026-10-31'>Oct 31, 2026 · 12:06 PM PDT</time> <span class='hn-hot-badge'>🔥 HOT</span></h3>
+<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <time class='hn-section-date' datetime='2026-10-31'>Oct 31, 2026 · 12:37 PM PDT</time> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1793468242'>
+<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1793468242'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -29,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>英国绿党放弃长期反对核能的立场</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='700' data-hn-time='1793442090'>
+<div class='hn-top-story-item' data-hn-score='718' data-hn-time='1793442090'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -40,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>塞尔维亚刚刚选出了世界上最聪明的议会</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 700</span> <span class='hn-top-story-comments'>&#128172; 402</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 718</span> <span class='hn-top-story-comments'>&#128172; 413</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='135' data-hn-time='1793462448'>
+<div class='hn-top-story-item' data-hn-score='153' data-hn-time='1793462448'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -51,10 +50,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.casio.com/us/watches/50th/Heritage/1980s/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>20 世纪 80 年代的卡西欧手表</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='190' data-hn-time='1793456943'>
+<div class='hn-top-story-item' data-hn-score='195' data-hn-time='1793456943'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -62,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>恶意软件利用大语言模型按受害者价值排序</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 195</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='36' data-hn-time='1793469749'>
+<div class='hn-top-story-item' data-hn-score='53' data-hn-time='1793469749'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50318401'>The Impact of Generative AI on Critical Thinking</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50318401'>The Impact of Generative AI on Critical Thinking: Self-Reported (2025)</a>
  <a class='hn-top-story-link' href='https://dl.acm.org/doi/full/10.1145/3706598.3713778' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>生成式 AI 对批判性思维的影响</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='260' data-hn-time='1793442611'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1793472634'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50314699'>We Took over ChatGPT Accounts</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50318871'>GPT-5.6 Sol can beat Factorio on peaceful mode</a>
+ <a class='hn-top-story-link' href='https://ryanmadden.net/gpt-56-beats-factorio/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GPT-5.6 Sol 能在和平模式下击败《异星工厂》</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1793473656'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50319061'>The Duty of a Scholar</a>
+ <a class='hn-top-story-link' href='https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>学者的责任</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='269' data-hn-time='1793442611'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50314699'>Do the math: How we took over ChatGPT accounts</a>
  <a class='hn-top-story-link' href='https://www.parameter.ai/labs/we-found-a-gap-at-openai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我们接管了 ChatGPT 账户</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 260</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 269</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='245' data-hn-time='1793442221'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='256' data-hn-time='1793442221'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50314666'>Molly (Signal fork) has not been updated since 3 months and is vulnerable</a>
  <a class='hn-top-story-link' href='https://piefed.world/post/1503394' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Molly（Signal 分支）已有三个月未更新，存在漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 256</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1793462995'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50317429'>What is a light-day? The milestone Voyager 1 is closing in on</a>
- <a class='hn-top-story-link' href='https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>什么是光日？旅行者 1 号正在接近的里程碑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1793447699'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50315226'>Prospero: A new coding harness for a more civilized age</a>
- <a class='hn-top-story-link' href='https://nullprogram.com/blog/2026/10/31/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Prospero：为更文明的时代打造的新型编码工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1793453992'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1793458653'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50316100'>Jepsen: ParticleDB 1.1.4</a>
- <a class='hn-top-story-link' href='https://jepsen.io/analyses/particledb-1.1.4' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/31/top_stories_10312026#story-50316760'>Ex-Meta Researcher Torrented Pirated Books, Deleted It 'Due to Litigation'</a>
+ <a class='hn-top-story-link' href='https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jepsen：ParticleDB 1.1.4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>前 Meta 研究员曾通过种子下载盗版书籍，称因诉讼而删除</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 44 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-26 — 2026-10-31 <span class="hn-row-sep">·</span> 660 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-10-26 — 2026-10-31 <span class="hn-row-sep">·</span> 710 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,8 +147,8 @@ Sort:
 <div class='hn-day-date'>2026-10-31 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/31/top_stories_10312026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
+<span class='hn-row-type hn-type-top'>Daily Top Stories</span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
 </a>
 </div>
 </div>
