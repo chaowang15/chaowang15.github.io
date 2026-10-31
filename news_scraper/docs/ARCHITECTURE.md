@@ -36,6 +36,12 @@ Jekyll build (GitHub Pages) renders the generated .md files as HTML
 directly by their own workflows/manually; they reuse `llm_batch.py`,
 `backup_io.py`, etc. but are not called from `main.py`.
 
+`monthly_digest.py` aggregates each completed calendar month, deduplicates by
+HN ID while retaining the highest observed score, and publishes at most the top
+200 stories under `hackernews/monthly/YYYY-MM`. `hn_monthly.yml` runs on the
+first day of each month. Monthly generation uses existing JSON only and makes no
+LLM calls.
+
 ## Per-day JSON as source of truth
 
 Every scrape writes `hackernews/YYYY/MM/DD/<prefix>_MMDDYYYY.json` — this is
@@ -99,7 +105,10 @@ whose label overstates its count. The list is then ordered with a HN-style
 sort order in both the JSON and the rendered page.
 
 `index_updater.py` renders every available day into the News Archive, grouped
-by ISO week. Historical daily pages are not truncated from homepage navigation.
+by ISO week. Daily labels omit the redundant year (`10-31`); the surrounding
+week heading retains it (`2026 Week 44`). Completed monthly digests appear as
+standalone Best of the Month cards at calendar-month boundaries. Historical
+daily pages are not truncated from homepage navigation.
 
 ## External services
 

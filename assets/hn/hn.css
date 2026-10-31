@@ -759,6 +759,53 @@ a.hn-top-story-title-text:hover {
     margin-bottom: 0;
 }
 
+.hn-month-divider {
+    margin: 18px 0 12px;
+    padding: 13px 15px;
+    border: 1px solid rgba(14, 165, 233, 0.25);
+    border-radius: var(--hn-radius);
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), rgba(139, 92, 246, 0.07));
+    box-shadow: 0 4px 18px rgba(14, 165, 233, 0.06);
+}
+
+.hn-month-heading {
+    margin-bottom: 7px;
+    color: var(--hn-muted);
+    font-family: var(--hn-sans);
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hn-month-heading span {
+    margin-left: 6px;
+    color: var(--title);
+    font-size: 1.15em;
+    letter-spacing: 0.02em;
+}
+
+.hn-monthly-digest-link {
+    padding: 8px 10px !important;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.42);
+}
+
+.hn-monthly-digest-link:hover {
+    background: rgba(255, 255, 255, 0.72) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-month-divider {
+        border-color: rgba(56, 189, 248, 0.22);
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.12), rgba(139, 92, 246, 0.1));
+    }
+    .hn-monthly-digest-link,
+    .hn-monthly-digest-link:hover {
+        background: rgba(255, 255, 255, 0.05) !important;
+    }
+}
+
 .hn-week-summary {
     display: flex;
     align-items: center;
@@ -1366,6 +1413,12 @@ a.hn-top-story-title-text:hover {
     border: 1px solid #ddd6fe;
 }
 
+.hn-mode-monthly {
+    background: #e0f2fe;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+}
+
 @media (prefers-color-scheme: dark) {
     .hn-mode-best {
         background: rgba(59, 130, 246, 0.18);
@@ -1381,6 +1434,11 @@ a.hn-top-story-title-text:hover {
         background: rgba(139, 92, 246, 0.18);
         color: #c4b5fd;
         border-color: rgba(139, 92, 246, 0.30);
+    }
+    .hn-mode-monthly {
+        background: rgba(14, 165, 233, 0.18);
+        color: #7dd3fc;
+        border-color: rgba(14, 165, 233, 0.3);
     }
 }
 

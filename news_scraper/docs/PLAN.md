@@ -15,7 +15,9 @@ Production and stable. Two GitHub Actions workflows run on schedule:
 preserved. Each new day now has one Top Stories URL: the morning run publishes
 exactly 50 items as `Morning 50`, and the evening run updates that same page to
 exactly 100 items as `All 100`. Historical Daily Best and Trending pages are
-left unchanged. As of 2026-09-11: 204+ days of data, 30,000+ stories archived
+left unchanged. Completed calendar months also receive a score-ranked Top 200
+Best of the Month page, linked at the matching month boundary in the archive.
+As of 2026-09-11: 204+ days of data, 30,000+ stories archived
 under `hackernews/`.
 
 ## Current goal

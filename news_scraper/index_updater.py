@@ -11,6 +11,7 @@ TOP_JSON_RE = re.compile(r"^top_stories_(\d{8})\.json$")     # MMDDYYYY
 BEST_MD_RE = re.compile(r"^best_stories_(\d{8})\.md$")       # MMDDYYYY
 TOP_MD_RE = re.compile(r"^top_stories_(\d{8})\.md$")         # MMDDYYYY
 WEEKLY_JSON_RE = re.compile(r"^(\d{4})-W(\d{2})\.json$")     # YYYY-WNN
+MONTHLY_JSON_RE = re.compile(r"^(\d{4})-(\d{2})\.json$")      # YYYY-MM
 
 
 @dataclass
@@ -339,7 +340,13 @@ def _collect_weekly_entries(base_dir: str) -> List[dict]:
         # Build detail text
         detail_parts = []
         if date_start and date_end:
-            detail_parts.append(f"{date_start} — {date_end}")
+            try:
+                detail_parts.append(
+                    f"{datetime.strptime(date_start, '%Y-%m-%d').strftime('%m-%d')} — "
+                    f"{datetime.strptime(date_end, '%Y-%m-%d').strftime('%m-%d')}"
+                )
+            except ValueError:
+                detail_parts.append(f"{date_start} — {date_end}")
         if total_pool:
             detail_parts.append(f"All <b>{total_pool}</b>")
         elif top_n:
@@ -367,6 +374,42 @@ def _collect_weekly_entries(base_dir: str) -> List[dict]:
     # Sort newest first
     entries.sort(key=lambda x: x["sort_key"], reverse=True)
     return entries
+
+
+def _collect_monthly_entries(base_dir: str) -> List[dict]:
+    """Collect generated monthly digest metadata, newest first."""
+    monthly_dir = os.path.join(base_dir, "monthly")
+    if not os.path.isdir(monthly_dir):
+        return []
+    entries = []
+    for fn in os.listdir(monthly_dir):
+        match = MONTHLY_JSON_RE.match(fn)
+        if not match:
+            continue
+        month_str = f"{match.group(1)}-{match.group(2)}"
+        try:
+            with open(os.path.join(monthly_dir, fn), "r", encoding="utf-8") as f:
+                data = json.load(f)
+            meta = data.get("meta", {}) or {}
+            month_dt = datetime.strptime(month_str, "%Y-%m")
+            end_dt = datetime.strptime(meta.get("date_end", ""), "%Y-%m-%d")
+        except (OSError, ValueError, json.JSONDecodeError):
+            continue
+        top_n = int(meta.get("top_n", 0) or 0)
+        total_pool = int(meta.get("total_pool", 0) or 0)
+        detail_parts = [f"Top <b>{top_n}</b>"]
+        if total_pool > top_n:
+            detail_parts.append(f"from <b>{total_pool}</b> unique stories")
+        for stat in (data.get("tag_stats", []) or [])[:2]:
+            detail_parts.append(f"{stat['tag']} <b>{stat['count']}</b>")
+        entries.append({
+            "month": month_str,
+            "label": month_dt.strftime("%B %Y"),
+            "url": f"/{base_dir}/monthly/{month_str}",
+            "detail": ' <span class="hn-row-sep">·</span> '.join(detail_parts),
+            "end_date": end_dt,
+        })
+    return sorted(entries, key=lambda entry: entry["month"], reverse=True)
 
 def _group_days_by_week(days: List[DayEntry]) -> List[dict]:
     """Group DayEntry list by ISO week.
@@ -426,6 +469,7 @@ def update_hackernews_index(
     # Build weekly data lookups
     weekly_entries_list = _collect_weekly_entries(base_dir)
     weekly_map = {w["iso_week"]: w for w in weekly_entries_list}  # iso_week -> weekly entry
+    monthly_entries = _collect_monthly_entries(base_dir)
 
     # Determine current ISO week
     now = datetime.now()
@@ -584,7 +628,28 @@ def update_hackernews_index(
 
             # Date range for this week
             date_list = sorted([d.content_date for d in week_days])
-            date_range_str = f"{date_list[0]} \u2014 {date_list[-1]}" if len(date_list) > 1 else date_list[0]
+            try:
+                short_dates = [datetime.strptime(value, "%Y-%m-%d").strftime("%m-%d") for value in date_list]
+                date_range_str = f"{short_dates[0]} \u2014 {short_dates[-1]}" if len(short_dates) > 1 else short_dates[0]
+                week_start_dt = datetime.strptime(date_list[0], "%Y-%m-%d")
+                week_end_dt = datetime.strptime(date_list[-1], "%Y-%m-%d")
+            except ValueError:
+                date_range_str = f"{date_list[0]} \u2014 {date_list[-1]}" if len(date_list) > 1 else date_list[0]
+                week_start_dt = week_end_dt = None
+
+            # In the descending archive, place a completed month immediately
+            # before the week containing its final day. This visually marks
+            # the boundary between the old month and the newer one.
+            if week_start_dt and week_end_dt:
+                for monthly in monthly_entries:
+                    if week_start_dt <= monthly["end_date"] <= week_end_dt:
+                        lines.append("<div class='hn-month-divider'>")
+                        lines.append(f"<div class='hn-month-heading'>Best of the Month <span>{monthly['label']}</span></div>")
+                        lines.append(f"<a class='hn-story-link hn-monthly-digest-link' href='{monthly['url']}'>")
+                        lines.append("<span class='hn-row-type hn-type-monthly'>Monthly Top</span>")
+                        lines.append(f"<span class='hn-row-detail'>{monthly['detail']}</span>")
+                        lines.append("</a>")
+                        lines.append("</div>")
 
             # Check if weekly digest exists
             weekly_entry = weekly_map.get(iso_week)
@@ -623,10 +688,12 @@ def update_hackernews_index(
                 try:
                     _dt = datetime.strptime(day.content_date, "%Y-%m-%d")
                     _weekday = _dt.strftime("%a")
+                    day_label = _dt.strftime("%m-%d")
                 except Exception:
                     _weekday = ""
+                    day_label = day.content_date
                 weekday_html = f" <span class='hn-day-weekday'>{_weekday}</span>" if _weekday else ""
-                lines.append(f"<div class='hn-day-date'>{day.content_date}{weekday_html}</div>")
+                lines.append(f"<div class='hn-day-date'>{day_label}{weekday_html}</div>")
                 lines.append("<div class='hn-day-stories'>")
 
                 for s in day.stories:

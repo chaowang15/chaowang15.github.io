@@ -5,6 +5,15 @@ in `logs/`; this file is the index into it.
 
 ---
 
+**2026-10-31 — Add monthly Top 200 digests and simplify archive date labels.**
+The archive's ISO week heading owns the year, so daily dates and week ranges use
+numeric `MM-DD` labels instead of repeating `YYYY-MM-DD`. Each completed month
+gets a Best of the Month page containing up to 200 unique stories, ranked by the
+highest HN score observed during that month. The digest is assembled entirely
+from existing daily JSON, so it incurs no LLM cost. Its archive card appears
+immediately before the week containing the month's final day, which places it
+visually at the boundary between months. See `logs/2026-10-31.md`.
+
 **2026-10-31 — Future Top Stories use one daily URL with Morning 50 and All 100 editions.**
 The morning Top run publishes exactly 50 unique stories and labels the page
 `Daily Top Stories · Morning 50`. The evening run updates the same JSON, Markdown
