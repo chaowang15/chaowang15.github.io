@@ -5,6 +5,16 @@ in `logs/`; this file is the index into it.
 
 ---
 
+**2026-10-31 — Future Top Stories use one daily URL with Morning 50 and All 100 editions.**
+The morning Top run publishes exactly 50 unique stories and labels the page
+`Daily Top Stories · Morning 50`. The evening run updates the same JSON, Markdown
+page, and URL to exactly 100 unique stories labeled `Daily Top Stories · All
+100`; it retains and refreshes the morning IDs, skips duplicates, and scans
+farther down the current HN list until the target is met. Any story found in the
+existing archive reuses its generated content and only refreshes HN metrics.
+Historical Daily Best and Trending pages remain untouched and retain their old
+labels. See `logs/2026-10-31.md`.
+
 **2026-10-31 — Retired the scheduled Best feed, reduced Top to twice daily,
 and made GPT tag classification incremental.**
 Context: the pipeline's OpenAI prepaid balance was exhausted after recurring

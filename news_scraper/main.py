@@ -71,6 +71,19 @@ def ensure_dir(p: str):
     os.makedirs(p, exist_ok=True)
 
 
+def _ordered_unique_ids(existing_ids, current_ids):
+    """Refresh today's IDs first, then append current HN IDs without repeats."""
+    seen = set()
+    ordered = []
+    for value in list(existing_ids) + list(current_ids):
+        story_id = int(value)
+        if story_id in seen:
+            continue
+        seen.add(story_id)
+        ordered.append(story_id)
+    return ordered
+
+
 def mmddyyyy(dt: datetime) -> str:
     return dt.strftime("%m%d%Y")
 
@@ -263,6 +276,48 @@ def _load_same_day_items(json_path: str) -> dict:
         return {}
 
 
+def _load_historical_story_index(base_dir: str) -> dict:
+    """Map HN id to its previously generated daily page using search_index.json."""
+    index_path = os.path.join(base_dir, "search_index.json")
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            entries = json.load(f)
+        return {
+            int(entry["id"]): entry.get("page", "")
+            for entry in entries
+            if entry.get("id") and entry.get("page")
+        }
+    except Exception as e:
+        print(f"[HISTORY][WARN] Historical search index unavailable: {e}")
+        return {}
+
+
+def _find_historical_item(
+    base_dir: str,
+    historical_index: dict,
+    hn_id: int,
+    file_cache: dict,
+) -> Optional[dict]:
+    """Load one prior full item lazily from the page recorded in the index."""
+    page = historical_index.get(int(hn_id), "")
+    if not page:
+        return None
+    json_path = page.lstrip("/") + ".json"
+    if not json_path.startswith(base_dir + os.sep) and not json_path.startswith(base_dir + "/"):
+        return None
+    if json_path not in file_cache:
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            file_cache[json_path] = {
+                int(item.get("hn", {}).get("id")): item
+                for item in (data.get("items", []) or [])
+                if item.get("hn", {}).get("id")
+            }
+        except Exception:
+            file_cache[json_path] = {}
+    return file_cache[json_path].get(int(hn_id))
+
 def _is_same_story(prev_item: dict, title_en: str) -> bool:
     """
     Verify that the previous item is the same story by comparing title.
@@ -435,7 +490,7 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
 # Main pipeline: fetch, enrich, deduplicate, render
 # ============================================================
 
-def run_scrape(mode: str, cfg: dict):
+def run_scrape(mode: str, cfg: dict, edition: str = "full"):
     """
     Run the scraping pipeline for a given mode ('best' or 'top').
 
@@ -443,7 +498,7 @@ def run_scrape(mode: str, cfg: dict):
       - Same-day dedup: reuse LLM summaries from today's existing JSON (update scores)
       - Cross-day dedup: reuse LLM summaries from previous day's JSON
       - Merge: combine new items with existing same-day items not in current fetch
-      - Cap: best=50, top=100 (keep highest-scored after merging)
+      - Cap: top morning=50, top full=100 (one same-day page/URL)
       - Sort: all items sorted by score descending
     """
     t_start = time.time()
@@ -470,9 +525,18 @@ def run_scrape(mode: str, cfg: dict):
 
     # Mode-specific config
     mode_cfg = cfg.get(mode, {})
-    count = int(mode_cfg.get("count", 50))
+    if mode == "top":
+        if edition not in ("morning", "full"):
+            raise ValueError("top edition must be 'morning' or 'full'")
+        count_key = "morning_count" if edition == "morning" else "full_count"
+        count = int(mode_cfg.get(count_key, 50 if edition == "morning" else 100))
+        edition_label = "Morning 50" if edition == "morning" else "All 100"
+        mode_label = f"Daily Top Stories — {edition_label}"
+    else:
+        count = int(mode_cfg.get("count", 50))
+        edition_label = ""
+        mode_label = "Daily Best"
     prefix = mode_cfg.get("filename_prefix", f"{mode}_stories")
-    mode_label = "Trending" if mode == "top" else "Daily Best"
 
     filename = f"{prefix}_{mmddyyyy(content_dt)}.md"
     out_path = os.path.join(out_dir, filename)
@@ -503,7 +567,7 @@ def run_scrape(mode: str, cfg: dict):
     is_scheduled = (event_name == "schedule")
 
     # Both modes use the same unified incremental pipeline
-    stories_max = TOP_STORIES_MAX if mode == "top" else BEST_STORIES_MAX
+    stories_max = count if mode == "top" else BEST_STORIES_MAX
 
     print("=" * 70)
     print(f"[PIPELINE] Hacker News Daily Scraper — mode={mode}")
@@ -520,11 +584,20 @@ def run_scrape(mode: str, cfg: dict):
     # LLM is always enabled for new items
     llm_enabled = True
 
+    # Load the same-day page before fetching. Existing IDs are refreshed first;
+    # then current HN Top IDs are appended until the edition target is reached.
+    same_day_map = _load_same_day_items(json_path)
+
     # ========== STEP 1: Fetch story IDs ==========
     print(f"\n[STEP 1/6] Fetching top {count} {mode} story IDs from HN API ...")
     t0 = time.time()
-    ids = get_story_ids(mode)[:count]
-    print(f"[STEP 1/6] Got {len(ids)} story IDs in {time.time() - t0:.1f}s")
+    current_ids = get_story_ids(mode)
+    ids = _ordered_unique_ids(same_day_map.keys(), current_ids)
+    print(
+        f"[STEP 1/6] Got {len(current_ids)} source IDs; "
+        f"refreshing {len(same_day_map)} same-day IDs before filling target={count} "
+        f"in {time.time() - t0:.1f}s"
+    )
 
     # ========== STEP 2: Fetch story details ==========
     print(f"\n[STEP 2/6] Fetching story details ...")
@@ -532,6 +605,8 @@ def run_scrape(mode: str, cfg: dict):
     raw_items = []
     skipped = 0
     for item_id in ids:
+        if len(raw_items) >= count:
+            break
         try:
             item = get_item(int(item_id))
         except Exception as e:
@@ -569,25 +644,28 @@ def run_scrape(mode: str, cfg: dict):
 
     print(f"[STEP 2/6] Fetched {len(raw_items)} valid stories, skipped {skipped}, in {time.time() - t0:.1f}s")
 
-    if not raw_items:
-        raise RuntimeError("No valid story items fetched.")
+    if len(raw_items) < count:
+        raise RuntimeError(
+            f"Only {len(raw_items)} valid stories were fetched; "
+            f"refusing to publish an incomplete {edition_label or mode_label} target of {count}."
+        )
 
     # ========== STEP 3: Deduplication ==========
     print(f"\n[STEP 3/6] Deduplication ...")
     t0 = time.time()
-
-    # Load same-day existing items for incremental dedup (both modes)
-    same_day_map = _load_same_day_items(json_path)
 
     # Load previous day items for cross-day dedup (same mode)
     prev_items = _load_previous_day_items(base_dir, content_dt, mode)
 
     # Load cross-mode items (best↔top) for additional dedup
     cross_mode_items = _load_cross_mode_items(base_dir, run_dt, content_dt, mode)
+    historical_index = _load_historical_story_index(base_dir)
+    historical_file_cache = {}
 
     reused_same_day = 0
     reused_cross_day = 0
     reused_cross_mode = 0
+    reused_history = 0
     new_items_for_llm = []
     reused_map = {}  # id -> prev_item (items that can skip LLM)
     score_update_map = {}  # id -> updated score/descendants for reused items
@@ -654,13 +732,34 @@ def run_scrape(mode: str, cfg: dict):
                     reused_cross_mode += 1
                     continue
 
+        # Priority 4: Any older generated page indexed by HN id. This makes
+        # reuse global without loading every historical JSON on every run.
+        historical = _find_historical_item(
+            base_dir, historical_index, hn_id, historical_file_cache
+        )
+        if historical and _is_same_story(historical, title_en):
+            has_summary = (
+                historical.get("summary_en") and
+                historical.get("summary_zh") and
+                historical.get("title_zh") and
+                historical["summary_en"] != "Brief intro unavailable (LLM disabled)."
+            )
+            if has_summary:
+                reused_map[hn_id] = historical
+                score_update_map[hn_id] = {
+                    "score": it.get("hn_score"),
+                    "descendants": it.get("hn_descendants"),
+                }
+                reused_history += 1
+                continue
+
         new_items_for_llm.append(it)
 
-    total_reused = reused_same_day + reused_cross_day + reused_cross_mode
     print(f"[STEP 3/6] Dedup result:")
     print(f"  Same-day reused: {reused_same_day}")
     print(f"  Cross-day reused: {reused_cross_day}")
     print(f"  Cross-mode reused: {reused_cross_mode}")
+    print(f"  Historical reused: {reused_history}")
     print(f"  New (need LLM): {len(new_items_for_llm)}")
     print(f"[STEP 3/6] Completed in {time.time() - t0:.1f}s")
 
@@ -817,6 +916,11 @@ def run_scrape(mode: str, cfg: dict):
     if len(final_items) > stories_max:
         print(f"[CAP] Capping from {len(final_items)} to {stories_max} items (by score)")
         final_items = final_items[:stories_max]
+    if mode == "top" and len(final_items) != count:
+        raise RuntimeError(
+            f"Expected exactly {count} unique stories for {edition_label}, "
+            f"but assembled {len(final_items)}. Existing daily files were not overwritten."
+        )
     print(f"[SORT] Sorted {len(final_items)} items by score (top: {final_items[0].get('hn',{}).get('score') if final_items else 'N/A'})")
 
     # ---------- Build meta ----------
@@ -828,11 +932,15 @@ def run_scrape(mode: str, cfg: dict):
         "count_written": len(final_items),
         "reused_same_day": reused_same_day,
         "reused_cross_day": reused_cross_day,
+        "reused_history": reused_history,
         "new_llm_enriched": len(new_items_for_llm),
         "scrape_time_display": scrape_time_str,
         "timezone": tz_name,
         "date_dir": date_dir,
         "content_date": content_dt.strftime("%Y-%m-%d"),
+        "edition": edition if mode == "top" else "best",
+        "edition_label": edition_label,
+        "target_count": count,
         "run_time_local": scrape_time_str,
         "run_time_utc": now_utc.strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
@@ -900,7 +1008,7 @@ def run_scrape(mode: str, cfg: dict):
     print(f"[DONE] Pipeline completed in {elapsed:.1f}s")
     print(f"[DONE] {out_path} — {len(items_for_render)} items ({has_tags} with tags)")
     print(f"[DONE] mode={mode}, content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str}")
-    print(f"[DONE] Same-day reused: {reused_same_day}, Cross-day reused: {reused_cross_day}, New LLM: {len(new_items_for_llm)}")
+    print(f"[DONE] Same-day reused: {reused_same_day}, Cross-day reused: {reused_cross_day}, Historical reused: {reused_history}, New LLM: {len(new_items_for_llm)}")
     print("=" * 70)
 
     # Log this scrape run to scrape_run_log.md
@@ -916,9 +1024,10 @@ def run_scrape(mode: str, cfg: dict):
             total_items=len(items_for_render),
             new_llm=len(new_items_for_llm),
             reused_same_day=reused_same_day,
-            reused_cross_day=reused_cross_day,
+            reused_cross_day=reused_cross_day + reused_history,
             total_tokens=session["total_tokens"],
             total_cost=session["total_cost"],
+            note=edition_label,
         )
     except Exception as e:
         print(f"[WARN] Failed to write scrape run log: {e}")
@@ -928,7 +1037,7 @@ def main():
     t_start = time.time()
 
     if len(sys.argv) < 2:
-        print("Usage: python news_scraper/main.py best|top|all|rebuild")
+        print("Usage: python news_scraper/main.py best|top [morning|full]|all|rebuild")
         sys.exit(2)
 
     mode = sys.argv[1].strip().lower()
@@ -942,6 +1051,10 @@ def main():
         rebuild_all_from_json(cfg)
         return
 
+    edition = sys.argv[2].strip().lower() if len(sys.argv) >= 3 else "full"
+    if mode == "top" and edition not in ("morning", "full"):
+        raise ValueError("Usage: python news_scraper/main.py top [morning|full]")
+
     # For 'all' mode, run both best and top sequentially
     modes_to_run = ["best", "top"] if mode == "all" else [mode]
 
@@ -949,7 +1062,7 @@ def main():
         print(f"\n{'#' * 70}")
         print(f"# Running mode: {m}")
         print(f"{'#' * 70}\n")
-        run_scrape(m, cfg)
+        run_scrape(m, cfg, edition=edition if m == "top" else "full")
 
     # Update index page ONCE after all modes are done
     base_dir = cfg["output"]["base_dir"]

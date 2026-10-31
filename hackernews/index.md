@@ -133,7 +133,6 @@ Sort:
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/31/top_stories_10312026'>View all trending stories &rarr;</a>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/28/best_stories_10282026'>Latest Daily Best — 2026-10-28 &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>

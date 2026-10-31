@@ -50,20 +50,24 @@ the standard way to roll out a template/CSS change retroactively.
 | Mode      | Runs                                   | Content date        | Cap |
 |-----------|-----------------------------------------|----------------------|-----|
 | `best`    | manual only; scheduled workflow retired | previous day (UTC content date = run day − 1) | 50 |
-| `top`     | twice daily (`hn_top.yml`)              | current day          | 100 |
+| `top morning` | morning (`hn_top.yml`)             | current day          | exactly 50 |
+| `top full` | evening (`hn_top.yml`); default for manual runs | current day | exactly 100 |
 | `all`     | both sequentially                       | —                    | —  |
 | `rebuild` | manual, no API/LLM calls                | —                    | —  |
 
 ## Deduplication (in `main.py`, `run_scrape`)
 
 Because `top` runs incrementally and historical `best`/`top` data overlap
-heavily, every fetched story is checked against three prior sources before
+heavily, every fetched story is checked against four prior sources before
 an LLM call is made, in priority order:
 
 1. **Same-day** — today's own JSON (an earlier run today already summarized it).
 2. **Cross-day** — yesterday's JSON for the same mode (title-similarity match).
 3. **Cross-mode** — the other mode's JSON for the overlapping date (`best`
    also checks today's `top` JSON; `top` also checks yesterday's `best` JSON).
+4. **Full archive** — the existing search index locates any older page with
+   the same HN ID; its JSON is loaded lazily and reused after the same title
+   and summary checks.
 
 A match requires `_is_same_story()` (exact title match, substring match, or
 >80% word overlap) *and* a non-empty prior summary. Matched items reuse the
@@ -84,8 +88,13 @@ missing/empty `tags` field to the tag model. Existing items retain their
 stored GPT tags and only receive the local keyword-supplement pass. Passing
 `force=True` remains the explicit way to re-tag every item in a file.
 
-After merging new + carried-over same-day items, the list is capped at
-`stories_max` (50/100) by score, then a HN-style `hot_score` — 
+For a new day, the morning run walks HN's ranked list until it has exactly 50
+valid unique IDs. The evening run refreshes those same 50 IDs first, then walks
+the current HN list past duplicates until the same JSON/page contains exactly
+100 unique IDs. The URL never changes between editions. A short or malformed
+API result aborts before the JSON is overwritten, rather than publishing a page
+whose label overstates its count. The list is then ordered with a HN-style
+`hot_score` —
 `(score - 1) / (age_hours + 2)^1.8` — is computed and used as the default
 sort order in both the JSON and the rendered page.
 

@@ -20,6 +20,7 @@ class StoryEntry:
     story_type: str            # "best" or "top"
     count_written: Optional[int] = None
     top_tags: List[Tuple[str, int]] = field(default_factory=list)
+    edition: str = ""             # "morning" / "full" for unified future top pages
     # e.g. [("AI", 10), ("Programming", 8)]
 
 
@@ -113,6 +114,7 @@ def _collect_day_entries(base_dir: str) -> List[DayEntry]:
                 story_type=story_type,
                 count_written=count_written,
                 top_tags=top_tags,
+                edition=meta.get("edition", ""),
             )
 
             if content_date not in day_map:
@@ -205,10 +207,14 @@ def _build_detail_html(entry: StoryEntry) -> str:
     """
     parts = []
 
-    # "All N"
+    # Unified future top pages expose their publication stage. Historical
+    # Trending/Best entries have no edition metadata and retain "All N".
     count = entry.count_written
     if count is not None:
-        parts.append(f"All <b>{count}</b>")
+        if entry.story_type == "top" and entry.edition == "morning":
+            parts.append(f"Morning <b>{count}</b>")
+        else:
+            parts.append(f"All <b>{count}</b>")
 
     # Top tags: "AI 10 · Programming 8"
     for tag_name, tag_count in entry.top_tags:
@@ -468,15 +474,6 @@ def update_hackernews_index(
 
     # Today's Top Stories section
     top_stories = _get_top_stories(base_dir, all_days, n=10)
-    latest_best = next(
-        (
-            (day.content_date, story.rel_url)
-            for day in all_days
-            for story in day.stories
-            if story.story_type == "best"
-        ),
-        None,
-    )
     if top_stories:
         top_content_date = top_stories[0].get("content_date", "")
         try:
@@ -560,9 +557,6 @@ def update_hackernews_index(
             lines.append("<button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more \u25BC</button>")
         if top_stories[0].get('daily_url'):
             lines.append(f"<a class='hn-top-stories-more' href='{top_stories[0]['daily_url']}'>View all trending stories &rarr;</a>")
-        if latest_best:
-            best_date, best_url = latest_best
-            lines.append(f"<a class='hn-top-stories-more' href='{best_url}'>Latest Daily Best \u2014 {best_date} &rarr;</a>")
         lines.append("</div>")  # hn-top-stories-list
         lines.append("</div>")  # hn-top-stories-section
 
@@ -636,7 +630,12 @@ def update_hackernews_index(
                 lines.append("<div class='hn-day-stories'>")
 
                 for s in day.stories:
-                    type_label = "Daily Best" if s.story_type == "best" else "Trending"
+                    if s.story_type == "best":
+                        type_label = "Daily Best"
+                    elif s.edition in ("morning", "full"):
+                        type_label = "Daily Top Stories"
+                    else:
+                        type_label = "Trending"
                     type_class = "hn-type-best" if s.story_type == "best" else "hn-type-top"
                     detail_html = _build_detail_html(s)
 

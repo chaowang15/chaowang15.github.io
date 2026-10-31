@@ -42,7 +42,7 @@ def _tag_html(tag: str) -> str:
 
 def _detect_mode(page_title: str) -> str:
     """Detect story mode from page title string."""
-    if "Trending" in page_title:
+    if "Trending" in page_title or "Daily Top Stories" in page_title:
         return "top"
     return "best"
 
@@ -71,7 +71,13 @@ def render_markdown(
 
     # Header with mode badge
     if mode == "top":
-        badge = "<span class='hn-mode-badge hn-mode-top'>Trending</span>"
+        if "Morning 50" in page_title:
+            badge_text = "Daily Top Stories · Morning 50"
+        elif "All 100" in page_title:
+            badge_text = "Daily Top Stories · All 100"
+        else:
+            badge_text = "Trending"
+        badge = f"<span class='hn-mode-badge hn-mode-top'>{badge_text}</span>"
     else:
         badge = "<span class='hn-mode-badge hn-mode-best'>Daily Best</span>"
 

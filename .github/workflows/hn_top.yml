@@ -2,6 +2,15 @@ name: HN Top Stories (Incremental)
 
 on:
   workflow_dispatch:
+    inputs:
+      edition:
+        description: "Edition to publish"
+        required: true
+        default: "full"
+        type: choice
+        options:
+          - morning
+          - full
   schedule:
     # Twice daily, roughly morning and evening in America/Los_Angeles.
     # GitHub cron is UTC and does not adjust for daylight saving time:
@@ -39,7 +48,15 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python news_scraper/main.py top
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            EDITION="${{ inputs.edition }}"
+          elif [ "${{ github.event.schedule }}" = "0 15 * * *" ]; then
+            EDITION="morning"
+          else
+            EDITION="full"
+          fi
+          echo "Publishing edition: $EDITION"
+          python news_scraper/main.py top "$EDITION"
 
       - name: Pipeline summary
         run: |
@@ -47,7 +64,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Mode | top (Trending) |" >> $GITHUB_STEP_SUMMARY
+          echo "| Mode | Daily Top Stories |" >> $GITHUB_STEP_SUMMARY
           echo "| Trigger | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Time (UTC) | $(date -u '+%Y-%m-%d %H:%M:%S') |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
