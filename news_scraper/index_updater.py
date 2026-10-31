@@ -290,6 +290,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                         "hn_id": hn_id,
                         "hn_time": hn.get("time", 0),
                         "daily_url": s.rel_url,
+                        "content_date": day.content_date,
                         "hot_score": it.get("hot_score", 0),
                     })
                 return result
@@ -473,8 +474,21 @@ def update_hackernews_index(
         None,
     )
     if top_stories:
+        top_content_date = top_stories[0].get("content_date", "")
+        try:
+            top_date_label = datetime.strptime(
+                top_content_date, "%Y-%m-%d"
+            ).strftime("%b %d, %Y")
+        except (TypeError, ValueError):
+            top_date_label = top_content_date
+        date_html = (
+            f" <time class='hn-section-date' datetime='{top_content_date}'>"
+            f"{top_date_label}</time>"
+            if top_content_date and top_date_label
+            else ""
+        )
         lines.append("<div class='hn-index-section hn-top-stories-section'>")
-        lines.append("<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>\u4eca\u65e5\u5934\u6761</span> <span class='hn-hot-badge'>\U0001F525 HOT</span></h3>")
+        lines.append(f"<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>\u4eca\u65e5\u5934\u6761</span>{date_html} <span class='hn-hot-badge'>\U0001F525 HOT</span></h3>")
         lines.append("<div class='hn-top-stories-list'>")
         for i, story in enumerate(top_stories, 1):
             score = story['score']
