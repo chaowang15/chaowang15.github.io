@@ -5,6 +5,36 @@ in `logs/`; this file is the index into it.
 
 ---
 
+**2026-10-31 — Retired the scheduled Best feed, reduced Top to twice daily,
+and made GPT tag classification incremental.**
+Context: the pipeline's OpenAI prepaid balance was exhausted after recurring
+spend of roughly $1.60–$1.78/month. The frequent Top feed is the useful live
+surface; the slowly changing Best feed was no longer worth a separate daily
+run. Historical Best JSON/Markdown and the manual `best` mode remain intact,
+so existing URLs and weekly-digest inputs continue to work. Top now runs at
+15:00 and 03:00 UTC (roughly morning/evening in America/Los_Angeles).
+Previously, one newly merged untagged item caused `tag_json_file()` to send
+the entire 50–100 item JSON back through the tag model. It now sends only
+items whose `tags` field is missing/empty and preserves all existing tags;
+`force=True` still performs a complete re-tag.
+
+New-story summaries now use transient source context instead of title-only
+inference. Extraction removes common page chrome/noise and uses page metadata
+plus at most the first two substantial paragraphs rather than list items. It is
+capped at 1,200 characters per story; HN self-post text takes priority. The
+prompt requests 2–3 factual sentences and permits at most
+one source-supported significance sentence, with fewer claims when a source is
+blocked or sparse. See `logs/2026-10-31.md`.
+Source fetch failures are expected and isolated per story: title-only items use
+the previous concise fallback and remain in the batch. Downloads are capped at
+512 KiB so malformed or unusually large pages cannot create unbounded memory or
+bandwidth use.
+
+Summary enrichment moved from deprecated `gpt-5-nano` to `gpt-5.6-luna`, the
+cost-sensitive GPT-5.6 tier. Tag classification remains on `gpt-5-nano` during
+the first evaluation so summary-quality and cost changes can be measured
+independently. The token cost ledger includes Luna's official standard rates.
+
 **2026-09-11 — This repo standardized as "Jekyll site + independent
 news_scraper automation project," not restructured as a single generic project.**
 Context: applying a general project-standardization template (used on other,
@@ -35,9 +65,10 @@ as-is rather than migrated for its own sake.
 **2026-09-11 — `logs/scrape_run_log.md` and `logs/openai_token_usage_log.md`
 were left in place; other files under `logs/` were moved to `logs/archive/`.**
 Context: those two files are hardcoded paths written by `run_logger.py` /
-`token_logger.py` and read back by `hn_best.yml` / `hn_top.yml`'s Job Summary
-step. Moving them would require coordinated changes across two Python
-modules and two workflow files for no benefit. Everything else in the old
+`token_logger.py` and historically read back by `hn_best.yml` / `hn_top.yml`'s
+Job Summary step. After the 2026-10-31 retirement of `hn_best.yml`, only
+`hn_top.yml` reads them. Moving them would require coordinated changes across
+two Python modules and that workflow file for no benefit. Everything else in the old
 `logs/` (`CHANGELOG.md`, `analysis_report.md`, `hn_api_research.md`,
 `implementation_notes.md`, `integration_proposal.md`, etc.) was old ad hoc
 session notes with no code/workflow references (confirmed by grep) and was
@@ -86,5 +117,6 @@ rather than as a literal translation.
 Context: no HN API field carries a topic category. `tag_generator.py`
 classifies each item into predefined categories via the tag LLM model
 (`news_config.yml: llm.tag_model` / `tag_fallback_model`), stored per-item in
-the JSON (`tags` field) and rendered as badges by `md_writer.py`. This
-enabled the later tag-cloud and tag-trend pages.
+the JSON (`tags` field) and rendered as badges by `md_writer.py`. Since
+2026-10-31 only missing tags are sent to the model; existing tags are reused.
+This enabled the later tag-cloud and tag-trend pages.

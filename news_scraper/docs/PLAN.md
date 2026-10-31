@@ -9,16 +9,19 @@
 
 ## Current status
 
-Production and stable. Three GitHub Actions workflows run on schedule:
-`hn_best.yml` (daily), `hn_top.yml` (every 4h), `hn_weekly.yml` (weekly).
-As of 2026-09-11: 204+ days of data, 30,000+ stories archived under
-`hackernews/`.
+Production and stable. Two GitHub Actions workflows run on schedule:
+`hn_top.yml` (twice daily) and `hn_weekly.yml` (weekly). The former daily
+`hn_best.yml` workflow was retired on 2026-10-31; historical Best pages are
+preserved. As of 2026-09-11: 204+ days of data, 30,000+ stories archived
+under `hackernews/`.
 
 ## Current goal
 
-No active feature work — this pass was documentation/structure
-standardization only (see `docs/DECISIONS.md`, `logs/2026-09-11.md`). No
-pipeline behavior changed.
+Reduce recurring LLM cost while improving bilingual summary fidelity. Top runs
+twice daily, GPT tag classification is incremental, and new summaries use a
+strictly bounded source excerpt: 2–3 factual sentences followed by at most one
+source-supported significance sentence. New summaries use `gpt-5.6-luna`;
+tagging remains on `gpt-5-nano` so the quality/cost change stays isolated.
 
 ## In progress
 

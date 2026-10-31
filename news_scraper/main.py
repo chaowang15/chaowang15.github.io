@@ -20,6 +20,7 @@ Features:
 """
 
 import glob
+import html
 import json
 import os
 import sys
@@ -31,7 +32,7 @@ import re
 
 from hn_api import get_story_ids, get_item, get_item_url
 from llm_batch import llm_enrich_batch
-from image_fetcher import extract_preview_image_url
+from image_fetcher import fetch_page_context
 from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from search_index_builder import build_search_index
@@ -488,6 +489,9 @@ def run_scrape(mode: str, cfg: dict):
     img_enabled = bool(img_cfg.get("enabled", True))
     img_timeout = int(img_cfg.get("timeout_seconds", 15))
     img_ua = img_cfg.get("user_agent", "Mozilla/5.0")
+    article_cfg = cfg.get("article_context", {})
+    article_context_enabled = bool(article_cfg.get("enabled", True))
+    article_context_max_chars = int(article_cfg.get("max_chars", 4000))
 
     # ---------- Backup JSON (source of truth) ----------
     json_name = filename.replace(".md", ".json")
@@ -549,11 +553,14 @@ def run_scrape(mode: str, cfg: dict):
         hn_score = item.get("score")
         hn_desc = item.get("descendants")
         hn_time = item.get("time")  # unix timestamp (seconds)
+        hn_text = html.unescape(re.sub(r"<[^>]+>", " ", item.get("text") or ""))
+        hn_text = " ".join(hn_text.split())
 
         raw_items.append({
             "id": hn_id,
             "title_en": title_en,
             "url": url,
+            "hn_text": hn_text,
             "hn_time": int(hn_time) if hn_time is not None else None,
             "hn_type": hn_type,
             "hn_by": hn_by,
@@ -658,6 +665,29 @@ def run_scrape(mode: str, cfg: dict):
     print(f"  New (need LLM): {len(new_items_for_llm)}")
     print(f"[STEP 3/6] Completed in {time.time() - t0:.1f}s")
 
+    # Fetch each new source page once before LLM enrichment. The article
+    # excerpt is transient prompt context; the preview image is reused later.
+    if new_items_for_llm and (article_context_enabled or img_enabled):
+        print(f"\n[SOURCE] Fetching context for {len(new_items_for_llm)} new items ...")
+        for it in new_items_for_llm:
+            hn_context = (it.get("hn_text") or "")[:article_context_max_chars]
+            page = fetch_page_context(
+                it["url"],
+                timeout_seconds=img_timeout,
+                user_agent=img_ua,
+                max_article_chars=(
+                    article_context_max_chars
+                    if article_context_enabled and not hn_context
+                    else 0
+                ),
+            )
+            it["article_context"] = hn_context or page.get("article_context") or ""
+            it["prefetched_image_url"] = page.get("image_url") if img_enabled else None
+        context_count = sum(bool(it.get("article_context")) for it in new_items_for_llm)
+        context_chars = sum(len(it.get("article_context") or "") for it in new_items_for_llm)
+        print(f"[SOURCE] Article context available for {context_count}/{len(new_items_for_llm)} items")
+        print(f"[SOURCE] Total bounded context: {context_chars:,} chars")
+
     # ========== STEP 4: LLM enrichment (only for new items) ==========
     print(f"\n[STEP 4/6] LLM enrichment for {len(new_items_for_llm)} new items (model={llm_model}, fallback={llm_fallback}) ...")
     enrich_map = {}
@@ -724,18 +754,12 @@ def run_scrape(mode: str, cfg: dict):
             title_zh = extra["title_zh"]
             summary_en = extra["summary_en"]
             summary_zh = extra["summary_zh"]
-            image_url = None
+            image_url = it.get("prefetched_image_url") if img_enabled else None
             tags = []
             hn_score_new = it.get("hn_score")
             hn_desc_new = it.get("hn_descendants")
-            if img_enabled:
-                image_url = extract_preview_image_url(
-                    page_url=url,
-                    timeout_seconds=img_timeout,
-                    user_agent=img_ua,
-                )
-                if image_url:
-                    img_found += 1
+            if image_url:
+                img_found += 1
         else:
             title_zh = "（未启用翻译）" + title_en
             summary_en = "Brief intro unavailable (LLM disabled)."
@@ -744,14 +768,9 @@ def run_scrape(mode: str, cfg: dict):
             tags = []
             hn_score_new = it.get("hn_score")
             hn_desc_new = it.get("hn_descendants")
-            if img_enabled:
-                image_url = extract_preview_image_url(
-                    page_url=url,
-                    timeout_seconds=img_timeout,
-                    user_agent=img_ua,
-                )
-                if image_url:
-                    img_found += 1
+            image_url = it.get("prefetched_image_url") if img_enabled else None
+            if image_url:
+                img_found += 1
 
         comments_url = f"https://news.ycombinator.com/item?id={_id}"
 

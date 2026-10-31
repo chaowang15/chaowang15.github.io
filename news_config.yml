@@ -17,7 +17,7 @@ format:
 
 llm:
   enabled: true
-  model: "gpt-5-nano"            # primary: cheapest
+  model: "gpt-5.6-luna"          # primary summary model: cost-sensitive GPT-5.6 tier
   fallback_model: "gpt-5-mini"   # fallback: slightly more capable
   tag_model: "gpt-5-nano"        # tag classification model
   tag_fallback_model: "gpt-4.1-nano"  # tag fallback if primary fails
@@ -27,3 +27,7 @@ images:
   enabled: true
   timeout_seconds: 15
   user_agent: "Mozilla/5.0 (compatible; HNNewsBot/1.0; +https://chaowang15.github.io)"
+
+article_context:
+  enabled: true
+  max_chars: 1200  # description + first two substantial paragraphs; never persisted

@@ -15,7 +15,7 @@ news_scraper/main.py <best|top|all|rebuild>
     ├─ hn_api.py         → HN Firebase API: story IDs + item details
     ├─ (dedup logic in main.py, see below)
     ├─ llm_batch.py       → OpenAI API: bilingual title/summary per new item
-    ├─ image_fetcher.py   → og:image / twitter:image scrape from article URL
+    ├─ image_fetcher.py   → preview image + bounded source excerpt from article URL
     ├─ tag_generator.py   → OpenAI API: category tags per item
     ├─ backup_io.py       → write/read the per-day JSON (source of truth)
     ├─ md_writer.py       → render the day's items into a Jekyll .md page
@@ -49,14 +49,14 @@ the standard way to roll out a template/CSS change retroactively.
 
 | Mode      | Runs                                   | Content date        | Cap |
 |-----------|-----------------------------------------|----------------------|-----|
-| `best`    | once/day (`hn_best.yml`)                | previous day (UTC content date = run day − 1) | 50 |
-| `top`     | every 4h (`hn_top.yml`)                 | current day          | 100 |
+| `best`    | manual only; scheduled workflow retired | previous day (UTC content date = run day − 1) | 50 |
+| `top`     | twice daily (`hn_top.yml`)              | current day          | 100 |
 | `all`     | both sequentially                       | —                    | —  |
 | `rebuild` | manual, no API/LLM calls                | —                    | —  |
 
 ## Deduplication (in `main.py`, `run_scrape`)
 
-Because `top` runs incrementally every 4 hours and `best`/`top` overlap
+Because `top` runs incrementally and historical `best`/`top` data overlap
 heavily, every fetched story is checked against three prior sources before
 an LLM call is made, in priority order:
 
@@ -68,9 +68,21 @@ an LLM call is made, in priority order:
 A match requires `_is_same_story()` (exact title match, substring match, or
 >80% word overlap) *and* a non-empty prior summary. Matched items reuse the
 LLM summary/title/image/tags and only get their `score`/`descendants`
-refreshed from the API. Only genuinely new items go through
-`llm_enrich_batch()` and `extract_preview_image_url()`. This is the main
+refreshed from the API. Only genuinely new items go through bounded source
+extraction and `llm_enrich_batch()`. The source excerpt contains page metadata
+plus at most the first two substantial paragraphs, is transient, never
+persisted, and is capped at 1,200 characters; HN self-post text takes priority.
+Fetch errors, timeouts, blocked pages, non-HTML responses, and empty extraction
+are isolated per item and fall back to title-only enrichment. HTML downloads
+are capped at 512 KiB before parsing, so an abnormal page cannot grow without
+bound or abort the whole scrape.
+This is the main
 cost-control mechanism — see `docs/DECISIONS.md`.
+
+After the merged JSON is written, `tag_json_file()` sends only items with a
+missing/empty `tags` field to the tag model. Existing items retain their
+stored GPT tags and only receive the local keyword-supplement pass. Passing
+`force=True` remains the explicit way to re-tag every item in a file.
 
 After merging new + carried-over same-day items, the list is capped at
 `stories_max` (50/100) by score, then a HN-style `hot_score` — 
@@ -83,7 +95,7 @@ sort order in both the JSON and the rendered page.
 |---|---|---|
 | Hacker News Firebase API (`hacker-news.firebaseio.com`) | `hn_api.py` | none (public) |
 | OpenAI API | `llm_batch.py`, `tag_generator.py` | `OPENAI_API_KEY` env var, injected from `secrets.OPENAI_API_KEY` in each workflow |
-| Article origin sites (arbitrary) | `image_fetcher.py` | none — best-effort `og:image` scrape |
+| Article origin sites (arbitrary) | `image_fetcher.py` | none — best-effort preview image and bounded paragraph extraction |
 
 Models are configured in `news_config.yml` (`llm.model`, `llm.fallback_model`,
 `llm.tag_model`, `llm.tag_fallback_model`), not hard-coded in the scripts.
@@ -93,7 +105,7 @@ Models are configured in `news_config.yml` (`llm.model`, `llm.fallback_model`,
 - `news_config.yml` (repo root) — timezone, output dir, per-mode item counts,
   LLM model names, image-fetch settings. Loaded once in `main.py:load_config()`.
   Excluded from the Jekyll build via `_config.yml`'s `exclude:` list.
-- `.github/workflows/hn_best.yml`, `hn_top.yml`, `hn_weekly.yml` — cron
+- `.github/workflows/hn_top.yml`, `hn_weekly.yml` — cron
   schedules, Python setup, `OPENAI_API_KEY` injection, and the
   commit-and-push step that publishes generated pages back to `main`.
 
@@ -101,8 +113,8 @@ Models are configured in `news_config.yml` (`llm.model`, `llm.fallback_model`,
 
 Two files under the repo-root `logs/` are written by the pipeline on every
 run and are read back by the workflows' Job Summary step — **do not move or
-rename them** without updating `run_logger.py`, `token_logger.py`, and both
-`hn_best.yml`/`hn_top.yml`:
+rename them** without updating `run_logger.py`, `token_logger.py`, and the
+`hn_top.yml` Job Summary:
 
 - `logs/scrape_run_log.md` — one line per run (mode, trigger, duration, item counts, tokens/cost).
 - `logs/openai_token_usage_log.md` — per-batch LLM token/cost ledger.

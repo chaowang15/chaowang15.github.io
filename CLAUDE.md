@@ -39,7 +39,7 @@ Read in this order before doing substantial work:
 - **Do not move or rename `logs/scrape_run_log.md` or
   `logs/openai_token_usage_log.md`.** They are hardcoded paths written by
   `news_scraper/run_logger.py` / `token_logger.py` and read back by
-  `.github/workflows/hn_best.yml` / `hn_top.yml`. Everything else that used
+  `.github/workflows/hn_top.yml`. Everything else that used
   to live in `logs/` is old ad hoc dev notes, archived under `logs/archive/`.
 - **`news_config.yml` stays at the repo root**, not under `config/` — it's
   the one file `news_scraper/main.py` hardcodes (`load_config("news_config.yml")`)
@@ -55,7 +55,7 @@ Read in this order before doing substantial work:
 - Inspect `git status`/`git log` before modifying files; don't overwrite
   unrelated in-progress changes.
 - Preserve existing behavior unless a task explicitly asks to change it —
-  this is a live, daily-running production pipeline (three cron workflows),
+  this is a live, daily-running production pipeline (two cron workflows),
   not a prototype.
 - For `news_scraper/` changes: there's no unit test suite (see
   `news_scraper/docs/DEVELOPMENT.md` for why) — run `python

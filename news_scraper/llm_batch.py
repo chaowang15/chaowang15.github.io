@@ -133,7 +133,13 @@ def llm_enrich_batch(
     client = OpenAI()
 
     input_payload = [
-        {"id": int(it["id"]), "title_en": it["title_en"], "url": it["url"]}
+        {
+            "id": int(it["id"]),
+            "title_en": it["title_en"],
+            "url": it["url"],
+            "article_context": it.get("article_context", ""),
+            "context_mode": "source_excerpt" if it.get("article_context") else "title_only",
+        }
         for it in items
     ]
 
@@ -141,16 +147,34 @@ def llm_enrich_batch(
 
 For each item below, produce:
 - title_zh: Natural, concise Chinese translation of title_en.
-- summary_en: A 2-3 sentence English summary that is informative and engaging. You may use your general knowledge to provide useful context, background, or explain why the story matters. Focus on the key takeaway for a tech-savvy reader.
-- summary_zh: A 2-3 sentence Chinese summary covering the same information as summary_en. Write it naturally in Chinese (not a word-for-word translation).
+- summary_en: When context_mode is source_excerpt, write a factual 3-4 sentence
+  English summary grounded in article_context.
+  The first 2-3 sentences must summarize what the source reports: what happened,
+  who/what is involved, and the important concrete details or outcome. The final
+  sentence may explain significance or likely impact, but only when supported by
+  the supplied context. It must not be a personal opinion.
+- summary_zh: A natural Chinese rendering of the same facts and structure as
+  summary_en. Keep the factual sentences factual; include at most the same one
+  final significance sentence. Do not add claims absent from summary_en.
 
 STRICT RULES:
+- When context_mode is title_only because source fetching failed or yielded no
+  reliable text, fall back safely to the earlier title-based behavior. Write a
+  concise 1-2 sentence description using only facts directly established by
+  title_en. Do not infer missing people, causes, outcomes, numbers, or details.
+- A title_only item is an expected per-item fallback and must still be returned
+  in the JSON array; never fail the batch merely because its context is empty.
 - Do NOT include meta-commentary like "this summary is based on..." or "the linked article discusses...".
-- Do NOT restate the title as the summary. Add value beyond what the title already says.
+- Treat article_context as the source of truth. Never invent facts, motives,
+  outcomes, quotes, or background that are not supported by it.
+- If article_context is empty or too sparse, summarize only what can safely be
+  established from the title/context and use fewer sentences rather than guess.
+- Do NOT restate the title as the summary. Add concrete source details when available.
 - Do NOT mention the URL, the source website name, or where the link points to.
 - Do NOT use filler phrases like "the article explores", "the post highlights", "the piece discusses".
-- Start directly with the substance. Be concise and informative.
-- If you truly cannot infer anything beyond the title, write one sentence that rephrases the core idea with minimal added context, and stop.
+- Do NOT use meta-analysis such as "this highlights how..." unless it is the
+  single final significance sentence and is directly supported by the source.
+- Start directly with the substance. Be concise, neutral, and informative.
 
 Return STRICT JSON as an array. Each element must be:
 {{

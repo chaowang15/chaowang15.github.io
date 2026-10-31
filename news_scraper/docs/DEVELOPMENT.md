@@ -46,11 +46,11 @@ python news_scraper/weekly_digest.py 2026-W08              # 指定 ISO 周
 1. 本地复现问题（`python news_scraper/main.py <mode>`），看 `[STEP N/6]` 的进度日志 — pipeline 每一步都会打印当前阶段、计数和耗时。
 2. 如果问题看起来跟 LLM 有关（返回的 JSON 格式不对、字段缺失），`llm_batch.py` 已经内置了一次 fallback model 重试（对应 `news_config.yml` 里的 `llm.fallback_model`）— 先确认是两个模型都失败了，还是只有主模型失败。
 3. 如果问题看起来跟渲染有关（HTML 不对、tags/图片缺失）但 JSON 本身看起来是对的，用 `main.py rebuild` 把 `md_writer.py` 单独隔离出来测试，排除掉抓取/LLM 这些步骤的干扰。
-4. 只在 GitHub Actions 上才出现的问题，去对应 workflow 的 Job Summary 标签页看 — `hn_best.yml`/`hn_top.yml` 会把 pipeline 的指标表格，加上两个日志文件的 tail 内容都写在那里（见 `.github/workflows/hn_best.yml`）。
+4. 只在 GitHub Actions 上才出现的问题，去对应 workflow 的 Job Summary 标签页看 — `hn_top.yml` 会把 pipeline 的指标表格，加上两个日志文件的 tail 内容都写在那里（见 `.github/workflows/hn_top.yml`）。
 
 ## 项目约定（Project conventions）
 
 - 每天的 JSON 是唯一的 source of truth（详见 `docs/ARCHITECTURE.md`）— **永远不要手动编辑生成好的 `.md` 页面**，要改就改 JSON 再重新渲染，否则下一次 scrape/rebuild 会直接把你的手改覆盖掉。
 - 模型名称等可调参数都放在 `news_config.yml` 里，不要硬编码进脚本 — 以后新增的可调参数也遵循同样的模式。
-- `logs/scrape_run_log.md` 和 `logs/openai_token_usage_log.md` 是被 CI workflow 硬编码引用的路径 — 改名或挪位置之前，必须同步改 `run_logger.py`、`token_logger.py`，以及两个 workflow 文件。
+- `logs/scrape_run_log.md` 和 `logs/openai_token_usage_log.md` 是被 CI workflow 硬编码引用的路径 — 改名或挪位置之前，必须同步改 `run_logger.py`、`token_logger.py` 和 `hn_top.yml`。
 - 新的一次性开发笔记/实验记录写进 `logs/YYYY-MM-DD.md`（当天没有就新建一个），不要作为零散文件散落在 `news_scraper/` 或 `logs/` 目录下。

@@ -515,8 +515,9 @@ def tag_json_file(
     max_retries: int = 2,
 ) -> bool:
     """
-    Read a backup JSON, generate tags for all items via GPT,
-    then supplement with keyword-based detection, and write back.
+    Read a backup JSON, generate GPT tags only for items that do not already
+    have tags (or all items when force=True), then supplement every item with
+    keyword-based detection and write back.
     Returns True if tags were added/updated.
     """
     print(f"  [TAG] Processing: {json_path} (force={force})")
@@ -529,10 +530,17 @@ def tag_json_file(
         print(f"  [TAG][SKIP] No items in {json_path}")
         return False
 
-    already_tagged = all("tags" in it and it["tags"] for it in items)
-    print(f"  [TAG] Items: {len(items)}, already_tagged: {already_tagged}")
+    missing_tag_indices = [
+        idx for idx, it in enumerate(items)
+        if not it.get("tags")
+    ]
+    target_indices = list(range(len(items))) if force else missing_tag_indices
+    print(
+        f"  [TAG] Items: {len(items)}, already_tagged: "
+        f"{len(items) - len(missing_tag_indices)}, need_llm: {len(target_indices)}"
+    )
 
-    if already_tagged and not force:
+    if not target_indices:
         # Even if already tagged, run keyword supplement pass
         supplemented = 0
         for it in items:
@@ -551,16 +559,20 @@ def tag_json_file(
         print(f"  [TAG][SKIP] Already tagged (no new keywords): {json_path}")
         return False
 
-    # GPT tagging (either first time or forced re-tag)
-    print(f"  [TAG] Generating tags for {len(items)} items with model={model} ...")
+    # GPT-tag only the missing items. Existing tags are preserved unless force=True.
+    items_to_tag = [items[idx] for idx in target_indices]
+    print(f"  [TAG] Generating tags for {len(items_to_tag)} items with model={model} ...")
     tag_map = generate_tags_for_items(
-        items, model=model, fallback_model=fallback_model, max_retries=max_retries
+        items_to_tag,
+        model=model,
+        fallback_model=fallback_model,
+        max_retries=max_retries,
     )
 
     tagged_count = 0
-    for idx, it in enumerate(items):
-        gpt_tags = tag_map.get(idx, ["Programming"])
-        it["tags"] = gpt_tags
+    for local_idx, original_idx in enumerate(target_indices):
+        gpt_tags = tag_map.get(local_idx, ["Programming"])
+        items[original_idx]["tags"] = gpt_tags
         tagged_count += 1
 
     # Keyword supplement pass: add any tags that GPT missed
