@@ -2,6 +2,7 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>255</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37521</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>248</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>253</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-11-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
@@ -136,6 +137,13 @@ Sort:
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
+<div class='hn-month-divider'>
+<div class='hn-month-heading'>Best of the Month <span>October 2026</span></div>
+<a class='hn-story-link hn-monthly-digest-link' href='/hackernews/monthly/2026-10'>
+<span class='hn-row-type hn-type-monthly'>Monthly Top</span>
+<span class='hn-row-detail'>Top <b>200</b> <span class="hn-row-sep">·</span> from <b>2101</b> unique stories <span class="hn-row-sep">·</span> AI <b>59</b> <span class="hn-row-sep">·</span> Security <b>43</b></span>
+</a>
+</div>
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 44 <span class='hn-this-week-badge'>This Week</span></span>
