@@ -171,14 +171,20 @@
     var body = card.querySelector('.hn-body');
     var header = card.querySelector('.hn-digest-summary-header');
     if (!body || !header) return;
+    var actions = card.querySelector('.hn-card-actions');
+    if (!actions) {
+      actions = document.createElement('div');
+      actions.className = 'hn-card-actions';
+      body.appendChild(actions);
+    }
     var button = document.createElement('button');
     button.type = 'button';
     button.className = 'hn-favorite-btn';
     button.setAttribute('data-favorite-key', key);
     setFavoriteButtonState(button, !!loadFavorites()[key]);
-    // Keep the favorite control outside the clickable collapse header. Nested
+    // Keep card actions outside the clickable collapse header. Nested
     // interactive controls are unreliable and can hand the click to the card.
-    body.insertBefore(button, header.nextSibling);
+    actions.appendChild(button);
   }
 
   function injectFavoriteButtons(root) {
@@ -298,6 +304,7 @@
       list.appendChild(renderFavoriteCard(item, index + 1));
     });
     injectFavoriteButtons(list);
+    document.dispatchEvent(new CustomEvent('hn:favorites-rendered', { detail: { root: list } }));
   }
 
   document.addEventListener('click', function (e) {
@@ -1957,17 +1964,19 @@
     + '<line x1="8" y1="1" x2="8" y2="10"/>'
     + '</svg>';
 
-  function initShareButtons() {
-    var list = document.querySelector('.hn-list');
-    if (!list) return;
-
-    var cards = list.querySelectorAll('.hn-card[id]');
-    if (!cards.length) return;
-
-    // Inject share button into each card's tags row
+  function injectShareButtons(root) {
+    var cards = (root || document).querySelectorAll('.hn-card[id]');
+    // Keep share and favorite controls together below the card details.
     cards.forEach(function (card) {
-      var tagsRow = card.querySelector('.hn-tags');
-      if (!tagsRow) return;
+      if (card.querySelector('.hn-share-btn')) return;
+      var body = card.querySelector('.hn-body');
+      if (!body) return;
+      var actions = card.querySelector('.hn-card-actions');
+      if (!actions) {
+        actions = document.createElement('div');
+        actions.className = 'hn-card-actions';
+        body.appendChild(actions);
+      }
 
       var btn = document.createElement('button');
       btn.className = 'hn-share-btn';
@@ -1975,8 +1984,15 @@
       btn.setAttribute('aria-label', 'Copy link to this story');
       btn.setAttribute('title', 'Copy link');
       btn.innerHTML = SHARE_SVG;
-      tagsRow.appendChild(btn);
+      actions.appendChild(btn);
     });
+  }
+
+  function initShareButtons() {
+    var list = document.querySelector('.hn-list');
+    if (!list) return;
+
+    injectShareButtons(list);
 
     // Toast element (reusable)
     var toast = document.createElement('div');
@@ -2059,6 +2075,10 @@
           page_type: document.querySelector('.hn-mode-top') ? 'trending' : document.querySelector('.hn-mode-best') ? 'daily_best' : document.querySelector('.hn-mode-weekly') ? 'weekly' : 'other'
         });
       }
+    });
+
+    document.addEventListener('hn:favorites-rendered', function (e) {
+      injectShareButtons(e.detail && e.detail.root ? e.detail.root : document);
     });
   }
 
