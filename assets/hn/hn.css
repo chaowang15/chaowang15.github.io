@@ -1669,6 +1669,7 @@ a.hn-top-story-title-text:hover {
 /* ===== Story tag badges ===== */
 .hn-tags {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 6px;
     pointer-events: none; /* prevent accidental taps on card tags */
@@ -1726,7 +1727,9 @@ a.hn-stat:hover::after {
 }
 
 .hn-tag {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 3px 10px;
     border-radius: 999px;
     font-family: var(--hn-sans);
