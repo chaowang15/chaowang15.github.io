@@ -1856,10 +1856,6 @@
     var list = document.querySelector('.hn-list');
     if (!list) return;
 
-    // Find the subtitle line to insert the toggle on the same row
-    var subtitle = document.querySelector('.hn-subtitle');
-    if (!subtitle) return;
-
     // Build the segmented control
     var wrap = document.createElement('div');
     wrap.className = 'hn-lang-toggle';
@@ -1906,6 +1902,63 @@
         list.parentNode.insertBefore(toolbar, list);
       }
     }
+
+    // Page-wide card control lives beside the language selector because both
+    // controls change how the entire news list is displayed.
+    var toggleAllBtn = document.createElement('button');
+    toggleAllBtn.type = 'button';
+    toggleAllBtn.className = 'hn-toggle-all-btn';
+    if (sortBar) sortBar.appendChild(toggleAllBtn);
+    else toolbar.appendChild(toggleAllBtn);
+
+    function collapsibleCards() {
+      return Array.prototype.map.call(
+        list.querySelectorAll('.hn-card .hn-digest-summary-header'),
+        function (header) {
+          return {
+            header: header,
+            details: header.closest('.hn-card').querySelector('.hn-digest-details')
+          };
+        }
+      ).filter(function (item) { return !!item.details; });
+    }
+
+    function updateToggleAllButton() {
+      var cards = collapsibleCards();
+      if (!cards.length) {
+        toggleAllBtn.hidden = true;
+        return;
+      }
+      toggleAllBtn.hidden = false;
+      var anyExpanded = cards.some(function (item) {
+        return !item.details.hasAttribute('hidden');
+      });
+      toggleAllBtn.textContent = anyExpanded ? 'Collapse All' : 'Expand All';
+      toggleAllBtn.setAttribute('aria-label', anyExpanded ? 'Collapse all story cards' : 'Expand all story cards');
+    }
+
+    toggleAllBtn.addEventListener('click', function () {
+      var cards = collapsibleCards();
+      var shouldCollapse = cards.some(function (item) {
+        return !item.details.hasAttribute('hidden');
+      });
+      cards.forEach(function (item) {
+        if (shouldCollapse) item.details.setAttribute('hidden', '');
+        else item.details.removeAttribute('hidden');
+        item.header.setAttribute('aria-expanded', shouldCollapse ? 'false' : 'true');
+        item.header.setAttribute('aria-label', shouldCollapse ? 'Show summary and image' : 'Hide summary and image');
+      });
+      updateToggleAllButton();
+    });
+
+    // Keep the label correct after individual card toggles or Favorites rerenders.
+    new MutationObserver(updateToggleAllButton).observe(list, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ['hidden']
+    });
+    updateToggleAllButton();
 
     // State
     var STORAGE_KEY = 'hn-lang-mode';
