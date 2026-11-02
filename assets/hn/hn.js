@@ -191,11 +191,16 @@
     if (document.querySelector('.hn-favorites-nav')) return;
     var heading = document.querySelector('.hn-h1');
     if (!heading) return;
+    var row = document.createElement('div');
+    row.className = 'hn-heading-row';
+    heading.parentNode.insertBefore(row, heading);
+    row.appendChild(heading);
     var link = document.createElement('a');
     link.className = 'hn-favorites-nav';
     link.href = '/hackernews/favorites/';
-    link.innerHTML = '<span aria-hidden="true">★</span> Favorites <span class="hn-favorites-count">0</span>';
-    heading.insertAdjacentElement('afterend', link);
+    link.setAttribute('aria-label', 'Open favorite stories');
+    link.innerHTML = '<span aria-hidden="true">★</span><span class="hn-favorites-label">Favorites</span><span class="hn-favorites-count">0</span>';
+    row.appendChild(link);
     updateFavoritesCount();
   }
 
