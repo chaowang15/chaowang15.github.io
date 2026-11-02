@@ -98,6 +98,8 @@
 // ===== Browser-local favorites (no account or server storage) =====
 (function () {
   var STORAGE_KEY = 'hnFavoritesV1';
+  var SORT_KEY = 'hnFavoritesSortV1';
+  var favoriteSortMode = window.localStorage.getItem(SORT_KEY) || 'added';
   var TAG_COLORS = {
     'AI': 'blue', 'Programming': 'indigo', 'Security': 'red',
     'Science': 'teal', 'Business': 'amber', 'Finance': 'amber',
@@ -133,6 +135,14 @@
     return card.id || (titleLink && titleLink.href) || '';
   }
 
+  function createdTimestamp(text) {
+    var match = String(text || '').match(/Created:\s*([A-Z][a-z]{2})\s+(\d{1,2}),\s+(\d{4})\s*\/\s*(\d{1,2}):(\d{2})/);
+    if (!match) return 0;
+    var months = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+    if (months[match[1]] === undefined) return 0;
+    return Date.UTC(Number(match[3]), months[match[1]], Number(match[2]), Number(match[4]), Number(match[5]));
+  }
+
   function cardData(card) {
     var titleLink = card.querySelector('.hn-title a');
     var zh = card.querySelector('.hn-digest-summary-header .hn-meta');
@@ -141,6 +151,8 @@
     var image = card.querySelector('.hn-digest-details img.hn-img');
     var score = card.querySelector('.hn-stat-score');
     var comments = card.querySelector('.hn-stat-comments');
+    var created = card.querySelector('.hn-meta2-created');
+    var hnTime = Number(card.getAttribute('data-hn-time') || 0);
     var tags = Array.prototype.map.call(card.querySelectorAll('.hn-tag'), function (tag) {
       return tag.textContent.trim();
     });
@@ -156,6 +168,8 @@
       scoreText: score ? score.textContent.trim() : '',
       commentsText: comments ? comments.textContent.trim() : '',
       commentsUrl: comments ? comments.href : (score ? score.href : ''),
+      createdText: created ? created.textContent.trim() : '',
+      createdAt: hnTime ? hnTime * 1000 : createdTimestamp(created ? created.textContent : ''),
       tags: tags,
       sourcePage: window.location.pathname + window.location.hash,
       savedAt: new Date().toISOString()
@@ -235,6 +249,7 @@
     card.className = 'hn-card hn-card-compact hn-no-collapse';
     card.id = item.key && item.key.indexOf('story-') === 0 ? item.key : '';
     card.setAttribute('data-tags', (item.tags || []).join(','));
+    if (item.createdAt) card.setAttribute('data-created-time', String(item.createdAt));
 
     var body = document.createElement('div');
     body.className = 'hn-body';
@@ -256,6 +271,12 @@
     title.appendChild(titleLink);
     header.appendChild(title);
     addText(header, 'hn-meta hn-text-zh', item.titleZh);
+    if (item.createdText) {
+      var createdMeta = document.createElement('p');
+      createdMeta.className = 'hn-meta2';
+      addText(createdMeta, 'hn-meta2-created', item.createdText, 'span');
+      header.appendChild(createdMeta);
+    }
 
     var tags = document.createElement('div');
     tags.className = 'hn-tags';
@@ -309,7 +330,13 @@
     if (!list) return;
     var favorites = loadFavorites();
     var items = Object.keys(favorites).map(function (key) { return favorites[key]; });
-    items.sort(function (a, b) { return String(b.savedAt).localeCompare(String(a.savedAt)); });
+    items.sort(function (a, b) {
+      if (favoriteSortMode === 'created') {
+        return Number(b.createdAt || createdTimestamp(b.createdText)) - Number(a.createdAt || createdTimestamp(a.createdText))
+          || String(b.savedAt).localeCompare(String(a.savedAt));
+      }
+      return String(b.savedAt).localeCompare(String(a.savedAt));
+    });
     list.textContent = '';
     var empty = document.getElementById('hn-favorites-empty');
     if (empty) empty.hidden = items.length > 0;
@@ -318,6 +345,82 @@
     });
     injectFavoriteButtons(list);
     document.dispatchEvent(new CustomEvent('hn:favorites-rendered', { detail: { root: list } }));
+  }
+
+  function initFavoritesSort() {
+    var list = document.getElementById('hn-favorites-list');
+    if (!list || document.querySelector('.hn-favorites-sort-bar')) return;
+    var bar = document.createElement('div');
+    bar.className = 'hn-sort-bar hn-favorites-sort-bar';
+    var label = document.createElement('span');
+    label.className = 'hn-sort-label';
+    label.textContent = 'Sort by:';
+    bar.appendChild(label);
+    [
+      { key: 'added', text: 'Recently Added' },
+      { key: 'created', text: 'Newest Stories' }
+    ].forEach(function (mode) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'hn-sort-toggle-btn' + (favoriteSortMode === mode.key ? ' is-active' : '');
+      button.setAttribute('data-favorites-sort', mode.key);
+      button.textContent = mode.text;
+      bar.appendChild(button);
+    });
+    list.parentNode.insertBefore(bar, list);
+    bar.addEventListener('click', function (e) {
+      var button = e.target.closest('[data-favorites-sort]');
+      if (!button) return;
+      favoriteSortMode = button.getAttribute('data-favorites-sort');
+      window.localStorage.setItem(SORT_KEY, favoriteSortMode);
+      bar.querySelectorAll('[data-favorites-sort]').forEach(function (candidate) {
+        candidate.classList.toggle('is-active', candidate === button);
+      });
+      renderFavoritesPage();
+    });
+  }
+
+  function hydrateFavoriteCreatedDates() {
+    var favorites = loadFavorites();
+    var missing = Object.keys(favorites).filter(function (key) {
+      return !favorites[key].createdText && favorites[key].sourcePage && favorites[key].key;
+    });
+    if (!missing.length || typeof window.fetch !== 'function') return;
+    var pages = {};
+    var updates = {};
+    missing.forEach(function (key) {
+      var page = favorites[key].sourcePage.split('#')[0];
+      if (!pages[page]) pages[page] = [];
+      pages[page].push(key);
+    });
+    Promise.all(Object.keys(pages).map(function (page) {
+      return window.fetch(page).then(function (response) {
+        if (!response.ok) throw new Error('Page unavailable');
+        return response.text();
+      }).then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        pages[page].forEach(function (key) {
+          var card = doc.getElementById(favorites[key].key);
+          var created = card && card.querySelector('.hn-meta2-created');
+          if (!created) return;
+          var hnTime = Number(card.getAttribute('data-hn-time') || 0);
+          updates[key] = {
+            createdText: created.textContent.trim(),
+            createdAt: hnTime ? hnTime * 1000 : createdTimestamp(created.textContent)
+          };
+        });
+      }).catch(function () { /* Keep older favorite usable when its source page is unavailable. */ });
+    })).then(function () {
+      var current = loadFavorites();
+      var changed = false;
+      Object.keys(updates).forEach(function (key) {
+        if (!current[key]) return;
+        current[key].createdText = updates[key].createdText;
+        current[key].createdAt = updates[key].createdAt;
+        changed = true;
+      });
+      if (changed && saveFavorites(current)) renderFavoritesPage();
+    });
   }
 
   document.addEventListener('click', function (e) {
@@ -340,7 +443,9 @@
   function initFavorites() {
     injectFavoritesLink();
     renderFavoritesPage();
+    initFavoritesSort();
     injectFavoriteButtons(document);
+    hydrateFavoriteCreatedDates();
   }
 
   window.addEventListener('storage', function (e) {
