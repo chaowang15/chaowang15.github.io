@@ -40,7 +40,9 @@ directly by their own workflows/manually; they reuse `llm_batch.py`,
 HN ID while retaining the highest observed score, and publishes at most the top
 200 stories under `hackernews/monthly/YYYY-MM`. `hn_monthly.yml` runs on the
 first day of each month. Monthly generation uses existing JSON only and makes no
-LLM calls.
+LLM calls. Weekly and monthly compact cards also reuse the preview `image_url`
+already stored in daily JSON; they never refetch article pages. Images are lazy
+loaded and summaries remain omitted from digest pages.
 
 ## Per-day JSON as source of truth
 

@@ -257,6 +257,7 @@ def render_weekly_digest(
         title_en = item.get("title_en", "")
         url = item.get("url", "")
         title_zh = item.get("title_zh", "")
+        image_url = item.get("image_url")
         tags = item.get("tags", [])
         hn = item.get("hn", {}) or {}
         score = hn.get("score", 0)
@@ -313,6 +314,14 @@ def render_weekly_digest(
             tag_line_parts.append(_tag_html(t))
         if tag_line_parts:
             lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
+
+        # Reuse the preview URL already stored by the daily scraper. Digest
+        # generation performs no network fetch and images load lazily in-page.
+        if image_url:
+            lines.append(
+                f"<img class='hn-img hn-digest-img' src='{image_url}' "
+                f"data-full='{image_url}' alt='preview image' loading='lazy' decoding='async'/>"
+            )
 
         # "View in daily page" link — now rendered inline in title row above
 

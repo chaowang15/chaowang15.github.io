@@ -62,6 +62,7 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
     for i, item in enumerate(stories, 1):
         title_en = item.get("title_en", "")
         title_zh = item.get("title_zh", "")
+        image_url = item.get("image_url")
         url = item.get("url", "")
         tags = item.get("tags", [])
         hn = item.get("hn", {}) or {}
@@ -95,6 +96,11 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         parts.extend(_tag_html(tag) for tag in tags)
         if parts:
             lines.append(f"<div class='hn-tags'>{' '.join(parts)}</div>")
+        if image_url:
+            lines.append(
+                f"<img class='hn-img hn-digest-img' src='{image_url}' "
+                f"data-full='{image_url}' alt='preview image' loading='lazy' decoding='async'/>"
+            )
         lines.extend(["</div>", "</div>"])
 
     lines.extend(["</div>", ""])

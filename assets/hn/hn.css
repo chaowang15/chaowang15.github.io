@@ -356,9 +356,18 @@ body {
     cursor: zoom-in;
 }
 
+.hn-digest-img {
+    height: 220px;
+    margin-top: 10px;
+    border-radius: 9px;
+}
+
 @media (max-width: 520px) {
     .hn-img {
         height: 210px;
+    }
+    .hn-digest-img {
+        height: 180px;
     }
 }
 
