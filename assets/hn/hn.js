@@ -581,6 +581,7 @@
     var cards = list.querySelectorAll('.hn-card');
     cards.forEach(function (card) {
       if (card.classList.contains('hn-no-collapse')) return;
+      if (card.querySelector('.hn-digest-summary-header')) return;
       var body = card.querySelector('.hn-body');
       if (!body) return;
       var btn = document.createElement('button');
@@ -588,6 +589,9 @@
       btn.setAttribute('aria-label', 'Collapse card');
       btn.innerHTML = '<svg viewBox="0 0 16 16" width="14" height="14"><polyline class="hn-collapse-chevron" points="4,6 8,10 12,6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       body.insertBefore(btn, body.firstChild);
+    });
+    var legacyCards = Array.prototype.filter.call(cards, function (card) {
+      return !!card.querySelector('.hn-collapse-btn');
     });
 
     // Event delegation for collapse toggle
@@ -604,13 +608,15 @@
 
     // "Collapse All" / "Expand All" button in the stats bar or subtitle area
     var stats = document.querySelector('.hn-stats');
-    if (stats && cards.length > 0) {
+    if (stats && legacyCards.length > 0) {
       var allBtn = document.createElement('button');
       allBtn.className = 'hn-collapse-all-btn';
       allBtn.textContent = 'Collapse All';
       allBtn.addEventListener('click', function () {
-        var allCollapsed = list.querySelectorAll('.hn-card:not(.is-collapsed)').length === 0;
-        cards.forEach(function (card) {
+        var allCollapsed = legacyCards.every(function (card) {
+          return card.classList.contains('is-collapsed');
+        });
+        legacyCards.forEach(function (card) {
           if (allCollapsed) {
             card.classList.remove('is-collapsed');
           } else {

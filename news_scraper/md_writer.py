@@ -163,6 +163,7 @@ def render_markdown(
         hn = it.get("hn") or {}
         hn_id = hn.get("id", "")
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
+        details_id = f"card-details-{hn_id or i}"
 
         # Data attributes for JS sorting (hot/top/new)
         hn_time = hn.get("time", "")
@@ -170,8 +171,13 @@ def render_markdown(
         hot_score_val = it.get("hot_score", 0)
         data_attrs = f" data-hn-time='{hn_time}' data-hn-score='{hn_score_val}' data-hot-score='{hot_score_val}'"
 
-        lines.append(f"<div class='hn-card'{id_attr} data-tags='{tags_data}'{data_attrs}>")
+        lines.append(f"<div class='hn-card hn-card-compact hn-no-collapse'{id_attr} data-tags='{tags_data}'{data_attrs}>")
         lines.append("<div class='hn-body'>")
+        lines.append(
+            f"<div class='hn-digest-summary-header' role='button' tabindex='0' "
+            f"aria-expanded='true' aria-controls='{details_id}' "
+            "aria-label='Hide summary and image'>"
+        )
 
         lines.append(
             f"<p class='hn-title'>({i}) "
@@ -219,18 +225,22 @@ def render_markdown(
         if tag_line_parts:
             lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
 
-        # Image under meta (subtitle)
-        if image_url:
-            lines.append(
-                f"<img class='hn-img' src='{image_url}' data-full='{image_url}' "
-                f"alt='preview image' loading='lazy'/>"
-            )
+        lines.append("</div>")
+        lines.append(f"<div class='hn-digest-details' id='{details_id}'>")
 
         if summary_en:
-            lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
+            lines.append(f"<p class='hn-text-en hn-digest-summary'>{summary_en}</p>")
         if summary_zh:
-            lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
+            lines.append(f"<p class='hn-text-zh hn-digest-summary'>{summary_zh}</p>")
 
+        # Reuse the same expanded details order and image style as digests.
+        if image_url:
+            lines.append(
+                f"<img class='hn-img hn-digest-img' src='{image_url}' data-full='{image_url}' "
+                f"alt='preview image' loading='lazy' decoding='async'/>"
+            )
+
+        lines.append("</div>")  # hn-digest-details
         lines.append("</div>")  # hn-body
         lines.append("</div>")  # hn-card
 

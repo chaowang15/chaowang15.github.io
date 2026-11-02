@@ -83,8 +83,8 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         if has_details:
             lines.append(
                 f"<div class='hn-digest-summary-header' role='button' tabindex='0' "
-                f"aria-expanded='false' aria-controls='{details_id}' "
-                "aria-label='Show summary and image'>"
+                f"aria-expanded='true' aria-controls='{details_id}' "
+                "aria-label='Hide summary and image'>"
             )
         safe_title = html.escape(title_en)
         safe_url = html.escape(url, quote=True)
@@ -107,7 +107,7 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
             lines.append(f"<div class='hn-tags'>{' '.join(parts)}</div>")
         if has_details:
             lines.append("</div>")
-            lines.append(f"<div class='hn-digest-details' id='{details_id}' hidden>")
+            lines.append(f"<div class='hn-digest-details' id='{details_id}'>")
             if summary_en:
                 lines.append(f"<p class='hn-text-en hn-digest-summary'>{html.escape(summary_en)}</p>")
             if summary_zh:
