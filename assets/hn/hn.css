@@ -392,12 +392,16 @@ body {
 }
 
 .hn-favorite-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     min-width: 26px;
     height: 22px;
-    margin-left: 2px;
+    margin: 0;
     padding: 0 6px;
     border: 1px solid var(--hn-border);
     border-radius: 999px;
@@ -408,6 +412,9 @@ body {
     line-height: 1;
     cursor: pointer;
     vertical-align: middle;
+}
+.hn-card-compact .hn-digest-summary-header {
+    padding-right: 48px;
 }
 .hn-favorite-btn:hover,
 .hn-favorite-btn.is-saved {
@@ -458,6 +465,9 @@ body {
     .hn-digest-summary-header {
         margin: -8px -12px;
         padding: 8px 12px;
+    }
+    .hn-card-compact .hn-digest-summary-header {
+        padding-right: 44px;
     }
 }
 

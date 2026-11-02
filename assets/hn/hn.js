@@ -168,14 +168,17 @@
   function createFavoriteButton(card) {
     var key = favoriteKey(card);
     if (!key || card.querySelector('.hn-favorite-btn')) return;
-    var tags = card.querySelector('.hn-digest-summary-header .hn-tags');
-    if (!tags) return;
+    var body = card.querySelector('.hn-body');
+    var header = card.querySelector('.hn-digest-summary-header');
+    if (!body || !header) return;
     var button = document.createElement('button');
     button.type = 'button';
     button.className = 'hn-favorite-btn';
     button.setAttribute('data-favorite-key', key);
     setFavoriteButtonState(button, !!loadFavorites()[key]);
-    tags.appendChild(button);
+    // Keep the favorite control outside the clickable collapse header. Nested
+    // interactive controls are unreliable and can hand the click to the card.
+    body.insertBefore(button, header.nextSibling);
   }
 
   function injectFavoriteButtons(root) {
