@@ -65,24 +65,33 @@
   });
 })();
 
-// ===== Weekly / Monthly digest details toggle =====
+// ===== Weekly / Monthly digest card-surface toggle =====
 (function () {
-  document.addEventListener('click', function (e) {
-    var btn = e.target.closest('.hn-digest-toggle');
-    if (!btn) return;
-    e.preventDefault();
-    e.stopPropagation();
-
-    var card = btn.closest('.hn-card');
+  function toggleDigestDetails(header) {
+    var card = header.closest('.hn-card');
     var details = card && card.querySelector('.hn-digest-details');
     if (!details) return;
 
     var willOpen = details.hasAttribute('hidden');
     if (willOpen) details.removeAttribute('hidden');
     else details.setAttribute('hidden', '');
-    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
-    btn.setAttribute('aria-label', willOpen ? 'Hide summary and image' : 'Show summary and image');
-    btn.setAttribute('title', willOpen ? 'Hide summary and image' : 'Show summary and image');
+    header.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    header.setAttribute('aria-label', willOpen ? 'Hide summary and image' : 'Show summary and image');
+  }
+
+  document.addEventListener('click', function (e) {
+    var header = e.target.closest('.hn-digest-summary-header');
+    if (!header) return;
+    // Preserve the headline and HN score/comment links inside the card.
+    if (e.target.closest('a, button')) return;
+    toggleDigestDetails(header);
+  });
+
+  document.addEventListener('keydown', function (e) {
+    var header = e.target.closest('.hn-digest-summary-header');
+    if (!header || e.target !== header || (e.key !== 'Enter' && e.key !== ' ')) return;
+    e.preventDefault();
+    toggleDigestDetails(header);
   });
 })();
 

@@ -269,14 +269,15 @@ def render_weekly_digest(
         tags_data = ",".join(tags) if tags else ""
         hn_id = hn.get("id", "")
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
+        details_id = f"digest-details-{hn_id or i}"
 
         lines.append(f"<div class='hn-card hn-card-compact hn-no-collapse'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
         if has_details:
             lines.append(
-                "<button class='hn-digest-toggle' type='button' aria-expanded='false' "
-                "title='Show summary and image' aria-label='Show summary and image'>"
-                "<span aria-hidden='true'>⌄</span></button>"
+                f"<div class='hn-digest-summary-header' role='button' tabindex='0' "
+                f"aria-expanded='false' aria-controls='{details_id}' "
+                "aria-label='Show summary and image'>"
             )
 
         hn_desc = hn.get("descendants")
@@ -320,7 +321,8 @@ def render_weekly_digest(
             lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
 
         if has_details:
-            lines.append("<div class='hn-digest-details' hidden>")
+            lines.append("</div>")
+            lines.append(f"<div class='hn-digest-details' id='{details_id}' hidden>")
             if summary_en:
                 lines.append(f"<p class='hn-text-en hn-digest-summary'>{html.escape(summary_en)}</p>")
             if summary_zh:

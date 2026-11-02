@@ -42,9 +42,10 @@ HN ID while retaining the highest observed score, and publishes at most the top
 first day of each month. Monthly generation uses existing JSON only and makes no
 LLM calls. Weekly and monthly compact cards also reuse the preview `image_url`
 already stored in daily JSON; they never refetch article pages. Images are lazy
-loaded. Digest cards remain compact until their per-card toggle reveals the
-stored bilingual summaries and preview image. Digest headline links go directly
-to the original article rather than through the daily page.
+loaded. Digest cards remain compact until the title/score surface is clicked,
+which reveals the stored bilingual summaries and preview image in place. The
+expanded details area does not toggle the card. Digest headline links go
+directly to the original article rather than through the daily page.
 
 ## Per-day JSON as source of truth
 

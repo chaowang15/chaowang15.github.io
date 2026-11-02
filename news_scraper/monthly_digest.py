@@ -76,14 +76,15 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         tags_data = ",".join(tags) if tags else ""
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
         has_details = bool(summary_en or summary_zh or image_url)
+        details_id = f"digest-details-{hn_id or i}"
 
         lines.append(f"<div class='hn-card hn-card-compact hn-no-collapse'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
         if has_details:
             lines.append(
-                "<button class='hn-digest-toggle' type='button' aria-expanded='false' "
-                "title='Show summary and image' aria-label='Show summary and image'>"
-                "<span aria-hidden='true'>⌄</span></button>"
+                f"<div class='hn-digest-summary-header' role='button' tabindex='0' "
+                f"aria-expanded='false' aria-controls='{details_id}' "
+                "aria-label='Show summary and image'>"
             )
         safe_title = html.escape(title_en)
         safe_url = html.escape(url, quote=True)
@@ -105,7 +106,8 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         if parts:
             lines.append(f"<div class='hn-tags'>{' '.join(parts)}</div>")
         if has_details:
-            lines.append("<div class='hn-digest-details' hidden>")
+            lines.append("</div>")
+            lines.append(f"<div class='hn-digest-details' id='{details_id}' hidden>")
             if summary_en:
                 lines.append(f"<p class='hn-text-en hn-digest-summary'>{html.escape(summary_en)}</p>")
             if summary_zh:
