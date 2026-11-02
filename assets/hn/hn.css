@@ -413,8 +413,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex: 0 0 auto;
     gap: 6px;
-    margin-top: 10px;
+    margin-left: auto;
+    pointer-events: auto;
 }
 .hn-favorite-btn:hover,
 .hn-favorite-btn.is-saved {

@@ -168,22 +168,22 @@
   function createFavoriteButton(card) {
     var key = favoriteKey(card);
     if (!key || card.querySelector('.hn-favorite-btn')) return;
-    var body = card.querySelector('.hn-body');
     var header = card.querySelector('.hn-digest-summary-header');
-    if (!body || !header) return;
+    var tags = header && header.querySelector('.hn-tags');
+    if (!header || !tags) return;
     var actions = card.querySelector('.hn-card-actions');
     if (!actions) {
       actions = document.createElement('div');
       actions.className = 'hn-card-actions';
-      body.appendChild(actions);
+      tags.appendChild(actions);
     }
     var button = document.createElement('button');
     button.type = 'button';
     button.className = 'hn-favorite-btn';
     button.setAttribute('data-favorite-key', key);
     setFavoriteButtonState(button, !!loadFavorites()[key]);
-    // Keep card actions outside the clickable collapse header. Nested
-    // interactive controls are unreliable and can hand the click to the card.
+    // Button events stop propagation so actions can share the card's stats row
+    // without toggling the collapsible summary header.
     actions.appendChild(button);
   }
 
@@ -1966,16 +1966,16 @@
 
   function injectShareButtons(root) {
     var cards = (root || document).querySelectorAll('.hn-card[id]');
-    // Keep share and favorite controls together below the card details.
+    // Keep share and favorite controls at the right edge of the stats/tags row.
     cards.forEach(function (card) {
       if (card.querySelector('.hn-share-btn')) return;
-      var body = card.querySelector('.hn-body');
-      if (!body) return;
+      var tags = card.querySelector('.hn-digest-summary-header .hn-tags');
+      if (!tags) return;
       var actions = card.querySelector('.hn-card-actions');
       if (!actions) {
         actions = document.createElement('div');
         actions.className = 'hn-card-actions';
-        body.appendChild(actions);
+        tags.appendChild(actions);
       }
 
       var btn = document.createElement('button');
