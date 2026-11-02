@@ -65,6 +65,7 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         title_zh = item.get("title_zh", "")
         summary_en = item.get("summary_en", "")
         summary_zh = item.get("summary_zh", "")
+        created_display = item.get("created_display", "")
         image_url = item.get("image_url")
         url = item.get("url", "")
         tags = item.get("tags", [])
@@ -95,6 +96,11 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         lines.append(f"<p class='hn-title'>({i}) {title_link}</p>")
         if title_zh:
             lines.append(f"<p class='hn-meta hn-text-zh'>{html.escape(title_zh)}</p>")
+        if created_display:
+            lines.append(
+                f"<p class='hn-meta2'><span class='hn-meta2-created'>"
+                f"{html.escape(created_display)}</span></p>"
+            )
         parts = []
         if score:
             score_html = f"&#9650; {score}"

@@ -47,6 +47,8 @@ compact styling: details are expanded by default, while clicking the
 title/score surface collapses or reopens the stored bilingual summaries and
 preview image. The details area does not toggle the card. Digest headline links
 go directly to the original article rather than through the daily page.
+Weekly and monthly headers also reuse each story's saved `created_display`, so
+their timestamp row matches Daily cards without any new fetch or model call.
 
 Favorites are entirely client-side. `assets/hn/hn.js` stores a compact copy of
 the selected card in the versioned `hnFavoritesV1` browser `localStorage` key
