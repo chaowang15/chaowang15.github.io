@@ -65,6 +65,27 @@
   });
 })();
 
+// ===== Weekly / Monthly digest details toggle =====
+(function () {
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.hn-digest-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    var card = btn.closest('.hn-card');
+    var details = card && card.querySelector('.hn-digest-details');
+    if (!details) return;
+
+    var willOpen = details.hasAttribute('hidden');
+    if (willOpen) details.removeAttribute('hidden');
+    else details.setAttribute('hidden', '');
+    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    btn.setAttribute('aria-label', willOpen ? 'Hide summary and image' : 'Show summary and image');
+    btn.setAttribute('title', willOpen ? 'Hide summary and image' : 'Show summary and image');
+  });
+})();
+
 (function () {
   const btn = document.createElement("button");
   btn.className = "hn-goup";

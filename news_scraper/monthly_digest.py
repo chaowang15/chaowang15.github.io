@@ -1,6 +1,7 @@
 """Generate a score-ranked monthly Hacker News digest (maximum 200 stories)."""
 
 import calendar
+import html
 import json
 import os
 import re
@@ -62,6 +63,8 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
     for i, item in enumerate(stories, 1):
         title_en = item.get("title_en", "")
         title_zh = item.get("title_zh", "")
+        summary_en = item.get("summary_en", "")
+        summary_zh = item.get("summary_zh", "")
         image_url = item.get("image_url")
         url = item.get("url", "")
         tags = item.get("tags", [])
@@ -70,22 +73,27 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         score = hn.get("score", 0)
         comments = hn.get("descendants")
         comments_url = hn.get("comments_url", "")
-        page_url = item.get("_page_url", "")
-        anchor = item.get("_anchor", "")
-        daily_url = f"{page_url}#{anchor}" if page_url and anchor else url
         tags_data = ",".join(tags) if tags else ""
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
+        has_details = bool(summary_en or summary_zh or image_url)
 
         lines.append(f"<div class='hn-card hn-card-compact hn-no-collapse'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
-        title_link = f"<a class='hn-top-title-link' href='{daily_url}'>{title_en}</a>" if daily_url else title_en
-        original = (
-            f" <a class='hn-daily-link' href='{url}' target='_blank' rel='noopener noreferrer' "
-            f"title='Read original article'>&#128279;</a>" if url else ""
+        if has_details:
+            lines.append(
+                "<button class='hn-digest-toggle' type='button' aria-expanded='false' "
+                "title='Show summary and image' aria-label='Show summary and image'>"
+                "<span aria-hidden='true'>⌄</span></button>"
+            )
+        safe_title = html.escape(title_en)
+        safe_url = html.escape(url, quote=True)
+        title_link = (
+            f"<a class='hn-top-title-link' href='{safe_url}' target='_blank' "
+            f"rel='noopener noreferrer'>{safe_title}</a>" if url else safe_title
         )
-        lines.append(f"<p class='hn-title'>({i}) {title_link}{original}</p>")
+        lines.append(f"<p class='hn-title'>({i}) {title_link}</p>")
         if title_zh:
-            lines.append(f"<p class='hn-meta hn-text-zh'>{title_zh}</p>")
+            lines.append(f"<p class='hn-meta hn-text-zh'>{html.escape(title_zh)}</p>")
         parts = []
         if score:
             score_html = f"&#9650; {score}"
@@ -96,11 +104,19 @@ def render_monthly_digest(stories, month_str, start, end, total_pool):
         parts.extend(_tag_html(tag) for tag in tags)
         if parts:
             lines.append(f"<div class='hn-tags'>{' '.join(parts)}</div>")
-        if image_url:
-            lines.append(
-                f"<img class='hn-img hn-digest-img' src='{image_url}' "
-                f"data-full='{image_url}' alt='preview image' loading='lazy' decoding='async'/>"
-            )
+        if has_details:
+            lines.append("<div class='hn-digest-details' hidden>")
+            if summary_en:
+                lines.append(f"<p class='hn-text-en hn-digest-summary'>{html.escape(summary_en)}</p>")
+            if summary_zh:
+                lines.append(f"<p class='hn-text-zh hn-digest-summary'>{html.escape(summary_zh)}</p>")
+            if image_url:
+                safe_image = html.escape(image_url, quote=True)
+                lines.append(
+                    f"<img class='hn-img hn-digest-img' src='{safe_image}' "
+                    f"data-full='{safe_image}' alt='preview image' loading='lazy' decoding='async'/>"
+                )
+            lines.append("</div>")
         lines.extend(["</div>", "</div>"])
 
     lines.extend(["</div>", ""])

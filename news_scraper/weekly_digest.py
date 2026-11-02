@@ -15,6 +15,7 @@ Usage:
 """
 
 import glob
+import html
 import json
 import os
 import re
@@ -257,12 +258,13 @@ def render_weekly_digest(
         title_en = item.get("title_en", "")
         url = item.get("url", "")
         title_zh = item.get("title_zh", "")
+        summary_en = item.get("summary_en", "")
+        summary_zh = item.get("summary_zh", "")
         image_url = item.get("image_url")
         tags = item.get("tags", [])
         hn = item.get("hn", {}) or {}
         score = hn.get("score", 0)
-        page_url = item.get("_page_url", "")
-        anchor = item.get("_anchor", "")
+        has_details = bool(summary_en or summary_zh or image_url)
 
         tags_data = ",".join(tags) if tags else ""
         hn_id = hn.get("id", "")
@@ -270,29 +272,31 @@ def render_weekly_digest(
 
         lines.append(f"<div class='hn-card hn-card-compact hn-no-collapse'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
+        if has_details:
+            lines.append(
+                "<button class='hn-digest-toggle' type='button' aria-expanded='false' "
+                "title='Show summary and image' aria-label='Show summary and image'>"
+                "<span aria-hidden='true'>⌄</span></button>"
+            )
 
         hn_desc = hn.get("descendants")
         comments_url = hn.get("comments_url", "")
 
-        # Title row: title links to daily page anchor, 🔗 icon links to original article
-        title_link = ""
-        if page_url and anchor:
-            daily_link = f"{page_url}#{anchor}"
-            title_link = f"<a class='hn-top-title-link' href='{daily_link}'>{title_en}</a>"
-        else:
-            title_link = title_en
-        original_icon = ""
-        if url:
-            original_icon = f" <a class='hn-daily-link' href='{url}' target='_blank' rel='noopener noreferrer' title='Read original article'>&#128279;</a>"
+        # Digest titles link directly to the original story. Details expand in place.
+        safe_title = html.escape(title_en)
+        safe_url = html.escape(url, quote=True)
+        title_link = (
+            f"<a class='hn-top-title-link' href='{safe_url}' target='_blank' "
+            f"rel='noopener noreferrer'>{safe_title}</a>" if url else safe_title
+        )
         lines.append(
             f"<p class='hn-title'>({i}) "
             f"{title_link}"
-            f"{original_icon}"
             f"</p>"
         )
 
         if title_zh:
-            lines.append(f"<p class='hn-meta hn-text-zh'>{title_zh}</p>")
+            lines.append(f"<p class='hn-meta hn-text-zh'>{html.escape(title_zh)}</p>")
 
         # Tags line with score/comments icons
         tag_line_parts = []
@@ -315,15 +319,19 @@ def render_weekly_digest(
         if tag_line_parts:
             lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
 
-        # Reuse the preview URL already stored by the daily scraper. Digest
-        # generation performs no network fetch and images load lazily in-page.
-        if image_url:
-            lines.append(
-                f"<img class='hn-img hn-digest-img' src='{image_url}' "
-                f"data-full='{image_url}' alt='preview image' loading='lazy' decoding='async'/>"
-            )
-
-        # "View in daily page" link — now rendered inline in title row above
+        if has_details:
+            lines.append("<div class='hn-digest-details' hidden>")
+            if summary_en:
+                lines.append(f"<p class='hn-text-en hn-digest-summary'>{html.escape(summary_en)}</p>")
+            if summary_zh:
+                lines.append(f"<p class='hn-text-zh hn-digest-summary'>{html.escape(summary_zh)}</p>")
+            if image_url:
+                safe_image = html.escape(image_url, quote=True)
+                lines.append(
+                    f"<img class='hn-img hn-digest-img' src='{safe_image}' "
+                    f"data-full='{safe_image}' alt='preview image' loading='lazy' decoding='async'/>"
+                )
+            lines.append("</div>")
 
         lines.append("</div>")  # hn-body
         lines.append("</div>")  # hn-card

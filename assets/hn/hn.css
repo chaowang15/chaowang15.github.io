@@ -362,6 +362,63 @@ body {
     border-radius: 9px;
 }
 
+.hn-digest-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid var(--hn-border);
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.04);
+    color: var(--hn-muted);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.2s ease;
+}
+.hn-digest-toggle:hover {
+    color: var(--link);
+    background: rgba(0, 0, 0, 0.08);
+}
+.hn-digest-toggle[aria-expanded='true'] span {
+    transform: rotate(180deg);
+}
+.hn-digest-toggle span {
+    display: block;
+    transition: transform 0.2s ease;
+}
+.hn-card-compact .hn-digest-toggle + .hn-title {
+    padding-right: 36px;
+}
+.hn-digest-details {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--hn-border);
+}
+.hn-digest-details[hidden] {
+    display: none !important;
+}
+.hn-digest-summary {
+    margin: 0 0 8px;
+    max-width: none;
+    font-size: 0.96rem;
+    line-height: 1.55;
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-digest-toggle {
+        background: rgba(255, 255, 255, 0.06);
+    }
+    .hn-digest-toggle:hover {
+        background: rgba(255, 255, 255, 0.12);
+    }
+}
+
 @media (max-width: 520px) {
     .hn-img {
         height: 210px;
