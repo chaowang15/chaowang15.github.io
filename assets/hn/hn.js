@@ -98,6 +98,17 @@
 // ===== Browser-local favorites (no account or server storage) =====
 (function () {
   var STORAGE_KEY = 'hnFavoritesV1';
+  var TAG_COLORS = {
+    'AI': 'blue', 'Programming': 'indigo', 'Security': 'red',
+    'Science': 'teal', 'Business': 'amber', 'Finance': 'amber',
+    'Hardware': 'slate', 'Open Source': 'green', 'Design': 'pink',
+    'Web': 'cyan', 'DevOps': 'indigo', 'Data': 'violet',
+    'Gaming': 'purple', 'Entertainment': 'purple', 'Politics': 'orange',
+    'Health': 'emerald', 'Education': 'sky', 'Career': 'sky',
+    'Privacy': 'red', 'Legal': 'orange', 'Culture': 'rose',
+    'Space': 'teal', 'Energy': 'emerald', 'Startups': 'amber',
+    'Show HN': 'green'
+  };
 
   function loadFavorites() {
     try {
@@ -223,6 +234,7 @@
     var card = document.createElement('div');
     card.className = 'hn-card hn-card-compact hn-no-collapse';
     card.id = item.key && item.key.indexOf('story-') === 0 ? item.key : '';
+    card.setAttribute('data-tags', (item.tags || []).join(','));
 
     var body = document.createElement('div');
     body.className = 'hn-body';
@@ -265,7 +277,8 @@
     }
     (item.tags || []).forEach(function (tagText) {
       var tag = document.createElement('span');
-      tag.className = 'hn-tag hn-tag--slate';
+      tag.className = 'hn-tag hn-tag--' + (TAG_COLORS[tagText] || 'slate');
+      tag.setAttribute('data-tag', tagText);
       tag.textContent = tagText;
       tags.appendChild(tag);
     });
@@ -505,6 +518,13 @@
     const list = document.querySelector(".hn-list");
     if (!list) return; // not a story page (e.g. index)
 
+    // Favorites is rendered from localStorage and may change while this page is
+    // open. Remove its previous generated controls before recalculating counts.
+    var oldBar = list.parentNode.querySelector('.hn-filter-bar[data-hn-generated="true"]');
+    var oldStatus = list.parentNode.querySelector('.hn-filter-status[data-hn-generated="true"]');
+    if (oldBar) oldBar.remove();
+    if (oldStatus) oldStatus.remove();
+
     const cards = Array.from(list.querySelectorAll(".hn-card[data-tags]"));
     if (!cards.length) return;
 
@@ -544,6 +564,7 @@
     // Build the filter bar
     var bar = document.createElement("div");
     bar.className = "hn-filter-bar";
+    bar.setAttribute('data-hn-generated', 'true');
 
     // "All" button
     var allBtn = document.createElement("button");
@@ -565,6 +586,7 @@
     // Status line
     var status = document.createElement("div");
     status.className = "hn-filter-status";
+    status.setAttribute('data-hn-generated', 'true');
     status.style.display = "none";
 
     // Insert bar and status before hn-list
@@ -653,6 +675,7 @@
   } else {
     initTagFilter();
   }
+  document.addEventListener('hn:favorites-rendered', initTagFilter);
 })();
 
 // ===== Hot / Top / New Sort Toggle (Trending pages only) =====
