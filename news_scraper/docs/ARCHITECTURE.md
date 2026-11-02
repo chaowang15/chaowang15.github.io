@@ -48,6 +48,11 @@ title/score surface collapses or reopens the stored bilingual summaries and
 preview image. The details area does not toggle the card. Digest headline links
 go directly to the original article rather than through the daily page.
 
+Favorites are entirely client-side. `assets/hn/hn.js` stores a compact copy of
+the selected card in the versioned `hnFavoritesV1` browser `localStorage` key
+and renders it at `/hackernews/favorites/`. There is no account, database,
+network write, or cross-browser/device synchronization.
+
 ## Per-day JSON as source of truth
 
 Every scrape writes `hackernews/YYYY/MM/DD/<prefix>_MMDDYYYY.json` — this is

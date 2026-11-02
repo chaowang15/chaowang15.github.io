@@ -95,6 +95,238 @@
   });
 })();
 
+// ===== Browser-local favorites (no account or server storage) =====
+(function () {
+  var STORAGE_KEY = 'hnFavoritesV1';
+
+  function loadFavorites() {
+    try {
+      var parsed = JSON.parse(window.localStorage.getItem(STORAGE_KEY) || '{}');
+      return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveFavorites(favorites) {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites));
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function favoriteKey(card) {
+    var titleLink = card.querySelector('.hn-title a');
+    return card.id || (titleLink && titleLink.href) || '';
+  }
+
+  function cardData(card) {
+    var titleLink = card.querySelector('.hn-title a');
+    var zh = card.querySelector('.hn-digest-summary-header .hn-meta');
+    var summaryEn = card.querySelector('.hn-digest-details .hn-text-en');
+    var summaryZh = card.querySelector('.hn-digest-details .hn-text-zh');
+    var image = card.querySelector('.hn-digest-details img.hn-img');
+    var score = card.querySelector('.hn-stat-score');
+    var comments = card.querySelector('.hn-stat-comments');
+    var tags = Array.prototype.map.call(card.querySelectorAll('.hn-tag'), function (tag) {
+      return tag.textContent.trim();
+    });
+    var key = favoriteKey(card);
+    return {
+      key: key,
+      title: titleLink ? titleLink.textContent.trim() : '',
+      url: titleLink ? titleLink.href : '',
+      titleZh: zh ? zh.textContent.trim() : '',
+      summaryEn: summaryEn ? summaryEn.textContent.trim() : '',
+      summaryZh: summaryZh ? summaryZh.textContent.trim() : '',
+      imageUrl: image ? (image.getAttribute('data-full') || image.src) : '',
+      scoreText: score ? score.textContent.trim() : '',
+      commentsText: comments ? comments.textContent.trim() : '',
+      commentsUrl: comments ? comments.href : (score ? score.href : ''),
+      tags: tags,
+      sourcePage: window.location.pathname + window.location.hash,
+      savedAt: new Date().toISOString()
+    };
+  }
+
+  function setFavoriteButtonState(button, isSaved) {
+    button.classList.toggle('is-saved', isSaved);
+    button.textContent = isSaved ? '★' : '☆';
+    button.setAttribute('aria-label', isSaved ? 'Remove from favorites' : 'Add to favorites');
+    button.setAttribute('title', isSaved ? 'Remove from favorites' : 'Add to favorites');
+  }
+
+  function updateFavoritesCount() {
+    var count = Object.keys(loadFavorites()).length;
+    document.querySelectorAll('.hn-favorites-count').forEach(function (node) {
+      node.textContent = String(count);
+    });
+  }
+
+  function createFavoriteButton(card) {
+    var key = favoriteKey(card);
+    if (!key || card.querySelector('.hn-favorite-btn')) return;
+    var tags = card.querySelector('.hn-digest-summary-header .hn-tags');
+    if (!tags) return;
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'hn-favorite-btn';
+    button.setAttribute('data-favorite-key', key);
+    setFavoriteButtonState(button, !!loadFavorites()[key]);
+    tags.appendChild(button);
+  }
+
+  function injectFavoriteButtons(root) {
+    (root || document).querySelectorAll('.hn-card .hn-digest-summary-header').forEach(function (header) {
+      createFavoriteButton(header.closest('.hn-card'));
+    });
+  }
+
+  function injectFavoritesLink() {
+    if (document.querySelector('.hn-favorites-nav')) return;
+    var heading = document.querySelector('.hn-h1');
+    if (!heading) return;
+    var link = document.createElement('a');
+    link.className = 'hn-favorites-nav';
+    link.href = '/hackernews/favorites/';
+    link.innerHTML = '<span aria-hidden="true">★</span> Favorites <span class="hn-favorites-count">0</span>';
+    heading.insertAdjacentElement('afterend', link);
+    updateFavoritesCount();
+  }
+
+  function addText(parent, className, text, tagName) {
+    if (!text) return null;
+    var node = document.createElement(tagName || 'p');
+    node.className = className;
+    node.textContent = text;
+    parent.appendChild(node);
+    return node;
+  }
+
+  function renderFavoriteCard(item, index) {
+    var card = document.createElement('div');
+    card.className = 'hn-card hn-card-compact hn-no-collapse';
+    card.id = item.key && item.key.indexOf('story-') === 0 ? item.key : '';
+
+    var body = document.createElement('div');
+    body.className = 'hn-body';
+    var header = document.createElement('div');
+    header.className = 'hn-digest-summary-header';
+    header.setAttribute('role', 'button');
+    header.setAttribute('tabindex', '0');
+    header.setAttribute('aria-expanded', 'true');
+    header.setAttribute('aria-label', 'Hide summary and image');
+
+    var title = document.createElement('p');
+    title.className = 'hn-title';
+    title.appendChild(document.createTextNode('(' + index + ') '));
+    var titleLink = document.createElement('a');
+    titleLink.href = item.url || '#';
+    titleLink.target = '_blank';
+    titleLink.rel = 'noopener noreferrer';
+    titleLink.textContent = item.title || 'Untitled story';
+    title.appendChild(titleLink);
+    header.appendChild(title);
+    addText(header, 'hn-meta hn-text-zh', item.titleZh);
+
+    var tags = document.createElement('div');
+    tags.className = 'hn-tags';
+    if (item.scoreText) {
+      var score = document.createElement('a');
+      score.className = 'hn-stat hn-stat-score';
+      score.href = item.commentsUrl || '#';
+      score.target = '_blank'; score.rel = 'noopener noreferrer';
+      score.textContent = item.scoreText;
+      tags.appendChild(score);
+    }
+    if (item.commentsText) {
+      var comments = document.createElement('a');
+      comments.className = 'hn-stat hn-stat-comments';
+      comments.href = item.commentsUrl || '#';
+      comments.target = '_blank'; comments.rel = 'noopener noreferrer';
+      comments.textContent = item.commentsText;
+      tags.appendChild(comments);
+    }
+    (item.tags || []).forEach(function (tagText) {
+      var tag = document.createElement('span');
+      tag.className = 'hn-tag hn-tag--slate';
+      tag.textContent = tagText;
+      tags.appendChild(tag);
+    });
+    header.appendChild(tags);
+
+    var details = document.createElement('div');
+    details.className = 'hn-digest-details';
+    addText(details, 'hn-text-en hn-digest-summary', item.summaryEn);
+    addText(details, 'hn-text-zh hn-digest-summary', item.summaryZh);
+    if (item.imageUrl) {
+      var image = document.createElement('img');
+      image.className = 'hn-img hn-digest-img';
+      image.src = item.imageUrl;
+      image.setAttribute('data-full', item.imageUrl);
+      image.alt = 'preview image';
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      details.appendChild(image);
+    }
+    body.appendChild(header);
+    body.appendChild(details);
+    card.appendChild(body);
+    return card;
+  }
+
+  function renderFavoritesPage() {
+    var list = document.getElementById('hn-favorites-list');
+    if (!list) return;
+    var favorites = loadFavorites();
+    var items = Object.keys(favorites).map(function (key) { return favorites[key]; });
+    items.sort(function (a, b) { return String(b.savedAt).localeCompare(String(a.savedAt)); });
+    list.textContent = '';
+    var empty = document.getElementById('hn-favorites-empty');
+    if (empty) empty.hidden = items.length > 0;
+    items.forEach(function (item, index) {
+      list.appendChild(renderFavoriteCard(item, index + 1));
+    });
+    injectFavoriteButtons(list);
+  }
+
+  document.addEventListener('click', function (e) {
+    var button = e.target.closest('.hn-favorite-btn');
+    if (!button) return;
+    e.preventDefault();
+    e.stopPropagation();
+    var card = button.closest('.hn-card');
+    var key = button.getAttribute('data-favorite-key') || favoriteKey(card);
+    if (!card || !key) return;
+    var favorites = loadFavorites();
+    if (favorites[key]) delete favorites[key];
+    else favorites[key] = cardData(card);
+    if (!saveFavorites(favorites)) return;
+    setFavoriteButtonState(button, !!favorites[key]);
+    updateFavoritesCount();
+    if (document.getElementById('hn-favorites-page')) renderFavoritesPage();
+  });
+
+  function initFavorites() {
+    injectFavoritesLink();
+    renderFavoritesPage();
+    injectFavoriteButtons(document);
+  }
+
+  window.addEventListener('storage', function (e) {
+    if (e.key !== STORAGE_KEY) return;
+    renderFavoritesPage();
+    document.querySelectorAll('.hn-favorite-btn').forEach(function (button) {
+      setFavoriteButtonState(button, !!loadFavorites()[button.getAttribute('data-favorite-key')]);
+    });
+    updateFavoritesCount();
+  });
+
+  initFavorites();
+})();
+
 (function () {
   const btn = document.createElement("button");
   btn.className = "hn-goup";
