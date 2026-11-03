@@ -21,20 +21,15 @@ auto-regenerate; refresh the browser to see the change.
 index.md, _config.yml       — homepage content & site config (Jekyll core)
 _layouts/, _includes/, _sass/, _data/  — theme templates, partials, styles
 assets/                      — images, CSS/JS, downloadable files
-hackernews/                  — published output of news_scraper/ (see below)
 deep-learning/               — Chinese-language deep learning study notes
 notion_exports/              — local scratch space for Notion → note conversion (git-ignored)
-news_scraper/                — independent Python pipeline that generates hackernews/
-logs/                        — production logs written by news_scraper (+ logs/archive/ for old dev notes)
+logs/                        — archived development notes
 ```
 
-`news_scraper/` is its own sub-project with its own docs — see
-[`news_scraper/docs/ARCHITECTURE.md`](news_scraper/docs/ARCHITECTURE.md),
-[`docs/PLAN.md`](news_scraper/docs/PLAN.md),
-[`docs/DECISIONS.md`](news_scraper/docs/DECISIONS.md), and
-[`docs/DEVELOPMENT.md`](news_scraper/docs/DEVELOPMENT.md). It's excluded
-from the Jekyll build (see `_config.yml`'s `exclude:` list) and runs on its
-own schedule via `.github/workflows/hn_*.yml`.
+The Hacker News Daily site and its automation live in the separate
+[`chaowang15/hackernews`](https://github.com/chaowang15/hackernews)
+repository. Its public URL remains
+[`https://chaowang15.github.io/hackernews/`](https://chaowang15.github.io/hackernews/).
 
 Agent-specific instructions (structural constraints, hard rules) are in
 [`CLAUDE.md`](CLAUDE.md).
