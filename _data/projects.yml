@@ -2,27 +2,37 @@
 main:
   - title: Prompt-to-Avatar for Roblox Studio
     years: Roblox · 2026
-    description: "Generates Roblox-ready, rigged and animatable 3D avatars from text prompts, with optional dynamic heads and expressive faces, for creators and game builders. Available in Roblox Studio Beta, Assistant, and Studio MCP."
+    description: "A Roblox Studio feature, built by the Avatar AI team, that generates rigged and animatable 3D avatars from text prompts, with optional dynamic heads and expressive faces, for creators and game builders. Available in Studio Beta, Assistant, and Studio MCP."
     image: ./assets/img/projects/prompt-to-avatar.gif
     links:
       - label: Announcement
         url: https://devforum.roblox.com/t/studio-beta-generate-game-characters-with-prompt-to-avatar/4964945
 
-  - title: Interactive AI Avatars and Seamless Interaction
-    years: Meta Reality Labs · 2024 – 2025
-    description: "Built real-time facial animation for interactive 2D avatars, embodied AI agents showcased at Meta Connect 2024. The work is part of Seamless Interaction, a family of dyadic audiovisual motion models for faces and bodies, released by Meta AI with a large-scale dataset."
+  - title: "Seamless Interaction: AI Embodiment for Conversation"
+    years: Meta Reality Labs · 2025
+    description: "Contributed to dyadic audiovisual motion models that generate the facial expressions and body gestures of two people in face-to-face conversation, driving embodied AI agents as both 2D video and 3D avatars. Released by Meta AI with a large-scale conversational dataset."
     image: ./assets/img/projects/seamless.gif
     links:
-      - label: Meta Connect 2024 Demo
-        url: https://youtu.be/I7JyydkqDeI?t=948
-      - label: Seamless Interaction
+      - label: Project Page
         url: https://ai.meta.com/research/seamless-interaction/
       - label: Meta AI Blog
         url: https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics/
+      - label: Paper
+        url: https://arxiv.org/pdf/2506.22554
+      - label: Code
+        url: https://github.com/facebookresearch/seamless_interaction
+
+  - title: Interactive AI Avatars at Meta Connect 2024
+    years: Meta Reality Labs · 2024
+    description: "Co-developed real-time facial animation for interactive 2D avatars, embodied AI agents that hold LLM-driven conversations with expressive emotion, natural head motion, and accurate lip sync. Showcased in the Meta Connect 2024 keynote."
+    image: ./assets/img/projects/meta-connect-2024.gif
+    links:
+      - label: Meta Connect 2024 Demo
+        url: https://youtu.be/I7JyydkqDeI?t=948
 
   - title: TikTok Avatars
     years: ByteDance / TikTok · 2022
-    description: "Developed the core real-time facial animation for TikTok Avatars, a lightweight video-to-blendshape model running on mobile. Used in 1M+ videos with 50M+ plays."
+    description: "Co-developed the real-time facial animation for TikTok Avatars, a lightweight video-to-blendshape model running on mobile. Used in 1M+ videos with 50M+ plays."
     image: ./assets/img/projects/tiktok-avatars.gif
     links:
       - label: News
