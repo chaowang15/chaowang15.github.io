@@ -12,14 +12,14 @@ bundle exec jekyll serve
 ```
 
 Then open `http://localhost:4000`. Editing `index.md`, `_config.yml`, or
-anything under `_includes/`/`_layouts/`/`_sass/` triggers Jekyll's
+anything under `_includes/`/`_layouts/`/`_data/` triggers Jekyll's
 auto-regenerate; refresh the browser to see the change.
 
 ## Structure
 
 ```
 index.md, _config.yml       — homepage content & site config (Jekyll core)
-_layouts/, _includes/, _sass/, _data/  — theme templates, partials, styles
+_layouts/, _includes/, _data/  — page layout, partials, and content data (news, projects, publications, experience)
 assets/                      — images, CSS/JS, downloadable files
 notion_exports/              — local scratch space for Notion → note conversion (git-ignored)
 logs/                        — archived development notes

@@ -1,0 +1,24 @@
+<section id="{{ include.id }}">
+  <h2>{{ include.title }}</h2>
+  <ul class="entries{% if include.compact %} entries-compact{% endif %}">
+    {% for p in include.items %}
+    <li class="entry">
+      {% unless include.compact %}
+      <div class="entry-media">
+        {% if p.image %}<img src="{{ p.image }}" alt="{{ p.title }}" loading="lazy">{% else %}<div class="entry-media-empty"></div>{% endif %}
+      </div>
+      {% endunless %}
+      <div class="entry-body">
+        <div class="entry-title">{% if p.links and p.links[0].url %}<a href="{{ p.links[0].url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+        {% if p.years %}<div class="entry-venue">{{ p.years }}</div>{% endif %}
+        {% if p.description %}<div class="entry-desc">{{ p.description }}</div>{% endif %}
+        {% if p.links %}
+        <div class="entry-links">
+          {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

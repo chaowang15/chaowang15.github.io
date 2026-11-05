@@ -1,0 +1,47 @@
+# Each project supports: title, description, image, years, and links (label + url).
+main:
+  - title: Prompt-to-Avatar for Roblox Studio
+    years: Roblox · 2026
+    description: "Generates Roblox-ready, animatable 3D avatars from text prompts for creators and game builders: describe a character, refine a 2D concept, and build a rigged 3D model with optional dynamic heads and expressive faces. Available in Roblox Studio Beta, Assistant, and Studio MCP."
+    image: ./assets/img/projects/prompt-to-avatar.gif
+    links:
+      - label: Announcement
+        url: https://devforum.roblox.com/t/studio-beta-generate-game-characters-with-prompt-to-avatar/4964945
+
+  - title: Interactive AI Avatars and Seamless Interaction
+    years: Meta Reality Labs · 2024 – 2025
+    description: "Built real-time facial animation for interactive 2D avatars, embodied AI agents showcased at Meta Connect 2024, enabling LLM-driven conversations with expressive emotion, natural head motion, and accurate lip sync. This work is part of Seamless Interaction, a larger effort on dyadic audiovisual motion models that drive both faces and bodies in conversation, released by Meta AI together with a large-scale dataset."
+    image: ./assets/img/projects/seamless.gif
+    links:
+      - label: Meta Connect 2024 Demo
+        url: https://youtu.be/I7JyydkqDeI?t=948
+      - label: Seamless Interaction
+        url: https://ai.meta.com/research/seamless-interaction/
+      - label: Meta AI Blog
+        url: https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics/
+
+  - title: TikTok Avatars
+    years: ByteDance / TikTok · 2022
+    description: "Developed core real-time facial animation for TikTok Avatars with a lightweight video-to-blendshape model, mapping camera input to stable blendshape controls for robust tracking and mobile deployment. Used in 1M+ new videos with 50M+ plays."
+    image: ./assets/img/projects/tiktok-avatars.jpg
+    links:
+      - label: News
+        url: https://newsroom.tiktok.com/en-us/express-yourself-through-tiktok-avatars
+      - label: Videos
+        url: https://www.tiktok.com/tag/tiktokavatars
+
+side:
+  - title: Hacker News Daily
+    description: "An automated daily digest of Hacker News best stories, powered by the official HN API and GPT for bilingual (English & Chinese) summaries, with AI-generated briefs, metadata, and preview images — updated every day via GitHub Actions."
+    links:
+      - label: Website
+        url: https://chaowang15.github.io/hackernews/
+      - label: Code
+        url: https://github.com/chaowang15/hackernews
+  - title: Deep Learning Study Notes
+    description: "A Chinese-first technical blog for deep learning study notes, covering mathematical foundations, generative models, VAE/GAN, Transformer architecture, formulas, diagrams, and implementation details."
+    links:
+      - label: Website
+        url: https://chaowang15.github.io/deep-learning/
+      - label: Code
+        url: https://github.com/chaowang15/deep-learning

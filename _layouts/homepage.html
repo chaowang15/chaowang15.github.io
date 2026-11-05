@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
-  <title>{{ site.title }} | {{site.affiliation}}</title>
+  <title>{{ site.title }} | {{ site.affiliation }}</title>
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,131 +13,79 @@
   {% endif %}
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
 
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Chao Wang",
-    "url": "https://chaowang15.github.io",
-    "jobTitle": "AI Research Engineer",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "jobTitle": "{{ site.position }}",
     "worksFor": {
       "@type": "Organization",
-      "name": "Meta Reality Labs"
+      "name": "{{ site.affiliation }}"
     },
     "sameAs": [
-      "https://github.com/chaowang15",
-      "https://www.linkedin.com/in/chaowang15/",
-      "https://scholar.google.com/citations?user=ULsXmAsAAAAJ&hl=en&authuser=1"
+      "{{ site.github_link }}",
+      "{{ site.linkedin }}",
+      "{{ site.google_scholar }}"
     ]
   }
   </script>
 
-  <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-  <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-  <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+  <link rel="icon" href="{{ site.favicon }}" type="image/png" />
 
-  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
-    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css
-    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
-
-  {% if site.font == "Sans Serif" %}
-  <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
-  {% else %}
-  <link rel="stylesheet" href="./assets/css/font.css">
-  {% endif %}
-  {% if site.auto_dark_mode %}
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/publications.css">
-  {% else %}
-  <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-  <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
-  {% endif %}
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/home.css?v=20261104b">
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="topbar-name" href="#top">{{ site.title }}</a>
+      <nav class="topbar-nav">
+        <a href="#news">News</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="content" id="top">
+    <section class="hero">
       {% if site.avatar %}
-      <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+      <img class="hero-avatar" src="{{ site.avatar }}" alt="{{ site.title }}" />
       {% endif %}
-
-      <!-- <h1>{{ site.title }}</h1> -->
-      <h1 style="font-size:2.1rem;">{{ site.title }}</h1>
-
-      {% if site.position %}
-      <!-- <position style="font-size:1.50rem;">{{ site.position }}</position> -->
-      <a href="{{ site.position }}" rel="noopener">
-        <autocolor>{{ site.position }}</autocolor>
-      </a>
-      <br>
-      {% endif %}
-      {% if site.affiliation %}
-      <a href="{{ site.affiliation_link }}" rel="noopener">
-        <autocolor>{{ site.affiliation }}</autocolor>
-      </a>
-      <br>
-      {% endif %}
-      {% if site.email %}
-      <email>{{ site.email }}</email>
-      {% endif %}
-
-      <br>
-      <br>
-      <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>
+      <div class="hero-info">
+        <h1 class="hero-name">{{ site.title }}</h1>
+        {% if site.position %}<div class="hero-position">{{ site.position }}</div>{% endif %}
+        {% if site.affiliation %}
+        <div class="hero-affiliation">
+          {% if site.affiliation_link %}<a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a>{% else %}{{ site.affiliation }}{% endif %}
+        </div>
         {% endif %}
-
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
-        </a>
-        {% endif %}
+        {% if site.email %}<div class="hero-email">{{ site.email }}</div>{% endif %}
+        <div class="hero-icons">
+          {% if site.google_scholar %}<a href="{{ site.google_scholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+          {% if site.cv_link %}<a href="{{ site.cv_link }}" title="CV"><i class="ai ai-cv"></i></a>{% endif %}
+          {% if site.github_link %}<a href="{{ site.github_link }}" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.linkedin %}<a href="{{ site.linkedin }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if site.twitter %}<a href="{{ site.twitter }}" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+        </div>
       </div>
-      <br>
-
-    </header>
-    <section>
-
-      {{ content }}
-
-      <br>
-
-      {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank"
-            rel="noopener">Minimal Light</a> theme.</small></p>
-      {% endif %}
-
     </section>
-    <footer>
 
-    </footer>
-  </div>
-  <script src="{{ " /assets/js/scale.fix.js" | relative_url }}"></script>
+    {{ content }}
+    <footer class="site-footer">© {{ site.time | date: '%Y' }} {{ site.title }}</footer>
+  </main>
+
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S94YYNZWEY"></script>
   <script>

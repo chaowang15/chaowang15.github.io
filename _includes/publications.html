@@ -1,0 +1,29 @@
+<section id="publications">
+<h2>Publications</h2>
+<ul class="entries">
+{% for link in site.data.publications.main %}
+<li class="entry">
+  <div class="entry-media">
+    {% if link.image %}<img src="{{ link.image }}" alt="{{ link.title }}" loading="lazy">{% endif %}
+    {% if link.conference_short %}<span class="entry-badge">{{ link.conference_short }}</span>{% endif %}
+  </div>
+  <div class="entry-body">
+    <div class="entry-title"><a href="{{ link.page }}">{{ link.title }}</a></div>
+    <div class="entry-authors">{{ link.authors }}</div>
+    <div class="entry-venue"><em>{{ link.conference }}</em>{% if link.notes %} <span class="entry-tag">{{ link.notes }}</span>{% endif %}</div>
+    <div class="entry-links">
+      {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank">PDF</a>{% endif %}
+      {% if link.code %}<a href="{{ link.code }}" target="_blank">{{ link.code_label | default: "Code" }}</a>{% endif %}
+      {% if link.project %}<a href="{{ link.project }}" target="_blank">Project</a>{% endif %}
+      {% if link.bibtex %}<a href="{{ link.bibtex }}" target="_blank">BibTeX</a>{% endif %}
+      {% if link.supplement %}<a href="{{ link.supplement }}" target="_blank">Supplement</a>{% endif %}
+      {% if link.video %}<a href="{{ link.video }}" target="_blank">Video</a>{% endif %}
+      {% if link.slides %}<a href="{{ link.slides }}" target="_blank">Slides</a>{% endif %}
+      {% if link.poster %}<a href="{{ link.poster }}" target="_blank">Poster</a>{% endif %}
+      {% if link.others %}{{ link.others }}{% endif %}
+    </div>
+  </div>
+</li>
+{% endfor %}
+</ul>
+</section>

@@ -15,7 +15,7 @@ and has no separate architecture document.
 
 ## Hard constraints — read before restructuring anything
 
-- **Never rename or move `_layouts/`, `_includes/`, `_sass/`, `_data/`, or
+- **Never rename or move `_layouts/`, `_includes/`, `_data/`, or
   `_config.yml`.** These are Jekyll-reserved names; moving them breaks the
   GitHub Pages build.
 - **Never move `assets/` without
@@ -40,5 +40,5 @@ and has no separate architecture document.
   unrelated in-progress changes.
 - Preserve existing behavior unless a task explicitly asks to change it.
 - For site changes: preview with `bundle exec jekyll serve` before pushing
-  if the change touches `_layouts/`, `_includes/`, or `_sass/`.
+  if the change touches `_layouts/`, `_includes/`, or `assets/css/home.css`.
 - Keep commits logically focused when Git operations are part of a task.

@@ -1,0 +1,14 @@
+<section id="{{ include.id }}">
+  <h2>{{ include.title }}</h2>
+  <ul class="timeline">
+    {% for item in include.items %}
+    <li>
+      <div class="timeline-main">
+        <span class="timeline-org">{% if item.org_link %}<a href="{{ item.org_link }}">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</span>
+        <span class="timeline-role">{{ item.role }}{% if item.location %} · {{ item.location }}{% endif %}</span>
+      </div>
+      <span class="timeline-years">{{ item.years }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
