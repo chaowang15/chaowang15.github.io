@@ -21,10 +21,14 @@ auto-regenerate; refresh the browser to see the change.
 index.md, _config.yml       — homepage content & site config (Jekyll core)
 _layouts/, _includes/, _sass/, _data/  — theme templates, partials, styles
 assets/                      — images, CSS/JS, downloadable files
-deep-learning/               — Chinese-language deep learning study notes
 notion_exports/              — local scratch space for Notion → note conversion (git-ignored)
 logs/                        — archived development notes
 ```
+
+The Deep Learning study notes live in the separate
+[`chaowang15/deep-learning`](https://github.com/chaowang15/deep-learning)
+repository, published at
+[`https://chaowang15.github.io/deep-learning/`](https://chaowang15.github.io/deep-learning/).
 
 The Hacker News Daily site and its automation live in the separate
 [`chaowang15/hackernews`](https://github.com/chaowang15/hackernews)

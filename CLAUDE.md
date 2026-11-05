@@ -18,8 +18,8 @@ and has no separate architecture document.
 - **Never rename or move `_layouts/`, `_includes/`, `_sass/`, `_data/`, or
   `_config.yml`.** These are Jekyll-reserved names; moving them breaks the
   GitHub Pages build.
-- **Never move `assets/` or `deep-learning/` without
-  understanding that their paths are live, published URLs**
+- **Never move `assets/` without
+  understanding that its paths are live, published URLs**
   — moving files here breaks external links and search-engine indexing. If
   a move is genuinely needed, it requires an explicit decision with the
   user, not a routine refactor.
@@ -29,6 +29,10 @@ and has no separate architecture document.
 - **Hacker News Daily is maintained separately.** Its code, generated pages,
   schedules, and API secret belong in the `chaowang15/hackernews` repository.
   Keep homepage links pointed at `/hackernews/`; the public URL is unchanged.
+- **Deep Learning notes are maintained separately** in the
+  `chaowang15/deep-learning` repository, published at `/deep-learning/`.
+  The notes' favicon links to `/assets/img/logo_CW_from_online_64x64.png`
+  in this repo, so keep that file.
 
 ## General rules
 
