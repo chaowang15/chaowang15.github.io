@@ -102,11 +102,10 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 
 .content h2 {
   font-family: var(--sans);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--accent);
+  font-size: 21px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: var(--text);
   margin: 0 0 18px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--line);
@@ -160,7 +159,7 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 
 .entry {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
+  grid-template-columns: 320px minmax(0, 1fr);
   gap: 28px;
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
@@ -243,8 +242,6 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
   text-decoration: none;
 }
 
-#projects .entry { grid-template-columns: 360px minmax(0, 1fr); }
-
 .entries-compact .entry { grid-template-columns: minmax(0, 1fr); padding: 12px 0; }
 
 /* Services */
@@ -277,7 +274,7 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 }
 
 @media (max-width: 760px) {
-  .entry, #projects .entry { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .entry { grid-template-columns: minmax(0, 1fr); gap: 12px; }
 }
 
 @media (max-width: 560px) {
