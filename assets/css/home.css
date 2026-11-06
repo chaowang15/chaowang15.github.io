@@ -135,12 +135,21 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 .timeline li {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 24px;
+  align-items: center;
+  gap: 14px;
   padding: 7px 0;
 }
 
-.timeline-main { display: flex; flex-direction: column; }
+.timeline-logo {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.timeline-main { display: flex; flex-direction: column; flex: 1; min-width: 0; }
 .timeline-org { font-family: var(--sans); font-weight: 600; font-size: 15.5px; }
 .timeline-org a { color: var(--text); }
 .timeline-role { color: var(--muted); font-size: 16px; }
@@ -278,7 +287,8 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 }
 
 @media (max-width: 560px) {
-  .timeline li { flex-direction: column; gap: 0; }
+  .timeline li { flex-wrap: wrap; gap: 0 14px; }
+  .timeline-years { flex-basis: 100%; padding-left: 50px; }
 }
 
 .news-new {
